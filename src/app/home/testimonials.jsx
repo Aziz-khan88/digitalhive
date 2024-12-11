@@ -8,20 +8,20 @@ import Autoplay from 'embla-carousel-autoplay'
 const options = { loop: true }
 const slider = [
     {
-        txt: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
+        txt: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firms workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
         icon: <ClutchLogo />,
         namee: "Daniel Gonzalez",
         job: "CTO / Pronftdesign.com",
     },
     {
-        txt: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
+        txt: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firms workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
         icon: <TrustpilotLogo />,
         namee: "Daniel Gonzalez",
         job: "CTO / Pronftdesign.com",
     }
     ,
     {
-        txt: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
+        txt: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firms workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
         icon: <GoogleLogo />,
         namee: "Daniel Gonzalez",
         job: "CTO / Pronftdesign.com",
@@ -43,7 +43,7 @@ const Testimonials = () => {
                     <Col md={7} className="m-auto text-center">
                         <div className="subtitle">Happy Clients</div>
                         <h2>What Our Clients Say</h2>
-                        <p>Explore our latest projects and see how we've helped brands grow, engage, and succeed in the digital world.</p>
+                        <p>Explore our latest projects and see how weve helped brands grow, engage, and succeed in the digital world.</p>
                     </Col>
                 </Row>
                 <Row>
