@@ -45,7 +45,7 @@ const PlateFroms = () => {
                         <div className="subtitle">Platforms We</div>
                         <h2>Platforms We Work With</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam.
                         </p>
                         <Link href="#" className="commonBtn">
