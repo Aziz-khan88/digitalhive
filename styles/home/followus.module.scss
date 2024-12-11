@@ -1,0 +1,318 @@
+.followSection {
+    overflow: hidden;
+
+    .boxContainer {
+        max-width: 1440px;
+        margin: auto;
+
+        &.boxContainerFluid {
+            max-width: 100%;
+            display: flex;
+            background: #000;
+
+
+            .followItem {
+                flex: 0 0 250px;
+                animation: marquee 10s linear infinite;
+                padding: 0px 50px;
+                justify-content: center;
+                gap: 50px;
+
+
+                .title {
+                    color: #fff;
+                }
+            }
+        }
+
+        .followItem {
+            height: 135px;
+            border-top: 1px solid #D9E1E5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 5px;
+
+            .title {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 35px;
+                line-height: 76px;
+                display: flex;
+                align-items: center;
+                letter-spacing: -0.165px;
+                color: #000000;
+            }
+
+            .links {
+                svg {
+                    transform: rotate(-45deg);
+                    width: 30px;
+                    height: auto;
+                }
+            }
+
+
+
+
+            &:hover {
+                background: #000;
+
+                .title {
+                    color: #fff;
+                }
+
+                .links {
+                    svg {
+                        path {
+                            stroke: #fff !important;
+                        }
+
+                    }
+                }
+            }
+
+
+        }
+
+        &:last-child {
+            border-bottom: 1px solid #D9E1E5;
+        }
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .followSection {
+        .boxContainer {
+            max-width: 1280px;
+
+            &.boxContainerFluid {
+                .followItem {
+                    flex: 0 0 250px;
+                    padding: 0px 40px;
+                    gap: 40px
+                }
+            }
+
+            .followItem {
+                height: 125px;
+                padding: 0px 5px;
+
+                .title {
+                    font-size: 32px;
+                    line-height: 70px;
+                }
+
+                .links {
+                    svg {
+                        width: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .followSection {
+        .boxContainer {
+            max-width: 1200px;
+
+            &.boxContainerFluid {
+                .followItem {
+                    flex: 0 0 250px;
+                    padding: 0px 40px;
+                    gap: 40px
+                }
+            }
+
+            .followItem {
+                height: 110px;
+                padding: 0px 5px;
+
+                .title {
+                    font-size: 30px;
+                    line-height: 60px;
+                }
+
+                .links {
+                    svg {
+                        width: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .followSection {
+        .boxContainer {
+            max-width: 1080px;
+
+            &.boxContainerFluid {
+                .followItem {
+                    flex: 0 0 250px;
+                    padding: 0px 40px;
+                    gap: 40px
+                }
+            }
+
+            .followItem {
+                height: 100px;
+                padding: 0px 5px;
+
+                .title {
+                    font-size: 27px;
+                    line-height: 50px;
+                }
+
+                .links {
+                    svg {
+                        width: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .followSection {
+        .boxContainer {
+            max-width: 960px;
+
+            &.boxContainerFluid {
+                .followItem {
+                    flex: 0 0 250px;
+                    padding: 0px 40px;
+                    gap: 40px
+                }
+            }
+
+            .followItem {
+                height: 90px;
+                padding: 0px 5px;
+
+                .title {
+                    font-size: 24px;
+                    line-height: 50px;
+                }
+
+                .links {
+                    svg {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .followSection {
+        .boxContainer {
+            max-width: 750px;
+
+            &.boxContainerFluid {
+                .followItem {
+                    flex: 0 0 200px;
+                    padding: 0px 30px;
+                    gap: 30px
+                }
+            }
+
+            .followItem {
+                height: 80px;
+                padding: 0px 5px;
+
+                .title {
+                    font-size: 22px;
+                    line-height: 50px;
+                }
+
+                .links {
+                    svg {
+                        width: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .followSection {
+        .boxContainer {
+            max-width: 93%;
+
+            &.boxContainerFluid {
+                .followItem {
+                    flex: 0 0 170px;
+                    padding: 0px 30px;
+                    gap: 30px
+                }
+            }
+
+            .followItem {
+                height: 70px;
+                padding: 0px 5px;
+
+                .title {
+                    font-size: 20px;
+                    line-height: 50px;
+                }
+
+                .links {
+                    svg {
+                        width: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .followSection {
+        .boxContainer {
+            max-width: 93%;
+
+            &.boxContainerFluid {
+                .followItem {
+                    flex: 0 0 170px;
+                    padding: 0px 30px;
+                    gap: 30px
+                }
+            }
+
+            .followItem {
+                height: 70px;
+                padding: 0px 5px;
+
+                .title {
+                    font-size: 20px;
+                    line-height: 50px;
+                }
+
+                .links {
+                    svg {
+                        width: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

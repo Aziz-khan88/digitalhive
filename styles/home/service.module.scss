@@ -1,0 +1,320 @@
+.serviceSection {
+    .servicesBox {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .servicesItem {
+            margin-bottom: 40px;
+            position: relative;
+
+            .servicesImage {
+                width: 100%;
+                height: 425px;
+                position: relative;
+                margin-bottom: 20px;
+                border-radius: 30px;
+            }
+
+            .servicesContent {
+                padding: 0 10px;
+                max-height: 50px;
+                overflow: hidden;
+                transition: max-height 0.3s ease, padding 0.3s ease;
+
+                h3 {
+                    transition: transform 0.3s ease, opacity 0.3s ease;
+                    transform: translateX(0px);
+                    margin-bottom: 15px;
+
+                    svg {
+                        width: 30px;
+                        height: auto;
+                        display: none;
+                        opacity: 0;
+                        transform: translateX(0px);
+                        transition: opacity 0.3s ease, transform 0.3s ease;
+                    }
+                }
+            }
+
+            &:hover {
+                .servicesContent {
+                    max-height: 300px;
+
+                    transition: max-height 0.3s ease, padding 0.3s ease;
+
+                    h3 {
+                        transform: translateX(30px);
+
+                        svg {
+                            opacity: 1;
+                            transform: translateX(-15px);
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .serviceSection {
+        .servicesBox {
+            margin-top: 35px;
+
+            .servicesItem {
+                margin-bottom: 30px;
+
+                .servicesImage {
+                    height: 380px;
+                    margin-bottom: 20px;
+                    border-radius: 25px;
+                }
+
+                .servicesContent {
+                    padding: 0 10px;
+                    max-height: 50px;
+
+                    h3 {
+                        margin-bottom: 10px;
+
+                        svg {
+                            width: 25px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .servicesContent {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .serviceSection {
+        .servicesBox {
+            margin-top: 20px;
+
+            .servicesItem {
+                margin-bottom: 20px;
+
+                .servicesImage {
+                    height: 350px;
+                    margin-bottom: 20px;
+                    border-radius: 25px;
+                }
+
+                .servicesContent {
+                    padding: 0 10px;
+                    max-height: 50px;
+
+                    h3 {
+                        margin-bottom: 10px;
+
+                        svg {
+                            width: 22px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .servicesContent {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .serviceSection {
+        .servicesBox {
+            margin-top: 20px;
+
+            .servicesItem {
+                margin-bottom: 20px;
+
+                .servicesImage {
+                    height: 300px;
+                    margin-bottom: 15px;
+                    border-radius: 20px;
+                }
+
+                .servicesContent {
+                    padding: 0 10px;
+                    max-height: 40px;
+
+                    h3 {
+                        margin-bottom: 10px;
+
+                        svg {
+                            width: 20px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .servicesContent {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .serviceSection {
+        .servicesBox {
+            margin-top: 20px;
+
+            .servicesItem {
+                margin-bottom: 20px;
+
+                .servicesImage {
+                    height: 260px;
+                    margin-bottom: 15px;
+                    border-radius: 20px;
+                }
+
+                .servicesContent {
+                    padding: 0 10px;
+                    max-height: 40px;
+
+                    h3 {
+                        margin-bottom: 10px;
+
+                        svg {
+                            width: 18px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .servicesContent {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .serviceSection {
+        .servicesBox {
+            margin-top: 20px;
+
+            .servicesItem {
+                margin-bottom: 20px;
+
+                .servicesImage {
+                    height: 220px;
+                    margin-bottom: 15px;
+                    border-radius: 20px;
+                }
+
+                .servicesContent {
+                    padding: 0 10px;
+                    max-height: 30px;
+
+                    h3 {
+                        margin-bottom: 10px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .servicesContent {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .serviceSection {
+        .servicesBox {
+            margin-top: 20px;
+
+            .servicesItem {
+                margin-bottom: 20px;
+
+                .servicesImage {
+                    height: 180px;
+                    margin-bottom: 15px;
+                    border-radius: 20px;
+                }
+
+                .servicesContent {
+                    padding: 0 10px;
+                    max-height: 30px;
+
+                    h3 {
+                        margin-bottom: 10px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .servicesContent {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .serviceSection {
+        .servicesBox {
+            margin-top: 20px;
+
+            .servicesItem {
+                margin-bottom: 20px;
+
+                .servicesImage {
+                    height: 200px;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                }
+
+                .servicesContent {
+                    padding: 0 10px;
+                    max-height: 30px;
+
+                    h3 {
+                        margin-bottom: 10px;
+
+                        svg {
+                            width: 18px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .servicesContent {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

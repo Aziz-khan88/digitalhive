@@ -1,0 +1,287 @@
+.headerSection {
+    height: 115px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0;
+    z-index: 9;
+
+    &.active {
+        position: fixed;
+        height: 96px;
+
+        &::before {
+            content: '';
+            background: rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(7.5px);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+
+
+    .lastBtn {
+        float: right;
+        clear: both;
+        height: 70px;
+
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.165px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .headerSection {
+        height: 100px;
+
+        &.active {
+            height: 85px;
+
+            .lastBtn {
+
+                height: 60px;
+
+                a {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+
+            .mainLogo {
+                svg {
+                    height: 55px;
+                    width: auto;
+                }
+            }
+        }
+
+        .lastBtn {
+            height: 65px;
+
+            a {
+                font-size: 15px;
+                line-height: 22px;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .headerSection {
+        height: 90px;
+
+        .mainLogo {
+            svg {
+                height: 55px;
+                width: auto;
+            }
+        }
+
+        &.active {
+            height: 80px;
+
+            .lastBtn {
+
+                height: 55px;
+
+                a {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+
+            .mainLogo {
+                svg {
+                    height: 50px;
+                    width: auto;
+                }
+            }
+        }
+
+
+
+        .lastBtn {
+
+            height: 62px;
+
+            a {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .headerSection {
+        height: 80px;
+
+        .mainLogo {
+            svg {
+                height: 50px;
+                width: auto;
+            }
+        }
+
+        &.active {
+            height: 70px;
+
+            .lastBtn {
+                height: 50px;
+
+                a {
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+            }
+
+            .mainLogo {
+                svg {
+                    height: 45px;
+                    width: auto;
+                }
+            }
+        }
+
+
+
+        .lastBtn {
+            height: 57px;
+
+            a {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .headerSection {
+        height: 75px;
+
+        .mainLogo {
+            svg {
+                height: 50px;
+                width: auto;
+            }
+        }
+
+        &.active {
+            height: 65px;
+
+            .lastBtn {
+                height: 45px;
+
+                a {
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+            }
+
+            .mainLogo {
+                svg {
+                    height: 45px;
+                    width: auto;
+                }
+            }
+        }
+
+
+
+        .lastBtn {
+            height: 50px;
+
+            a {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .headerSection {
+        height: 75px;
+
+        .mainLogo {
+            svg {
+                height: 45px;
+                width: auto;
+            }
+        }
+
+        &.active {
+            height: 65px;
+
+            .lastBtn {
+                height: 45px;
+
+                a {
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+            }
+
+            .mainLogo {
+                svg {
+                    height: 40px;
+                    width: auto;
+                }
+            }
+        }
+
+
+
+        .lastBtn {
+            height: 50px;
+
+            a {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .headerSection {
+        height: 70px;
+
+        .mainLogo {
+            svg {
+                height: 40px;
+                width: auto;
+            }
+        }
+
+        &.active {
+            height: 60px;
+
+            .lastBtn {
+                display: none;
+            }
+
+            .mainLogo {
+                svg {
+                    height: 35px;
+                    width: auto;
+                }
+            }
+        }
+
+        .lastBtn {
+            display: none;
+        }
+    }
+}

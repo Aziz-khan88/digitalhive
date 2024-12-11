@@ -1,0 +1,744 @@
+.menuSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+    border-radius: 100px;
+    padding: 0px 30px;
+    position: relative;
+
+    &::before {
+        content: '';
+        background: rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(7.5px);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 100px;
+    }
+
+    &.active {
+        border: 0px;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    li {
+        height: 100%;
+
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 70px;
+            letter-spacing: -0.165px;
+            color: #FFFFFF;
+            transition: color 0.3s ease, font-weight 0.3s ease;
+            height: 100%;
+            display: block;
+
+            &:hover {
+                color: #9AFF35;
+                transition: color 0.3s ease, font-weight 0.3s ease;
+            }
+        }
+
+        &.subMenu {
+            .submenuContainer {
+                position: fixed;
+                top: 100px;
+                width: 100%;
+                background: transparent;
+                left: 50%;
+                opacity: 0;
+                visibility: hidden;
+                transition: opacity 0.3s ease, visibility 0.3s ease;
+                z-index: 0;
+                transform: translate(-50%, 0%);
+                max-width: 1440px;
+
+                .submenuBox {
+                    border-radius: 30px;
+                    display: flex;
+                    width: 100%;
+                    position: relative;
+                    height: 610px;
+                    overflow: hidden;
+
+                    .titleBox {
+                        flex: 0 0 350px;
+                        background: linear-gradient(180deg, #FFFFFF -27.66%, #7635FF 100%);
+                        backdrop-filter: blur(17.5px);
+                        border-radius: 30px 0px 0px 30px;
+
+                        .mainTitle {
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 96px;
+                            line-height: 110px;
+                            letter-spacing: -0.165px;
+                            color: #FFFFFF;
+                            height: 100%;
+                            transform: rotate(270deg);
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            width: 350px;
+
+                            span {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 56px;
+                                line-height: 80px;
+                                letter-spacing: -0.165px;
+                                color: #9AFF35;
+                                text-align: right;
+                                display: block;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .menuBox {
+                        flex: 0 0 calc(100% - 350px);
+                        padding: 30px;
+                        background: rgba(0, 0, 0, 0.64);
+                        backdrop-filter: blur(7.5px);
+
+                        .serivesMenuBox {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            flex-wrap: wrap;
+
+                            .serivesMenuItem {
+                                flex: 0 0 33.33%;
+                                margin-bottom: 15px;
+
+                                .title {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    letter-spacing: -0.165px;
+                                    color: #9AFF35;
+                                    margin-bottom: 15px;
+
+                                    svg {
+                                        margin-left: 10px;
+                                        width: 13px;
+                                        height: auto;
+
+                                        path {
+                                            stroke: #9AFF35;
+                                        }
+                                    }
+                                }
+
+                                ul {
+
+                                    li {
+                                        margin-bottom: 5px;
+
+                                        a {
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            line-height: 24px;
+                                            letter-spacing: -0.165px;
+                                            color: #FFFFFF;
+                                            transition: color 0.3s ease, font-weight 0.3s ease;
+
+                                            svg {
+                                                margin-right: 15px;
+                                            }
+
+                                            &:hover {
+                                                color: #9AFF35;
+                                                transition: color 0.3s ease, font-weight 0.3s ease;
+
+                                                svg {
+
+                                                    circle {
+                                                        stroke: #9AFF35;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                .submenuContainer {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+
+        }
+    }
+}
+
+.mainMobileNavigation {
+    display: none;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .menuSection {
+        height: 65px;
+
+        li {
+            a {
+                font-size: 15px;
+                line-height: 60px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 90px;
+                    max-width: 1280px;
+
+                    .submenuBox {
+                        height: 550px;
+
+                        .titleBox {
+                            flex: 0 0 300px;
+
+                            .mainTitle {
+                                font-size: 80px;
+                                line-height: 90px;
+                                width: 300px;
+
+                                span {
+                                    font-size: 45px;
+                                    line-height: 65px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 calc(100% - 300px);
+                            padding: 25px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 15px;
+
+                                    .title {
+                                        font-size: 15px;
+                                        line-height: 22px;
+                                        margin-bottom: 12px;
+
+                                        svg {
+                                            margin-left: 10px;
+                                            width: 12px;
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+
+                                                font-size: 13px;
+                                                line-height: 21px;
+
+                                                svg {
+                                                    margin-right: 12px;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .menuSection {
+        height: 60px;
+
+        li {
+            a {
+                font-size: 14px;
+                line-height: 60px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 85px;
+                    max-width: 1200px;
+
+                    .submenuBox {
+                        height: 530px;
+
+                        .titleBox {
+                            flex: 0 0 280px;
+
+                            .mainTitle {
+                                font-size: 75px;
+                                line-height: 80px;
+                                width: 280px;
+
+                                span {
+                                    font-size: 40px;
+                                    line-height: 60px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 calc(100% - 280px);
+                            padding: 25px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 10px;
+
+                                    .title {
+                                        font-size: 15px;
+                                        line-height: 22px;
+                                        margin-bottom: 10px;
+
+                                        svg {
+                                            margin-left: 8px;
+                                            width: 12px;
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+                                                font-size: 12px;
+                                                line-height: 20px;
+
+                                                svg {
+                                                    margin-right: 10px;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .menuSection {
+        height: 55px;
+
+        li {
+            a {
+                font-size: 14px;
+                line-height: 55px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 75px;
+                    max-width: 1080px;
+
+
+                    .submenuBox {
+                        height: 520px;
+                        border-radius: 20px;
+
+                        .titleBox {
+                            flex: 0 0 230px;
+                            border-radius: 20px 0px 0px 20px;
+
+                            .mainTitle {
+                                font-size: 60px;
+                                line-height: 60px;
+                                width: 230px;
+
+                                span {
+                                    font-size: 35px;
+                                    line-height: 55px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 calc(100% - 230px);
+                            padding: 20px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 10px;
+
+                                    .title {
+                                        font-size: 15px;
+                                        line-height: 22px;
+                                        margin-bottom: 10px;
+
+                                        svg {
+                                            margin-left: 8px;
+                                            width: 10px;
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+                                                font-size: 12px;
+                                                line-height: 20px;
+
+                                                svg {
+                                                    margin-right: 10px;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .menuSection {
+        height: 50px;
+
+        li {
+            a {
+                font-size: 12px;
+                line-height: 50px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 70px;
+                    max-width: 960px;
+
+
+                    .submenuBox {
+                        height: 500px;
+                        border-radius: 15px;
+
+                        .titleBox {
+                            flex: 0 0 180px;
+                            border-radius: 15px 0px 0px 15px;
+
+                            .mainTitle {
+                                font-size: 45px;
+                                line-height: 45px;
+                                width: 180px;
+
+                                span {
+                                    font-size: 30px;
+                                    line-height: 40px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 calc(100% - 180px);
+                            padding: 20px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 10px;
+
+                                    .title {
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                        margin-bottom: 10px;
+
+                                        svg {
+                                            margin-left: 8px;
+                                            width: 10px;
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+                                                font-size: 12px;
+                                                line-height: 19px;
+
+                                                svg {
+                                                    margin-right: 5px;
+                                                    height: 8px;
+                                                    width: auto;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .menuSection {
+        height: 50px;
+        justify-content: center;
+        gap: 20px;
+        max-width: 90%;
+
+        li {
+            a {
+                font-size: 12px;
+                line-height: 50px;
+            }
+
+            &.subMenu {
+                .submenuContainer {
+                    top: 70px;
+                    max-width: 960px;
+
+                    .submenuBox {
+                        height: 500px;
+                        border-radius: 15px;
+
+                        .titleBox {
+                            flex: 0 0 180px;
+                            border-radius: 15px 0px 0px 15px;
+                            display: none;
+
+                            .mainTitle {
+                                font-size: 45px;
+                                line-height: 45px;
+                                width: 180px;
+
+                                span {
+                                    font-size: 30px;
+                                    line-height: 40px;
+                                }
+                            }
+                        }
+
+                        .menuBox {
+                            flex: 0 0 100%;
+                            padding: 20px;
+
+                            .serivesMenuBox {
+                                .serivesMenuItem {
+                                    flex: 0 0 33.33%;
+                                    margin-bottom: 10px;
+
+                                    .title {
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                        margin-bottom: 10px;
+
+                                        svg {
+                                            margin-left: 8px;
+                                            width: 10px;
+                                        }
+                                    }
+
+                                    ul {
+
+                                        li {
+                                            margin-bottom: 5px;
+
+                                            a {
+                                                font-size: 12px;
+                                                line-height: 19px;
+
+                                                svg {
+                                                    margin-right: 5px;
+                                                    height: 8px;
+                                                    width: auto;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .menuSection {
+        display: none;
+    }
+
+    .mainMobileNavigation {
+        position: fixed;
+        width: 300px;
+        height: calc(100vh - 0px);
+        background: rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(7.5px);
+        top: 60px;
+        right: -300px;
+        transition: width 0.5s, opacity 0.5s;
+        z-index: 9;
+        opacity: 0;
+        overflow: auto;
+        animation: slideFromTop 0.5s forwards;
+        border: 0px;
+        border-radius: 0px;
+        display: flex;
+
+        &.active {
+            right: 0px;
+            opacity: 1;
+            animation: slideFromTop 0.5s forwards;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .mobileNavigation {
+                padding: 10px 20px 10px;
+                height: calc(100vh - 110px);
+                overflow: auto;
+
+                li {
+                    height: 40px;
+                    border-bottom: 1px solid #D9D9D9;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    a {
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: #fff;
+                        line-height: normal;
+                        transition: 0.3s linear;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+
+                        svg {
+                            path {
+                                fill: #fff;
+                            }
+                        }
+
+                        &:hover {
+                            transition: .3s linear;
+                            color: #9AFF35;
+
+                            svg {
+                                path {
+                                    fill: #9AFF35;
+                                }
+                            }
+                        }
+                    }
+
+                    &.subMobileMenu {
+                        .mobilesubMenu {
+                            display: none;
+                        }
+
+                        &:hover {
+                            height: auto;
+                            flex-wrap: wrap;
+
+                            a {
+                                height: 40px;
+                            }
+
+                            .mobilesubMenu {
+                                display: block;
+                                width: 100%;
+                                margin-bottom: 10px;
+
+                                li {
+                                    height: 25px;
+                                    border: 0px;
+
+                                    a {
+                                        font-size: 12px;
+                                        font-weight: 400;
+                                        color: #fff;
+                                        line-height: normal;
+                                        transition: 0.3s linear;
+                                        width: 100%;
+                                        height: auto;
+                                        justify-content: flex-start;
+
+                                        svg {
+                                            height: 8px;
+                                            width: auto;
+                                            margin-right: 10px;
+                                        }
+
+                                        &:hover {
+                                            transition: .3s linear;
+                                            color: #9AFF35;
+
+                                            svg {
+                                                circle {
+                                                    stroke: #9AFF35;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    &:last-child {
+                                        border-bottom: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

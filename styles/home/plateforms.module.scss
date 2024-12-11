@@ -1,0 +1,808 @@
+.plateformsSection {
+    .embla {
+        .embla__viewport {
+            overflow: hidden;
+
+            .embla__container {
+                display: flex;
+                touch-action: pan-x pinch-zoom;
+                flex-direction: column;
+                height: 550px;
+
+                .embla__slide {
+                    transform: translate3d(0, 0, 0);
+                    flex: 0 0 20%;
+                    min-height: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+
+                    .socialIcon {
+                        width: 220px;
+                        height: 70px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 85px;
+                        margin: auto;
+
+                        .icons {
+                            margin-right: 20px;
+
+                            svg {
+                                height: 25px;
+                                width: auto;
+                            }
+                        }
+
+                        .title {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 69px;
+                            text-align: center;
+                            letter-spacing: 0.88325px;
+                            text-transform: capitalize;
+                            color: #FFFFFF;
+                            transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+                        }
+                    }
+
+                    &.active {
+                        .socialIcon {
+                            width: 370px;
+                            height: 100px;
+
+                            .icons {
+                                margin-right: 20px;
+
+                                svg {
+                                    height: 40px;
+                                    width: auto;
+                                }
+                            }
+
+                            .title {
+                                font-size: 36px;
+                                line-height: 69px;
+                            }
+                        }
+                    }
+
+                    &.next {
+                        .socialIcon {
+                            width: 280px;
+                            height: 80px;
+
+                            .icons {
+                                margin-right: 20px;
+
+                                svg {
+                                    height: 35px;
+                                    width: auto;
+                                }
+                            }
+
+                            .title {
+                                font-size: 25px;
+                                line-height: 35px;
+                            }
+                        }
+                    }
+
+                    &.prev {
+                        .socialIcon {
+                            width: 280px;
+                            height: 80px;
+
+                            .icons {
+                                margin-right: 20px;
+
+                                svg {
+                                    height: 35px;
+                                    width: auto;
+                                }
+                            }
+
+                            .title {
+                                font-size: 25px;
+                                line-height: 35px;
+                            }
+                        }
+                    }
+
+
+
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .plateformsSection {
+        .embla {
+            .embla__viewport {
+
+                .embla__container {
+                    height: 500px;
+
+                    .embla__slide {
+                        flex: 0 0 20%;
+
+                        .socialIcon {
+                            width: 200px;
+                            height: 70px;
+                        }
+
+                        &.active {
+                            .socialIcon {
+                                width: 350px;
+                                height: 90px;
+
+                                .title {
+                                    font-size: 32px;
+                                    line-height: 32px;
+                                }
+                            }
+                        }
+
+                        &.next {
+                            .socialIcon {
+                                width: 270px;
+                                height: 75px;
+
+                                .icons {
+                                    margin-right: 20px;
+
+                                    svg {
+                                        height: 32px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+
+                        &.prev {
+                            .socialIcon {
+                                width: 270px;
+                                height: 75px;
+
+                                .icons {
+                                    margin-right: 20px;
+
+                                    svg {
+                                        height: 32px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .plateformsSection {
+        .embla {
+            .embla__viewport {
+
+                .embla__container {
+                    height: 450px;
+
+                    .embla__slide {
+                        flex: 0 0 20%;
+
+                        .socialIcon {
+                            width: 200px;
+                            height: 68px;
+
+                            .title {
+                                font-size: 18px;
+                                line-height: 20px;
+                            }
+
+                            .icons {
+                                margin-right: 15px;
+
+                                svg {
+                                    height: 20px;
+                                    width: auto;
+                                }
+                            }
+                        }
+
+                        &.active {
+                            .socialIcon {
+                                width: 320px;
+                                height: 80px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 30px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 28px;
+                                    line-height: 32px;
+                                }
+
+
+                            }
+                        }
+
+                        &.next {
+                            .socialIcon {
+                                width: 250px;
+                                height: 75px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 26px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+
+                        &.prev {
+                            .socialIcon {
+                                width: 250px;
+                                height: 75px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 26px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .plateformsSection {
+        .embla {
+            .embla__viewport {
+
+                .embla__container {
+                    height: 450px;
+
+                    .embla__slide {
+                        flex: 0 0 20%;
+
+                        .socialIcon {
+                            width: 200px;
+                            height: 68px;
+
+                            .title {
+                                font-size: 18px;
+                                line-height: 20px;
+                            }
+
+                            .icons {
+                                margin-right: 15px;
+
+                                svg {
+                                    height: 20px;
+                                    width: auto;
+                                }
+                            }
+                        }
+
+                        &.active {
+                            .socialIcon {
+                                width: 320px;
+                                height: 80px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 30px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 28px;
+                                    line-height: 32px;
+                                }
+
+
+                            }
+                        }
+
+                        &.next {
+                            .socialIcon {
+                                width: 250px;
+                                height: 75px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 26px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+
+                        &.prev {
+                            .socialIcon {
+                                width: 250px;
+                                height: 75px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 26px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .plateformsSection {
+        .embla {
+            .embla__viewport {
+
+                .embla__container {
+                    height: 450px;
+
+                    .embla__slide {
+                        flex: 0 0 20%;
+
+                        .socialIcon {
+                            width: 200px;
+                            height: 68px;
+
+                            .title {
+                                font-size: 18px;
+                                line-height: 20px;
+                            }
+
+                            .icons {
+                                margin-right: 15px;
+
+                                svg {
+                                    height: 20px;
+                                    width: auto;
+                                }
+                            }
+                        }
+
+                        &.active {
+                            .socialIcon {
+                                width: 320px;
+                                height: 80px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 30px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 28px;
+                                    line-height: 32px;
+                                }
+
+
+                            }
+                        }
+
+                        &.next {
+                            .socialIcon {
+                                width: 250px;
+                                height: 75px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 26px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+
+                        &.prev {
+                            .socialIcon {
+                                width: 250px;
+                                height: 75px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 26px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .plateformsSection {
+        .embla {
+            .embla__viewport {
+
+                .embla__container {
+                    height: 400px;
+
+                    .embla__slide {
+                        flex: 0 0 20%;
+
+                        .socialIcon {
+                            width: 200px;
+                            height: 58px;
+
+                            .title {
+                                font-size: 18px;
+                                line-height: 20px;
+                            }
+
+                            .icons {
+                                margin-right: 12px;
+
+                                svg {
+                                    height: 20px;
+                                    width: auto;
+                                }
+                            }
+                        }
+
+                        &.active {
+                            .socialIcon {
+                                width: 300px;
+                                height: 70px;
+
+                                .icons {
+                                    margin-right: 18px;
+
+                                    svg {
+                                        height: 25px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 25px;
+                                    line-height: 32px;
+                                }
+
+
+                            }
+                        }
+
+                        &.next {
+                            .socialIcon {
+                                width: 230px;
+                                height: 65px;
+
+                                .icons {
+                                    margin-right: 15px;
+
+                                    svg {
+                                        height: 22px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 20px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+
+                        &.prev {
+                            .socialIcon {
+                                width: 230px;
+                                height: 65px;
+
+                                .icons {
+                                    margin-right: 15px;
+
+                                    svg {
+                                        height: 22px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 20px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .plateformsSection {
+        .embla {
+            .embla__viewport {
+
+                .embla__container {
+
+                    height: 360px;
+
+                    .embla__slide {
+                        flex: 0 0 20%;
+
+                        .socialIcon {
+                            width: 180px;
+                            height: 48px;
+
+                            .title {
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+
+                            .icons {
+                                margin-right: 10px;
+
+                                svg {
+                                    height: 18px;
+                                    width: auto;
+                                }
+                            }
+                        }
+
+                        &.active {
+                            .socialIcon {
+                                width: 260px;
+                                height: 65px;
+
+                                .icons {
+                                    margin-right: 10px;
+
+                                    svg {
+                                        height: 23px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 32px;
+                                }
+
+
+                            }
+                        }
+
+                        &.next {
+                            .socialIcon {
+                                width: 200px;
+                                height: 60px;
+
+                                .icons {
+                                    margin-right: 10px;
+
+                                    svg {
+                                        height: 20px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+
+                        &.prev {
+                            .socialIcon {
+                                width: 200px;
+                                height: 60px;
+
+                                .icons {
+                                    margin-right: 10px;
+
+                                    svg {
+                                        height: 20px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .plateformsSection {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+
+                .embla__container {
+
+                    height: 360px;
+
+                    .embla__slide {
+                        flex: 0 0 20%;
+
+                        .socialIcon {
+                            width: 180px;
+                            height: 48px;
+
+                            .title {
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+
+                            .icons {
+                                margin-right: 10px;
+
+                                svg {
+                                    height: 18px;
+                                    width: auto;
+                                }
+                            }
+                        }
+
+                        &.active {
+                            .socialIcon {
+                                width: 260px;
+                                height: 65px;
+
+                                .icons {
+                                    margin-right: 10px;
+
+                                    svg {
+                                        height: 23px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 22px;
+                                    line-height: 32px;
+                                }
+
+
+                            }
+                        }
+
+                        &.next {
+                            .socialIcon {
+                                width: 200px;
+                                height: 60px;
+
+                                .icons {
+                                    margin-right: 10px;
+
+                                    svg {
+                                        height: 20px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+
+                        &.prev {
+                            .socialIcon {
+                                width: 200px;
+                                height: 60px;
+
+                                .icons {
+                                    margin-right: 10px;
+
+                                    svg {
+                                        height: 20px;
+                                        width: auto;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
