@@ -181,7 +181,7 @@ const MobileApp = [
         url: "#",
     },
 ]
-const Navigation = ({ scrolled }) => {
+const Navigation = ({ scrolled, isLight }) => {
     const [isActive, setIsActive] = useState(false);
 
     const handleClick = () => {
@@ -262,7 +262,7 @@ const Navigation = ({ scrolled }) => {
                     </li>
                 </ul>
             </div>
-            <ul className={`${styles.menuSection} ${scrolled ? styles.active : ''}`} >
+            <ul className={`${styles.menuSection} ${scrolled ? styles.active : ''} ${isLight ? "" : styles.isLight}`} >
                 <li><Link href="">Home</Link></li>
                 <li className={styles.subMenu}>
                     <Link href="">Services</Link>

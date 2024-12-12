@@ -1,0 +1,34 @@
+.bannerServices {
+    margin-top: 180px;
+
+    .subTitle {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.165px;
+        color: #FF7400;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        color: #000000;
+        margin-bottom: 15px;
+        line-height: 70px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .bannerServiceVideo {
+        height: 680px;
+        border-radius: 30px;
+        margin-top: 40px;
+
+        video {
+            border-radius: 30px;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

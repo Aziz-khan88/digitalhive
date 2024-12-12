@@ -21,6 +21,14 @@
         border-radius: 100px;
     }
 
+    &.isLight {
+        &::before {
+            content: '';
+            background: rgba(0, 0, 0, 1);
+            backdrop-filter: blur(7.5px);
+        }
+    }
+
     &.active {
         border: 0px;
 

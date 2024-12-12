@@ -1,0 +1,206 @@
+.pricingSection {
+    .pricingContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+
+        .pricingItem {
+            flex: 0 0 calc(33.33% - 20px);
+            background: #262626;
+            border-radius: 30px;
+            padding: 25px;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            --bgcolor: transparent;
+
+            .packageHeader {
+                .packageName {
+                    background: linear-gradient(319.4deg, #FFFFFF 13.78%, var(--bgcolor) 90.15%);
+                    border-radius: 30px;
+                    height: 45px;
+                    min-width: 200px;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    text-transform: capitalize;
+                    color: #000;
+                    margin-bottom: 30px;
+                    padding: 0px 20px;
+                    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+                }
+
+
+                .packagePrice {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 60px;
+                    line-height: 60px;
+                    display: flex;
+                    align-items: center;
+                    text-transform: capitalize;
+                    color: #fff;
+                    margin-bottom: 20px;
+
+                    span {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 16px;
+                        letter-spacing: -0.165px;
+                        color: #fff;
+                    }
+                }
+
+                .packagepara {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    letter-spacing: -0.165px;
+                    color: #fff;
+                    margin-bottom: 20px;
+                }
+
+                .packagebutton {
+                    background: transparent;
+                    height: 56px;
+                    min-width: 200px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 33px;
+                    margin-bottom: 20px;
+                }
+
+            }
+
+            .packageBody {
+                height: 450px;
+                overflow: auto;
+                margin-bottom: 30px;
+
+                &::-webkit-scrollbar {
+                    width: 5px;
+
+                }
+
+                &::-webkit-scrollbar-track {
+                    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.2);
+                    border-radius: 100px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: linear-gradient(180deg, var(--bgcolor) 0%, #FFFFFF 100%);
+                    border-radius: 100px;
+                    outline: none;
+                }
+
+                .listingTitle {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 26px;
+                    letter-spacing: -0.165px;
+                    color: #fff;
+                    margin-bottom: 10px;
+                }
+
+                ul {
+                    margin-bottom: 10px;
+
+                    li {
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: -0.165px;
+                        color: #fff;
+                        margin-bottom: 8px;
+
+                        svg {
+                            margin-right: 5px;
+                            height: 12px;
+
+                            path {
+                                fill: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                background: linear-gradient(319.4deg, #FFFFFF 13.78%, var(--bgcolor) 90.15%);
+                transform: scale(1.03);
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+
+                .packageHeader {
+                    .packagePrice {
+                        color: #000;
+
+                        span {
+                            color: #000;
+                        }
+                    }
+
+                    .packagepara {
+                        color: #000;
+                    }
+
+                    .packagebutton {
+                        color: var(--bgcolor);
+                        border: 1px solid #000;
+                        background: #000;
+                    }
+
+                }
+
+                .packageBody {
+
+                    &::-webkit-scrollbar-track {
+                        box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.2);
+                        border-radius: 100px;
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        background: linear-gradient(180deg, var(--bgcolor) 0%, #FFFFFF 100%);
+                        border-radius: 100px;
+                        outline: none;
+                    }
+
+                    .listingTitle {
+                        color: #000;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            color: #000;
+
+                            svg {
+                                margin-right: 5px;
+                                height: 12px;
+
+                                path {
+                                    fill: #000;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

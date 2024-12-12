@@ -100,7 +100,22 @@ export function NavIcon() {
         </svg>
     );
 }
-
+export function PlayIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            fill="none"
+            viewBox="0 0 26 26"
+        >
+            <path
+                fill="#fff"
+                d="M23.267 9.647c2.755 1.462 2.755 5.246 0 6.707L6.634 25.179c-2.677 1.42-5.967-.428-5.967-3.353V4.176c0-2.925 3.29-4.774 5.967-3.354z"
+            ></path>
+        </svg>
+    )
+}
 export function ClosedIcon() {
     return (
         <svg
@@ -110,6 +125,21 @@ export function ClosedIcon() {
             viewBox="0 0 50 50"
         >
             <path fill="#fff" d="M9.156 6.313 6.312 9.156 22.157 25 6.22 40.969 9.03 43.78 25 27.844 40.938 43.78l2.843-2.843L27.844 25 43.687 9.156l-2.843-2.844L25 22.157Z"></path>
+        </svg>)
+}
+export function CheckedIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="15"
+            fill="none"
+            viewBox="0 0 18 15"
+        >
+            <path
+                fill="#162B01"
+                d="M17.11 2.768a1.675 1.675 0 0 0 0-2.293 1.5 1.5 0 0 0-2.192 0l-9.236 9.662L2.646 6.96a1.5 1.5 0 0 0-2.192 0 1.675 1.675 0 0 0 0 2.293l4.133 4.323a1.5 1.5 0 0 0 2.191 0z"
+            ></path>
         </svg>)
 }
 
