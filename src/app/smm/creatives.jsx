@@ -4,9 +4,9 @@ import { Container, Row, Col } from "react-bootstrap"
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import Image from "next/image";
-import IMG01 from "media/services/smm/Influencer/influencer1.webp"
-import IMG02 from "media/services/smm/Influencer/influencer2.webp"
-import IMG03 from "media/services/smm/Influencer/influencer3.webp"
+import IMG01 from "media/services/smm/Influencer/Influencer1.webp"
+import IMG02 from "media/services/smm/Influencer/Influencer2.webp"
+import IMG03 from "media/services/smm/Influencer/Influencer3.webp"
 import { useEffect, useState } from "react"
 
 const options = { align: 'center', loop: true }
