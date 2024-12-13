@@ -195,7 +195,7 @@ const Navigation = ({ scrolled, isLight }) => {
     return (
         <>
             <div onClick={handleClick}
-                className={`${isActive ? 'navIcon active' : 'navIcon'}`}>
+                className={`${isActive ? 'navIcon active' : 'navIcon'} ${isLight ? "" : 'isLight'} `}>
                 {isActive ? <ClosedIcon /> : <NavIcon />}
             </div>
             <div className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ''}`} >
@@ -275,7 +275,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                 <div className={styles.menuBox}>
                                     <div className={styles.serivesMenuBox}>
                                         <div className={styles.serivesMenuItem}>
-                                            <div className={styles.title}> SMM <ArrowIcon /></div>
+                                            <div className={styles.title}><Link href="/smm">SMM <ArrowIcon /></Link></div>
                                             <ul>
                                                 {SmmMenu.map((item, index) => (
                                                     <li key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -284,7 +284,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                         </div>
 
                                         <div className={styles.serivesMenuItem}>
-                                            <div className={styles.title}> Content Marketing <ArrowIcon /></div>
+                                            <div className={styles.title}><Link href="/contentmarketing">Content Marketing <ArrowIcon /></Link></div>
                                             <ul>
                                                 {ContentMarketing.map((item, index) => (
                                                     <li key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -292,7 +292,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                             </ul>
                                         </div>
                                         <div className={styles.serivesMenuItem}>
-                                            <div className={styles.title}>Website Design & Development<ArrowIcon /></div>
+                                            <div className={styles.title}><Link href="#">Website Design & Development<ArrowIcon /></Link></div>
                                             <ul>
                                                 {WebsiteDesign.map((item, index) => (
                                                     <li key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -300,7 +300,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                             </ul>
                                         </div>
                                         <div className={styles.serivesMenuItem}>
-                                            <div className={styles.title}>Paid Marketing<ArrowIcon /></div>
+                                            <div className={styles.title}><Link href="#">Paid Marketing<ArrowIcon /></Link></div>
                                             <ul>
                                                 {PaidMarketing.map((item, index) => (
                                                     <li key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -308,7 +308,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                             </ul>
                                         </div>
                                         <div className={styles.serivesMenuItem}>
-                                            <div className={styles.title}>SEO<ArrowIcon /></div>
+                                            <div className={styles.title}><Link href="#">SEO<ArrowIcon /></Link></div>
                                             <ul>
                                                 {SEO.map((item, index) => (
                                                     <li key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -316,7 +316,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                             </ul>
                                         </div>
                                         <div className={styles.serivesMenuItem}>
-                                            <div className={styles.title}>Mobile App<ArrowIcon /></div>
+                                            <div className={styles.title}><Link href="#">Mobile App<ArrowIcon /></Link></div>
                                             <ul>
                                                 {MobileApp.map((item, index) => (
                                                     <li key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>

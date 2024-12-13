@@ -6,7 +6,7 @@ import ImgBg from "media/services/smm/ctaBgPink.webp"
 const CtaServices = () => {
     return (
         <section className={`pt-100 ${styles.ctaServicesSection}`}>
-            <Container className={`h-100 ${styles.ImageGB}`} style={{ backgroundImage: `url(${ImgBg.src})` }}>
+            <Container className={`h-100 ${styles.ImageGB} ${styles.ImageGBPink}`} style={{ backgroundImage: `url(${ImgBg.src})` }}>
                 <Row className="h-100">
                     <Col md={6} className="my-auto">
                         <div className={styles.ctaServicesTitle}>

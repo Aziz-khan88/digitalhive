@@ -1,4 +1,15 @@
 .pricingSection {
+    &.blackBG {
+        margin-top: 100px;
+        background: #000;
+        padding-bottom: 50px;
+
+        h2,
+        p {
+            color: #fff;
+        }
+    }
+
     .pricingContainer {
         display: flex;
         justify-content: space-between;
@@ -127,10 +138,12 @@
                         letter-spacing: -0.165px;
                         color: #fff;
                         margin-bottom: 8px;
+                        display: flex;
 
                         svg {
                             margin-right: 5px;
                             height: 12px;
+                            margin-top: 5px;
 
                             path {
                                 fill: #fff;
@@ -159,7 +172,7 @@
                     }
 
                     .packagebutton {
-                        color: var(--bgcolor);
+                        color: #fff;
                         border: 1px solid #000;
                         background: #000;
                     }
@@ -195,6 +208,680 @@
 
                                 path {
                                     fill: #000;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .pricingSection {
+        .pricingContainer {
+            margin-top: 20px;
+
+            .pricingItem {
+                flex: 0 0 calc(33.33% - 20px);
+                padding: 25px;
+                border-radius: 26px;
+
+                .packageHeader {
+                    .packageName {
+                        height: 42px;
+                        min-width: 180px;
+                        font-size: 16px;
+                        margin-bottom: 25px;
+                        padding: 0px 20px;
+                    }
+
+
+                    .packagePrice {
+                        font-size: 55px;
+                        line-height: 55px;
+                        margin-bottom: 20px;
+
+                        span {
+                            font-size: 15px;
+                            line-height: 16px;
+                        }
+                    }
+
+                    .packagepara {
+                        font-size: 14px;
+                        line-height: 23px;
+                        margin-bottom: 10px;
+                    }
+
+                    .packagebutton {
+                        height: 50px;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                }
+
+                .packageBody {
+                    height: 350px;
+                    margin-bottom: 25px;
+
+                    &::-webkit-scrollbar {
+                        width: 5px;
+
+                    }
+
+                    .listingTitle {
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin-bottom: 10px;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            font-size: 13px;
+                            line-height: 18px;
+                            margin-bottom: 5px;
+
+                            svg {
+                                height: 10px;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .packageBody {
+
+                        ul {
+                            li {
+                                svg {
+                                    height: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .pricingSection {
+        .pricingContainer {
+            margin-top: 20px;
+
+            .pricingItem {
+                flex: 0 0 calc(33.33% - 15px);
+                padding: 25px;
+                border-radius: 22px;
+
+                .packageHeader {
+                    .packageName {
+                        height: 40px;
+                        min-width: 140px;
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                        padding: 0px 20px;
+                    }
+
+
+                    .packagePrice {
+                        font-size: 45px;
+                        line-height: 45px;
+                        margin-bottom: 15px;
+
+                        span {
+                            font-size: 15px;
+                            line-height: 16px;
+                        }
+                    }
+
+                    .packagepara {
+                        font-size: 13px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .packagebutton {
+                        height: 50px;
+                        font-size: 15px;
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                }
+
+                .packageBody {
+                    height: 320px;
+                    margin-bottom: 25px;
+
+                    &::-webkit-scrollbar {
+                        width: 5px;
+
+                    }
+
+                    .listingTitle {
+                        font-size: 15px;
+                        line-height: 26px;
+                        margin-bottom: 10px;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            font-size: 13px;
+                            line-height: 18px;
+                            margin-bottom: 5px;
+
+                            svg {
+                                height: 9px;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .packageBody {
+
+                        ul {
+                            li {
+                                svg {
+                                    height: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .pricingSection {
+        .pricingContainer {
+            margin-top: 20px;
+
+            .pricingItem {
+                flex: 0 0 calc(33.33% - 10px);
+                padding: 25px 20px;
+                border-radius: 22px;
+
+                .packageHeader {
+                    .packageName {
+                        height: 40px;
+                        min-width: 140px;
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                        padding: 0px 20px;
+                    }
+
+
+                    .packagePrice {
+                        font-size: 42px;
+                        line-height: 42px;
+                        margin-bottom: 15px;
+
+                        span {
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+
+                    .packagepara {
+                        font-size: 13px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .packagebutton {
+                        height: 45px;
+                        font-size: 15px;
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                }
+
+                .packageBody {
+                    height: 320px;
+                    margin-bottom: 25px;
+
+                    &::-webkit-scrollbar {
+                        width: 4px;
+
+                    }
+
+                    .listingTitle {
+                        font-size: 15px;
+                        line-height: 26px;
+                        margin-bottom: 10px;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            font-size: 13px;
+                            line-height: 18px;
+                            margin-bottom: 5px;
+
+                            svg {
+                                height: 9px;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .packageBody {
+
+                        ul {
+                            li {
+                                svg {
+                                    height: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .pricingSection {
+        .pricingContainer {
+            margin-top: 20px;
+
+            .pricingItem {
+                flex: 0 0 calc(33.33% - 10px);
+                padding: 25px 20px;
+                border-radius: 22px;
+
+                .packageHeader {
+                    .packageName {
+                        height: 40px;
+                        min-width: 140px;
+                        font-size: 14px;
+                        margin-bottom: 20px;
+                        padding: 0px 20px;
+                    }
+
+
+                    .packagePrice {
+                        font-size: 38px;
+                        line-height: 38px;
+                        margin-bottom: 15px;
+
+                        span {
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+
+                    .packagepara {
+                        font-size: 13px;
+                        line-height: 20px;
+                        margin-bottom: 10px;
+                    }
+
+                    .packagebutton {
+                        height: 40px;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                }
+
+                .packageBody {
+                    height: 250px;
+
+                    &::-webkit-scrollbar {
+                        width: 4px;
+
+                    }
+
+                    .listingTitle {
+                        font-size: 14px;
+                        line-height: 26px;
+                        margin-bottom: 10px;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            font-size: 12px;
+                            line-height: 18px;
+                            margin-bottom: 5px;
+
+                            svg {
+                                height: 9px;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .packageBody {
+
+                        ul {
+                            li {
+                                svg {
+                                    height: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .pricingSection {
+        .pricingContainer {
+            margin-top: 20px;
+            flex-wrap: wrap;
+
+            .pricingItem {
+                flex: 0 0 calc(100% - 0px);
+                padding: 25px 20px;
+                border-radius: 22px;
+                display: flex;
+                margin-bottom: 10px;
+
+                .packageHeader {
+                    flex: 0 0 50%;
+                    padding-right: 30px;
+
+                    .packageName {
+                        height: 40px;
+                        min-width: 140px;
+                        font-size: 14px;
+                        margin-bottom: 20px;
+                        padding: 0px 20px;
+                    }
+
+
+                    .packagePrice {
+                        font-size: 38px;
+                        line-height: 38px;
+                        margin-bottom: 15px;
+
+                        span {
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+
+                    .packagepara {
+                        font-size: 13px;
+                        line-height: 20px;
+                        margin-bottom: 10px;
+                    }
+
+                    .packagebutton {
+                        height: 40px;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                }
+
+                .packageBody {
+                    height: 220px;
+                    flex: 0 0 50%;
+                    margin-bottom: 0px;
+
+                    &::-webkit-scrollbar {
+                        width: 4px;
+
+                    }
+
+                    .listingTitle {
+                        font-size: 14px;
+                        line-height: 26px;
+                        margin-bottom: 10px;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            font-size: 12px;
+                            line-height: 18px;
+                            margin-bottom: 5px;
+
+                            svg {
+                                height: 9px;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .packageBody {
+
+                        ul {
+                            li {
+                                svg {
+                                    height: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .pricingSection {
+        .pricingContainer {
+            margin-top: 20px;
+            flex-wrap: wrap;
+
+            .pricingItem {
+                flex: 0 0 calc(100% - 0px);
+                padding: 25px 20px;
+                border-radius: 22px;
+                display: flex;
+                margin-bottom: 10px;
+
+                .packageHeader {
+                    flex: 0 0 50%;
+                    padding-right: 30px;
+
+                    .packageName {
+                        height: 40px;
+                        min-width: 140px;
+                        font-size: 14px;
+                        margin-bottom: 20px;
+                        padding: 0px 20px;
+                    }
+
+
+                    .packagePrice {
+                        font-size: 38px;
+                        line-height: 38px;
+                        margin-bottom: 15px;
+
+                        span {
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+
+                    .packagepara {
+                        font-size: 13px;
+                        line-height: 20px;
+                        margin-bottom: 10px;
+                    }
+
+                    .packagebutton {
+                        height: 40px;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                }
+
+                .packageBody {
+                    height: 220px;
+                    flex: 0 0 50%;
+                    margin-bottom: 0px;
+
+                    &::-webkit-scrollbar {
+                        width: 4px;
+
+                    }
+
+                    .listingTitle {
+                        font-size: 14px;
+                        line-height: 26px;
+                        margin-bottom: 10px;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            font-size: 12px;
+                            line-height: 18px;
+                            margin-bottom: 5px;
+
+                            svg {
+                                height: 9px;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .packageBody {
+
+                        ul {
+                            li {
+                                svg {
+                                    height: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .pricingSection {
+        .pricingContainer {
+            margin-top: 20px;
+            flex-wrap: wrap;
+
+            .pricingItem {
+                flex: 0 0 calc(100% - 0px);
+                padding: 25px 20px;
+                border-radius: 22px;
+                margin-bottom: 20px;
+
+                .packageHeader {
+
+                    .packageName {
+                        height: 40px;
+                        min-width: 140px;
+                        font-size: 14px;
+                        margin-bottom: 20px;
+                        padding: 0px 20px;
+                    }
+
+
+                    .packagePrice {
+                        font-size: 38px;
+                        line-height: 38px;
+                        margin-bottom: 15px;
+
+                        span {
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+
+                    .packagepara {
+                        font-size: 13px;
+                        line-height: 20px;
+                        margin-bottom: 10px;
+                    }
+
+                    .packagebutton {
+                        height: 40px;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                }
+
+                .packageBody {
+                    height: 250px;
+                    margin-bottom: 0px;
+
+                    &::-webkit-scrollbar {
+                        width: 4px;
+
+                    }
+
+                    .listingTitle {
+                        font-size: 14px;
+                        line-height: 26px;
+                        margin-bottom: 10px;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            font-size: 12px;
+                            line-height: 18px;
+                            margin-bottom: 5px;
+
+                            svg {
+                                height: 9px;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .packageBody {
+
+                        ul {
+                            li {
+                                svg {
+                                    height: 10px;
                                 }
                             }
                         }

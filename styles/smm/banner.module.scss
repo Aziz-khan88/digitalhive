@@ -23,12 +23,219 @@
         height: 680px;
         border-radius: 30px;
         margin-top: 40px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
 
-        video {
-            border-radius: 30px;
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+    &.bannerWithContent {
+
+        .bannerServiceVideo {
+
+
+            .contentBaner {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 50px;
+                z-index: 1;
+
+                h2,
+                p {
+                    color: #fff;
+                    text-align: left;
+                }
+
+                a {
+                    margin-right: auto;
+                }
+            }
+
+            &::after {
+                content: '';
+                background: linear-gradient(90deg, #000000 39.03%, rgba(0, 0, 0, 0) 67.08%);
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                height: 100%;
+                width: 100%;
+                z-index: 0;
+                border-radius: 30px 0px 0px 30px;
+            }
+        }
+
+
+
+    }
+
+    video {
+        border-radius: 30px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bannerServices {
+        margin-top: 140px;
+
+        .subTitle {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            line-height: 55px;
+            font-size: 50px;
+        }
+
+        .bannerServiceVideo {
+            height: 600px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .bannerServices {
+        margin-top: 120px;
+
+        .subTitle {
+            font-size: 17px;
+            line-height: 23px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            line-height: 50px;
+            font-size: 48px;
+        }
+
+        .bannerServiceVideo {
+            height: 550px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .bannerServices {
+        margin-top: 100px;
+
+        .subTitle {
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 42px;
+            line-height: 42px;
+        }
+
+        .bannerServiceVideo {
+            height: 480px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .bannerServices {
+        margin-top: 100px;
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        .bannerServiceVideo {
+            height: 450px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .bannerServices {
+        margin-top: 100px;
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 35px;
+            line-height: 35px;
+        }
+
+        .bannerServiceVideo {
+            height: 400px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .bannerServices {
+        margin-top: 100px;
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 35px;
+            line-height: 35px;
+        }
+
+        .bannerServiceVideo {
+            height: 350px;
+            margin-top: 0px;
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .bannerServices {
+        margin-top: 90px;
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 35px;
+            line-height: 35px;
+        }
+
+        .bannerServiceVideo {
+            height: 200px;
+            margin-top: 0px;
+            border-radius: 10px;
+
+            video {
+                border-radius: 10px;
+            }
         }
     }
 }

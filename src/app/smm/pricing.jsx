@@ -3,14 +3,14 @@ import styles from "@/styles/smm/pricing.module.scss"
 import { CheckedIcon } from "@/src/app/app-constants"
 
 
-const Pricing = () => {
+const Pricing = ({ bg }) => {
     return (
-        <section className={`pt-100 ${styles.pricingSection}`}>
+        <section className={`pt-100 ${styles.pricingSection} ${bg === "yes" ? styles.blackBG : ""}`}>
             <Container>
                 <Row>
                     <Col md={7}>
                         <div className="subtitle">Our Pricing</div>
-                        <h2>Quality Over Discounts Elevate Your Social Media Presence Today!</h2>
+                        <h2>Quality Discounts Elevate Your Social Media Presence Today!</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </Col>
                     <Col md={5}>

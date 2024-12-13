@@ -147,16 +147,20 @@ export function SubMenuIcon() {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="8"
-            height="5"
-            viewBox="0 0 8 5"
+            width="12"
+            height="21"
+            fill="none"
+            viewBox="0 0 12 21"
         >
             <path
-                d="M4 0l4 5H0z"
-                data-name="Polygon 2"
-                transform="rotate(180 4 2.5)"
+                stroke="#000"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2.065"
+                d="m1.29 1.946 8.761 8.762-8.762 8.762"
             ></path>
-        </svg>)
+        </svg>
+    )
 }
 export function MenuIcon() {
     return (

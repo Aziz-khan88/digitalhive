@@ -17,7 +17,7 @@ const ContentSection = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                         <Link href="#" className='commonBtn'>Get Free Consultation</Link>
                     </Col>
-                    <Col md={6} className='my-auto'>
+                    <Col md={6} className='my-auto text-center'>
                         <Image src={ImgBg.src} alt="Digital CTA" width={693} height={625} className={styles.imgCTAFirst} />
                     </Col>
                 </Row>

@@ -7,7 +7,7 @@ const Banner = () => {
         <section className={styles.bannerServices}>
             <Container>
                 <Row>
-                    <Col md={8} className="m-auto text-center">
+                    <Col md={10} lg={8} className="m-auto text-center">
                         <div className={styles.subTitle}>No. 1 SMM Company In US</div>
                         <h1>We Are a Growth-Focused</h1>
                         <p>Digital Marketing Agency Equipping Businesses for the Digital Era</p>
@@ -25,7 +25,7 @@ const Banner = () => {
                                 loading="eager"
                                 poster={BannerPoster.src}
                             >
-                                <source src="/videos/BannerVideo.mp4" type="video/mp4" />
+                                <source src="/videos/ServicesBanner.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </Col>

@@ -60,7 +60,7 @@ const Creatives = () => {
         if (!emblaApi) return
         const onSelect = () => setSelectedIndex(emblaApi.selectedScrollSnap())
         emblaApi.on("select", onSelect)
-        onSelect() // Set initial index
+        onSelect()
     }, [emblaApi])
 
     const scrollToSlide = (index) => {
@@ -72,14 +72,14 @@ const Creatives = () => {
         <section className={`pt-100 ${styles.creativesSection}`}>
             <Container>
                 <Row>
-                    <Col md={9} className="m-auto text-center">
+                    <Col md={10} lg={9} className="m-auto text-center">
                         <div className="subtitle">Happy Influencer</div>
                         <h2>Outshine the Competition with Bold, Dynamic Creatives!</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={8} className="m-auto ">
+                    <Col md={11} lg={10} xl={9} xxl={8} className="m-auto ">
                         <section className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
@@ -114,7 +114,7 @@ const Creatives = () => {
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section >
     )
 }
 

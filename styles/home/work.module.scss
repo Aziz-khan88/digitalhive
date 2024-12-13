@@ -17,6 +17,12 @@
             z-index: 3;
         }
 
+        &.BookClass {
+            &::before {
+                top: 0px;
+            }
+        }
+
         .categoryList {
             margin: 10px 0px 40px;
             display: flex;

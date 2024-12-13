@@ -97,7 +97,6 @@
                 width: 30px;
                 background: #BDCDD4;
                 border-radius: 26px;
-                margin-bottom: 20px;
 
                 &.isActive {
                     background: #7635FF;
@@ -106,4 +105,497 @@
         }
     }
 
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .creativesSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        padding-left: 10px;
+
+                        .creativesBox {
+                            height: 420px;
+                            border-radius: 23px;
+                            position: relative;
+                            overflow: hidden;
+
+                            &::before {
+                                border-radius: 23px;
+                            }
+
+                            .infoImg {
+                                position: relative;
+                                height: 420px;
+                                border-radius: 23px;
+
+                                img {
+                                    object-fit: cover;
+                                    border-radius: 23px;
+                                }
+                            }
+
+                            .usesInfo {
+                                padding: 20px;
+
+                                .namee {
+                                    font-size: 18px;
+                                    line-height: 25px;
+                                }
+
+                                .job {
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                }
+
+                                .txt {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__dots {
+                margin-top: 30px;
+                gap: 3px;
+
+                .embla__dot {
+                    height: 4px;
+                    width: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .creativesSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        padding-left: 10px;
+
+                        .creativesBox {
+                            height: 400px;
+                            border-radius: 20px;
+                            position: relative;
+                            overflow: hidden;
+
+                            &::before {
+                                border-radius: 20px;
+                            }
+
+                            .infoImg {
+                                position: relative;
+                                height: 400px;
+                                border-radius: 20px;
+
+                                img {
+                                    object-fit: cover;
+                                    border-radius: 20px;
+                                }
+                            }
+
+                            .usesInfo {
+                                padding: 20px;
+
+                                .namee {
+                                    font-size: 17px;
+                                    line-height: 25px;
+                                }
+
+                                .job {
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                }
+
+                                .txt {
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__dots {
+                margin-top: 30px;
+                gap: 3px;
+
+                .embla__dot {
+                    height: 4px;
+                    width: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .creativesSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        padding-left: 10px;
+
+                        .creativesBox {
+                            height: 380px;
+                            border-radius: 20px;
+
+                            &::before {
+                                border-radius: 20px;
+                            }
+
+                            .infoImg {
+                                position: relative;
+                                height: 380px;
+                                border-radius: 20px;
+                                overflow: hidden;
+
+                                img {
+                                    object-fit: cover;
+                                    border-radius: 20px;
+                                }
+                            }
+
+                            .usesInfo {
+                                padding: 20px;
+
+                                .namee {
+                                    font-size: 16px;
+                                    line-height: 25px;
+                                }
+
+                                .job {
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                }
+
+                                .txt {
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__dots {
+                margin-top: 30px;
+                gap: 3px;
+
+                .embla__dot {
+                    height: 4px;
+                    width: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .creativesSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        padding-left: 10px;
+
+                        .creativesBox {
+                            height: 380px;
+                            border-radius: 20px;
+
+                            &::before {
+                                border-radius: 20px;
+                            }
+
+                            .infoImg {
+                                position: relative;
+                                height: 380px;
+                                border-radius: 20px;
+                                overflow: hidden;
+
+                                img {
+                                    object-fit: cover;
+                                    border-radius: 20px;
+                                }
+                            }
+
+                            .usesInfo {
+                                padding: 20px;
+
+                                .namee {
+                                    font-size: 16px;
+                                    line-height: 25px;
+                                }
+
+                                .job {
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                }
+
+                                .txt {
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__dots {
+                margin-top: 30px;
+                gap: 3px;
+
+                .embla__dot {
+                    height: 4px;
+                    width: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .creativesSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        padding-left: 10px;
+
+                        .creativesBox {
+                            height: 350px;
+                            border-radius: 20px;
+
+                            &::before {
+                                border-radius: 20px;
+                            }
+
+                            .infoImg {
+                                position: relative;
+                                height: 350px;
+                                border-radius: 20px;
+                                overflow: hidden;
+
+                                img {
+                                    object-fit: cover;
+                                    border-radius: 20px;
+                                }
+                            }
+
+                            .usesInfo {
+                                padding: 20px;
+
+                                .namee {
+                                    font-size: 16px;
+                                    line-height: 25px;
+                                }
+
+                                .job {
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                }
+
+                                .txt {
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__dots {
+                margin-top: 30px;
+                gap: 3px;
+
+                .embla__dot {
+                    height: 4px;
+                    width: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .creativesSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        padding-left: 10px;
+                        flex: 0 0 40%;
+
+                        .creativesBox {
+                            height: 300px;
+                            border-radius: 20px;
+
+                            &::before {
+                                border-radius: 20px;
+                            }
+
+                            .infoImg {
+                                position: relative;
+                                height: 300px;
+                                border-radius: 20px;
+                                overflow: hidden;
+
+                                img {
+                                    object-fit: cover;
+                                    border-radius: 20px;
+                                }
+                            }
+
+                            .usesInfo {
+                                padding: 20px;
+
+                                .namee {
+                                    font-size: 16px;
+                                    line-height: 25px;
+                                }
+
+                                .job {
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                }
+
+                                .txt {
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__dots {
+                margin-top: 30px;
+                gap: 3px;
+
+                .embla__dot {
+                    height: 4px;
+                    width: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .creativesSection {
+        .embla {
+            margin-top: 10px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        padding-left: 10px;
+                        flex: 0 0 60%;
+
+                        .creativesBox {
+                            height: 300px;
+                            border-radius: 15px;
+
+                            &::before {
+                                border-radius: 15px;
+                            }
+
+                            .infoImg {
+                                position: relative;
+                                height: 300px;
+                                border-radius: 15px;
+                                overflow: hidden;
+
+                                img {
+                                    object-fit: cover;
+                                    border-radius: 15px;
+                                }
+                            }
+
+                            .usesInfo {
+                                padding: 15px;
+
+                                .namee {
+                                    font-size: 15px;
+                                    line-height: 25px;
+                                }
+
+                                .job {
+                                    font-size: 13px;
+                                    line-height: 22px;
+                                }
+
+                                .txt {
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla__dots {
+                margin-top: 30px;
+                gap: 3px;
+
+                .embla__dot {
+                    height: 4px;
+                    width: 30px;
+                }
+            }
+        }
+
+    }
 }
