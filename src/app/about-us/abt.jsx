@@ -16,6 +16,8 @@ const AbtSection = ({ data }) => {
                         <p>{data.desc}</p>
                     </Col>
                 </Row>
+
+
                 <Row>
                     <Col md={6}>
                         <div className={styles.abtBox} style={{ background: `url(${IMG01.src})` }}>
