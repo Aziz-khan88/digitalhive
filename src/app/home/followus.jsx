@@ -5,15 +5,9 @@ import { ArrowIcon, ArrowIconWhite } from "@/src/app/app-constants";
 import { useState } from "react";
 import Link from "next/link";
 
-const Follows = [
-    { name: "Instagram", url: "#" },
-    { name: "Reddit ", url: "#" },
-    { name: "YouTube", url: "#" },
-    { name: "Facebook", url: "#" },
-    { name: "Discord", url: "#" },
-];
 
-const FollowUs = () => {
+
+const FollowUs = ({ data }) => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
 
     return (
@@ -21,19 +15,16 @@ const FollowUs = () => {
             <Container>
                 <Row>
                     <Col md={6}>
-                        <div className="subtitle">Follow US</div>
-                        <h2>Social Media & Contact</h2>
-                        <p>
-                            We craft tailored digital strategies that fuel growth, engage
-                            audiences, and deliver measurable results.
-                        </p>
+                        <div className="subtitle">{data.subtitle}</div>
+                        <h2>{data.title}</h2>
+                        <p>{data.desc}</p>
                     </Col>
                 </Row>
             </Container>
             <Container fluid>
                 <Row>
                     <Col md={12} className="p-0">
-                        {Follows.map((item, index) => (
+                        {data.FollowsItem.map((item, index) => (
                             <div
                                 className={`${styles.boxContainer} ${hoveredIndex === index ? styles.boxContainerFluid : ""
                                     }`}

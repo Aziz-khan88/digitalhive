@@ -1,0 +1,451 @@
+.processSection {
+    background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 100%);
+    padding-bottom: 50px;
+
+    .processContianer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-wrap: wrap;
+
+        .processItem {
+            flex: 0 0 100%;
+            margin-bottom: 20px;
+
+            .processContent {
+                background: #FFFFFF;
+                border-radius: 20px;
+                height: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 30px;
+                flex-direction: column;
+                overflow: hidden;
+                transition: height 0.6s ease, background-color 0.6s ease;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+
+                .title {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 25px;
+                    letter-spacing: -0.165px;
+                    color: #000000;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    flex-direction: column;
+
+                    &::after {
+                        content: '';
+                        width: 60px;
+                        height: 4px;
+                        display: block;
+                        background: linear-gradient(278.21deg, #FFFFFF 5.05%, #9AFF35 104.91%);
+                        border-radius: 30px;
+                        margin-top: 20px;
+                    }
+                }
+
+                .content {
+                    display: none;
+                }
+            }
+
+            &:hover {
+
+                .processContent {
+                    height: 450px;
+                    background: #000000;
+                    transition: height 0.6s ease, background-color 0.6s ease;
+
+                    .title {
+                        color: #fff;
+                    }
+
+                    .content {
+                        display: block;
+                        margin-top: 15px;
+
+                        strong {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 30px;
+                            margin-bottom: 10px;
+                            letter-spacing: -0.165px;
+                            color: #FFFFFF;
+                            display: block;
+                        }
+
+                        p {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 24px;
+                            letter-spacing: -0.165px;
+                            color: #6F6F6F;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .processSection {
+        padding-bottom: 50px;
+
+        .processContianer {
+            margin-top: 20px;
+
+            .processItem {
+                margin-bottom: 20px;
+
+                .processContent {
+                    height: 110px;
+                    padding: 25px;
+                    border-radius: 18px;
+
+                    .title {
+                        font-size: 22px;
+                        line-height: 22px;
+
+                        &::after {
+                            margin-top: 15px;
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    .processContent {
+                        height: auto;
+
+                        .content {
+                            margin-top: 15px;
+
+                            strong {
+                                font-size: 18px;
+                                line-height: 28px;
+                                margin-bottom: 10px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .processSection {
+        padding-bottom: 50px;
+
+        .processContianer {
+            margin-top: 20px;
+
+            .processItem {
+                margin-bottom: 20px;
+
+                .processContent {
+                    height: 90px;
+                    padding: 25px;
+                    border-radius: 18px;
+
+                    .title {
+                        font-size: 20px;
+                        line-height: 20px;
+
+                        &::after {
+                            margin-top: 12px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .processContent {
+                        height: auto;
+
+                        .content {
+                            margin-top: 15px;
+
+                            strong {
+                                font-size: 16px;
+                                line-height: 26px;
+                                margin-bottom: 5px;
+                            }
+
+                            p {
+                                font-size: 15px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .processSection {
+        padding-bottom: 50px;
+
+        .processContianer {
+            margin-top: 20px;
+
+            .processItem {
+                margin-bottom: 20px;
+
+                .processContent {
+                    height: 90px;
+                    padding: 25px;
+                    border-radius: 18px;
+
+                    .title {
+                        font-size: 20px;
+                        line-height: 20px;
+
+                        &::after {
+                            margin-top: 13px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .processContent {
+                        height: auto;
+
+                        .content {
+                            margin-top: 15px;
+
+                            strong {
+                                font-size: 15px;
+                                line-height: 26px;
+                                margin-bottom: 5px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .processSection {
+        padding-bottom: 50px;
+
+        .processContianer {
+            margin-top: 20px;
+
+            .processItem {
+                margin-bottom: 20px;
+                border-radius: 15px;
+
+                .processContent {
+                    height: 90px;
+                    padding: 25px 20px;
+                    border-radius: 15px;
+
+                    .title {
+                        font-size: 18px;
+                        line-height: 18px;
+
+                        &::after {
+                            margin-top: 12px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .processContent {
+                        height: auto;
+
+                        .content {
+                            margin-top: 15px;
+
+                            strong {
+                                font-size: 14px;
+                                line-height: 22px;
+                                margin-bottom: 5px;
+                            }
+
+                            p {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .processSection {
+        padding-bottom: 30px;
+
+        .processContianer {
+            margin-top: 20px;
+
+            .processItem {
+                margin-bottom: 20px;
+
+                .processContent {
+                    height: 80px;
+                    padding: 20px 10px;
+                    border-radius: 10px;
+
+                    .title {
+                        font-size: 16px;
+                        line-height: 18px;
+
+                        &::after {
+                            margin-top: 12px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .processContent {
+                        height: auto;
+
+                        .content {
+                            margin-top: 15px;
+
+                            strong {
+                                font-size: 13px;
+                                line-height: 22px;
+                                margin-bottom: 5px;
+                            }
+
+                            p {
+                                font-size: 12px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .processSection {
+        padding-bottom: 30px;
+
+        .processContianer {
+            margin-top: 20px;
+
+            .processItem {
+                margin-bottom: 0px;
+                flex: 0 0 calc(50% - 10px);
+
+                .processContent {
+                    height: 80px;
+                    padding: 20px 10px;
+                    border-radius: 10px;
+
+                    .title {
+                        font-size: 16px;
+                        line-height: 18px;
+
+                        &::after {
+                            margin-top: 12px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .processContent {
+                        height: auto;
+
+                        .content {
+                            margin-top: 15px;
+
+                            strong {
+                                font-size: 13px;
+                                line-height: 22px;
+                                margin-bottom: 5px;
+                            }
+
+                            p {
+                                font-size: 12px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .processSection {
+        padding-bottom: 30px;
+
+        .processContianer {
+            margin-top: 0px;
+
+            .processItem {
+                margin-bottom: 20px;
+
+                .processContent {
+                    height: 90px;
+                    padding: 25px 10px;
+                    border-radius: 10px;
+
+                    .title {
+                        font-size: 18px;
+                        line-height: 18px;
+
+                        &::after {
+                            margin-top: 12px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .processContent {
+                        height: auto;
+
+                        .content {
+                            margin-top: 15px;
+
+                            strong {
+                                font-size: 15px;
+                                line-height: 22px;
+                                margin-bottom: 5px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

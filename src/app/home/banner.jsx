@@ -2,8 +2,9 @@ import styles from "@/styles/home/banner.module.scss"
 import Link from "next/link"
 import { Col, Container, Row } from 'react-bootstrap'
 import Clients from "@/src/app/home/clients"
-import BannerPoster from "media/home/bannerPoster.webp"
-const Banner = () => {
+import { ClientImages } from "@/src/app/home/data/data"
+
+const Banner = ({ data }) => {
 
 
     return (
@@ -12,8 +13,8 @@ const Banner = () => {
                 <Row className="h-100">
                     <Col md={6} sm={8} className="my-auto">
                         <div className={styles.bannerContent}>
-                            <h1>Powering our Digital Success</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <h1>{data.title}</h1>
+                            <p >{data.desc}</p>
                             <Link href="#" className="commonBtn">Get Free Consultation</Link>
                         </div>
                     </Col>
@@ -27,11 +28,11 @@ const Banner = () => {
                 aria-label="Background video"
                 className={styles.bannerVideo}
                 loading="eager"
-                poster={BannerPoster.src}
+                poster={data.BannerPoster}
             >
-                <source src="/videos/BannerVideo.mp4" type="video/mp4" />
+                <source src={data.video} type="video/mp4" />
             </video>
-            <Clients />
+            <Clients data={ClientImages} />
         </section>
     )
 }

@@ -199,6 +199,14 @@ p {
                 fill: #000000
             }
         }
+
+        &.activeScroll {
+            svg {
+                path {
+                    fill: #fff
+                }
+            }
+        }
     }
 }
 

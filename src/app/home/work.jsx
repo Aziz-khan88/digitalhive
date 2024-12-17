@@ -5,145 +5,24 @@ import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowIcon } from "@/src/app/app-constants";
-import Img01 from "media/home/work/work01.webp"
-import Img02 from "media/home/work/work02.webp"
-import Img03 from "media/home/work/work03.webp"
-import Img04 from "media/home/work/work04.webp"
+
 import useEmblaCarousel from 'embla-carousel-react'
-const slides = [
-    {
-        title: "Music App",
-        txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-        Img: Img01.src,
-        url: "#",
-        category: "Mobile App Development",
-    },
-    {
-        title: "E-commerce Website",
-        txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-        Img: Img02.src,
-        url: "#",
-        category: "Mobile App Development",
-    },
-    {
-        title: "Social Media Campaign",
-        txt: "Driving brand awareness and engagement through strategic social media marketing.",
-        Img: Img03.src,
-        url: "#",
-        category: "Mobile App Development",
-    },
-    {
-        title: "Another App",
-        txt: "Innovative solutions for mobile users.",
-        Img: Img04.src,
-        url: "#",
-        category: "Mobile App Development",
-    },
-    {
-        title: "Music App",
-        txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-        Img: Img01.src,
-        url: "#",
-        category: "Mobile App Development",
-    },
-    {
-        title: "E-commerce Website",
-        txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-        Img: Img02.src,
-        url: "#",
-        category: "Mobile App Development",
-    },
-    {
-        title: "Social Media Campaign",
-        txt: "Driving brand awareness and engagement through strategic social media marketing.",
-        Img: Img03.src,
-        url: "#",
-        category: "Mobile App Development",
-    },
-    {
-        title: "Another App",
-        txt: "Innovative solutions for mobile users.",
-        Img: Img04.src,
-        url: "#",
-        category: "Mobile App Development",
-    },
-    {
-        title: "Social Media Campaign",
-        txt: "Driving brand awareness and engagement through strategic social media marketing.",
-        Img: Img03.src,
-        url: "#",
-        category: "Website Development",
-    },
-    {
-        title: "Another App",
-        txt: "Innovative solutions for mobile users.",
-        Img: Img04.src,
-        url: "#",
-        category: "Website Development",
-    },
-    {
-        title: "Music App",
-        txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-        Img: Img01.src,
-        url: "#",
-        category: "Website Development",
-    },
-    {
-        title: "E-commerce Website",
-        txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-        Img: Img02.src,
-        url: "#",
-        category: "Website Development",
-    },
-    {
-        title: "E-commerce Website",
-        txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-        Img: Img02.src,
-        url: "#",
-        category: "Social Media Marketing",
-    },
-    {
-        title: "Social Media Campaign",
-        txt: "Driving brand awareness and engagement through strategic social media marketing.",
-        Img: Img03.src,
-        url: "#",
-        category: "Social Media Marketing",
-    },
-    {
-        title: "Music App",
-        txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-        Img: Img01.src,
-        url: "#",
-        category: "Social Media Marketing",
-    },
 
-    {
-        title: "Another App",
-        txt: "Innovative solutions for mobile users.",
-        Img: Img04.src,
-        url: "#",
-        category: "Social Media Marketing",
-    },
-
-];
 const OPTIONS = { loop: true, align: 'start' }
 
-const Work = () => {
+const Work = ({ data }) => {
     const [emblaRef] = useEmblaCarousel(OPTIONS)
-    const [activeCategory, setActiveCategory] = useState(slides[0].category);
-    const filteredSlides = slides.filter((slide) => slide.category === activeCategory);
+    const [activeCategory, setActiveCategory] = useState(data.WorkItem[0].category);
+    const filteredSlides = data.WorkItem.filter((slide) => slide.category === activeCategory);
 
     return (
         <section className={`pt-100 ${styles.workSection}`}>
             <Container>
                 <Row>
                     <Col md={6}>
-                        <div className="subtitle">Our Recent Work</div>
-                        <h2>Bringing Ideas to Life</h2>
-                        <p>
-                            Explore our latest projects and see how we’ve helped brands grow, engage, and succeed in the digital
-                            world.
-                        </p>
+                        <div className="subtitle">{data.subtitle}</div>
+                        <h2>{data.title}</h2>
+                        <p>{data.desc}</p>
                     </Col>
                 </Row>
             </Container>

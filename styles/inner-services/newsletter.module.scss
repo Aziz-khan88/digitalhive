@@ -1,0 +1,164 @@
+.newsletterSection {
+    height: 615px;
+
+    .bgContainer {
+        background: linear-gradient(0deg, #E0F0FF 0%, #FFFFFF 100%);
+        border-radius: 23px;
+
+        .newsletterContent {
+            padding: 50px;
+        }
+
+        .newsletterVideo {
+            position: relative;
+            height: 450px;
+
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .newsletterSection {
+        height: 580px;
+
+        .bgContainer {
+            .newsletterContent {
+                padding: 40px;
+            }
+
+            .newsletterVideo {
+                height: 380px;
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .newsletterSection {
+        height: 540px;
+
+        .bgContainer {
+
+            .newsletterContent {
+                padding: 35px;
+            }
+
+            .newsletterVideo {
+                height: 350px;
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .newsletterSection {
+        height: 500px;
+
+        .bgContainer {
+
+            .newsletterContent {
+                padding: 30px;
+            }
+
+            .newsletterVideo {
+                height: 350px;
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .newsletterSection {
+        height: 500px;
+
+        .bgContainer {
+
+            .newsletterContent {
+                padding: 30px;
+            }
+
+            .newsletterVideo {
+                height: 320px;
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .newsletterSection {
+        height: 450px;
+
+        .bgContainer {
+
+            .newsletterContent {
+                padding: 25px;
+            }
+
+            .newsletterVideo {
+                height: 300px;
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .newsletterSection {
+        height: auto;
+        max-width: 96%;
+        margin: auto;
+
+
+        .bgContainer {
+            padding-bottom: 30px;
+
+            .newsletterContent {
+                padding: 25px;
+            }
+
+            .newsletterVideo {
+                display: none;
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .newsletterSection {
+        height: auto;
+
+
+
+        .bgContainer {
+            padding-bottom: 30px;
+            max-width: 96%;
+            margin: auto;
+
+            .newsletterContent {
+                padding: 10px;
+            }
+
+            .newsletterVideo {
+                display: none;
+            }
+        }
+
+
+    }
+}

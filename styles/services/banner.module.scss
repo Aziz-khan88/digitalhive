@@ -1,0 +1,575 @@
+.bannerServices {
+    margin-top: 180px;
+
+    .subTitle {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.165px;
+        color: #FF7400;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        color: #000000;
+        margin-bottom: 15px;
+        line-height: 70px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .servicesContent {
+        p {
+            max-width: 60%;
+            margin: 0px auto 20px;
+        }
+    }
+
+
+    .bannerServiceVideo {
+        height: 680px;
+        border-radius: 30px;
+        margin-top: 30px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    &.bannerWithContent {
+        .bannerServiceVideo {
+            .contentBaner {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 50px;
+                z-index: 1;
+
+                h2,
+                p {
+                    color: #fff;
+                    text-align: left;
+                }
+
+                a {
+                    margin-right: auto;
+                }
+            }
+
+            &::after {
+                content: '';
+                background: linear-gradient(90deg, #000000 39.03%, rgba(0, 0, 0, 0) 67.08%);
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                height: 100%;
+                width: 100%;
+                z-index: 0;
+                border-radius: 30px 0px 0px 30px;
+            }
+        }
+
+
+
+    }
+
+    video {
+        border-radius: 30px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.innerBannerServices {
+    margin-top: 180px;
+
+    .bgBlack {
+        background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 100%);
+        border-radius: 30px;
+        padding: 0px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+
+        .contentBaner {
+            padding: 50px;
+
+            h1 {
+                font-size: 45px;
+                line-height: 55px;
+                color: #000;
+            }
+
+            p {
+                color: #000;
+            }
+        }
+
+        .bannerServiceVideo {
+            height: 550px;
+            border-radius: 30px;
+            position: relative;
+
+
+            video {
+                border-radius: 30px;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bannerServices {
+        margin-top: 140px;
+
+        .subTitle {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            line-height: 55px;
+            font-size: 50px;
+        }
+
+        .bannerServiceVideo {
+            height: 600px;
+            margin-top: 20px;
+        }
+
+
+    }
+
+    .innerBannerServices {
+        margin-top: 140px;
+
+        .bgBlack {
+            border-radius: 28px;
+
+            .contentBaner {
+                padding: 45px;
+
+                h1 {
+                    font-size: 42px;
+                    line-height: 52px;
+                }
+            }
+
+            .bannerServiceVideo {
+                height: 500px;
+                border-radius: 28px;
+                position: relative;
+
+
+                video {
+                    border-radius: 28px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .bannerServices {
+        margin-top: 120px;
+
+        .subTitle {
+            font-size: 17px;
+            line-height: 23px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            line-height: 50px;
+            font-size: 48px;
+        }
+
+        .bannerServiceVideo {
+            height: 550px;
+            margin-top: 20px;
+        }
+    }
+
+    .innerBannerServices {
+        margin-top: 120px;
+
+        .bgBlack {
+            border-radius: 25px;
+
+            .contentBaner {
+                padding: 45px;
+
+                h1 {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+
+            .bannerServiceVideo {
+                height: 480px;
+                border-radius: 25px;
+                position: relative;
+
+
+                video {
+                    border-radius: 25px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .bannerServices {
+        margin-top: 100px;
+
+
+        .subTitle {
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 42px;
+            line-height: 42px;
+        }
+
+        .bannerServiceVideo {
+            height: 480px;
+            margin-top: 20px;
+        }
+    }
+
+    .innerBannerServices {
+        margin-top: 100px;
+
+        .bgBlack {
+            border-radius: 22px;
+
+            .contentBaner {
+                padding: 40px;
+
+                h1 {
+                    font-size: 38px;
+                    line-height: 46px;
+                }
+            }
+
+            .bannerServiceVideo {
+                height: 450px;
+                border-radius: 22px;
+                position: relative;
+
+
+                video {
+                    border-radius: 22px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .bannerServices {
+        margin-top: 100px;
+
+        .servicesContent {
+            p {
+                max-width: 80%;
+            }
+        }
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .bannerServiceVideo {
+            height: 450px;
+            margin-top: 20px;
+        }
+    }
+
+    .innerBannerServices {
+        margin-top: 100px;
+
+        .bgBlack {
+            border-radius: 20px;
+
+            .contentBaner {
+                padding: 30px;
+
+                h1 {
+                    font-size: 35px;
+                    line-height: 38px;
+                }
+            }
+
+            .bannerServiceVideo {
+                height: 420px;
+                border-radius: 20px;
+
+                video {
+                    border-radius: 20px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .bannerServices {
+        margin-top: 100px;
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+
+        .bannerServiceVideo {
+            height: 400px;
+            margin-top: 20px;
+        }
+
+        &.bannerWithContent {
+            .bannerServiceVideo {
+                .contentBaner {
+                    width: 50%;
+                    height: 100%;
+                    padding: 30px;
+                    z-index: 1;
+                }
+
+                &::after {
+                    border-radius: 30px 0px 0px 30px;
+                }
+            }
+        }
+
+    }
+
+    .innerBannerServices {
+        margin-top: 100px;
+
+        .bgBlack {
+            border-radius: 15px;
+
+            .contentBaner {
+                padding: 20px 10px 20px 20px;
+
+                h1 {
+                    font-size: 30px;
+                    line-height: 36px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .bannerServiceVideo {
+                height: 360px;
+                border-radius: 15px;
+
+                video {
+                    border-radius: 15px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .bannerServices {
+        margin-top: 100px;
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 35px;
+            line-height: 40px;
+        }
+
+        .bannerServiceVideo {
+            height: 350px;
+            margin-top: 0px;
+        }
+
+        &.bannerWithContent {
+            .bannerServiceVideo {
+                .contentBaner {
+                    width: 60%;
+                    height: 100%;
+                    padding: 30px;
+                    z-index: 1;
+                }
+
+                &::after {
+                    border-radius: 30px 0px 0px 30px;
+                }
+            }
+        }
+    }
+
+    .innerBannerServices {
+        margin-top: 100px;
+        max-width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .bgBlack {
+            border-radius: 15px;
+
+            .contentBaner {
+                padding: 20px 10px 20px 20px;
+
+                h1 {
+                    font-size: 30px;
+                    line-height: 36px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .bannerServiceVideo {
+                height: 320px;
+                border-radius: 15px;
+
+                video {
+                    border-radius: 15px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .bannerServices {
+        margin-top: 90px;
+
+        .servicesContent {
+            p {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+
+
+        }
+
+        h1 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+        .bannerServiceVideo {
+            height: 250px;
+            margin-top: 0px;
+            border-radius: 10px;
+
+            video {
+                border-radius: 10px;
+            }
+        }
+
+        &.bannerWithContent {
+            .bannerServiceVideo {
+                .contentBaner {
+                    width: 70%;
+                    height: 100%;
+                    padding: 15px;
+                    z-index: 1;
+
+                    h2 {
+                        font-size: 20px;
+                        line-height: 24px;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        line-height: 16px;
+                        margin-bottom: 5px;
+                    }
+
+                    a {
+                        height: 35px;
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+
+                &::after {
+                    border-radius: 10px 0px 0px 10px;
+                    background: linear-gradient(90deg, #000000 60%, rgba(0, 0, 0, 0) 90.08%);
+                }
+            }
+        }
+    }
+
+    .innerBannerServices {
+        margin-top: 100px;
+        overflow: hidden;
+
+        .bgBlack {
+            border-radius: 15px;
+            max-width: 96%;
+            margin-left: auto;
+            margin-right: auto;
+
+            .contentBaner {
+                padding: 20px 10px 20px 20px;
+
+                h1 {
+                    font-size: 28px;
+                    line-height: 36px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .bannerServiceVideo {
+                height: 260px;
+                border-radius: 15px;
+
+                video {
+                    border-radius: 15px;
+                }
+            }
+        }
+
+    }
+}

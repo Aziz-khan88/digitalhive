@@ -28,11 +28,11 @@ const Header = () => {
     }, []);
 
     return (
-        <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`}>
+        <section className={`${styles.headerSection} ${scrolled ? styles.active : ''} ${isLight ? "" : styles.isLight}`}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col xs={6} md={2} lg={3} className="my-auto">
-                        <Link href="/" className={`${styles.mainLogo} ${isLight ? "" : styles.isLight}`}>
+                        <Link href="/" className={`${styles.mainLogo} `}>
                             <MainLogo />
                         </Link>
                     </Col>

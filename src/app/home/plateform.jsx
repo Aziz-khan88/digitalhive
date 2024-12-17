@@ -4,21 +4,11 @@ import styles from "@/styles/home/plateforms.module.scss";
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 import useEmblaCarousel from "embla-carousel-react";
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
 import Autoplay from 'embla-carousel-autoplay'
 const OPTIONS = { loop: true, axis: "y" };
-const SocailItems = [
-    { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-    { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-    { name: "Reddit", link: "#", icon: <RedditIcon /> },
-    { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-    { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    { name: "Reddit", link: "#", icon: <RedditIcon /> },
-    { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-    { name: "Discord", link: "#", icon: <DiscordIcon /> },
-];
 
-const PlateFroms = () => {
+
+const PlateFroms = ({ data }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 1000 })]);
     const [selectedIndex, setSelectedIndex] = useState(0);
 
@@ -42,12 +32,9 @@ const PlateFroms = () => {
             <Container className="h-100 gradientBgColor">
                 <Row className="h-100">
                     <Col md={6} className="my-auto">
-                        <div className="subtitle">Platforms We</div>
-                        <h2>Platforms We Work With</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam.
-                        </p>
+                        <div className="subtitle">{data.subtitle}</div>
+                        <h2>{data.title}</h2>
+                        <p>{data.desc}</p>
                         <Link href="#" className="commonBtn">
                             Get Free Consultation
                         </Link>
@@ -56,10 +43,10 @@ const PlateFroms = () => {
                         <section className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
-                                    {SocailItems.map((item, index) => {
+                                    {data.SocailItems.map((item, index) => {
                                         const isActive = index === selectedIndex;
-                                        const isPrev = index === (selectedIndex - 1 + SocailItems.length) % SocailItems.length;
-                                        const isNext = index === (selectedIndex + 1) % SocailItems.length;
+                                        const isPrev = index === (selectedIndex - 1 + data.SocailItems.length) % data.SocailItems.length;
+                                        const isNext = index === (selectedIndex + 1) % data.SocailItems.length;
 
                                         return (
                                             <div
