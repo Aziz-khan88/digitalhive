@@ -1,7 +1,7 @@
 "use client"
 import styles from "@/styles/home/testimonials.module.scss"
 import { Container, Row, Col } from "react-bootstrap"
-import { ArrowIcon, ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
+import { ArrowIcon } from "@/src/app/app-constants";
 import useEmblaCarousel from 'embla-carousel-react'
 import ClassNames from 'embla-carousel-class-names'
 import Autoplay from 'embla-carousel-autoplay'
@@ -20,7 +20,7 @@ const Testimonials = ({ data }) => {
         <section className={`pt-100 ${styles.testimonialsSection} sliderTestimonial`}>
             <Container>
                 <Row>
-                    <Col md={7} className="m-auto text-center">
+                    <Col md={8} className="m-auto text-center">
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>

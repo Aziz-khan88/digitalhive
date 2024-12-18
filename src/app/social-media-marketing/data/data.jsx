@@ -1,152 +1,124 @@
 //Banner
 import BannerPoster from "media/services/social-media-marketing/posterImg.webp"
-
 export const BannerData = {
-    subtitle: "No. 1 SMM Company In US",
-    title: "We Are a Growth-Focused",
-    desc: "Digital Marketing Agency Equipping Businesses for the Digital Era",
+    subtitle: "No. 1 Social Media Marketing Company in the U.S.",
+    title: "An Agency You Can Trust",
+    desc: "Struggling to cut through the noise on social media? You’re not alone. At Infinitidigital, we create strategies that don’t just get you noticed—they get you results.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775965/rendition/720p/file.mp4?loc=external&log_user=0&signature=27eb31d173fb744c4981bffe218fca1bc13be18f86f4fea3e84d75885ed500a7",
     BannerPoster: BannerPoster.src
 }
-
 //Services
-
 export const SolData = {
-    subtitle: "Our Services",
-    title: "Smarter Strategies, Better Results ",
-    desc: "Our tailored solutions ensure your success. Here’s how we help:",
+    subtitle: "Our Solutions",
+    title: "Solutions That Succeed",
+    desc: "We deliver targeted strategies that meet your unique business goals. Whether you focus on growing visibility, fostering customer relationships, or driving conversions, we have a solution for every stage of your social media journey.",
     SolItem: [
         {
             title: "Awareness",
-            txt: "Show your Ads to people who are most likely to remember them.",
+            txt: "Reach the right audience at the right time. Show your ads to people most likely to remember and engage with your brand.",
             url: "#",
             bgcolor: "#6A9AFE",
         },
         {
-            title: "Awareness",
-            txt: "Show your Ads to people who are most likely to remember them.",
+            title: "Engagement",
+            txt: "Is your audience scrolling past your content? Our engagement strategies stop them in their tracks. From polls to interactive videos, we spark conversations that keep your brand at the top of your mind.",
             url: "#",
             bgcolor: "#10FF7F",
         },
         {
-            title: "Awareness",
-            txt: "Show your Ads to people who are most likely to remember them.",
+            title: "Lead Generation",
+            txt: "Looking for quality leads that convert? Our lead generation campaigns focus on capturing interest from the right audience with tailored ads, landing pages, and compelling offers.",
             url: "#",
             bgcolor: "#FFD600",
         },
         {
-            title: "Awareness",
-            txt: "Show your Ads to people who are most likely to remember them.",
+            title: "Brand Loyalty",
+            txt: "Want your customers to keep coming back? We create loyalty-building campaigns that nurture relationships through consistent, value-driven content and personalized messaging.",
             url: "#",
             bgcolor: "#FF7400",
         },
         {
-            title: "Awareness",
-            txt: "Show your Ads to people who are most likely to remember them.",
+            title: "Community Management",
+            txt: "Struggling to keep your audience engaged? We build and manage online communities that foster trust, meaningful connections, and two-way conversations with your customers.",
             url: "#",
             bgcolor: "#25F4EE",
         },
         {
-            title: "Awareness",
-            txt: "Show your Ads to people who are most likely to remember them.",
+            title: "Conversion Optimization",
+            txt: "Getting traffic but no results? Our conversion-focused strategies turn clicks into actions. We refine your content, ads, and CTAs to drive measurable sales and sign-ups.",
             url: "#",
             bgcolor: "#9756E2",
         },
         {
-            title: "Awareness",
-            txt: "Show your Ads to people who are most likely to remember them.",
+            title: "Reputation Management",
+            txt: "Is your online reputation helping or hurting your business? We monitor, manage, and enhance your brand’s image across social media, ensuring positive impressions and trust.",
             url: "#",
             bgcolor: "#F03C3F",
         },
         {
-            title: "Awareness",
-            txt: "Show your Ads to people who are most likely to remember them.",
+            title: "Retargeting Campaigns",
+            txt: "Lost customers slipping through the cracks? Our retargeting solutions reconnect with visitors who leave your site, turning missed opportunities into loyal customers.",
             url: "#",
             bgcolor: "#6A99FE",
         }
     ]
 }
-
 // CTA 
 import ImgBg from "media/services/social-media-marketing/ctaBg.webp"
 export const CtaData = {
-    title: "Want a Customized Package Tailored Just for You?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Tired Of One-Size-Fits-All Solutions? ",
+    desc: "We get it. At Infinitidigital, we believe every business deserves a strategy that is as unique as its goals. Our customized packages are built to fit your vision, audience, and budget—so you get the desired results without paying for what you don’t.",
     img: ImgBg.src
 }
-
-
 // Opportunities
 import OppImg01 from "media/services/social-media-marketing/opportunities/IMG01.webp"
 import OppImg02 from "media/services/social-media-marketing/opportunities/IMG02.webp"
 import OppImg03 from "media/services/social-media-marketing/opportunities/IMG03.webp"
 import OppImg04 from "media/services/social-media-marketing/opportunities/IMG04.webp"
-import OppImg05 from "media/services/social-media-marketing/opportunities/IMG01.webp"
-import OppImg06 from "media/services/social-media-marketing/opportunities/IMG02.webp"
-import OppImg07 from "media/services/social-media-marketing/opportunities/IMG03.webp"
 
 export const OpportunitiesData = {
     subtitle: "Our Opportunities",
-    title: "What Marketing Opportunities We Bring To Your Disposal?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Maximize Your Marketing Potential",
+    desc: "Wondering what’s possible for your brand? With our expertise, the opportunities are endless. We offer a comprehensive suite of social media solutions designed to maximize your reach and impact.",
     OpportunitiesItem: [
         {
             title: (<>Social Media<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
+            txt: "Turn your social platforms into growth engines with engaging, tailored content that resonates.",
             Img: OppImg01.src,
             url: "#",
         },
         {
             title: (<>Influencer<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
+            txt: "Want to yoke the power of trusted voices? We connect you with influencers who amplify your brand’s reach and credibility.",
             Img: OppImg02.src,
             url: "#",
         },
         {
             title: (<>YouTube<br /> Optimization</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
+            txt: "Struggling to get eyes on your video content? Our expert strategies help you get found and drive engagement on YouTube.",
             Img: OppImg03.src,
             url: "#",
         },
         {
             title: (<>Search Engine<br /> Optimization</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
+            txt: "Get seen by your audience on search engines and social platforms with SEO strategies that work.",
             Img: OppImg04.src,
-            url: "#",
-        },
-        {
-            title: (<>Social Media<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg05.src,
-            url: "#",
-        },
-        {
-            title: (<>Social Media<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg06.src,
-            url: "#",
-        },
-        {
-            title: (<>Social Media<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg07.src,
             url: "#",
         }
 
     ]
 }
-
 // Prceing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Affordable Solutions That Deliver Real Results",
+    desc: "How much should you invest in social media success? The answer depends on your goals, and we have a solution for every growth stage.",
     PriceItem: [
         {
             bgColor: "#7635FF",
             packagename: "Basic Package",
             price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Perfect for small businesses taking their first steps into the social media world.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -180,7 +152,7 @@ export const PriceData = {
             bgColor: "#FF6987",
             packagename: "Advanced Package",
             price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Ideal for growing brands ready to scale their engagement and reach.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -214,7 +186,7 @@ export const PriceData = {
             bgColor: "#9AFF35",
             packagename: "Enterprise Package",
             price: "750",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Comprehensive solutions for businesses that need full-scale social media success.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -250,18 +222,85 @@ export const PriceData = {
 // CTA  Pink
 import ImgBgPink from "media/services/social-media-marketing/ctaBgPink.webp"
 export const CtaPinkData = {
-    title: "Want a Customized Package Tailored Just for You?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Looking To Create Strategies That Deliver? ",
+    desc: "Want to deliver the best results? At Infinitidigital, we tailor every campaign to your audience and goals to ensure you see measurable results—no matter your field. Whether you want to build brand awareness, foster relationships, or increase sales, we ensure your business stands out effectively. ",
     img: ImgBgPink.src
+}
+//Industries 
+import Img01 from "media/home/industires/industy01.webp"
+import Img02 from "media/home/industires/industy02.webp"
+import Img03 from "media/home/industires/industy03.webp"
+import Img04 from "media/home/industires/industy04.webp"
+import Img05 from "media/home/industires/industy05.webp"
+import Img06 from "media/home/industires/industy06.webp"
+import Img07 from "media/home/industires/industy07.webp"
+export const IndustriesData = {
+    subtitle: "Transforming Businesses Across Industries",
+    title: "We Drive Growth for Businesses in Every Sector",
+    desc: "What industries do we work with? The better question is: which ones don’t we work with?",
+    IndustryItem: [
+        {
+            title: "B2b Business",
+            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles.",
+            Img: Img01.src,
+            url: "#",
+        },
+        {
+            title: "Construction",
+            txt: "Build trust and connect with clients through campaigns and websites designed for credibility.",
+            Img: Img02.src,
+            url: "#",
+        },
+        {
+            title: "Education",
+            txt: "Engage students, parents, and educators with SEO and marketing that inspire action.",
+            Img: Img03.src,
+            url: "#",
+        },
+        {
+            title: "Events",
+            txt: "Create unforgettable moments by driving attendance and boosting engagement.",
+            Img: Img04.src,
+            url: "#",
+        },
+        {
+            title: "E-commerce",
+            txt: "Maximize sales with high-converting websites and compelling campaigns.",
+            Img: Img04.src,
+            url: "#",
+        },
+        {
+            title: "Content Creator",
+            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            Img: Img05.src,
+            url: "#",
+        },
+        {
+            title: "Automotive",
+            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            Img: Img06.src,
+            url: "#",
+        },
+        {
+            title: "Spots",
+            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            Img: Img07.src,
+            url: "#",
+        }
+    ]
 }
 // Content Section
 import ContentImage from "media/services/social-media-marketing/ContentImage.webp"
 export const ContentData = {
-    subtitle: "Our Creative Solutions",
-    title: "Outshine Your Competitors with Engaging Creative Solutions!",
+    subtitle: "Why Choose Us?",
+    title: "Outshine Your Competitors with Creative, Results-Driven Strategies",
     desc: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna veniam.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <p>Why settle for average when your brand can shine? At Infinitidigital, we combine creativity, strategy, and real-world results to help you dominate the competition.</p>
+        <ul className="ContentUl">
+            <li><strong><MenuIcon />Innovative Solutions:</strong> Stay ahead of trends with strategies that work.</li>
+            <li><strong> <MenuIcon />Audience-Centric Approach:</strong>Wondering how to connect with your audience? We craft content that speaks to their needs and interests.</li>
+            <li><strong> <MenuIcon />Measurable Success:</strong>We don’t guess—we track. Our reports show exactly how your campaigns perform and where we’re driving growth.</li>
+        </ul>
     </>
     ),
     img: ContentImage.src
@@ -271,21 +310,78 @@ export const ContentData = {
 import PosterVideo from "media/services/social-media-marketing/workImage.webp"
 export const LastestWorkData = {
     subtitle: "Our Latest Work",
-    title: "Drive Business Growth with Our Tailored Solutions",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Driving Results That Speak for Themselves",
+    desc: "How do you know we deliver? Just look at the success stories.From viral campaigns to measurable ROI, our work speaks louder than words.At Infinitidigital, we don’t just discuss results—we show them.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775849/rendition/720p/file.mp4?loc=external&log_user=0&signature=a3b56bd23809e03050e6e0231513dfcf16a223d4eb6d444c9d540ce7889002f4",
     poster: PosterVideo,
 
 }
+//Awards
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, MenuIcon } from "@/src/app/app-constants";
+export const AwardsData = {
+    subtitle: "Awards & Recognitions",
+    title: "Recognized for Excellence in Social Media Marketing",
+    desc: "Discover the awards and recognitions that showcase our dedication to creativity, innovation, and tangible results in social media marketing.",
+    slides: [
+        {
+            txt: "Recognized for excellence in delivering innovative digital solutions that drive measurable results for businesses worldwide.",
+            icon: <ClutchLogo />,
 
+        },
+        {
+            txt: "Highly rated for customer satisfaction, transparency, and proven strategies that help brands thrive.",
+            icon: <TrustpilotLogo />,
+
+        },
+        {
+            txt: "Celebrated for our expertise in SEO, PPC, and delivering top-notch digital growth through industry-leading practices.",
+            icon: <GoogleLogo />,
+
+        },
+        {
+            txt: "Honored as a trusted member for thought leadership and exceptional contributions to the digital marketing industry.",
+            icon: <Forbes />,
+
+        },
+        {
+            txt: "Recognized for consistently delivering outstanding marketing solutions and fostering meaningful business growth for clients across industries.",
+            icon: <Upcity />,
+
+        },
+        {
+            txt: "Celebrated for innovative use of technology in crafting highly effective digital marketing campaigns that set new benchmarks.",
+            icon: <GoogleLogo />,
+
+        }
+
+    ]
+}
+//Platforms 
+import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
+export const PlatformsData = {
+    subtitle: "Platforms For You",
+    title: "Platforms We Specialize In",
+    desc: "We manage your brand presence on the platforms that matter most, ensuring every campaign resonates with the right audience and drives measurable engagement.",
+    img: ImgBg.src,
+    SocailItems: [
+        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
+        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
+        { name: "Reddit", link: "#", icon: <RedditIcon /> },
+        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
+        { name: "Discord", link: "#", icon: <DiscordIcon /> },
+        { name: "Reddit", link: "#", icon: <RedditIcon /> },
+        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
+        { name: "Discord", link: "#", icon: <DiscordIcon /> },
+    ]
+}
 // Creatives 
 import CreativeImg1 from "media/services/social-media-marketing/Influencer/Influencer1.webp"
 import CreativeImg2 from "media/services/social-media-marketing/Influencer/Influencer2.webp"
 import CreativeImg3 from "media/services/social-media-marketing/Influencer/Influencer3.webp"
 export const CreativesData = {
-    subtitle: "Happy Influencer",
-    title: "Outshine the Competition with Bold, Dynamic Creatives!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    subtitle: "Delighted Influencers",
+    title: "Stand Out with Bold, Engaging Creatives",
+    desc: "Capture attention and outshine competitors with creative content that resonates. Our dynamic visuals and innovative storytelling are designed to make your brand unforgettable, connecting you with audiences in a way that drives engagement and builds loyalty.",
     CreativesItems: [
         {
             txt: "2.5M followers",
@@ -328,15 +424,14 @@ export const CreativesData = {
     ]
 }
 // Testimonials
-
 import TEST01 from "media/services/social-media-marketing/testimonial/test01.webp"
 import TEST02 from "media/services/social-media-marketing/testimonial/test02.webp"
 import TEST03 from "media/services/social-media-marketing/testimonial/test03.webp"
 import TEST04 from "media/services/social-media-marketing/testimonial/test04.webp"
 export const TestimonialData = {
-    subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Our Testimonials",
+    title: "Hear From Our Happy Clients",
+    desc: "Real results. Real stories. See how businesses like yours have transformed their social media presence with our innovative solutions.",
     TestimonialItem: [
         {
             title: "Daniel Gonzalez",
@@ -439,179 +534,12 @@ export const PartnerData = {
     ]
 }
 
-
-//Industries 
-import Img01 from "media/home/industires/industy01.webp"
-import Img02 from "media/home/industires/industy02.webp"
-import Img03 from "media/home/industires/industy03.webp"
-import Img04 from "media/home/industires/industy04.webp"
-import Img05 from "media/home/industires/industy05.webp"
-import Img06 from "media/home/industires/industy06.webp"
-import Img07 from "media/home/industires/industy07.webp"
-export const IndustriesData = {
-    subtitle: "Our Industries",
-    title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise:",
-    IndustryItem: [
-        {
-            title: "B2b Business",
-            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles.",
-            Img: Img01.src,
-            url: "#",
-        },
-        {
-            title: "Construction",
-            txt: "Build trust and connect with clients through campaigns and websites designed for credibility.",
-            Img: Img02.src,
-            url: "#",
-        },
-        {
-            title: "Education",
-            txt: "Engage students, parents, and educators with SEO and marketing that inspire action.",
-            Img: Img03.src,
-            url: "#",
-        },
-        {
-            title: "Events",
-            txt: "Create unforgettable moments by driving attendance and boosting engagement.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "E-commerce",
-            txt: "Maximize sales with high-converting websites and compelling campaigns",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "Content Creator",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img05.src,
-            url: "#",
-        },
-        {
-            title: "Automotive",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img06.src,
-            url: "#",
-        },
-        {
-            title: "Spots",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img07.src,
-            url: "#",
-        }
-    ]
-}
-
-// Why Choose Us
-export const ChooseUsData = {
-    subtitle: "Why Choose Us",
-    title: "Creating Impactful Solutions That Matter",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    Content1: [
-        {
-            title: "Expert Team",
-            txt: "Strategists, designers, and developers who bring their A-game to every project."
-        },
-        {
-            title: "Custom Solutions",
-            txt: "Strategies designed around your unique goals and challenges."
-        }
-    ],
-    Content2: [
-        {
-            title: "Proven Success",
-            txt: "A track record of impactful projects across diverse industries."
-        }
-    ],
-    Content3: [
-        {
-            title: "Client-First Approach",
-            txt: "Collaboration and communication that put your vision at the forefront."
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-        }
-    ]
-
-}
-
-
-//Platforms 
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
-export const PlatformsData = {
-    subtitle: "Platforms We",
-    title: "Platforms We Work With",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg.src,
-    SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    ]
-}
-
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Our Awards",
-    title: "Awards & Recognitions",
-    desc: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-    slides: [
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-
-    ]
-}
-
-
-
 // Call to Action
 
 export const CallActionData = {
     subtitle: "Contact Us",
-    title: "Your Journey to Success Starts Now ",
-    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
+    title: "Make Your Social Media Dreams Come True",
+    desc: "Have questions, or are you ready to take the next step? Let’s collaborate to create a social media strategy that drives growth and delivers results."
 }
 
 // Blgos
@@ -620,11 +548,11 @@ import IMG02 from "media/home/blogs/blog2.webp"
 import IMG03 from "media/home/blogs/blog3.webp"
 export const BlgosData = {
     subtitle: "Our Blogs",
-    title: "Insights and Inspiration ",
-    desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
+    title: "Stay Inspired with Our Latest Insights",
+    desc: "Explore our latest blogs and learn how we use expert strategies in digital marketing to help businesses grow, engage, and succeed.",
     BlogsData: [
         {
-            title: "Hear From Our Clients",
+            title: "Lorem ipsum dolor sit amet",
             date: "24 August, 2024",
             time: "26 min",
             txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
@@ -632,14 +560,14 @@ export const BlgosData = {
             img: IMG01.src,
         },
         {
-            title: "Hear From Our Clients",
+            title: "Lorem ipsum dolor sit amet",
             date: "24 August, 2024",
             time: "26 min",
             txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
             category: "Mobile App Design",
             img: IMG02.src,
         }, {
-            title: "Hear From Our Clients",
+            title: "Lorem ipsum dolor sit amet",
             date: "24 August, 2024",
             time: "26 min",
             txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
@@ -650,34 +578,31 @@ export const BlgosData = {
 
 }
 
+
 // FAQs
-
-
 export const FAQsData = {
     subtitle: "FAQs",
-    title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-
+    title: "Your Questions, Answered",
     Fqaslist: [
         {
-            title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
+            title: "What makes Infinitidigital’s SMM services unique",
+            txt: "Infinitidigital’s Social Media Marketing services stand out because we craft strategies tailored to your brand’s goals and audience. By blending innovation with data-driven insights, we ensure every campaign is unique and impactful. Our approach emphasizes creative solutions and measurable results, delivering meaningful engagement and long-term growth for your business."
         },
         {
-            title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
+            title: "Which platforms do you specialize in for social media marketing?",
+            txt: "We specialize in optimizing campaigns across major platforms such as Facebook, Instagram, YouTube, Reddit, and Discord. Our team customizes content to align with the distinct dynamics of each platform. Whether it’s creating visually engaging posts for Instagram or fostering authentic conversations on Reddit, we ensure your brand achieves maximum visibility and impact."
         },
         {
-            title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
+            title: "How do you measure the success of a social media campaign?",
+            txt: "We track success using key metrics like engagement rates, conversions, reach, and ROI. At Infinitidigital, our detailed reporting provides actionable insights into campaign performance. By analyzing results and making continuous improvements, we ensure your strategies not only meet but exceed your objectives, driving meaningful growth for your brand."
         },
         {
-            title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
+            title: "Do you offer customized social media marketing packages? ",
+            txt: "Yes, Infinitidigital provides customized social media packages tailored to your unique goals and budget. Whether you’re a startup aiming for brand awareness or an established business looking to scale, our tailored solutions include audience targeting, content creation, and ad campaigns—delivering maximum value and measurable success."
         },
         {
-            title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
+            title: "How quickly can I see results from your SMM services?",
+            txt: "The timeframe for seeing results depends on the scope and strategy of your campaign. While significant outcomes like revenue growth may take time, many clients notice improvements in engagement and reach within 4-6 weeks. Our strategies prioritize steady progress and sustainable growth, ensuring results that align with your business goals."
         }
     ]
 

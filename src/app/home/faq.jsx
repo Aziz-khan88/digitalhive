@@ -18,7 +18,6 @@ const Faqs = ({ data }) => {
                     <Col md={7}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
-                        <p>{data.desc}</p>
                     </Col>
                     <Col xl={12} lg={12} md={12} >
                         {data.Fqaslist.map((items, index) => (

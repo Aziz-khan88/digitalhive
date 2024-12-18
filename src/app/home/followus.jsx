@@ -14,14 +14,14 @@ const FollowUs = ({ data }) => {
         <section className={`pt-100 ${styles.followSection}`}>
             <Container>
                 <Row>
-                    <Col md={6}>
+                    <Col md={7}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
                     </Col>
                 </Row>
             </Container>
-            <Container fluid>
+            <Container fluid className="mt-3">
                 <Row>
                     <Col md={12} className="p-0">
                         {data.FollowsItem.map((item, index) => (

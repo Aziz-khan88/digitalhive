@@ -2,8 +2,8 @@
 import BannerPoster from "media/home/bannerPoster.webp"
 
 export const BannerData = {
-    title: "Build. Grow. Thrive.",
-    desc: "Struggling to get noticed online? You’re not alone. At Digital Hive, we revamp your digital presence into an energetic hub of engagement, traffic, and measurable results. We’re not just providing services but crafting stories that resonate and inspire.",
+    title: "Build. Grow. Thrive. ",
+    desc: "Struggling to get noticed online? You’re not alone. At Inifnitidigital, we revamp your digital presence into an energetic hub of engagement, traffic, and measurable results. We’re not just providing services but crafting stories that resonate and inspire.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775789/rendition/720p/file.mp4?loc=external&log_user=0&signature=8567ae8ef483e82e5fcc1ef124821c26200f8e18bcd1545a174dda0aced9e429",
     BannerPoster: BannerPoster.src
 }
@@ -43,11 +43,8 @@ export const ClientImages = [
 
 export const AboutData = {
     subtitle: "About Us",
-    title: "Results That Speak Louder Than Words ",
-    desc: (<>
-        Your goals drive everything we do.At Digital Hive, we make brands shine in today’s crowded online world.Whether it’s a mobile app that impresses, a website that works 24/7, or social media strategies that engage and convert, Digital Hive is here to make it happen.
-        <br />We don’t just serve clients; we build partnerships.
-    </>),
+    title: "Results That Speak Louder Than Words",
+    desc: "Your goals drive everything we do.At Inifnitidigital, we make brands shine in today’s crowded online world.Whether it’s a mobile app that impresses, a website that works 24/7, or social media strategies that engage and convert, Inifnitidigital is here to make it happen. We don’t just serve clients; we build partnerships.",
     points: [
         {
             numbers: "10",
@@ -74,22 +71,22 @@ import Image05 from "media/home/services/image05.webp"
 import Image06 from "media/home/services/image06.webp"
 export const ServicesData = {
     subtitle: "Our Services",
-    title: "Smarter Strategies, Better Results ",
-    desc: "Our tailored solutions ensure your success. Here’s how we help:",
+    title: "Smarter Strategies, Better Results",
+    desc: "Our tailored solutions drive results and ensure your success. Here’s how we help:",
     serviceData1: [
         {
             title: "Social Media Marketing",
-            txt: "Turn followers into loyal fans with campaigns that connect and captivate.",
+            txt: "Turn followers into loyal fans with campaigns that connect and captivate. Engage your community with authentic interactions that foster trust and brand loyalty.",
             Img: Image01.src,
             url: "#"
         }, {
             title: "Mobile App Development",
-            txt: "Build intuitive, engaging apps that keep users coming back.",
+            txt: "Build intuitive, engaging apps that keep users coming back. Incorporate user feedback to enhance features and deliver a personalized experience that meets their needs.",
             Img: Image03.src,
             url: "#"
         }, {
             title: "Paid Marketing",
-            txt: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus.",
+            txt: "Maximize your ROI with expertly crafted paid marketing campaigns that put your brand in front of the right audience. From Google Ads to social media promotions, we ensure every click drives measurable growth and conversions.",
             Img: Image05.src,
             url: "#"
         }
@@ -97,17 +94,17 @@ export const ServicesData = {
     serviceData2: [
         {
             title: "SEO",
-            txt: "Get noticed by the right audience at the perfect moment with expert optimization strategies",
+            txt: "Get noticed by the right audience at the perfect moment with expert optimization strategies. Harness the power of analytics to refine your approach for maximum visibility continually.",
             Img: Image02.src,
             url: "#"
         }, {
             title: "Web Design & Development",
-            txt: "Turn followers into loyal fans with campaigns that connect and captivate.",
+            txt: "Create sleek, functional websites that transform visitors into customers. Ensure seamless navigation and an immersive user experience that keeps visitors engaged.",
             Img: Image04.src,
             url: "#"
         }, {
             title: "Content Marketing",
-            txt: "Deliver value with high-quality, impactful content that informs and inspires.",
+            txt: "Deliver value with high-quality, impactful content that informs and inspires. Foster a community around your brand by encouraging conversations and sharing insights that resonate.",
             Img: Image06.src,
             url: "#"
         }
@@ -118,8 +115,8 @@ export const ServicesData = {
 // CTA 
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Creating Impactful Solutions That Matter",
+    desc: "Our expert team delivers custom solutions tailored to your unique goals. With a proven track record across industries, we prioritize collaboration and communication to ensure your vision is always at the forefront.",
     img: ImgBg.src
 }
 // Work
@@ -128,9 +125,9 @@ import WorkImg02 from "media/home/work/work02.webp"
 import WorkImg03 from "media/home/work/work03.webp"
 import WorkImg04 from "media/home/work/work04.webp"
 export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Our Portfolio",
+    title: "Showcasing Success ",
+    desc: "From websites that captivate to apps that deliver results, our portfolio is packed with innovative projects that help brands achieve their dreams and surpass their goals.",
     WorkItem: [
         {
             title: "Music App",
@@ -272,8 +269,8 @@ import Logo19 from "media/home/partnerLogo/logo19.webp";
 import Logo20 from "media/home/partnerLogo/logo20.webp";
 export const PartnerData = {
     subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
+    title: "Partnerships That Drive Success ",
+    desc: "At Infinitidigital, we’re proud to partner with some of the world’s most forward-thinking brands. From global corporations to innovative startups, our collaborations are built on trust, creativity, and results-driven strategies.",
     PartnerLogos: [
         { logo: Logo1.src },
         { logo: Logo2.src },
@@ -308,90 +305,98 @@ import Img05 from "media/home/industires/industy05.webp"
 import Img06 from "media/home/industires/industy06.webp"
 import Img07 from "media/home/industires/industy07.webp"
 export const IndustriesData = {
-    subtitle: "Our Industries",
+    subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise:",
+    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
     IndustryItem: [
         {
             title: "B2b Business",
-            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles.",
+            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles. Our tailored approach ensures you connect with decision-makers at every touchpoint.",
             Img: Img01.src,
             url: "#",
         },
         {
             title: "Construction",
-            txt: "Build trust and connect with clients through campaigns and websites designed for credibility.",
+            txt: "Build trust and connect with clients through campaigns and websites designed for credibility. Showcase your projects, highlight your expertise, and win contracts with precision-targeted messaging.",
             Img: Img02.src,
             url: "#",
         },
         {
             title: "Education",
-            txt: "Engage students, parents, and educators with SEO and marketing that inspire action.",
+            txt: "Engage students, parents, and educators with SEO and marketing that inspire action. We deliver strategies that drive enrollments, boost reputation, and foster long-term growth.",
             Img: Img03.src,
             url: "#",
         },
         {
             title: "Events",
-            txt: "Create unforgettable moments by driving attendance and boosting engagement.",
+            txt: "Create unforgettable moments by driving attendance and boosting engagement. We ensure your event shines with maximum reach and impact, whether online or in-person.",
             Img: Img04.src,
             url: "#",
         },
         {
             title: "E-commerce",
-            txt: "Maximize sales with high-converting websites and compelling campaigns",
+            txt: "Maximize sales with high-converting websites and compelling campaigns. From optimized product pages to targeted ads, we ensure your store thrives in a competitive marketplace.",
             Img: Img04.src,
             url: "#",
         },
         {
             title: "Content Creator",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            txt: "Monetize your creativity and grow your audience with targeted strategies that amplify your voice across platforms. From social media engagement to sponsored campaigns, we help creators stand out and succeed.",
             Img: Img05.src,
             url: "#",
         },
         {
             title: "Automotive",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            txt: "Drive leads and accelerate sales with campaigns that resonate with car buyers, dealerships, and enthusiasts. Our strategies fuel visibility and trust to keep your brand in the fast lane.",
             Img: Img06.src,
             url: "#",
         },
         {
             title: "Spots",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+            txt: "Boost fan engagement, increase ticket sales, and spotlight your team or brand with impactful digital campaigns. Connect with sports lovers where it matters and build a loyal community.",
             Img: Img07.src,
             url: "#",
         }
+        ,
+        {
+            title: "Healthcare",
+            txt: "Reach patients, build trust, and enhance accessibility with tailored healthcare marketing. From SEO to reliable content strategies, we help you become the go-to authority in your field.",
+            Img: Img07.src,
+            url: "#",
+        }
+
     ]
 }
 
 // Why Choose Us
 export const ChooseUsData = {
     subtitle: "Why Choose Us",
-    title: "Creating Impactful Solutions That Matter",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
+    title: "Your Dedicated Partner for Unmatched Results",
+    desc: "Explore how we empower brands to thrive, innovate, and lead in today’s digital-first world.",
     Content1: [
         {
-            title: "Expert Team",
-            txt: "Strategists, designers, and developers who bring their A-game to every project."
+            title: "Proven Results, Real Impact",
+            txt: "We don’t just aim for growth; we deliver it. Our data-driven strategies are crafted to maximize ROI and help your business thrive in today’s competitive digital environment."
         },
         {
-            title: "Custom Solutions",
-            txt: "Strategies designed around your unique goals and challenges."
+            title: "Tailored Solutions for Every Business",
+            txt: "Every business has its own story. That’s why we create personalized digital strategies that align with your goals, budget, and audience to drive measurable, long-term success."
         }
     ],
     Content2: [
         {
-            title: "Proven Success",
-            txt: "A track record of impactful projects across diverse industries."
+            title: "Expertise Across Multiple Channels",
+            txt: "From SEO and PPC to social media and email marketing, our team brings expertise across all digital channels, delivering multi-faceted solutions that maximize your reach and results."
         }
     ],
     Content3: [
         {
-            title: "Client-First Approach",
-            txt: "Collaboration and communication that put your vision at the forefront."
+            title: "A Results-Driven Approach",
+            txt: "Success isn’t about guesswork. At Infinitidigital, we focus on delivering outcomes that matter—higher engagement, increased leads, and tangible ROI that aligns with your goals."
         },
         {
-            title: "Lorem ipsum dolor sit amet",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+            title: "Unparalleled Client Support",
+            txt: "We’re not just your digital partner but part of your team. From strategy to execution, we provide dedicated support, ensuring your business gets the attention and expertise it deserves."
         }
     ]
 
@@ -402,8 +407,8 @@ export const ChooseUsData = {
 import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
 export const PlatformsData = {
     subtitle: "Platforms We",
-    title: "Platforms We Work With",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Platforms That Power Your Success",
+    desc: "We collaborate with the platforms your audience knows and loves. Whether it’s growing your brand, building communities, or driving engagement, we make sure your message resonates where it matters most.",
     img: ImgBg.src,
     SocailItems: [
         { name: "Instagram", link: "#", icon: <InstagramIcon /> },
@@ -418,47 +423,42 @@ export const PlatformsData = {
 }
 
 //Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const AwardsData = {
-    subtitle: "Our Awards",
-    title: "Awards & Recognitions",
-    desc: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
+    subtitle: "Awards & Recognitions",
+    title: "Celebrating Excellence, Innovation, and Results",
+    desc: "Our awards and recognitions reflect our clients' trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
     slides: [
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Recognized for excellence in delivering innovative digital solutions that drive measurable results for businesses worldwide.",
             icon: <ClutchLogo />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Highly rated for customer satisfaction, transparency, and proven strategies that help brands thrive.",
             icon: <TrustpilotLogo />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Celebrated for our expertise in SEO, PPC, and delivering top-notch digital growth through industry-leading practices.",
             icon: <GoogleLogo />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
+            txt: "Honored as a trusted member for thought leadership and exceptional contributions to the digital marketing industry.",
+            icon: <Forbes />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
+            txt: "Recognized for consistently delivering outstanding marketing solutions and fostering meaningful business growth for clients across industries.",
+            icon: <Upcity />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Celebrated for innovative use of technology in crafting highly effective digital marketing campaigns that set new benchmarks.",
             icon: <GoogleLogo />,
 
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
+        }
 
     ]
 }
@@ -466,8 +466,8 @@ export const AwardsData = {
 // CTA  01
 import ImgBg1 from "media/home/ctaBg1.webp"
 export const CtaData01 = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Your Journey to Success Starts Now",
+    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing.",
     img: ImgBg1.src
 }
 
@@ -476,34 +476,34 @@ export const CtaData01 = {
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Our Clients ",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Digital Hive transformed our online presence. From zero visibility to ranking on the first page, they delivered beyond our expectations.",
+            txt: "Inifnitidigital transformed our online presence. From zero visibility to ranking on the first page of search results, they exceeded our expectations. Their team’s keen insights, data-driven approach, and commitment helped us tap into audiences we didn’t know we could reach. Working with them has been a breath of fresh air, and we now feel more confident about our brand’s growth.",
             icon: <ClutchLogo />,
             namee: "Amanda T.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Our sales have doubled since partnering with Digital Hive!",
+            txt: "Their team’s dedication and expertise are unmatched. Since partnering with Inifnitidigital, our sales have doubled, and our customer base continues to expand. They understood our business challenges and implemented solutions that aligned perfectly with our goals. Their strategies for paid campaigns and content optimization brought impressive results, and we’re proud to call them a long-term partner in our success.",
             icon: <TrustpilotLogo />,
             namee: "James M.",
             job: "COO of NovaRetail Solutions",
         },
         {
-            txt: "Digital Hive helped us exceed our targets with a comprehensive digital strategy. Highly recommended!",
+            txt: "Inifnitidigital helped us exceed our targets with a well-rounded digital strategy tailored to our needs. From increasing website traffic to improving conversion rates, every milestone was backed by their expertise and dedication. Their team is responsive, professional, and results-oriented. We couldn’t be happier with the partnership.",
             icon: <GoogleLogo />,
             namee: "Sarah K.",
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "Partnering with Digital Hive was the best decision for our brand’s growth. Their expertise is unparalleled.",
+            txt: "Partnering with Inifnitidigital was our best decision for our brand’s growth. Our campaigns have seen significant improvement, and their guidance has been pivotal in streamlining our marketing efforts. The results speak for themselves—better engagement, higher visibility, and real ROI.",
             icon: <TrustpilotLogo />,
             namee: "Tom L.",
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "Our online sales skyrocketed thanks to their incredible SEO and web design services!",
+            txt: "Our online sales skyrocketed after working with Infinitidigital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
             icon: <ClutchLogo />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",
@@ -514,8 +514,8 @@ export const TestimonialData = {
 
 export const CallActionData = {
     subtitle: "Contact Us",
-    title: "Your Journey to Success Starts Now ",
-    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
+    title: "Let’s Turn Your Vision into Reality ",
+    desc: "Ready to take the next step toward digital growth? Whether you have questions or a project idea, we’re here to help you succeed. Let’s collaborate to create something extraordinary for your business."
 }
 
 // Blgos
@@ -560,28 +560,27 @@ export const BlgosData = {
 export const FAQsData = {
     subtitle: "FAQs",
     title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
     Fqaslist: [
         {
             title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
+            txt: "Infinitidigital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out."
         },
         {
             title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
+            txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infinitidigital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results."
         },
         {
             title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
+            txt: "Yes, Infinitidigital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth."
         },
         {
             title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
+            txt: "Infinitidigital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche."
         },
         {
             title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
+            txt: "Getting started is simple. Contact us via our website or call to arrange a consultation. We’ll take the time to understand your objectives and challenges, then design a detailed plan to elevate your brand’s digital presence and drive success."
         }
     ]
 
@@ -589,8 +588,8 @@ export const FAQsData = {
 // Follow US
 export const FollowsData = {
     subtitle: "Follow US",
-    title: "Social Media & Contact",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
+    title: "Stay Connected Across Platforms",
+    desc: "We connect with you where it matters most. Whether you’re on Instagram, Reddit, YouTube, or Facebook, our tailored strategies ensure consistent engagement, meaningful interactions, and measurable growth for your brand.",
     FollowsItem: [
         { name: "Instagram", url: "#" },
         { name: "Reddit ", url: "#" },
