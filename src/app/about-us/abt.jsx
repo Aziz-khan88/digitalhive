@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/about/abtsection.module.scss"
-import IMG01 from "media/about/Img01.webp"
+import IMG01 from "media/about/img01.webp"
 import IMG02 from "media/about/Img02.webp"
 import IMG03 from "media/about/Img03.webp"
 
