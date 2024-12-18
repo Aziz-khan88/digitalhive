@@ -57,6 +57,12 @@
             }
         }
 
+        &.active {
+            a {
+                color: #9AFF35;
+            }
+        }
+
         &.subMenu {
             .submenuContainer {
                 position: fixed;
@@ -160,6 +166,12 @@
                                     li {
                                         margin-bottom: 5px;
 
+                                        &.active {
+                                            a {
+                                                color: #9AFF35;
+                                            }
+                                        }
+
                                         a {
                                             font-style: normal;
                                             font-weight: 400;
@@ -253,13 +265,15 @@
                                     margin-bottom: 15px;
 
                                     .title {
-                                        font-size: 15px;
-                                        line-height: 22px;
-                                        margin-bottom: 12px;
+                                        a {
+                                            font-size: 15px;
+                                            line-height: 22px;
+                                            margin-bottom: 12px;
 
-                                        svg {
-                                            margin-left: 10px;
-                                            width: 12px;
+                                            svg {
+                                                margin-left: 10px;
+                                                width: 12px;
+                                            }
                                         }
                                     }
 
@@ -333,13 +347,15 @@
                                     margin-bottom: 10px;
 
                                     .title {
-                                        font-size: 15px;
-                                        line-height: 22px;
-                                        margin-bottom: 10px;
+                                        a {
+                                            font-size: 15px;
+                                            line-height: 22px;
+                                            margin-bottom: 10px;
 
-                                        svg {
-                                            margin-left: 8px;
-                                            width: 12px;
+                                            svg {
+                                                margin-left: 8px;
+                                                width: 12px;
+                                            }
                                         }
                                     }
 
@@ -415,13 +431,15 @@
                                     margin-bottom: 10px;
 
                                     .title {
-                                        font-size: 15px;
-                                        line-height: 22px;
-                                        margin-bottom: 10px;
+                                        a {
+                                            font-size: 14px;
+                                            line-height: 22px;
+                                            margin-bottom: 10px;
 
-                                        svg {
-                                            margin-left: 8px;
-                                            width: 10px;
+                                            svg {
+                                                margin-left: 5px;
+                                                width: 11px;
+                                            }
                                         }
                                     }
 
@@ -497,13 +515,15 @@
                                     margin-bottom: 10px;
 
                                     .title {
-                                        font-size: 14px;
-                                        line-height: 22px;
-                                        margin-bottom: 10px;
+                                        a {
+                                            font-size: 14px;
+                                            line-height: 22px;
+                                            margin-bottom: 10px;
 
-                                        svg {
-                                            margin-left: 8px;
-                                            width: 10px;
+                                            svg {
+                                                margin-left: 8px;
+                                                width: 10px;
+                                            }
                                         }
                                     }
 
@@ -584,13 +604,15 @@
                                     margin-bottom: 10px;
 
                                     .title {
-                                        font-size: 14px;
-                                        line-height: 22px;
-                                        margin-bottom: 10px;
+                                        a {
+                                            font-size: 14px;
+                                            line-height: 22px;
+                                            margin-bottom: 10px;
 
-                                        svg {
-                                            margin-left: 8px;
-                                            width: 10px;
+                                            svg {
+                                                margin-left: 8px;
+                                                width: 10px;
+                                            }
                                         }
                                     }
 

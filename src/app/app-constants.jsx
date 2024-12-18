@@ -429,8 +429,6 @@ export function Upcity() {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            ariaDescribedby="logoPrimaryDesc"
-            ariaLabelledby="logoPrimaryName"
             viewBox="0 0 345.8 91.1"
         >
             <path
@@ -462,4 +460,21 @@ export function TrustpilotLogo() {
             <path fill="#005128" d="M123.6 344.7l-3.8-11.8-27.4 19.9z"></path>
         </svg>
     );
+}
+
+export function TickIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="15"
+            fill="none"
+            viewBox="0 0 18 15"
+        >
+            <path
+                fill="#000"
+                d="M17.11 2.768a1.675 1.675 0 0 0 0-2.293 1.5 1.5 0 0 0-2.192 0l-9.236 9.662L2.646 6.96a1.5 1.5 0 0 0-2.192 0 1.675 1.675 0 0 0 0 2.293l4.133 4.323a1.5 1.5 0 0 0 2.191 0z"
+            ></path>
+        </svg>
+    )
 }

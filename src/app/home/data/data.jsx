@@ -304,70 +304,75 @@ import Img04 from "media/home/industires/industy04.webp"
 import Img05 from "media/home/industires/industy05.webp"
 import Img06 from "media/home/industires/industy06.webp"
 import Img07 from "media/home/industires/industy07.webp"
+import Img08 from "media/home/industires/industy08.webp"
+import Img09 from "media/home/industires/industy09.webp"
+
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
     desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
-    IndustryItem: [
-        {
-            title: "B2b Business",
-            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles. Our tailored approach ensures you connect with decision-makers at every touchpoint.",
-            Img: Img01.src,
-            url: "#",
-        },
-        {
-            title: "Construction",
-            txt: "Build trust and connect with clients through campaigns and websites designed for credibility. Showcase your projects, highlight your expertise, and win contracts with precision-targeted messaging.",
-            Img: Img02.src,
-            url: "#",
-        },
-        {
-            title: "Education",
-            txt: "Engage students, parents, and educators with SEO and marketing that inspire action. We deliver strategies that drive enrollments, boost reputation, and foster long-term growth.",
-            Img: Img03.src,
-            url: "#",
-        },
-        {
-            title: "Events",
-            txt: "Create unforgettable moments by driving attendance and boosting engagement. We ensure your event shines with maximum reach and impact, whether online or in-person.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "E-commerce",
-            txt: "Maximize sales with high-converting websites and compelling campaigns. From optimized product pages to targeted ads, we ensure your store thrives in a competitive marketplace.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "Content Creator",
-            txt: "Monetize your creativity and grow your audience with targeted strategies that amplify your voice across platforms. From social media engagement to sponsored campaigns, we help creators stand out and succeed.",
-            Img: Img05.src,
-            url: "#",
-        },
-        {
-            title: "Automotive",
-            txt: "Drive leads and accelerate sales with campaigns that resonate with car buyers, dealerships, and enthusiasts. Our strategies fuel visibility and trust to keep your brand in the fast lane.",
-            Img: Img06.src,
-            url: "#",
-        },
-        {
-            title: "Spots",
-            txt: "Boost fan engagement, increase ticket sales, and spotlight your team or brand with impactful digital campaigns. Connect with sports lovers where it matters and build a loyal community.",
-            Img: Img07.src,
-            url: "#",
-        }
-        ,
-        {
-            title: "Healthcare",
-            txt: "Reach patients, build trust, and enhance accessibility with tailored healthcare marketing. From SEO to reliable content strategies, we help you become the go-to authority in your field.",
-            Img: Img07.src,
-            url: "#",
-        }
 
-    ]
 }
+export const IndustryItem = [
+    {
+        title: "B2b Business",
+        txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles. Our tailored approach ensures you connect with decision-makers at every touchpoint.",
+        Img: Img01.src,
+        url: "#",
+    },
+    {
+        title: "Construction",
+        txt: "Build trust and connect with clients through campaigns and websites designed for credibility. Showcase your projects, highlight your expertise, and win contracts with precision-targeted messaging.",
+        Img: Img02.src,
+        url: "#",
+    },
+    {
+        title: "Education",
+        txt: "Engage students, parents, and educators with SEO and marketing that inspire action. We deliver strategies that drive enrollments, boost reputation, and foster long-term growth.",
+        Img: Img03.src,
+        url: "#",
+    },
+    {
+        title: "Automotive",
+        txt: "Drive leads and accelerate sales with campaigns that resonate with car buyers, dealerships, and enthusiasts. Our strategies fuel visibility and trust to keep your brand in the fast lane.",
+        Img: Img04.src,
+        url: "#",
+    },
 
+    {
+        title: "Sports",
+        txt: "Boost fan engagement, increase ticket sales, and spotlight your team or brand with impactful digital campaigns. Connect with sports lovers where it matters and build a loyal community.",
+        Img: Img05.src,
+        url: "#",
+    }
+    ,
+    {
+        title: "Events",
+        txt: "Create unforgettable moments by driving attendance and boosting engagement. We ensure your event shines with maximum reach and impact, whether online or in-person.",
+        Img: Img06.src,
+        url: "#",
+    },
+    {
+        title: "Content Creator",
+        txt: "Monetize your creativity and grow your audience with targeted strategies that amplify your voice across platforms. From social media engagement to sponsored campaigns, we help creators stand out and succeed.",
+        Img: Img07.src,
+        url: "#",
+    },
+    {
+        title: "E-commerce",
+        txt: "Maximize sales with high-converting websites and compelling campaigns. From optimized product pages to targeted ads, we ensure your store thrives in a competitive marketplace.",
+        Img: Img08.src,
+        url: "#",
+    }
+    ,
+    {
+        title: "Healthcare",
+        txt: "Reach patients, build trust, and enhance accessibility with tailored healthcare marketing. From SEO to reliable content strategies, we help you become the go-to authority in your field.",
+        Img: Img09.src,
+        url: "#",
+    }
+
+]
 // Why Choose Us
 export const ChooseUsData = {
     subtitle: "Why Choose Us",

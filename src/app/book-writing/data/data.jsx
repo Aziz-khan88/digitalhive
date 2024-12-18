@@ -5,7 +5,7 @@ export const BannerData = {
     subtitle: "No. 1 SMM Company In US",
     title: "We Are a Growth-Focused",
     desc: "Digital Marketing Agency Equipping Businesses for the Digital Era",
-    video: "https://player.vimeo.com/progressive_redirect/playback/1040082855/rendition/240p/file.mp4?loc=external&log_user=0&signature=8b9bf8a9d39d333caef3d3a4cbe3c33427ba9bbc992b7742e393fc4ee54844df",
+    video: "https://player.vimeo.com/progressive_redirect/playback/1040514717/rendition/720p/file.mp4?loc=external&log_user=0&signature=6b566d205b96ec56f92d53789db8d3cd56d6a5246289ee01b47b89221a0b6179",
     BannerPoster: BannerPoster.src
 }
 

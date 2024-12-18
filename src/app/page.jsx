@@ -14,7 +14,7 @@ import CtaForm from "@/src/app/home/ctaform";
 import FollowUs from "@/src/app/home/followus";
 import Blogs from "@/src/app/home/blogs";
 import Faqs from "@/src/app/home/faq";
-import { AboutData, AwardsData, BannerData, BlgosData, CallActionData, ChooseUsData, CtaData, CtaData01, FAQsData, FollowsData, IndustriesData, PartnerData, PlatformsData, ServicesData, TestimonialData, WorkData } from "@/src/app/home/data/data";
+import { AboutData, AwardsData, BannerData, BlgosData, CallActionData, ChooseUsData, CtaData, CtaData01, FAQsData, FollowsData, IndustriesData, IndustryItem, PartnerData, PlatformsData, ServicesData, TestimonialData, WorkData } from "@/src/app/home/data/data";
 
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
       <CTA data={CtaData} />
       <Work data={WorkData} />
       <Partners data={PartnerData} />
-      <Industries data={IndustriesData} />
+      <Industries data={IndustriesData} IndustryData={IndustryItem} />
       <WhyChoose data={ChooseUsData} />
       <PlateFroms data={PlatformsData} />
       <Awards data={AwardsData} />

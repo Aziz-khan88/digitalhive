@@ -1,0 +1,17 @@
+.twoBoxSection {
+    .towBoxContainer {
+        height: 400px;
+        align-content: center;
+
+
+        &.colorBox {
+            background: linear-gradient(0deg, #9AFF35 -15.92%, #FFFFFF 111.07%);
+            padding: 0px 40px;
+            border-radius: 30px;
+        }
+
+        &.imageBox {
+            position: relative;
+        }
+    }
+}

@@ -15,7 +15,7 @@ import CtaForm from '@/src/app/home/ctaform'
 import FollowUs from '@/src/app/home/followus'
 import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
-import { FollowsData, TestimonialData } from '@/src/app/home/data/data'
+import { FollowsData, TestimonialData, IndustryItem } from '@/src/app/home/data/data'
 import ContentSection from '@/src/app/components/innerservices/content'
 import BookTabs from '@/src/app/components/innerservices/booktabs'
 import StateCount from '@/src/app/components/innerservices/statecount'
@@ -37,7 +37,7 @@ const Page = () => {
             <Pricing bg="yes" data={PriceData} />
             <CTA data={CtaPinkData} bg="black" />
             <Partners data={PartnerData} />
-            <Industries data={IndustriesData} />
+            <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <Testimonials data={TestimonialData} />
             <CtaForm data={CallActionData} />
             <FollowUs data={FollowsData} />

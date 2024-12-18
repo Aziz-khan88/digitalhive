@@ -8,7 +8,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { ArrowIcon } from "@/src/app/app-constants";
 
 const OPTIONS = { loop: true, align: 'start' }
-const Industries = ({ data }) => {
+const Industries = ({ data, IndustryData }) => {
     const [emblaRef] = useEmblaCarousel(OPTIONS)
     return (
         <section className={`pt-100 ${styles.industriesSection}`}>
@@ -23,7 +23,7 @@ const Industries = ({ data }) => {
                         <div className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
-                                    {data.IndustryItem.map((item, index) => (
+                                    {IndustryData.map((item, index) => (
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.industriesImage}>
                                                 <Image src={item.Img} alt={`Image ${index}`} fill />

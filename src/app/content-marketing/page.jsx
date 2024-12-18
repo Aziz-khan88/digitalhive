@@ -13,7 +13,7 @@ import FollowUs from '@/src/app/home/followus';
 import Blogs from '@/src/app/home/blogs';
 import Faqs from '@/src/app/home/faq';
 import Process from '@/src/app/components/services/process';
-import { AwardsData, FollowsData, IndustriesData, PartnerData, TestimonialData } from '@/src/app/home/data/data';
+import { AwardsData, FollowsData, IndustriesData, PartnerData, TestimonialData, IndustryItem } from '@/src/app/home/data/data';
 import { FAQsData, PriceData, ProcessData, ServicesData, WorkData, CtaData, BlgosData, CallActionData, ChooseUsData, BannerData } from '@/src/app/content-marketing/data/data';
 
 
@@ -27,7 +27,7 @@ const Page = () => {
             <Work data={WorkData} />
             <Pricing bg="yes" data={PriceData} />
             <Process data={ProcessData} />
-            <Industries data={IndustriesData} />
+            <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <Partners data={PartnerData} />
             <Testimonials data={TestimonialData} />
             <Awards data={AwardsData} />

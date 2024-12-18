@@ -17,7 +17,7 @@ import Pricing from '@/src/app/components/services/pricing'
 import Solution from '@/src/app/components/services/solution'
 import TestimonialServices from '@/src/app/components/services/testimonialservice'
 import { BannerData, BlgosData, CallActionData, ContentData, CreativesData, CtaData, CtaPinkData, FAQsData, LastestWorkData, OpportunitiesData, PriceData, SolData, TestimonialData } from '@/src/app/social-media-marketing/data/data'
-import { AwardsData, IndustriesData, PlatformsData, FollowsData } from '@/src/app/home/data/data'
+import { AwardsData, IndustriesData, PlatformsData, FollowsData, IndustryItem } from '@/src/app/home/data/data'
 
 const Page = () => {
     return (
@@ -28,7 +28,7 @@ const Page = () => {
             <Opportunities data={OpportunitiesData} />
             <Pricing data={PriceData} />
             <CTA data={CtaPinkData} />
-            <Industries data={IndustriesData} />
+            <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <ContentSection data={ContentData} />
             <LatestWork data={LastestWorkData} />
             <Awards data={AwardsData} />
