@@ -1,11 +1,11 @@
 //Banner
-import BannerPoster from "media/services/social-media-marketing/posterImg.webp"
+import BannerPoster from "media/about/posterImg.webp"
 
 export const BannerData = {
     subtitle: "About Us",
     title: "Your Digital Journey, Our Expertise.",
     desc: "We create cost-effective paid marketing strategies that optimize every dollar spent for maximum impact.",
-    video: "https://player.vimeo.com/progressive_redirect/playback/1039775965/rendition/720p/file.mp4?loc=external&log_user=0&signature=27eb31d173fb744c4981bffe218fca1bc13be18f86f4fea3e84d75885ed500a7",
+    video: "https://player.vimeo.com/progressive_redirect/playback/1040902895/rendition/1080p/file.mp4?loc=external&log_user=0&signature=7676e21c1ed6575c3c9f10a8c97baa13793a7afd21a76ae5caf9312c291cbeac",
     BannerPoster: BannerPoster.src
 }
 export const AbtData = {
