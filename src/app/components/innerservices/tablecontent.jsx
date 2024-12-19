@@ -1,5 +1,6 @@
 import styles from '@/styles/inner-services/tablecontent.module.scss'
 import { Col, Container, Row } from 'react-bootstrap'
+import { TickIcon } from '@/src/app/app-constants'
 
 
 
@@ -23,13 +24,13 @@ const TableContent = ({ data }) => {
                             </div>
                             <div className={styles.tableRow}>
                                 {Object.values(data.tabledata).map((item, index) => (
-                                    <div className={styles.tableCol} key={index}>
+                                    <div className={styles.tableCol} key={`column-${index}`}>
                                         {item.map((value, i) => (
-                                            <div className={styles.tableColItem} key={i}>
-                                                {value}
+                                            <div className={styles.tableColItem} key={`item-${index}-${i}`}>
+                                                {value === "tick" ? <TickIcon /> : value}
                                             </div>
                                         ))}
-                                        <div className={styles.tableColItem}>
+                                        <div className={styles.tableColItem} key={`button-${index}`}>
                                             {index !== 0 && (
                                                 <button
                                                     className={`${styles.buttonLast} ${styles[`item${index}`]}`}
@@ -40,6 +41,7 @@ const TableContent = ({ data }) => {
                                         </div>
                                     </div>
                                 ))}
+
                             </div>
                         </div>
 
