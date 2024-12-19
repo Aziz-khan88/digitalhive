@@ -2,14 +2,9 @@
 import styles from "@/styles/services/servicesmain.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import Link from "next/link"
-import useEmblaCarousel from 'embla-carousel-react'
 import { ArrowIcon } from "@/src/app/app-constants";
 
-
-
-const OPTIONS = { loop: true, align: 'start' }
 const ServicesMain = ({ data }) => {
-    const [emblaRef] = useEmblaCarousel(OPTIONS)
     return (
         <section className={`pt-100 ${styles.servicesMainSection}`}>
             <Container>

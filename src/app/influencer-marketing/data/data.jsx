@@ -1,30 +1,21 @@
 //Banner
-import BannerPoster from "media/innerservices/social-media-ads/bannerImg.webp"
+import BannerPoster from "media/innerservices/influencer-marketing/bannerImg.webp"
 
 export const BannerData = {
-    title: "Social Media Advertising Services",
-    desc: "Boost your visibility, attract nearby customers, and turn searchers into loyal clients with tailored Local SEO solutions.",
+    title: "Influencer Marketing Services",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     video: "#",
     BannerPoster: BannerPoster.src
 }
 
-
-
 //Content Data
-import ContentImg from "media/innerservices/social-media-ads/Img01.webp"
-import { MenuIcon } from "@/src/app/app-constants"
+import ContentImg from "media/innerservices/influencer-marketing/Img01.webp"
 export const ContentData = {
     maintitle: true,
     contentTitle: "Driving Your Business Growth with Social Media!",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        <ul className="ContentUl">
-            <li><span><MenuIcon /></span>Growth-focused</li>
-            <li><span><MenuIcon /></span>ROI-driven</li>
-            <li><span><MenuIcon /></span>Strategically designedy</li>
-            <li><span><MenuIcon /></span>Personalized</li>
-            <li><span><MenuIcon /></span>Inspired by the latest industry trends and digital affairs</li>
-        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     </>),
     img: ContentImg.src
 }
@@ -124,12 +115,13 @@ export const TableContetData = {
 };
 
 //Two Box Data 
-import TwoBoxImg from "media/innerservices/social-media-ads/twoBoxImage.webp";
+import TwoBoxImg from "media/innerservices/influencer-marketing/twoBoxImage.webp";
 
 export const TwoBoxData = {
     Box1: {
         title: "Social Media Advertising With In Your Reach",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        bgColor: "#E0F0FF"
     },
     Box2: {
         TwoBoxImage: TwoBoxImg
@@ -143,17 +135,32 @@ export const InnerServicesData = {
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     innerServItem: [
         {
-            title: "Demographics",
+            title: "Defining Goals and Objectives",
             txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
             url: "#",
         },
         {
-            title: "Achieve low CPC",
+            title: "Digging Up Your Target Audience",
             txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
             url: "#",
         },
         {
-            title: "Website Visitors",
+            title: "Matchmaking",
+            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            url: "#",
+        },
+        {
+            title: "Contracts with Influencers",
+            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            url: "#",
+        },
+        {
+            title: "Creating Content",
+            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            url: "#",
+        },
+        {
+            title: "Tracking Results",
             txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
             url: "#",
         },
@@ -161,7 +168,7 @@ export const InnerServicesData = {
 }
 
 //Content Data
-import ContentImg1 from "media/innerservices/social-media-ads/Img02.webp"
+import ContentImg1 from "media/innerservices/influencer-marketing/Img02.webp"
 export const ContentData1 = {
     maintitle: true,
     contentTitle: "Lorem ipsum dolor sit amet, consectetur",

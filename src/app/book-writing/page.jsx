@@ -1,9 +1,5 @@
 import Banner from '@/src/app/components/innerservices/banner'
-import { ProcessData, contentData, WorkData, BannerData, BlgosData, CallActionData, ChooseUsData, CtaPinkData, FAQsData, IndustriesData, InnerServicesData, NewsLetterData, PartnerData, PlatformsData, PriceData, BookTabsData } from '@/src/app/social-media-ads/data/data'
-import InnerServices from '@/src/app/components/innerservices/innerservices'
 import NewsLetter from '@/src/app/components/innerservices/newsletter'
-import WhyChoose from '@/src/app/home/whychoose'
-import PlateFroms from '@/src/app/home/plateform'
 import Process from '@/src/app/components/services/process'
 import Work from '@/src/app/components/services/work'
 import Pricing from '@/src/app/components/services/pricing'
@@ -15,27 +11,25 @@ import CtaForm from '@/src/app/home/ctaform'
 import FollowUs from '@/src/app/home/followus'
 import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
-import { FollowsData, TestimonialData, IndustryItem } from '@/src/app/home/data/data'
+import { FollowsData, TestimonialData, IndustryItem, PartnerData, CallActionData, BlgosData, FAQsData } from '@/src/app/home/data/data'
 import ContentSection from '@/src/app/components/innerservices/content'
 import BookTabs from '@/src/app/components/innerservices/booktabs'
-import StateCount from '@/src/app/components/innerservices/statecount'
+import { BannerData, ServicesData, NewsLetterData, ContentData, ProcessData, WorkData, BookTabsData, PriceData, CtaPinkData, IndustriesData } from '@/src/app/book-writing/data/data'
+import ServicesMain from '@/src/app/components/services/servicesmain'
 
 
 const Page = () => {
     return (
         <>
             <Banner data={BannerData} />
-            <InnerServices data={InnerServicesData} />
-            <StateCount />
+            <ServicesMain data={ServicesData} />
             <NewsLetter data={NewsLetterData} />
-            <ContentSection data={contentData} />
-            <WhyChoose data={ChooseUsData} />
-            <PlateFroms data={PlatformsData} />
             <Process data={ProcessData} />
-            <BookTabs data={BookTabsData} />
+            <ContentSection data={ContentData} />
             <Work data={WorkData} />
+            <BookTabs data={BookTabsData} />
             <Pricing bg="yes" data={PriceData} />
-            <CTA data={CtaPinkData} bg="black" />
+            <CTA data={CtaPinkData} />
             <Partners data={PartnerData} />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <Testimonials data={TestimonialData} />
@@ -43,8 +37,6 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
-
-
         </>
     )
 }

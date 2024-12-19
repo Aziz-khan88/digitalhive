@@ -15,49 +15,49 @@ export const SolData = {
     SolItem: [
         {
             title: "Awareness",
-            txt: "Reach the right audience at the right time. Show your ads to people most likely to remember and engage with your brand.",
+            txt: "Engage the right audience effectively with tailored strategies for memorable brand positioning.",
             url: "#",
             bgcolor: "#6A9AFE",
         },
         {
             title: "Engagement",
-            txt: "Is your audience scrolling past your content? Our engagement strategies stop them in their tracks. From polls to interactive videos, we spark conversations that keep your brand at the top of your mind.",
+            txt: "Utilize interactive content to foster meaningful interactions and enhance brand visibility online.",
             url: "#",
             bgcolor: "#10FF7F",
         },
         {
             title: "Lead Generation",
-            txt: "Looking for quality leads that convert? Our lead generation campaigns focus on capturing interest from the right audience with tailored ads, landing pages, and compelling offers.",
+            txt: "Capture high-quality leads with targeted ads and optimized landing pages for effective solutions.",
             url: "#",
             bgcolor: "#FFD600",
         },
         {
             title: "Brand Loyalty",
-            txt: "Want your customers to keep coming back? We create loyalty-building campaigns that nurture relationships through consistent, value-driven content and personalized messaging.",
+            txt: "Build lasting customer relationships through personalized messaging and exclusive loyalty offerings.",
             url: "#",
             bgcolor: "#FF7400",
         },
         {
             title: "Community Management",
-            txt: "Struggling to keep your audience engaged? We build and manage online communities that foster trust, meaningful connections, and two-way conversations with your customers.",
+            txt: "Create thriving online communities with active involvement and meaningful two-way interactions.",
             url: "#",
             bgcolor: "#25F4EE",
         },
         {
             title: "Conversion Optimization",
-            txt: "Getting traffic but no results? Our conversion-focused strategies turn clicks into actions. We refine your content, ads, and CTAs to drive measurable sales and sign-ups.",
+            txt: "Enhance user engagement by refining digital journeys to drive actions and measurable results.",
             url: "#",
             bgcolor: "#9756E2",
         },
         {
             title: "Reputation Management",
-            txt: "Is your online reputation helping or hurting your business? We monitor, manage, and enhance your brand’s image across social media, ensuring positive impressions and trust.",
+            txt: "Protect your brand’s image by monitoring mentions and ensuring a trustworthy online presence.",
             url: "#",
             bgcolor: "#F03C3F",
         },
         {
             title: "Retargeting Campaigns",
-            txt: "Lost customers slipping through the cracks? Our retargeting solutions reconnect with visitors who leave your site, turning missed opportunities into loyal customers.",
+            txt: "Reconnect with potential customers through targeted ads that remind them of your offerings.",
             url: "#",
             bgcolor: "#6A99FE",
         }

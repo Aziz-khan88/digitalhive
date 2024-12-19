@@ -9,7 +9,11 @@ const TwoBox = ({ data }) => {
             <Container >
                 <Row>
                     <Col md={6} className='my-auto'>
-                        <div className={`${styles.towBoxContainer} ${styles.colorBox} `}>
+                        <div className={`${styles.towBoxContainer} ${styles.colorBox}`}
+                            style={{
+                                '--bgcolor': data.Box1.bgcolor || '#E0F0FF',
+                            }}
+                        >
                             <h3>{data.Box1.title}</h3>
                             <p>{data.Box1.desc}</p>
                             <Link href="#" className="commonBtn blackBg">Get Free Consultation</Link>

@@ -104,8 +104,8 @@ h1 {
 h2 {
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 45px;
+    line-height: 55px;
     letter-spacing: -0.165px;
     margin-bottom: 20px;
     color: #000000;
@@ -336,6 +336,37 @@ p {
         line-height: 27px;
         margin-bottom: 18px;
     }
+
+    .boldFont {
+        font-size: 19px;
+    }
+
+    .ContentUl {
+        margin-bottom: 30px;
+
+        li {
+            font-size: 17px;
+            line-height: 27px;
+            margin-bottom: 5px;
+
+            strong {
+                margin-right: 5px;
+
+                svg {
+                    margin-right: 10px;
+                    width: 14px;
+                }
+            }
+
+            span {
+                svg {
+                    margin-right: 10px;
+                    width: 14px;
+                }
+            }
+
+        }
+    }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
@@ -406,6 +437,37 @@ p {
         font-size: 16px;
         line-height: 26px;
         margin-bottom: 15px;
+    }
+
+    .boldFont {
+        font-size: 18px;
+    }
+
+    .ContentUl {
+        margin-bottom: 20px;
+
+        li {
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 5px;
+
+            strong {
+                margin-right: 5px;
+
+                svg {
+                    margin-right: 8px;
+                    width: 13px;
+                }
+            }
+
+            span {
+                svg {
+                    margin-right: 8px;
+                    width: 13px;
+                }
+            }
+
+        }
     }
 }
 
@@ -479,6 +541,37 @@ p {
         line-height: 25px;
         margin-bottom: 15px;
     }
+
+    .boldFont {
+        font-size: 17px;
+    }
+
+    .ContentUl {
+        margin-bottom: 20px;
+
+        li {
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 5px;
+
+            strong {
+                margin-right: 5px;
+
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+            span {
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+        }
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width:1099px) {
@@ -551,6 +644,37 @@ p {
         line-height: 23px;
         margin-bottom: 15px;
     }
+
+    .boldFont {
+        font-size: 16px;
+    }
+
+    .ContentUl {
+        margin-bottom: 20px;
+
+        li {
+            font-size: 14px;
+            line-height: 23px;
+            margin-bottom: 5px;
+
+            strong {
+                margin-right: 5px;
+
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+            span {
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+        }
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width:899px) {
@@ -622,6 +746,37 @@ p {
         font-size: 13px;
         line-height: 22px;
         margin-bottom: 15px;
+    }
+
+    .boldFont {
+        font-size: 15px;
+    }
+
+    .ContentUl {
+        margin-bottom: 20px;
+
+        li {
+            font-size: 13px;
+            line-height: 22px;
+            margin-bottom: 5px;
+
+            strong {
+                margin-right: 5px;
+
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+            span {
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+        }
     }
 }
 
@@ -705,6 +860,37 @@ p {
         line-height: 22px;
         margin-bottom: 15px;
     }
+
+    .boldFont {
+        font-size: 15px;
+    }
+
+    .ContentUl {
+        margin-bottom: 10px;
+
+        li {
+            font-size: 13px;
+            line-height: 22px;
+            margin-bottom: 5px;
+
+            strong {
+                margin-right: 5px;
+
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+            span {
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px) {
@@ -775,5 +961,36 @@ p {
         font-size: 13px;
         line-height: 22px;
         margin-bottom: 15px;
+    }
+
+    .boldFont {
+        font-size: 15px;
+    }
+
+    .ContentUl {
+        margin-bottom: 10px;
+
+        li {
+            font-size: 13px;
+            line-height: 22px;
+            margin-bottom: 5px;
+
+            strong {
+                margin-right: 5px;
+
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+            span {
+                svg {
+                    margin-right: 8px;
+                    width: 12px;
+                }
+            }
+
+        }
     }
 }

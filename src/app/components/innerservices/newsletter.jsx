@@ -3,10 +3,10 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Image from 'next/image'
 import NewsLetterFrom from "@/src/app/components/newsletter"
 
-const NewsLetter = ({ data }) => {
+const NewsLetter = ({ data, bgBlack }) => {
     return (
         <section className={`pt-100 ${styles.newsletterSection}`}>
-            <Container className={`h-100 ${styles.bgContainer}`}>
+            <Container className={`h-100 ${styles.bgContainer} ${bgBlack === "yes" ? styles.bgBlack : ""}`}>
                 <Row className="h-100">
                     <Col md={7} className="my-auto">
                         <div className={styles.newsletterContent}>

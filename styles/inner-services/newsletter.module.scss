@@ -5,6 +5,15 @@
         background: linear-gradient(0deg, #E0F0FF 0%, #FFFFFF 100%);
         border-radius: 23px;
 
+        &.bgBlack {
+            background: #000;
+
+            h2,
+            p {
+                color: #fff;
+            }
+        }
+
         .newsletterContent {
             padding: 50px;
         }
@@ -15,6 +24,7 @@
 
             img {
                 object-fit: cover;
+                border-radius: 30px;
             }
         }
     }

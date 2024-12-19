@@ -2,12 +2,18 @@
     .towBoxContainer {
         height: 400px;
         align-content: center;
+        padding: 0px 40px;
+        border-radius: 30px;
+        --bgcolor: transparent;
 
 
         &.colorBox {
-            background: linear-gradient(0deg, #9AFF35 -15.92%, #FFFFFF 111.07%);
-            padding: 0px 40px;
-            border-radius: 30px;
+            background: linear-gradient(0deg, var(--bgcolor)-15.92%, #FFFFFF 111.07%);
+
+            p,
+            h2 {
+                color: #000;
+            }
         }
 
         &.imageBox {

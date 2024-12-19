@@ -29,7 +29,7 @@ const MainServicesLinks = [
 const SmmMenu = [
     {
         title: "Social Media Marketing",
-        url: "#",
+        url: "/social-media-marketing-inner",
     },
     {
         title: "Social Media Ads",
@@ -37,28 +37,25 @@ const SmmMenu = [
     },
     {
         title: "Social Media Management",
-        url: "#",
+        url: "/social-media-management",
     },
     {
         title: "Influencer Marketing",
-        url: "#",
+        url: "/influencer-marketing",
     },
     {
         title: "YouTube Optimization",
-        url: "#",
+        url: "/youtube-optimization",
     },
     {
         title: "YouTube Monetization",
-        url: "#",
-    },
-    {
-        title: "Book Marketing",
-        url: "#",
+        url: "/youtube-monetization",
     },
     {
         title: "Email Marketing",
-        url: "#",
+        url: "/email-marketing",
     },
+
 
 ]
 const ContentMarketing = [
@@ -68,19 +65,19 @@ const ContentMarketing = [
     },
     {
         title: "Book Editing",
-        url: "#",
+        url: "/book-editing",
     },
     {
         title: "Book Publishing",
-        url: "#",
+        url: "/book-publishing",
     },
     {
         title: "Book Marketing",
-        url: "#",
+        url: "/book-marketing",
     },
     {
         title: "Children Book Illustration",
-        url: "#",
+        url: "/children-book-illustration",
     }, {
         title: "Book Video Trailer",
         url: "#",

@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Col, Container, Row } from 'react-bootstrap'
 
-const ContentSection = ({ data, bggray }) => {
+const ContentSection = ({ data, bggray, simple }) => {
     return (
         <section className={`pt-100 ${styles.innerServicesContent} `}>
             <Container>
@@ -17,14 +17,18 @@ const ContentSection = ({ data, bggray }) => {
                     </Row>
                     : null
                 }
-                <Row className={`${bggray === "yes" ? styles.bggray : ""} ${styles.imgBox}`} >
-                    <Col sm={6} md={6}>
-                        <Image src={data.img} fill alt="Book Image" />
+                <Row className={`${bggray === "yes" ? styles.bggray : ""} ${styles.imgBox} ${simple === "yes" ? styles.SimpleBg : ''}`} >
+                    <Col md={6} className={simple === "yes" ? styles.imgSimple : ''} >
+                        {simple === "yes" ?
+                            <Image src={data.img} alt="Book Image" width={460} height={550} />
+                            :
+                            <Image src={data.img} fill alt="Book Image" className={styles.imgCover} />
+                        }
                     </Col>
-                    <Col sm={6} md={6} className="my-auto">
+                    <Col md={6} className="my-auto">
                         <div className={styles.contentBox}>
                             <h2>{data.contentTitle}</h2>
-                            <div>{data.contentTxt}</div>
+                            <div className={styles.paraBox}>{data.contentTxt}</div>
                             <Link href="#" className="commonBtn">Get Free Consultation</Link>
                         </div>
                     </Col>

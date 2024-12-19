@@ -1,11 +1,11 @@
 //Banner
-import BannerPoster from "media/services/social-media-marketing/posterImg.webp"
+import BannerPoster from "media/services/web-development/posterImg.webp"
 
 export const BannerData = {
     subtitle: "Web Development Services",
     title: "Expert Web Development",
     desc: "We create cost-effective paid marketing strategies that optimize every dollar spent for maximum impact.",
-    video: "/videos/BannerVideo.mp4",
+    video: "https://player.vimeo.com/progressive_redirect/playback/1040875532/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1d4dbbd95f2a7543fdc99fe8e9d0d0fca84bcccf1a9f6217b54c85d0b9911068",
     BannerPoster: BannerPoster.src,
     bannerTitle: "Accelerate Growth with Targeted Ads.",
     bannerContent: "Unlock the power of strategic storytelling to captivate your audience and drive measurable results. Let us craft your success story.",

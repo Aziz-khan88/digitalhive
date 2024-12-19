@@ -1,10 +1,12 @@
 .servicesMainSection {
-    background: #F4FAFF;
+    background: linear-gradient(0deg, #E0F0FF 0%, #FFFFFF 100%);
+    padding-bottom: 50px;
 
     .servicesMainContainer {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin-top: 20px;
 
         .servicesMainItem {
             flex: 0 0 calc(25% - 10px);
@@ -21,7 +23,7 @@
                 position: relative;
                 border-radius: 26px;
                 overflow: hidden;
-                padding: 30px;
+                padding: 25px;
 
                 &::before {
                     content: '';
@@ -66,11 +68,11 @@
                     z-index: 2;
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 25px;
-                    line-height: 29px;
+                    font-size: 22px;
+                    line-height: 30px;
                     letter-spacing: -0.165px;
                     color: #000000;
-                    margin-bottom: 20px;
+                    margin-bottom: 15px;
                 }
 
                 p {
@@ -145,8 +147,8 @@
                     }
 
                     .title {
-                        font-size: 30px;
-                        line-height: 36px;
+                        font-size: 24px;
+                        line-height: 30px;
                     }
 
                     .readMore {
@@ -200,8 +202,8 @@
 
                 100% {
                     width: 50px;
-                    height: 4px;
-                    top: 88px;
+                    height: 0px;
+                    top: 103px;
                     left: 32px;
                 }
             }
@@ -223,12 +225,12 @@
                 .servicesMainImage {
                     height: 350px;
                     border-radius: 26px;
-                    padding: 30px;
+                    padding: 25px;
 
 
                     .title {
-                        font-size: 23px;
-                        line-height: 27px;
+                        font-size: 20px;
+                        line-height: 28px;
                     }
 
 
@@ -256,8 +258,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 27px;
-                            line-height: 33px;
+                            font-size: 22px;
+                            line-height: 30px;
                         }
                     }
                 }
@@ -269,7 +271,7 @@
                     100% {
                         width: 50px;
                         height: 4px;
-                        top: 84px;
+                        top: 102px;
                         left: 32px;
                     }
                 }
@@ -298,11 +300,14 @@
                     }
 
                     .title {
-                        font-size: 20px;
+                        font-size: 18px;
                         line-height: 24px;
-                        margin-bottom: 15px;
+                        margin-bottom: 10px;
                     }
 
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
 
                     .readMore {
                         width: 120px;
@@ -328,8 +333,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 24px;
-                            line-height: 30px;
+                            font-size: 20px;
+                            line-height: 28px;
                         }
                     }
                 }
@@ -341,7 +346,7 @@
                     100% {
                         width: 50px;
                         height: 4px;
-                        top: 72px;
+                        top: 92px;
                         left: 32px;
                     }
                 }
@@ -357,24 +362,27 @@
         .servicesMainContainer {
             .servicesMainItem {
                 margin-bottom: 20px;
-                border-radius: 23px;
+                border-radius: 20px;
 
                 .servicesMainImage {
                     height: 320px;
-                    border-radius: 23px;
-                    padding: 25px 20px;
+                    border-radius: 20px;
+                    padding: 20px;
 
                     &::before,
                     &::after {
-                        border-radius: 23px;
+                        border-radius: 20px;
                     }
 
                     .title {
-                        font-size: 18px;
+                        font-size: 17px;
                         line-height: 24px;
-                        margin-bottom: 12px;
+                        margin-bottom: 10px;
                     }
 
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
 
                     .readMore {
                         width: 110px;
@@ -400,8 +408,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 22px;
-                            line-height: 28px;
+                            font-size: 19px;
+                            line-height: 27px;
                         }
                     }
                 }
@@ -413,8 +421,8 @@
                     100% {
                         width: 50px;
                         height: 4px;
-                        top: 66px;
-                        left: 32px;
+                        top: 85px;
+                        left: 28px;
                     }
                 }
 
@@ -429,24 +437,27 @@
         .servicesMainContainer {
             .servicesMainItem {
                 margin-bottom: 20px;
-                border-radius: 20px;
+                border-radius: 15px;
 
                 .servicesMainImage {
-                    height: 320px;
-                    border-radius: 20px;
-                    padding: 20px 20px;
+                    height: 280px;
+                    border-radius: 15px;
+                    padding: 15px;
 
                     &::before,
                     &::after {
-                        border-radius: 20px;
+                        border-radius: 15px;
                     }
 
                     .title {
-                        font-size: 18px;
-                        line-height: 24px;
-                        margin-bottom: 12px;
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
                     }
 
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
 
                     .readMore {
                         width: 110px;
@@ -472,8 +483,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 20px;
-                            line-height: 26px;
+                            font-size: 18px;
+                            line-height: 24px;
                         }
                     }
                 }
@@ -485,8 +496,8 @@
                     100% {
                         width: 50px;
                         height: 4px;
-                        top: 60px;
-                        left: 32px;
+                        top: 75px;
+                        left: 20px;
                     }
                 }
 
@@ -508,9 +519,9 @@
                 flex: 0 0 calc(33.33% - 10px);
 
                 .servicesMainImage {
-                    height: 320px;
+                    height: 280px;
                     border-radius: 20px;
-                    padding: 20px 20px;
+                    padding: 15px;
 
                     &::before,
                     &::after {
@@ -518,9 +529,13 @@
                     }
 
                     .title {
-                        font-size: 18px;
-                        line-height: 24px;
-                        margin-bottom: 12px;
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .barLine {
+                        margin-bottom: 10px;
                     }
 
 
@@ -548,8 +563,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 20px;
-                            line-height: 26px;
+                            font-size: 18px;
+                            line-height: 24px;
                         }
                     }
                 }
@@ -561,8 +576,8 @@
                     100% {
                         width: 50px;
                         height: 4px;
-                        top: 60px;
-                        left: 32px;
+                        top: 75px;
+                        left: 25px;
                     }
                 }
 
@@ -580,25 +595,28 @@
 
             .servicesMainItem {
                 margin-bottom: 10px;
-                border-radius: 20px;
+                border-radius: 15px;
                 flex: 0 0 calc(50% - 10px);
 
                 .servicesMainImage {
-                    height: 280px;
-                    border-radius: 20px;
+                    height: 260px;
+                    border-radius: 15px;
                     padding: 20px 20px;
 
                     &::before,
                     &::after {
-                        border-radius: 20px;
+                        border-radius: 15px;
                     }
 
                     .title {
-                        font-size: 18px;
-                        line-height: 24px;
-                        margin-bottom: 12px;
+                        font-size: 17px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
                     }
 
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
 
                     .readMore {
                         width: 110px;
@@ -624,8 +642,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 20px;
-                            line-height: 26px;
+                            font-size: 19px;
+                            line-height: 24px;
                         }
                     }
                 }
@@ -637,8 +655,8 @@
                     100% {
                         width: 50px;
                         height: 4px;
-                        top: 60px;
-                        left: 32px;
+                        top: 80px;
+                        left: 30px;
                     }
                 }
 
@@ -670,11 +688,14 @@
                     }
 
                     .title {
-                        font-size: 20px;
-                        line-height: 26px;
-                        margin-bottom: 12px;
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin-bottom: 10px;
                     }
 
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
 
                     .readMore {
                         width: 120px;
@@ -700,8 +721,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 24px;
-                            line-height: 28px;
+                            font-size: 20px;
+                            line-height: 24px;
                         }
                     }
                 }
@@ -713,8 +734,8 @@
                     100% {
                         width: 50px;
                         height: 4px;
-                        top: 60px;
-                        left: 32px;
+                        top: 80px;
+                        left: 25px;
                     }
                 }
 
