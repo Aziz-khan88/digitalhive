@@ -14,6 +14,10 @@ const poppins = Poppins({
 export const metadata = {
   title: "Digital Hive",
   description: "",
+  robots: {
+    index: false,
+    follow: false,
+  }
 };
 
 export default function RootLayout({ children }) {
