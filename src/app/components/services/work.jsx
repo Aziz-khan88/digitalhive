@@ -15,13 +15,10 @@ const Work = ({ data }) => {
         <section className={`pt-100 ${styles.workSection}`}>
             <Container>
                 <Row>
-                    <Col md={6}>
-                        <div className="subtitle">Our Recent Work</div>
-                        <h2>Bringing Ideas to Life</h2>
-                        <p>
-                            Explore our latest projects and see how we’ve helped brands grow, engage, and succeed in the digital
-                            world.
-                        </p>
+                    <Col md={7}>
+                        <div className="subtitle">{data.subtitle}</div>
+                        <h2>{data.title}</h2>
+                        <p>{data.desc}</p>
                     </Col>
                 </Row>
             </Container>
