@@ -145,15 +145,15 @@ const PaidMarketing = [
 const SEO = [
     {
         title: "Local SEO",
-        url: "#",
+        url: "/local-seo",
     },
     {
         title: "White Label SEO",
-        url: "#",
+        url: "/white-label-seo",
     },
     {
         title: "Nationwide SEO",
-        url: "#",
+        url: "/nationwide-seo",
     },
     {
         title: "Small Business SEO",
