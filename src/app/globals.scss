@@ -159,6 +159,7 @@ p {
 
 .ContentUl {
     margin-bottom: 30px;
+    margin-left: 20px;
 
     li {
         font-style: normal;
@@ -168,6 +169,8 @@ p {
         letter-spacing: -0.165px;
         color: #657985;
         margin-bottom: 5px;
+        position: relative;
+
 
         strong {
             margin-right: 5px;

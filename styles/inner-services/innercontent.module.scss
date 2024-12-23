@@ -58,7 +58,13 @@
 
 
         &.bggray {
-            background: #F9F9F9;
+            --bgcolor: transparent;
+            background: var(--bgcolor);
+
+            a {
+                background: #000;
+                color: var(--bgcolor);
+            }
         }
     }
 }

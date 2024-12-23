@@ -80,15 +80,15 @@ const ContentMarketing = [
         url: "/children-book-illustration",
     }, {
         title: "Book Video Trailer",
-        url: "#",
+        url: "/book-video-trailer",
     },
     {
         title: "Audio Book",
-        url: "#",
+        url: "/audio-book",
     },
     {
         title: "Book Cover Design",
-        url: "#",
+        url: "/book-cover-design",
     },
 
 
@@ -96,55 +96,50 @@ const ContentMarketing = [
 const WebsiteDesign = [
     {
         title: "Website Design",
-        url: "#",
+        url: "/website-design-services",
     },
     {
         title: "Website Development",
-        url: "#",
+        url: "/website-development-services",
     },
     {
         title: "WordPress Development",
-        url: "#",
+        url: "/wordpress-development-services",
     },
     {
         title: "Shopify Development",
-        url: "#",
+        url: "/shopify-development-services",
     },
     {
-        title: "Magento Development",
-        url: "#",
+        title: "Website Redesign Service",
+        url: "/webiste-redesign-services",
     },
     {
         title: "Author Website",
-        url: "#",
-    },
-    {
-        title: "Wix Website",
-        url: "#",
-    },
-
+        url: "/author-website-services",
+    }
 
 ]
 const PaidMarketing = [
     {
         title: "PPC Ads Management",
-        url: "#",
+        url: "/ppc-ads",
     },
     {
         title: "Social Media Ads",
-        url: "#",
+        url: "/social-media-ads",
     },
     {
         title: "Amazon Ads",
-        url: "#",
+        url: "/amazon-ads",
     },
     {
         title: "Facebook Ads",
-        url: "#",
+        url: "/facebook-ads",
     },
     {
         title: "YouTube Ads",
-        url: "#",
+        url: "/youtube-ads",
     }
 ]
 const SEO = [
