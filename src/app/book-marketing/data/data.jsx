@@ -370,7 +370,7 @@ export const BookTabsData = {
     ],
 }
 
-// Prceing
+// Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
     title: "Quality Discounts Elevate Your Social Media Presence Today!",

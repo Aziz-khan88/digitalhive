@@ -52,7 +52,6 @@ export const NewsLetterData = {
 
 //Content Data
 import ContentImg from "media/innerservices/book-publishing/Img01.webp"
-import { MenuIcon } from "@/src/app/app-constants"
 export const ContentData = {
     maintitle: true,
     contentTitle: "Why Partner with Our Book Writing Experts?",
@@ -372,7 +371,7 @@ export const BookTabsData = {
     ],
 }
 
-// Prceing
+// Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
     title: "Quality Discounts Elevate Your Social Media Presence Today!",

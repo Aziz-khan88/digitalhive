@@ -108,7 +108,7 @@ export const OpportunitiesData = {
 
     ]
 }
-// Prceing
+// Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
     title: "Affordable Solutions That Deliver Real Results",

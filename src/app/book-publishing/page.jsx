@@ -24,8 +24,8 @@ const Page = () => {
             <Banner data={BannerData} />
             <ServicesMain data={ServicesData} />
             <ContentSection data={ContentData} simple="yes" />
-            <NewsLetter data={NewsLetterData} bgBlack="yes" />
             <Process data={ProcessData} />
+            <NewsLetter data={NewsLetterData} bgBlack="yes" />
             <Work data={WorkData} />
             <BookTabs data={BookTabsData} />
             <Pricing bg="yes" data={PriceData} />

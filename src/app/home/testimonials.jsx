@@ -60,7 +60,7 @@ const Testimonials = ({ data }) => {
                         </div>
                     </Col>
                 </Row>
-            </Container >
+            </Container>
         </section >
     )
 }

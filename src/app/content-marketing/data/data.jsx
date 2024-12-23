@@ -230,7 +230,7 @@ export const WorkData = {
 
     ]
 }
-// Prceing
+// Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
     title: "Cost-Effective Content Marketing That Produces Results",
