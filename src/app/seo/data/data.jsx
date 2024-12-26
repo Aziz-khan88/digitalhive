@@ -139,42 +139,42 @@ export const ServicesData = {
     desc: "Isn’t it time to maximize your online potential? Greet solutions that deliver real results. Here how: ",
     ServicesItem: [
         {
-            title: (<>Local SEO</>),
+            title: (<>Local <br />SEO</>),
             txt: "Capture nearby customers with strategies designed to dominate local searches.",
             url: "#",
         },
         {
-            title: (<>White Label SEO</>),
+            title: (<>White Label <br />SEO</>),
             txt: "Offer professional SEO services under your brand without extra overhead.",
             url: "#",
         },
         {
-            title: (<>Nationwide SEO</>),
+            title: (<>Nationwide <br />SEO</>),
             txt: "Reach audiences across the country with strategies tailored for a broader market.",
             url: "#",
         },
         {
-            title: (<>On-Page Optimization</>),
+            title: (<>On-Page <br />Optimization</>),
             txt: "Fine-tune your site’s content and structure for better visibility and engagement.",
             url: "#",
         },
         {
-            title: (<>Enterprise SEO</>),
+            title: (<>Enterprise <br />SEO</>),
             txt: "Scalable solutions for large businesses in competitive markets.",
             url: "#",
         },
         {
-            title: (<>Link Building:</>),
+            title: (<>Link <br />Building</>),
             txt: "Build authority and improve rankings with quality backlinks.",
             url: "#",
         },
         {
-            title: (<>SEO Audits</>),
+            title: (<>SEO <br />Audits</>),
             txt: "",
             url: "Get a detailed analysis of your site’s strengths and areas for improvement.",
         },
         {
-            title: (<>Lorem ipsum</>),
+            title: (<>Lorem <br />ipsum</>),
             txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
             url: "#",
         }

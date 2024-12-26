@@ -2,154 +2,102 @@
 import BannerPoster from "media/services/web-development/posterImg.webp"
 
 export const BannerData = {
-    subtitle: "Web Development Services",
-    title: "Expert Web Development",
-    desc: "We create cost-effective paid marketing strategies that optimize every dollar spent for maximum impact.",
+    subtitle: "Curate Websites That Convert",
+    title: "Ready To Wow Your Audience?",
+    desc: "Your website is more than a digital presence—it’s your brand’s first impression. At Infinitidigital, we merge creativity with cutting-edge technology to design websites that don’t just look good but perform exceptionally.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1040875532/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1d4dbbd95f2a7543fdc99fe8e9d0d0fca84bcccf1a9f6217b54c85d0b9911068",
     BannerPoster: BannerPoster.src,
-    bannerTitle: "Accelerate Growth with Targeted Ads.",
-    bannerContent: "Unlock the power of strategic storytelling to captivate your audience and drive measurable results. Let us craft your success story.",
-
 }
-// Process
-export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Your App Journey: Designed, Developed, Delivered",
-    desc: "Your app journey begins with a vision, and we’re here to transform it into reality. Through careful design, expert development, and seamless delivery, we ensure every step is crafted to bring your ideas to life and engage users effectively.",
 
-    ProcessItem1: [
+// Why Choose Us
+export const ChooseUsData = {
+    subtitle: "Why Choose Us",
+    title: "Why Infinitidigital is Your Web Design Partner",
+    desc: "Your website should be more than just functional—it should inspire trust, spark curiosity, and drive action. Curious about how we deliver excellence? Let us walk you through why partnering with us is the smart choice.",
+    Content1: [
         {
-            title: "Discovery",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
+            title: "Designs That Speak Your Brand’s Language",
+            txt: "We create websites that reflect your unique identity and connect with your audience instantly."
         },
         {
-            title: "Design",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
+            title: "Built for Performance, Engineered for Success",
+            txt: "Our websites are optimized for speed, accessibility, and search engine visibility—because great design deserves to be seen."
+        }
     ],
-    ProcessItem2: [
+    Content2: [
         {
-            title: "Development",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        }, {
-            title: "Testing & Launch",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
+            title: "User Experiences That Keep Visitors Coming Back",
+            txt: "From user-friendly designs to adaptive layouts, we ensure every visitor enjoys a smooth and engaging experience."
+        }
     ],
-    ProcessItem3: [
+    Content3: [
         {
-            title: "Ongoing Support",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
+            title: "Technology-Driven Solutions",
+            txt: "Using the latest frameworks, we develop robust, future-proof websites that evolve with your business."
         },
         {
-            title: "Optimization & Reporting",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
+            title: "Support That Goes Beyond Launch",
+            txt: "We’re here to help you succeed long after your website goes live. Isn’t that the partnership you deserve?"
         }
     ]
 
 }
+
 //Services
 export const ServicesData = {
     subtitle: "Our Services",
-    title: "Smarter Strategies, Better Results ",
-    desc: "Our tailored solutions ensure your success. Here’s how we help:",
+    title: "From Vision to Reality",
+    desc: "Your website starts with understanding your goals—because every great project begins with clarity and focus. Here’s how we make it happen:",
     ServicesItem: [
         {
-            title: (<>Web Design</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Understanding <br />Your Vision</>),
+            txt: "Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.",
             url: "#",
         },
         {
-            title: (<>Web Development</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Designing with <br />Purpose</>),
+            txt: "We turn your ideas into innovative layouts that blend creativity with usability. Every design decision prioritizes your audience’s needs.",
             url: "#",
         },
         {
-            title: (<>WordPress Development </>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Developing <br />Your Dream</>),
+            txt: "Your vision takes shape with functional, high-performing code that ensures your website is built to last.",
             url: "#",
         },
         {
-            title: (<>Shopify Development</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Testing for <br />Perfection</>),
+            txt: "Every feature is tested to exceed quality standards and ensure flawless functionality.",
             url: "#",
         },
         {
-            title: (<>Website Redesign</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Continuous <br />Optimization</>),
+            txt: "A great website evolves with your business. We focus on long-term optimization for sustained success. ",
             url: "#",
         },
         {
-            title: (<>Author Website</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Expanding Your <br />Presence</>),
+            txt: "Growth doesn’t stop at launch. We help scale your website with features that grow alongside your business.",
             url: "#",
         },
         {
-            title: (<>SEO-Friendly Website</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Advanced <br />Functionality</>),
+            txt: "Tailored integrations take your website’s functionality to the next level, empowering your team and users.",
             url: "#",
         },
         {
-            title: (<>Custom Website</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Training & <br />Insights</>),
+            txt: "Your success matters. We ensure you have the knowledge and tools to manage your website confidently.",
             url: "#",
         }
 
     ]
 }
+
 // CTA 
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Strategic Web Design Solutions ",
+    desc: "Your website should do more than exist—it should fuel growth, engagement, and conversions. At Infinitidigital, we craft design solutions that don’t just look stunning but align seamlessly with your business goals. Ready to leave an impact that lasts? ",
     img: ImgBg.src
 }
 // Workimport 
@@ -159,8 +107,8 @@ import WorkImg03 from "media/services/web-development/work/work03.webp"
 import WorkImg04 from "media/services/web-development/work/work04.webp"
 export const WorkData = {
     subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Inspiring Digital Creations That Make an Impact",
+    desc: "Transforming visions into vibrant digital realities—that’s what we do best. At Infinitidigital, our portfolio showcases innovative designs and strategic solutions that drive tangible results. ",
     WorkItem: [
         {
             title: "Music App",
@@ -281,14 +229,14 @@ export const WorkData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Tailored Packages for Every Budget",
+    desc: "Explore flexible pricing options crafted to suit businesses of all sizes. Whether you’re starting small or scaling big, we have the right plan to grow your online presence.",
     PriceItem: [
         {
             bgColor: "#7635FF",
             packagename: "Basic Package",
             price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Designed to kickstart your online presence and build engagement.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -322,7 +270,7 @@ export const PriceData = {
             bgColor: "#FF6987",
             packagename: "Advanced Package",
             price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "For businesses looking to grow their audience with thoughtful strategies.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -356,7 +304,7 @@ export const PriceData = {
             bgColor: "#9AFF35",
             packagename: "Enterprise Package",
             price: "750",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "A complete package for brands that need a powerful online presence.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -390,220 +338,168 @@ export const PriceData = {
 };
 
 
+// Process
+export const ProcessData = {
+    subtitle: "Our Process",
+    title: "From Direction to Delivery ",
+    desc: "Every great app begins with a spark of inspiration, and we’re here to bring that idea to life. At Infinitidigital, we combine thoughtful design, precise development, and thorough delivery to ensure your app exceeds expectations. ",
 
-// Partner Data
-import Logo1 from "media/home/partnerLogo/logo1.webp";
-import Logo2 from "media/home/partnerLogo/logo2.webp";
-import Logo3 from "media/home/partnerLogo/logo3.webp";
-import Logo4 from "media/home/partnerLogo/logo4.webp";
-import Logo5 from "media/home/partnerLogo/logo5.webp";
-import Logo6 from "media/home/partnerLogo/logo6.webp";
-import Logo7 from "media/home/partnerLogo/logo7.webp";
-import Logo8 from "media/home/partnerLogo/logo8.webp";
-import Logo9 from "media/home/partnerLogo/logo9.webp";
-import Logo10 from "media/home/partnerLogo/logo10.webp";
-import Logo11 from "media/home/partnerLogo/logo11.webp";
-import Logo12 from "media/home/partnerLogo/logo12.webp";
-import Logo13 from "media/home/partnerLogo/logo13.webp";
-import Logo14 from "media/home/partnerLogo/logo14.webp";
-import Logo15 from "media/home/partnerLogo/logo15.webp";
-import Logo16 from "media/home/partnerLogo/logo16.webp";
-import Logo17 from "media/home/partnerLogo/logo17.webp";
-import Logo18 from "media/home/partnerLogo/logo18.webp";
-import Logo19 from "media/home/partnerLogo/logo19.webp";
-import Logo20 from "media/home/partnerLogo/logo20.webp";
-export const PartnerData = {
-    subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    PartnerLogos: [
-        { logo: Logo1.src },
-        { logo: Logo2.src },
-        { logo: Logo3.src },
-        { logo: Logo4.src },
-        { logo: Logo5.src },
-        { logo: Logo6.src },
-        { logo: Logo7.src },
-        { logo: Logo8.src },
-        { logo: Logo9.src },
-        { logo: Logo10.src },
-        { logo: Logo11.src },
-        { logo: Logo12.src },
-        { logo: Logo13.src },
-        { logo: Logo14.src },
-        { logo: Logo15.src },
-        { logo: Logo16.src },
-        { logo: Logo17.src },
-        { logo: Logo18.src },
-        { logo: Logo19.src },
-        { logo: Logo20.src },
+    ProcessItem1: [
+        {
+            title: "Initial Meetings",
+            txt: (<>
+                <strong>Project Kickoff:</strong>
+                <p>Understand the client’s goals, requirements, and target audience. Through collaborative discussions, we aim to uncover your vision, ensuring alignment with your business objectives and audience expectations.</p>
+                <strong>Comprehensive Market Research:</strong>
+                <p>Gain insights into competitors and industry dynamics. We analyze industry trends and competitor strategies to identify opportunities that set your website apart with unique features and functionalities.</p>
+                <strong>Target Audience Personas:</strong>
+                <p>Tailor the design and functionality to user needs. Our team develops detailed user personas to deeply understand the preferences, pain points, and behaviors of your target audience.</p>
+            </>),
+
+        },
+        {
+            title: "Discovery & Planning ",
+            txt: (<>
+                <strong>Kickoff Session:</strong>
+                <p>Our collaborative kickoff session identifies your core goals and audience. We listen to your requirements to create a shared understanding.</p>
+                <strong>Competitive Landscape Analysis:</strong>
+                <p>Analyzing competitors’ strengths and gaps, we find actionable insights to shape a unique digital strategy for your website.</p>
+                <strong>Audience Insights:</strong>
+                <p>Developing profiles of key user groups ensures the design resonates with your audience’s needs and expectations.</p>
+            </>),
+
+        },
+    ],
+    ProcessItem2: [
+        {
+            title: "Strategic Framework",
+            txt: (<>
+                <strong>Goal Alignment Workshop:</strong>
+                <p>Engage in structured discussions to define project goals, audience demographics, and performance expectations.</p>
+                <strong>Market Insight Mapping:</strong>
+                <p>Discover opportunities through a deep dive into competitor analysis and emerging industry trends.</p>
+                <strong>Persona Development:</strong>
+                <p>Craft accurate user personas based on data to align the website’s design with user desires and behavior patterns.</p>
+            </>),
+
+        }, {
+            title: "Digital Blueprint",
+            txt: (<>
+                <strong>Client Vision Brief:</strong>
+                <p>A detailed briefing session helps us align the project roadmap with your business goals and brand identity.</p>
+                <strong>Industry Benchmarking:</strong>
+                <p>Through benchmarking, we identify what’s trending and where opportunities exist to differentiate your digital presence.</p>
+                <strong>User-Centric Persona Mapping:</strong>
+                <p>Using demographic and psychographic insights, we create comprehensive personas for targeted engagement.</p>
+            </>),
+
+        },
+    ],
+    ProcessItem3: [
+        {
+            title: "Tailored Development Planning",
+            txt: (<>
+                <strong>Stakeholder Interviews:</strong>
+                <p>We interview key stakeholders to extract a clear understanding of objectives and challenges.</p>
+                <strong>Competitor Deep Dive:</strong>
+                <p>Reviewing competitor strategies uncovers gaps we can leverage in your website’s design and functionality.</p>
+                <strong>Personas That Speak:</strong>
+                <p>Transform research into actionable personas, ensuring a user-focused approach to every design decision.</p>
+            </>),
+
+        },
+        {
+            title: "Insight-Driven Designs",
+            txt: (<>
+                <strong>Exploratory Sessions:</strong>
+                <p>Interactive sessions uncover your goals, audience traits, and technical requirements.</p>
+                <strong>Market Research Insights:</strong>
+                <p>Analyze direct competitors and innovative trends to shape a differentiated digital approach.</p>
+                <strong>Persona-Focused Design:</strong>
+                <p>With refined audience personas, we ensure the website serves user needs seamlessly, driving engagement and conversions.</p>
+            </>),
+
+        }
     ]
+
 }
+
 
 
 //Industries 
-import Img01 from "media/home/industires/industy01.webp"
-import Img02 from "media/home/industires/industy02.webp"
-import Img03 from "media/home/industires/industy03.webp"
-import Img04 from "media/home/industires/industy04.webp"
-import Img05 from "media/home/industires/industy05.webp"
-import Img06 from "media/home/industires/industy06.webp"
-import Img07 from "media/home/industires/industy07.webp"
+import Business from "media/home/industires/business.webp"
+import Construction from "media/home/industires/construction.webp"
+import Education from "media/home/industires/education.webp"
+import Events from "media/home/industires/events.webp"
+import Content from "media/home/industires/content.webp"
+import Automotive from "media/home/industires/automotive.webp"
+import Sports from "media/home/industires/sports.webp"
+import Ecommerce from "media/home/industires/ecommerce.webp"
+import Healthcare from "media/home/industires/healthcare.webp"
 export const IndustriesData = {
-    subtitle: "Our Industries",
-    title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise:",
-    IndustryItem: [
-        {
-            title: "B2b Business",
-            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles.",
-            Img: Img01.src,
-            url: "#",
-        },
-        {
-            title: "Construction",
-            txt: "Build trust and connect with clients through campaigns and websites designed for credibility.",
-            Img: Img02.src,
-            url: "#",
-        },
-        {
-            title: "Education",
-            txt: "Engage students, parents, and educators with SEO and marketing that inspire action.",
-            Img: Img03.src,
-            url: "#",
-        },
-        {
-            title: "Events",
-            txt: "Create unforgettable moments by driving attendance and boosting engagement.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "E-commerce",
-            txt: "Maximize sales with high-converting websites and compelling campaigns",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "Content Creator",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img05.src,
-            url: "#",
-        },
-        {
-            title: "Automotive",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img06.src,
-            url: "#",
-        },
-        {
-            title: "Spots",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img07.src,
-            url: "#",
-        }
-    ]
-}
-
-// Why Choose Us
-export const ChooseUsData = {
-    subtitle: "Why Choose Us",
-    title: "Creating Impactful Solutions That Matter",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    Content1: [
-        {
-            title: "Expert Team",
-            txt: "Strategists, designers, and developers who bring their A-game to every project."
-        },
-        {
-            title: "Custom Solutions",
-            txt: "Strategies designed around your unique goals and challenges."
-        }
-    ],
-    Content2: [
-        {
-            title: "Proven Success",
-            txt: "A track record of impactful projects across diverse industries."
-        }
-    ],
-    Content3: [
-        {
-            title: "Client-First Approach",
-            txt: "Collaboration and communication that put your vision at the forefront."
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-        }
-    ]
+    subtitle: "Industries We Assist",
+    title: "Solutions Tailored to Your Industry",
+    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we deliver customized solutions that resonate with your vision.",
 
 }
 
-
-//Platforms 
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
-export const PlatformsData = {
-    subtitle: "Platforms We",
-    title: "Platforms We Work With",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg.src,
-    SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    ]
-}
-
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Our Awards",
-    title: "Awards & Recognitions",
-    desc: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-    slides: [
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-
-    ]
-}
+export const IndustryItem = [
+    {
+        title: "B2b Business",
+        txt: "Increase leads and close deals with marketing strategies that simplify complex sales cycles. Our customized approach ensures you connect with key decision-makers at every stage.",
+        Img: Business.src,
+        url: "#",
+    },
+    {
+        title: "Construction",
+        txt: "Build credibility and establish trust through targeted campaigns and dynamic websites. Showcase your projects, emphasize your expertise, and secure contracts with messaging crafted for impact.",
+        Img: Construction.src,
+        url: "#",
+    },
+    {
+        title: "Education",
+        txt: "Inspire action by engaging students, parents, and educators through optimized marketing and SEO strategies. Drive enrollments, elevate your reputation, and achieve sustainable growth.",
+        Img: Education.src,
+        url: "#",
+    },
+    {
+        title: "Events",
+        txt: "Make your events unforgettable by boosting attendance and engagement. Whether online or in-person, we ensure your event achieves maximum reach and delivers lasting impressions.",
+        Img: Events.src,
+        url: "#",
+    },
+    {
+        title: "E-commerce",
+        txt: "Achieve higher sales with optimized websites and powerful marketing campaigns. From engaging product pages to strategic ads, we help your store succeed in a competitive landscape.",
+        Img: Ecommerce.src,
+        url: "#",
+    },
+    {
+        title: "Content Creator",
+        txt: "Amplify your creativity and expand your reach with strategies tailored to grow your audience. From platform-specific content to sponsorship opportunities, we ensure you stand out and thrive.",
+        Img: Content.src,
+        url: "#",
+    },
+    {
+        title: "Automotive",
+        txt: "Accelerate your sales with strategies designed for car buyers, dealerships, and enthusiasts. Our campaigns boost visibility, build trust, and keep your brand moving forward.",
+        Img: Automotive.src,
+        url: "#",
+    },
+    {
+        title: "Sports",
+        txt: "Enhance fan engagement, increase ticket sales, and showcase your team or brand with data-driven digital campaigns. Reach sports fans where it matters and cultivate a dedicated community.",
+        Img: Sports.src,
+        url: "#",
+    }
+    ,
+    {
+        title: "Healthcare",
+        txt: "Expand your reach, build patient trust, and improve accessibility with healthcare-specific marketing. From SEO strategies to reliable, informative content, we position you as a trusted authority.",
+        Img: Healthcare.src,
+        url: "#",
+    }
+]
 
 // CTA  01
 import ImgBg1 from "media/home/ctaBg1.webp"
@@ -614,37 +510,38 @@ export const CtaData01 = {
 }
 
 //Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Our Clients ",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Digital Hive transformed our online presence. From zero visibility to ranking on the first page, they delivered beyond our expectations.",
+            txt: "Infinitidigital completely revolutionized our digital presence with their intuitive and user-centered designs. The seamless navigation and compelling visuals they created have doubled our user engagement and transformed the way customers interact with our site.",
             icon: <ClutchLogo />,
             namee: "Amanda T.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Our sales have doubled since partnering with Digital Hive!",
+            txt: "Our platform’s usability was taken to the next level by Infinitidigital. Their focus on creating a smooth, responsive, and aesthetically appealing interface has significantly enhanced our customer experience and retention rates.",
             icon: <TrustpilotLogo />,
             namee: "James M.",
             job: "COO of NovaRetail Solutions",
         },
         {
-            txt: "Digital Hive helped us exceed our targets with a comprehensive digital strategy. Highly recommended!",
+            txt: "Working with Infinitidigital was a game-changer for our mobile app. Their expert UI/UX designs not only made the app visually stunning but also incredibly easy to use. Our customer feedback has been overwhelmingly positive!",
             icon: <GoogleLogo />,
             namee: "Sarah K.",
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "Partnering with Digital Hive was the best decision for our brand’s growth. Their expertise is unparalleled.",
+            txt: "Infinitidigital’s meticulous attention to detail in UI/UX design has been pivotal for our website’s success. They crafted a highly engaging interface that not only looks fantastic but keeps users coming back for more.",
             icon: <TrustpilotLogo />,
             namee: "Tom L.",
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "Our online sales skyrocketed thanks to their incredible SEO and web design services!",
+            txt: "The redesign of our e-commerce platform by Infinitidigital has been a tremendous success. Their focus on user-friendly steering and personalized design has dramatically improved our sales and customer satisfaction.",
             icon: <ClutchLogo />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",
@@ -655,73 +552,41 @@ export const TestimonialData = {
 
 export const CallActionData = {
     subtitle: "Contact Us",
-    title: "Your Journey to Success Starts Now ",
-    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
+    title: "Let’s Drive Digital Forces ",
+    desc: "Your business deserves a digital presence that stands out. Share your goals with us, and together we’ll design strategies that drive success and build memorable stories. "
 }
 
-// Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
-export const BlgosData = {
-    subtitle: "Our Blogs",
-    title: "Insights and Inspiration ",
-    desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
-    BlogsData: [
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Paid Marketing",
-            img: IMG01.src,
-        },
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Mobile App Design",
-            img: IMG02.src,
-        }, {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "SEO Development & Marketing",
-            img: IMG03.src,
-        }
-    ]
 
-}
 
 // FAQs
 export const FAQsData = {
     subtitle: "FAQs",
     title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-
     Fqaslist: [
         {
-            title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
+            title: "What is the difference between UI and UX design?",
+            txt: "UI design focuses on the visual and interactive elements of a product, such as buttons, layouts, and colors. UX design emphasizes creating a seamless and enjoyable user journey. Together, they ensure a functional and visually appealing experience."
         },
         {
-            title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
+            title: "How long does the UI/UX design and development process take?",
+            txt: "Timelines vary based on project scope, but most take between 4-8 weeks. This includes research, wireframing, prototyping, and final development, with regular updates throughout."
         },
         {
-            title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
+            title: "Can you redesign an existing website or app?",
+            txt: "Yes! We can enhance your existing platform to improve usability, align with your brand, and deliver a more modern and intuitive user experience."
         },
         {
-            title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
+            title: "Do you create responsive designs for mobile devices?",
+            txt: "Absolutely. Our designs are fully responsive, ensuring optimal functionality and appearance across all devices, including desktops, tablets, and smartphones."
         },
         {
-            title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
-        }
+            title: "Will I be involved in the design process?",
+            txt: "Yes, your input is essential. From initial consultations to design reviews, we collaborate with you at every stage to ensure the final product meets your expectations."
+        },
+        {
+            title: "Do you provide usability testing?",
+            txt: "Yes, we conduct usability testing to identify and address any issues, ensuring the final product is user-friendly and meets audience expectations."
+        },
     ]
 
 }
