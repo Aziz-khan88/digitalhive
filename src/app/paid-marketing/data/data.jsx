@@ -137,42 +137,42 @@ export const ServicesData = {
     desc: "Is your business getting the attention it deserves? Our customized solutions deliver what you need. Find out how we can help:",
     ServicesItem: [
         {
-            title: (<>Google Ads Management</>),
+            title: (<>Google Ads <br />Management</>),
             txt: "Craft precise campaigns on Google to reach high-intent audiences, ensuring maximum visibility and returns on investment.",
             url: "#",
         },
         {
-            title: (<>Facebook & Instagram Ads</>),
+            title: (<>Facebook & <br />Instagram Ads</>),
             txt: "Leverage social platforms to target ideal customers, delivering creative ads that build awareness and drive measurable results.",
             url: "#",
         },
         {
-            title: (<>Video Advertising</>),
+            title: (<>Video <br />Advertising</>),
             txt: "Harness the power of engaging video content on platforms like YouTube to captivate audiences and boost brand recognition.",
             url: "#",
         },
         {
-            title: (<>Native Ad Campaigns</>),
+            title: (<>Native Ad <br />Campaigns</>),
             txt: "Blend your message naturally into platforms with native ads that deliver value while encouraging meaningful engagement.",
             url: "#",
         },
         {
-            title: (<>Programmatic Ad Buying</>),
+            title: (<>Programmatic Ad <br />Buying</>),
             txt: "Automate your ad placements with data-driven programmatic buying, ensuring precision targeting and cost-efficient delivery across multiple platforms.",
             url: "#",
         },
         {
-            title: (<>Retargeting Campaigns</>),
+            title: (<>Retargeting <br />Campaigns</>),
             txt: "Reconnect with potential customers through retargeting ads that drive conversions by keeping your brand top-of-mind.",
             url: "#",
         },
         {
-            title: (<>Shopping Ad Management</>),
+            title: (<>Shopping Ad <br />Management</>),
             txt: "Showcase your products with high-impact shopping ads that attract ready-to-buy customers and drive sales for your online store.",
             url: "#",
         },
         {
-            title: (<>Performance Optimization</>),
+            title: (<>Performance <br />Optimization</>),
             txt: "Monitor and adjust campaigns for peak performance, ensuring your ads deliver results with every dollar spent.",
             url: "#",
         }

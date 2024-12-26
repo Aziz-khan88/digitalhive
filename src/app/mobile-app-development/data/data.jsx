@@ -139,42 +139,42 @@ export const ServicesData = {
     desc: "Struggling to find app services that align with your goals?  Why settle for less when you can have tailored excellence?",
     ServicesItem: [
         {
-            title: (<>Custom Functionality</>),
+            title: (<>Custom <br />Functionality</>),
             txt: "Build apps tailored to your specific requirements",
             url: "#",
         },
         {
-            title: (<>Android App Development</>),
+            title: (<>Android App<br />Development</>),
             txt: "Optimize for the world’s largest mobile platform.",
             url: "#",
         },
         {
-            title: (<>Native Performance</>),
+            title: (<>Native <br />Performance</>),
             txt: "Apps designed for speed and reliability",
             url: "#",
         },
         {
-            title: (<>Google Integration</>),
+            title: (<>Google <br />Integration</>),
             txt: "Leverage Android’s ecosystem for added functionality.",
             url: "#",
         },
         {
-            title: (<>Web App Development</>),
+            title: (<>Web App <br />Development</>),
             txt: "Seamless browser-based solutions for any business need.",
             url: "#",
         },
         {
-            title: (<>UI/UX Design</>),
+            title: (<>UI/UX <br />Design</>),
             txt: "Intuitive interfaces that captivate users and boost satisfaction.",
             url: "#",
         },
         {
-            title: (<>Flutter App Development</>),
+            title: (<>Flutter App <br />Development</>),
             txt: "Leverage this powerful framework for high-performance apps.",
             url: "#",
         },
         {
-            title: (<>Link Building</>),
+            title: (<>Link <br />Building</>),
             txt: "Improve your app’s online visibility with strategic SEO techniques.",
             url: "#",
         }
