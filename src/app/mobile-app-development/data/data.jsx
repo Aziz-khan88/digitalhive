@@ -2,9 +2,9 @@
 import BannerPoster from "media/services/mobile-app-development/posterImg.webp"
 
 export const BannerData = {
-    subtitle: "Mobile App Developemnt.",
-    title: "Expert Mobile App Services.",
-    desc: "Get more traffic, more leads, and more customers with a tailored SEO strategy that works.",
+    subtitle: "Expert Mobile App Services",
+    title: "Transform Ideas into Exceptional Mobile Apps",
+    desc: "Looking to turn your vision into a dynamic mobile app? At Infinitidigital, we specialize in creating user- friendly, high-performing apps designed to grow your business.Are you ready to deliver an app that engages users and drives measurable results?",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775886/rendition/720p/file.mp4?loc=external&log_user=0&signature=15d5fb02bd1b53fc1aff85d23520ffb134123c63ef0420ae0ede4a03c491bad2",
     BannerPoster: BannerPoster.src,
     bannerTitle: "Your Vision, Our Expertise Crafted in Code",
@@ -14,153 +14,192 @@ export const BannerData = {
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "YYour App Journey: Designed, Developed, Delivered",
-    desc: "Your app journey begins with a vision, and we’re here to transform it into reality. Through careful design, expert development, and seamless delivery, we ensure every step is crafted to bring your ideas to life and engage users effectively.",
+    title: "Empowering Your App to Shape the Future",
+    desc: "What’s stopping your app from becoming the next big thing? At Infinitidigital, we streamline the journey from concept to completion, ensuring every step drives user engagement and business growth.",
 
     ProcessItem1: [
         {
-            title: "Discovery Phase",
+            title: "From Vision to Success",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Collaborative Ideation:</strong>
+                <p>Work with our experts to transform your vision into actionable designs that resonate with users.</p>
+                <strong>Effortless Development:</strong>
+                <p>Seamlessly integrate high-performance features with scalable coding, ensuring reliability and adaptability.</p>
+                <strong>Post-Launch Excellence:</strong>
+                <p>Stay ahead with continuous updates, feature enhancements, and unmatched support to keep your app thriving in the market.</p>
             </>),
 
         },
         {
-            title: "UI/UX Design",
+            title: "Dreams into Reality",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Collaborative Design:</strong>
+                <p>Work with our experts to shape designs that captivate your audience and elevate usability.</p>
+                <strong>Expert Development:</strong>
+                <p>High-quality coding ensures your app is reliable, scalable, and optimized for performance.</p>
+                <strong>Ongoing Support:</strong>
+                <p>From bug fixes to feature enhancements, we’re here to optimize and scale your app long after the launch.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Quality Assurance",
+            title: "Launch Phase",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Planning & Ideation:</strong>
+                <p>Every concept begins with a great idea.That’s where we come in.</p>
+                <strong>Launching:</strong>
+                <p>Launching a successful app requires strategy and precision.</p>
+                <strong>Market Placement:</strong>
+                <p>We create a name for your app in the market without a hassle.</p>
             </>),
 
         }, {
-            title: "Launch Phase",
+            title: "Project Kickoff",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Defining Goals:</strong>
+                <p>Initial meetings to understand your objectives and target audience.</p>
+                <strong>Planning Frameworks:</strong>
+                <p>Crafting a clear roadmap for seamless execution.</p>
+                <strong>Setting Expectations:</strong>
+                <p>Establishing timelines and deliverables that align with your needs.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Support & Maintenance",
+            title: "Market Research & Analysis",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Competitor Analysis:</strong>
+                <p>Identifying market gaps and unique opportunities.</p>
+                <strong>Trend Mapping:</strong>
+                <p>Leveraging industry trends to stay ahead of the curve.</p>
+                <strong>Feature Validation:</strong>
+                <p>Pinpointing must-have functionalities to captivate users.</p>
             </>),
 
         },
         {
-            title: "Development Phase",
+            title: "User Persona Development",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Audience Insights:</strong>
+                <p>Creating profiles based on demographics and behavior.</p>
+                <strong>Pain Point Identification:</strong>
+                <p>Addressing user challenges with practical solutions.</p>
+                <strong>Feature Alignment:</strong>
+                <p>Ensuring app functionalities meet user expectations.</p>
             </>),
 
         }
     ]
 
 }
+// Why Choose Us
+export const ChooseUsData = {
+    subtitle: "Comprehensive Mobile App Services",
+    title: "Tailored Solutions for Every Business",
+    desc: "Struggling to find app services that align with your goals? Infinitidigital has specialized offerings designed to grow your brand. Isn’t it time to elevate your mobile strategy?",
+    Content1: [
+        {
+            title: "Mobile App Development",
+            txt: "Build apps that deliver performance and usability."
+        },
+        {
+            title: "Android App Development",
+            txt: "Create scalable solutions for the world’s largest mobile platform."
+        }
+    ],
+    Content2: [
+        {
+            title: "iOS App Development",
+            txt: "Secure, intuitive apps that engage Apple’s loyal audience."
+        }
+    ],
+    Content3: [
+        {
+            title: "Web App Development",
+            txt: "Seamless, browser-based applications that enhance accessibility."
+        },
+        {
+            title: "UI/UX Design",
+            txt: "Intuitive interfaces that improve user satisfaction and retention."
+        }
+    ]
+
+}
+
+
+
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Comprehensive Mobile App Services for Your Business",
-    desc: "Our tailored solutions ensure your success. Here’s how we help:",
+    subtitle: "Comprehensive Mobile App Services",
+    title: "Tailored Solutions for Every Business",
+    desc: "Struggling to find app services that align with your goals?  Why settle for less when you can have tailored excellence?",
     ServicesItem: [
         {
-            title: (<>Mobile App Development</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Custom Functionality</>),
+            txt: "Build apps tailored to your specific requirements",
             url: "#",
         },
         {
             title: (<>Android App Development</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            txt: "Optimize for the world’s largest mobile platform.",
             url: "#",
         },
         {
-            title: (<>iOS App Development</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Native Performance</>),
+            txt: "Apps designed for speed and reliability",
             url: "#",
         },
         {
-            title: (<>Software Development</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Google Integration</>),
+            txt: "Leverage Android’s ecosystem for added functionality.",
             url: "#",
         },
         {
             title: (<>Web App Development</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            txt: "Seamless browser-based solutions for any business need.",
             url: "#",
         },
         {
-            title: (<>Mobile App UI/UX</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>UI/UX Design</>),
+            txt: "Intuitive interfaces that captivate users and boost satisfaction.",
             url: "#",
         },
         {
-            title: (<>Fulter App UI/UX</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Flutter App Development</>),
+            txt: "Leverage this powerful framework for high-performance apps.",
             url: "#",
         },
         {
             title: (<>Link Building</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            txt: "Improve your app’s online visibility with strategic SEO techniques.",
             url: "#",
         }
 
     ]
 }
+
 // CTA 
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Mobile App Solutions That Convert ",
+    desc: "Struggling to find app services that align with your goals? Infinitidigital has specialized offerings designed to grow your brand. Isn’t it time to elevate your mobile strategy?",
     img: ImgBg.src
 }
+
+
 // Workimport 
 import WorkImg01 from "media/services/paid-marketing/work/work01.webp"
 import WorkImg02 from "media/services/paid-marketing/work/work02.webp"
 import WorkImg03 from "media/services/paid-marketing/work/work03.webp"
 import WorkImg04 from "media/services/paid-marketing/work/work04.webp"
 export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Showcasing Digital Excellence",
+    title: "Transforming Ideas into Engaging Digital Products",
+    desc: "Ready to see what we can achieve together? Our portfolio showcases cutting-edge solutions designed to elevate brands and deliver measurable growth.",
     WorkItem: [
         {
             title: "Music App",
@@ -280,15 +319,15 @@ export const WorkData = {
 }
 // Pricing
 export const PriceData = {
-    subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Affordable Social Media Packages for Every Business",
+    title: "Customized Plans Tailored to Drive Engagement and Results",
+    desc: "At Infinitidigital, we understand that one size doesn't fit all. Our transparent pricing ensures you get the most value for your budget. Ready to dominate the digital space?",
     PriceItem: [
         {
             bgColor: "#7635FF",
             packagename: "Basic Package",
             price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "This package offers cost-effective solutions to build engagement and credibility.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -322,7 +361,7 @@ export const PriceData = {
             bgColor: "#FF6987",
             packagename: "Advanced Package",
             price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "This plan provides tools to grow visibility and engagement.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -356,7 +395,7 @@ export const PriceData = {
             bgColor: "#9AFF35",
             packagename: "Enterprise Package",
             price: "750",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "This package combines advanced content strategies with unmatched support.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -389,221 +428,81 @@ export const PriceData = {
     ]
 };
 
-
-
-// Partner Data
-import Logo1 from "media/home/partnerLogo/logo1.webp";
-import Logo2 from "media/home/partnerLogo/logo2.webp";
-import Logo3 from "media/home/partnerLogo/logo3.webp";
-import Logo4 from "media/home/partnerLogo/logo4.webp";
-import Logo5 from "media/home/partnerLogo/logo5.webp";
-import Logo6 from "media/home/partnerLogo/logo6.webp";
-import Logo7 from "media/home/partnerLogo/logo7.webp";
-import Logo8 from "media/home/partnerLogo/logo8.webp";
-import Logo9 from "media/home/partnerLogo/logo9.webp";
-import Logo10 from "media/home/partnerLogo/logo10.webp";
-import Logo11 from "media/home/partnerLogo/logo11.webp";
-import Logo12 from "media/home/partnerLogo/logo12.webp";
-import Logo13 from "media/home/partnerLogo/logo13.webp";
-import Logo14 from "media/home/partnerLogo/logo14.webp";
-import Logo15 from "media/home/partnerLogo/logo15.webp";
-import Logo16 from "media/home/partnerLogo/logo16.webp";
-import Logo17 from "media/home/partnerLogo/logo17.webp";
-import Logo18 from "media/home/partnerLogo/logo18.webp";
-import Logo19 from "media/home/partnerLogo/logo19.webp";
-import Logo20 from "media/home/partnerLogo/logo20.webp";
-export const PartnerData = {
-    subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    PartnerLogos: [
-        { logo: Logo1.src },
-        { logo: Logo2.src },
-        { logo: Logo3.src },
-        { logo: Logo4.src },
-        { logo: Logo5.src },
-        { logo: Logo6.src },
-        { logo: Logo7.src },
-        { logo: Logo8.src },
-        { logo: Logo9.src },
-        { logo: Logo10.src },
-        { logo: Logo11.src },
-        { logo: Logo12.src },
-        { logo: Logo13.src },
-        { logo: Logo14.src },
-        { logo: Logo15.src },
-        { logo: Logo16.src },
-        { logo: Logo17.src },
-        { logo: Logo18.src },
-        { logo: Logo19.src },
-        { logo: Logo20.src },
-    ]
-}
-
-
 //Industries 
-import Img01 from "media/home/industires/industy01.webp"
-import Img02 from "media/home/industires/industy02.webp"
-import Img03 from "media/home/industires/industy03.webp"
-import Img04 from "media/home/industires/industy04.webp"
-import Img05 from "media/home/industires/industy05.webp"
-import Img06 from "media/home/industires/industy06.webp"
-import Img07 from "media/home/industires/industy07.webp"
+import Business from "media/home/industires/business.webp"
+import Construction from "media/home/industires/construction.webp"
+import Education from "media/home/industires/education.webp"
+import Events from "media/home/industires/events.webp"
+import Content from "media/home/industires/content.webp"
+import Automotive from "media/home/industires/automotive.webp"
+import Sports from "media/home/industires/sports.webp"
+import Ecommerce from "media/home/industires/ecommerce.webp"
+import Healthcare from "media/home/industires/healthcare.webp"
 export const IndustriesData = {
-    subtitle: "Our Industries",
-    title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise:",
-    IndustryItem: [
-        {
-            title: "B2b Business",
-            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles.",
-            Img: Img01.src,
-            url: "#",
-        },
-        {
-            title: "Construction",
-            txt: "Build trust and connect with clients through campaigns and websites designed for credibility.",
-            Img: Img02.src,
-            url: "#",
-        },
-        {
-            title: "Education",
-            txt: "Engage students, parents, and educators with SEO and marketing that inspire action.",
-            Img: Img03.src,
-            url: "#",
-        },
-        {
-            title: "Events",
-            txt: "Create unforgettable moments by driving attendance and boosting engagement.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "E-commerce",
-            txt: "Maximize sales with high-converting websites and compelling campaigns",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "Content Creator",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img05.src,
-            url: "#",
-        },
-        {
-            title: "Automotive",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img06.src,
-            url: "#",
-        },
-        {
-            title: "Spots",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img07.src,
-            url: "#",
-        }
-    ]
+    subtitle: "Industries We Serve",
+    title: "Solutions Tailored to Your Industry",
+    desc: "No matter your industry, Infinitidigital delivers expert mobile app solutions tailored to your unique goals. Let’s build something extraordinary for your business.",
 }
 
-// Why Choose Us
-export const ChooseUsData = {
-    subtitle: "Why Choose Us",
-    title: "Creating Impactful Solutions That Matter",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    Content1: [
-        {
-            title: "Expert Team",
-            txt: "Strategists, designers, and developers who bring their A-game to every project."
-        },
-        {
-            title: "Custom Solutions",
-            txt: "Strategies designed around your unique goals and challenges."
-        }
-    ],
-    Content2: [
-        {
-            title: "Proven Success",
-            txt: "A track record of impactful projects across diverse industries."
-        }
-    ],
-    Content3: [
-        {
-            title: "Client-First Approach",
-            txt: "Collaboration and communication that put your vision at the forefront."
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-        }
-    ]
+export const IndustryItem = [
+    {
+        title: "B2b Business",
+        txt: "Streamline complex processes with apps designed for seamless collaboration.Drive leads with tools that cater to decision-makers.Simplify workflows to enhance productivity and profitability.",
+        Img: Business.src,
+        url: "#",
+    },
+    {
+        title: "Construction",
+        txt: "Optimize project management with real-time tracking and scheduling tools.Improve client communication through interactive project portals.Showcase completed projects with visually stunning galleries.",
+        Img: Construction.src,
+        url: "#",
+    },
+    {
+        title: "Education",
+        txt: "Engage students, parents, and educators with intuitive e - learning platforms.Facilitate remote learning with innovative app features.Boost enrollments with tailored user experiences.",
+        Img: Education.src,
+        url: "#",
+    },
+    {
+        title: "Events",
+        txt: "Manage registrations effortlessly with user - friendly event apps.Enhance attendee experience through interactive features.Maximize visibility with integrated social media sharing tools.",
+        Img: Events.src,
+        url: "#",
+    },
+    {
+        title: "E-commerce",
+        txt: "Drive sales with apps optimized for seamless browsing and purchasing.Build customer loyalty through personalized recommendations.Streamline payment processes for a hassle - free experience.",
+        Img: Ecommerce.src,
+        url: "#",
+    },
+    {
+        title: "Content Creator",
+        txt: "Expand your reach with apps designed to grow your audience.Monetize content effectively with subscription and sponsorship options.Foster engagement with interactive community features.",
+        Img: Content.src,
+        url: "#",
+    },
+    {
+        title: "Automotive",
+        txt: "Improve customer experience with vehicle search and booking apps.Drive dealership sales with custom - built platforms.Engage car enthusiasts with innovative virtual showrooms.",
+        Img: Automotive.src,
+        url: "#",
+    },
+    {
+        title: "Sports",
+        txt: "Boost fan engagement through live - streaming and real - time updates.Drive ticket sales with seamless purchasing platforms.Build team loyalty with interactive fan communities.",
+        Img: Sports.src,
+        url: "#",
+    }
+    ,
+    {
+        title: "Healthcare",
+        txt: "Enhance patient access with apps for scheduling and consultations.Streamline healthcare processes with secure data management.Build trust through reliable, informative content.",
+        Img: Healthcare.src,
+        url: "#",
+    }
+]
 
-}
 
-
-//Platforms 
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
-export const PlatformsData = {
-    subtitle: "Platforms We",
-    title: "Platforms We Work With",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg.src,
-    SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    ]
-}
-
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Our Awards",
-    title: "Awards & Recognitions",
-    desc: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-    slides: [
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-
-    ]
-}
 
 // CTA  01
 import ImgBg1 from "media/home/ctaBg1.webp"
@@ -614,8 +513,9 @@ export const CtaData01 = {
 }
 
 //Testimonials
+import { ClutchLogo, GoogleLogo, TrustpilotLogo } from "@/src/app/app-constants"
 export const TestimonialData = {
-    subtitle: "Happy Clients",
+    subtitle: "What Our Clients Say About Our Mobile App Solutions",
     title: "Hear It from Our Clients ",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     Testslider: [
@@ -663,6 +563,7 @@ export const CallActionData = {
 import IMG01 from "media/home/blogs/blog1.webp"
 import IMG02 from "media/home/blogs/blog2.webp"
 import IMG03 from "media/home/blogs/blog3.webp"
+
 export const BlgosData = {
     subtitle: "Our Blogs",
     title: "Insights and Inspiration ",
@@ -698,29 +599,27 @@ export const BlgosData = {
 // FAQs
 export const FAQsData = {
     subtitle: "FAQs",
-    title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-
+    title: "Frequently Asked Questions About Mobile App Services",
     Fqaslist: [
         {
-            title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
+            title: "How long does it take to develop a mobile app?",
+            txt: "Depending on complexity, Most mobile apps take 3-6 months to develop. Tailored features or integrations may extend timelines. Regular updates ensure transparency and alignment."
         },
         {
-            title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
+            title: "What platforms can you develop mobile apps for?",
+            txt: "We build for iOS, Android, and hybrid solutions like Flutter. Platforms are chosen based on audience and goals. Apps are optimized for specific operating systems."
         },
         {
-            title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
+            title: "Can you help redesign or upgrade an existing app?",
+            txt: "Yes, we enhance outdated apps with modern designs, add new functionalities to improve performance, and ensure compatibility with the latest OS versions."
         },
         {
-            title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
+            title: "Do you offer post-launch app maintenance?",
+            txt: "Comprehensive maintenance plans keep your app running smoothly. Swift resolutions for issues post-launch. Continuous updates match evolving user needs."
         },
         {
-            title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
+            title: "How do you ensure app security?",
+            txt: "We implement robust encryption to protect user data. Ongoing assessments address vulnerabilities. Ensure adherence to industry standards and regulations."
         }
     ]
 

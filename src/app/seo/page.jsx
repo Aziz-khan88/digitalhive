@@ -13,8 +13,8 @@ import FollowUs from '@/src/app/home/followus';
 import Blogs from '@/src/app/home/blogs';
 import Faqs from '@/src/app/home/faq';
 import Process from '@/src/app/components/services/process';
-import { AwardsData, FollowsData, IndustriesData, PartnerData, TestimonialData, IndustryItem } from '@/src/app/home/data/data';
-import { FAQsData, PriceData, ProcessData, ServicesData, WorkData, CtaData, BlgosData, CallActionData, ChooseUsData, BannerData } from '@/src/app/seo/data/data';
+import { AwardsData, FollowsData, IndustriesData, PartnerData, IndustryItem } from '@/src/app/home/data/data';
+import { FAQsData, PriceData, ProcessData, ServicesData, WorkData, CtaData, BlgosData, CallActionData, ChooseUsData, BannerData, TestimonialData } from '@/src/app/seo/data/data';
 
 
 const Page = () => {
