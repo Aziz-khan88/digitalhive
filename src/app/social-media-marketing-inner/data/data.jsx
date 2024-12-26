@@ -8,6 +8,179 @@ export const BannerData = {
     BannerPoster: BannerPoster.src
 }
 
+
+
+//Services
+export const InnerServicesData = {
+    subtitle: "Where Creativity Meets Conversions!",
+    title: "Want to stand out on social media? ",
+    desc: "We’re here to help. From growing your brand to engaging your audience and driving real results, our tailored strategies make your social platforms shine.",
+    innerServItem: [
+        {
+            title: "Content Creation & Strategy",
+            txt: "Engage your audience with impactful, high-quality content. We craft tailored strategies to boost visibility and keep your brand at the forefront of your mind.",
+            url: "#",
+        },
+        {
+            title: "Social Media Advertising",
+            txt: "Reach your ideal audience with targeted ad campaigns. Our experts maximize ROI by delivering the right message at the right time.",
+            url: "#",
+        },
+        {
+            title: "Community Management",
+            txt: "Build meaningful connections with your audience. We foster engagement, respond to interactions, and create a thriving online community.",
+            url: "#",
+        },
+        {
+            title: "Influencer Marketing",
+            txt: "Amplify your brand’s reach with trusted voices. We connect you with influencers who drive credibility and engagement for your business.",
+            url: "#",
+        },
+        {
+            title: "Analytics & Reporting",
+            txt: "Make data-driven decisions with actionable insights. We track performance, optimize campaigns, and ensure measurable growth for your social media efforts.",
+            url: "#",
+        },
+        {
+            title: "Reputation Management",
+            txt: "Protect and enhance your brand’s image. Our team monitors your online presence and ensures your brand stays credible and trusted.",
+            url: "#",
+        },
+    ]
+}
+
+// CTA 
+
+import ImgBg from "media/components/newsLetterImg.gif"
+export const NewsLetterData = {
+    title: "Let Us Create Something Amazing Together!",
+    desc: "Not sure how to grow your brand? Let us get started! Share your email with us, and we will help you kick off a plan to boost your website’s success.",
+    img: ImgBg.src
+}
+
+
+// Why Choose Us
+export const ChooseUsData = {
+    subtitle: "Why Choose Us",
+    title: "Solutions That Deliver and Inspire",
+    desc: "Here’s why we’re the ultimate partner to take your brand to the next level.",
+    Content1: [
+        {
+            title: "Expert Team",
+            txt: "Our team of experts works with creativity and skill to deliver the best results for every project."
+        },
+        {
+            title: "Custom Solutions",
+            txt: "We create personalized strategies that fit your unique goals and challenges perfectly."
+        }
+    ],
+    Content2: [
+        {
+            title: "Proven Success",
+            txt: "With years of experience across different industries, we deliver results you can rely on."
+        }
+    ],
+    Content3: [
+        {
+            title: "Client-First Approach",
+            txt: "Your success is our focus. We prioritize open communication and collaboration to achieve your goals."
+        },
+        {
+            title: "Innovation That Drives Growth",
+            txt: "We use the latest tools and ideas to keep your brand ahead of the competition."
+        }
+    ]
+
+}
+
+
+// Process
+export const ProcessData = {
+    subtitle: "Our Process",
+    title: "The Content Strategy That Delivers Results",
+    desc: "Ready to turn your content into a conversion magnet? Here’s how we make your brand shine, one step at a time.",
+
+    ProcessItem1: [
+        {
+            title: "Strategy Development",
+            txt: (<>
+                <strong>Project Kickoff:</strong>
+                <p>We begin by aligning with your goals. In our kickoff session, we dive deep into your brand’s mission, vision, and objectives to lay the groundwork for a winning strategy.</p>
+                <strong>Market Research & Analysis:</strong>
+                <p>Understanding the market is key. We analyze industry trends, competitors, and audience behavior to identify opportunities that set your brand apart.</p>
+                <strong>User Persona Development:</strong>
+                <p>Your audience isn’t just a demographic—they’re real people. We create detailed personas to ensure your strategy speaks directly to their needs and interests.</p>
+            </>),
+
+        },
+        {
+            title: "Content Planning",
+            txt: (<>
+                <strong>Project Kickoff:</strong>
+                <p>With a clear strategy, we map out a content calendar tailored to your business. Every piece of content aligns with your goals and timeline.</p>
+                <strong>Market Research & Analysis:</strong>
+                <p>We identify the best topics, formats, and channels by analyzing what resonates with your audience and performs well in your niche.</p>
+                <strong>User Persona Development:</strong>
+                <p>Our content plans are built around your ideal customers. Everything is customized to engage and inspire your audience from tone to topics.</p>
+            </>),
+
+        },
+    ],
+    ProcessItem2: [
+        {
+            title: "Content Creation",
+            txt: (<>
+                <strong>Project Kickoff:</strong>
+                <p>Our creative team hits the ground running, brainstorming ideas and developing content that captures your brand’s voice and values.</p>
+                <strong>Market Research & Analysis:</strong>
+                <p>By analyzing trending topics and competitor content, we craft engaging materials that stand out and add value to your audience.</p>
+                <strong>User Persona Development:</strong>
+                <p>From blogs to social media posts, we create content that feels personal—designed to connect with your audience on a deeper level.</p>
+            </>),
+
+        }, {
+            title: "Content Distribution",
+            txt: (<>
+                <strong>Project Kickoff:</strong>
+                <p>We identify the right platforms to maximize reach and engagement, ensuring your content gets seen by the people who matter most.</p>
+                <strong>Market Research & Analysis:</strong>
+                <p>Our data-driven approach helps us select distribution methods that align with audience behavior and market trends.</p>
+                <strong>User Persona Development:</strong>
+                <p>Your audience is unique, and so is our approach. We tailor distribution strategies to reach them where they spend their time.</p>
+            </>),
+
+        },
+    ],
+    ProcessItem3: [
+        {
+            title: "Performance Analysis",
+            txt: (<>
+                <strong>Project Kickoff:</strong>
+                <p>We set clear KPIs during the kickoff phase to measure success and track progress as campaigns roll out.</p>
+                <strong>Market Research & Analysis:</strong>
+                <p>Our detailed analysis compares your performance with market benchmarks to pinpoint what’s working—and what needs refining.</p>
+                <strong>User Persona Development:</strong>
+                <p>We review audience engagement metrics to ensure your content resonates and evolves with their preferences.</p>
+            </>),
+
+        },
+        {
+            title: "Optimization & Repurposing",
+            txt: (<>
+                <strong>Project Kickoff:</strong>
+                <p>Optimization starts from day one. We continuously monitor and adjust your content to keep it fresh, relevant, and effective.</p>
+                <strong>Market Research & Analysis:</strong>
+                <p>Using data insights, we identify high-performing content that can be refined or expanded to reach new heights.</p>
+                <strong>User Persona Development:</strong>
+                <p>By understanding your audience’s evolving needs, we repurpose content into formats and styles that continue to engage them.</p>
+            </>),
+
+        }
+    ]
+
+}
+
+
 // Workimport 
 import WorkImg01 from "media/services/content-marketing/img01.webp"
 import WorkImg02 from "media/services/content-marketing/img02.webp"
@@ -16,7 +189,7 @@ import WorkImg04 from "media/services/content-marketing/img04.webp"
 export const WorkData = {
     subtitle: "Our Recent Work",
     title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    desc: "See how we’ve turned visions into reality for businesses just like yours. From stunning designs to impactful strategies, our work speaks for itself—creative, engaging, and results-driven.",
     WorkItem: [
         {
             title: "Music App",
@@ -135,357 +308,11 @@ export const WorkData = {
     ]
 }
 
-//Services
-export const InnerServicesData = {
-    subtitle: "Where Creativity Meets Conversions!",
-    title: "Want to stand out on social media? ",
-    desc: "We’re here to help. From growing your brand to engaging your audience and driving real results, our tailored strategies make your social platforms shine.",
-    innerServItem: [
-        {
-            title: "Content Creation & Strategy",
-            txt: "Engage your audience with impactful, high-quality content. We craft tailored strategies to boost visibility and keep your brand at the forefront of your mind.",
-            url: "#",
-        },
-        {
-            title: "Social Media Advertising",
-            txt: "Reach your ideal audience with targeted ad campaigns. Our experts maximize ROI by delivering the right message at the right time.",
-            url: "#",
-        },
-        {
-            title: "Community Management",
-            txt: "Build meaningful connections with your audience. We foster engagement, respond to interactions, and create a thriving online community.",
-            url: "#",
-        },
-        {
-            title: "Influencer Marketing",
-            txt: "Amplify your brand’s reach with trusted voices. We connect you with influencers who drive credibility and engagement for your business.",
-            url: "#",
-        },
-        {
-            title: "Analytics & Reporting",
-            txt: "Make data-driven decisions with actionable insights. We track performance, optimize campaigns, and ensure measurable growth for your social media efforts.",
-            url: "#",
-        },
-        {
-            title: "Reputation Management",
-            txt: "Protect and enhance your brand’s image. Our team monitors your online presence and ensures your brand stays credible and trusted.",
-            url: "#",
-        },
-    ]
-}
-
-// CTA 
-
-import ImgBg from "media/components/newsLetterImg.gif"
-export const NewsLetterData = {
-    title: "Let Us Create Something Amazing Together!",
-    desc: "Not sure how to grow your brand? Let us get started! Share your email with us, and we will help you kick off a plan to boost your website’s success.",
-    img: ImgBg.src
-}
-
-
-
-// Why Choose Us
-export const ChooseUsData = {
-    subtitle: "Why Choose Us",
-    title: "Solutions That Deliver and Inspire",
-    desc: "Here’s why we’re the ultimate partner to take your brand to the next level.",
-    Content1: [
-        {
-            title: "Expert Team",
-            txt: "Our team of experts works with creativity and skill to deliver the best results for every project."
-        },
-        {
-            title: "Custom Solutions",
-            txt: "We create personalized strategies that fit your unique goals and challenges perfectly."
-        }
-    ],
-    Content2: [
-        {
-            title: "Proven Success",
-            txt: "With years of experience across different industries, we deliver results you can rely on."
-        }
-    ],
-    Content3: [
-        {
-            title: "Client-First Approach",
-            txt: "Your success is our focus. We prioritize open communication and collaboration to achieve your goals."
-        },
-        {
-            title: "Innovation That Drives Growth",
-            txt: "We use the latest tools and ideas to keep your brand ahead of the competition."
-        }
-    ]
-
-}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-//Content Data
-import ContentImg from "media/innerservices/bookImg.webp"
-export const contentData = {
-    subtitle: "Book Proofreading",
-    title: "Why Partner with Our Book Writing Experts?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-
-    contentTitle: "Why Partner with Our Book Writing Experts?",
-    contentTxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ContentImg.src
-}
-
-
-// Opportunities
-import OppImg01 from "media/services/social-media-marketing/opportunities/IMG01.webp"
-import OppImg02 from "media/services/social-media-marketing/opportunities/IMG02.webp"
-import OppImg03 from "media/services/social-media-marketing/opportunities/IMG03.webp"
-import OppImg04 from "media/services/social-media-marketing/opportunities/IMG04.webp"
-import OppImg05 from "media/services/social-media-marketing/opportunities/IMG01.webp"
-import OppImg06 from "media/services/social-media-marketing/opportunities/IMG02.webp"
-import OppImg07 from "media/services/social-media-marketing/opportunities/IMG03.webp"
-
-export const OpportunitiesData = {
-    subtitle: "Our Opportunities",
-    title: "What Marketing Opportunities We Bring To Your Disposal?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    OpportunitiesItem: [
-        {
-            title: (<>Social Media<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg01.src,
-            url: "#",
-        },
-        {
-            title: (<>Influencer<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg02.src,
-            url: "#",
-        },
-        {
-            title: (<>YouTube<br /> Optimization</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg03.src,
-            url: "#",
-        },
-        {
-            title: (<>Search Engine<br /> Optimization</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg04.src,
-            url: "#",
-        },
-        {
-            title: (<>Social Media<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg05.src,
-            url: "#",
-        },
-        {
-            title: (<>Social Media<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg06.src,
-            url: "#",
-        },
-        {
-            title: (<>Social Media<br /> Marketing</>),
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience.",
-            Img: OppImg07.src,
-            url: "#",
-        }
-
-    ]
-}
-
-// Process
-export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Our Proven Content Marketing Process",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-
-    ProcessItem1: [
-        {
-            title: "Strategy Development",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
-        {
-            title: "Content Distribution",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
-    ],
-    ProcessItem2: [
-        {
-            title: "Content Planning",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        }, {
-            title: "Performance Analysis",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
-    ],
-    ProcessItem3: [
-        {
-            title: "Content Creation",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
-        {
-            title: "Optimization & Repurposing",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        }
-    ]
-
-}
-
-//Book Tabs
-import Book01 from "media/innerservices/book/book01.webp"
-import Book02 from "media/innerservices/book/book02.webp"
-import Book03 from "media/innerservices/book/book03.webp"
-import Book04 from "media/innerservices/book/book04.webp"
-import Book05 from "media/innerservices/book/book05.webp"
-import Book06 from "media/innerservices/book/book06.webp"
-import Book07 from "media/innerservices/book/book07.webp"
-import Book08 from "media/innerservices/book/book08.webp"
-import Book09 from "media/innerservices/book/book09.webp"
-import Book10 from "media/innerservices/book/book10.webp"
-export const BookTabsData = {
-    subtitle: "Book Gallery",
-    title: "Diverse Expertise Across Genres",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    BookTabs: [
-        {
-            tabtitle: "Fiction",
-            images: [
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-            ],
-        },
-        {
-            tabtitle: "Non-Fiction",
-            images: [
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-            ],
-        },
-        {
-            tabtitle: "Biographies",
-            images: [
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book04.src,
-                Book05.src,
-                Book06.src,
-                Book07.src,
-            ],
-        },
-        {
-            tabtitle: "Children’s Books",
-            images: [
-                Book05.src,
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book10.src,
-            ],
-        },
-        {
-            tabtitle: "Personal Stories",
-            images: [
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-            ],
-        },
-    ],
-}
 
 // Pricing
 export const PriceData = {
@@ -597,14 +424,132 @@ export const PriceData = {
         }
     ]
 };
-
 // CTA  Pink
 import ImgBgPink from "media/innerservices/BgImage.webp"
 export const CtaPinkData = {
-    title: "Want a Customized Package Tailored Just for You?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Ready for a Package That’s Built Around You?",
+    desc: "Let’s create a plan that fits your needs perfectly. From personalized strategies to tailored solutions, we’re here to make it happen.",
     img: ImgBgPink.src
 }
+
+
+//Testimonials
+import { ClutchLogo, GoogleLogo, TrustpilotLogo } from "@/src/app/app-constants"
+export const TestimonialData = {
+    subtitle: "Happy Clients",
+    title: "Hear It from Our Clients ",
+    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    Testslider: [
+        {
+            txt: "Infinitidigital completely transformed our social media presence. Their targeted campaigns helped us connect with our ideal audience, and we saw a 40% increase in engagement within the first month. Highly recommend their team!",
+            icon: <ClutchLogo />,
+            namee: "Sarah J.",
+            job: "Founder of BrightTech Solutions",
+        },
+        {
+            txt: "The team at Infinitidigital took the time to understand our goals and created a personalized strategy that worked wonders. Not only did they help us grow our followers, but their efforts also led to a 20% boost in sales. They truly deliver!",
+            icon: <TrustpilotLogo />,
+            namee: "James R.",
+            job: "COO of NovaRetail Solutions",
+        },
+        {
+            txt: "I’ve worked with several agencies before, but none compare to Infinitidigital. Their creative content and data-driven approach have taken our brand to the next level. Our ROI has never been better!",
+            icon: <GoogleLogo />,
+            namee: "Michael K.",
+            job: "MD at GreenWave Industries",
+        },
+        {
+            txt: "Infinitidigital’s expertise in social media marketing is unmatched. They crafted campaigns aligned perfectly with our brand, resulting in higher customer engagement and more qualified leads. They’ve been a game-changer for us.",
+            icon: <TrustpilotLogo />,
+            namee: "Emily L.",
+            job: "CEO of BuildPro Solutions",
+        },
+        {
+            txt: "Working with Infinitidigital has been a fantastic experience. Their team’s dedication, creativity, and ability to track performance have helped us build a loyal online community. I couldn’t be happier with the results!",
+            icon: <ClutchLogo />,
+            namee: "Rachel R.",
+            job: "Founder of StyleHive Boutique",
+        }
+    ]
+}
+
+
+
+
+
+//Industries 
+import Business from "media/home/industires/business.webp"
+import Construction from "media/home/industires/construction.webp"
+import Education from "media/home/industires/education.webp"
+import Events from "media/home/industires/events.webp"
+import Content from "media/home/industires/content.webp"
+import Automotive from "media/home/industires/automotive.webp"
+import Sports from "media/home/industires/sports.webp"
+import Ecommerce from "media/home/industires/ecommerce.webp"
+import Healthcare from "media/home/industires/healthcare.webp"
+export const IndustriesData = {
+    subtitle: "Industries We Serve",
+    title: "Partnering with Businesses Across Industries",
+    desc: "Are you curious to know how we help businesses like yours? We work closely with businesses across various industries to develop and execute successful paid marketing campaigns. At Infinitidigital, your success is our priority.",
+
+}
+export const IndustryItem = [
+    {
+        title: "B2b Business",
+        txt: "Reach decision-makers with highly targeted campaigns that simplify complex sales cycles and generate valuable B2B leads.",
+        Img: Business.src,
+        url: "#",
+    },
+    {
+        title: "Construction",
+        txt: "Gain new clients and showcase your skills with strategies tailored to elevate your reputation and grow your business.",
+        Img: Construction.src,
+        url: "#",
+    },
+    {
+        title: "Education",
+        txt: "Boost enrollments with ad campaigns that resonate with students, parents, and educators, inspiring action every step of the way.",
+        Img: Education.src,
+        url: "#",
+    },
+    {
+        title: "Events",
+        txt: "From invitations to follow-ups, our campaigns cover every detail, ensuring maximum engagement for your events.",
+        Img: Events.src,
+        url: "#",
+    },
+    {
+        title: "E-commerce",
+        txt: "Target shoppers with product-specific ads that drive clicks, increase conversions and grow your e-commerce business.",
+        Img: Ecommerce.src,
+        url: "#",
+    },
+    {
+        title: "Content Creator",
+        txt: "From sponsored campaigns to audience engagement, we help creators turn their passion into profit with personalized paid ads.",
+        Img: Content.src,
+        url: "#",
+    },
+    {
+        title: "Automotive",
+        txt: "Our paid campaigns fuel visibility, helping your dealership or brand connect with car buyers and drive sales growth.",
+        Img: Automotive.src,
+        url: "#",
+    },
+    {
+        title: "Sports",
+        txt: "Connect with sports fans through ads that build loyalty, boost brand visibility, and encourage fan participation.",
+        Img: Sports.src,
+        url: "#",
+    }
+    ,
+    {
+        title: "Healthcare",
+        txt: "Enhance patient access with apps for scheduling and consultations.Streamline healthcare processes with secure data management.Build trust through reliable, informative content.",
+        Img: Healthcare.src,
+        url: "#",
+    }
+]
 // Content Section
 import ContentImage from "media/services/social-media-marketing/ContentImage.webp"
 export const ContentData = {
@@ -618,357 +563,17 @@ export const ContentData = {
     img: ContentImage.src
 
 }
-// Latest Work
-import PosterVideo from "media/services/social-media-marketing/workImage.webp"
-export const LastestWorkData = {
-    subtitle: "Our Latest Work",
-    title: "Drive Business Growth with Our Tailored Solutions",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    video: "https://player.vimeo.com/progressive_redirect/playback/1039775849/rendition/720p/file.mp4?loc=external&log_user=0&signature=a3b56bd23809e03050e6e0231513dfcf16a223d4eb6d444c9d540ce7889002f4",
-    poster: PosterVideo,
-
-}
-
-// Creatives 
-import CreativeImg1 from "media/services/social-media-marketing/Influencer/Influencer1.webp"
-import CreativeImg2 from "media/services/social-media-marketing/Influencer/Influencer2.webp"
-import CreativeImg3 from "media/services/social-media-marketing/Influencer/Influencer3.webp"
-export const CreativesData = {
-    subtitle: "Happy Influencer",
-    title: "Outshine the Competition with Bold, Dynamic Creatives!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    CreativesItems: [
-        {
-            txt: "2.5M followers",
-            namee: "@roger",
-            job: "Travel Influencer",
-            img: CreativeImg1.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@lydia",
-            job: "Lifestyle Influencer",
-            img: CreativeImg2.src,
-        }
-        ,
-        {
-            txt: "2.5M followers",
-            namee: "@marialevin",
-            job: "Content Creator",
-            img: CreativeImg3.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@roger",
-            job: "Travel Influencer",
-            img: CreativeImg1.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@lydia",
-            job: "Lifestyle Influencer",
-            img: CreativeImg2.src,
-        }
-        ,
-        {
-            txt: "2.5M followers",
-            namee: "@marialevin",
-            job: "Content Creator",
-            img: CreativeImg3.src,
-        },
-    ]
-}
-// Testimonials
-
-import TEST01 from "media/services/social-media-marketing/testimonial/test01.webp"
-import TEST02 from "media/services/social-media-marketing/testimonial/test02.webp"
-import TEST03 from "media/services/social-media-marketing/testimonial/test03.webp"
-import TEST04 from "media/services/social-media-marketing/testimonial/test04.webp"
-export const TestimonialData = {
-    subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    TestimonialItem: [
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST01.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST02.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST03.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST04.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST01.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST01.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST02.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST03.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST04.src,
-        },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST01.src,
-        },
-    ]
-}
-// Partner Data
-import Logo1 from "media/home/partnerLogo/logo1.webp";
-import Logo2 from "media/home/partnerLogo/logo2.webp";
-import Logo3 from "media/home/partnerLogo/logo3.webp";
-import Logo4 from "media/home/partnerLogo/logo4.webp";
-import Logo5 from "media/home/partnerLogo/logo5.webp";
-import Logo6 from "media/home/partnerLogo/logo6.webp";
-import Logo7 from "media/home/partnerLogo/logo7.webp";
-import Logo8 from "media/home/partnerLogo/logo8.webp";
-import Logo9 from "media/home/partnerLogo/logo9.webp";
-import Logo10 from "media/home/partnerLogo/logo10.webp";
-import Logo11 from "media/home/partnerLogo/logo11.webp";
-import Logo12 from "media/home/partnerLogo/logo12.webp";
-import Logo13 from "media/home/partnerLogo/logo13.webp";
-import Logo14 from "media/home/partnerLogo/logo14.webp";
-import Logo15 from "media/home/partnerLogo/logo15.webp";
-import Logo16 from "media/home/partnerLogo/logo16.webp";
-import Logo17 from "media/home/partnerLogo/logo17.webp";
-import Logo18 from "media/home/partnerLogo/logo18.webp";
-import Logo19 from "media/home/partnerLogo/logo19.webp";
-import Logo20 from "media/home/partnerLogo/logo20.webp";
-export const PartnerData = {
-    subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    PartnerLogos: [
-        { logo: Logo1.src },
-        { logo: Logo2.src },
-        { logo: Logo3.src },
-        { logo: Logo4.src },
-        { logo: Logo5.src },
-        { logo: Logo6.src },
-        { logo: Logo7.src },
-        { logo: Logo8.src },
-        { logo: Logo9.src },
-        { logo: Logo10.src },
-        { logo: Logo11.src },
-        { logo: Logo12.src },
-        { logo: Logo13.src },
-        { logo: Logo14.src },
-        { logo: Logo15.src },
-        { logo: Logo16.src },
-        { logo: Logo17.src },
-        { logo: Logo18.src },
-        { logo: Logo19.src },
-        { logo: Logo20.src },
-    ]
-}
-
-
-//Industries 
-import Img01 from "media/home/industires/industy01.webp"
-import Img02 from "media/home/industires/industy02.webp"
-import Img03 from "media/home/industires/industy03.webp"
-import Img04 from "media/home/industires/industy04.webp"
-import Img05 from "media/home/industires/industy05.webp"
-import Img06 from "media/home/industires/industy06.webp"
-import Img07 from "media/home/industires/industy07.webp"
-export const IndustriesData = {
-    subtitle: "Our Industries",
-    title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise:",
-    IndustryItem: [
-        {
-            title: "B2b Business",
-            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles.",
-            Img: Img01.src,
-            url: "#",
-        },
-        {
-            title: "Construction",
-            txt: "Build trust and connect with clients through campaigns and websites designed for credibility.",
-            Img: Img02.src,
-            url: "#",
-        },
-        {
-            title: "Education",
-            txt: "Engage students, parents, and educators with SEO and marketing that inspire action.",
-            Img: Img03.src,
-            url: "#",
-        },
-        {
-            title: "Events",
-            txt: "Create unforgettable moments by driving attendance and boosting engagement.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "E-commerce",
-            txt: "Maximize sales with high-converting websites and compelling campaigns",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "Content Creator",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img05.src,
-            url: "#",
-        },
-        {
-            title: "Automotive",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img06.src,
-            url: "#",
-        },
-        {
-            title: "Spots",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img07.src,
-            url: "#",
-        }
-    ]
-}
-
-//Platforms 
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
-export const PlatformsData = {
-    subtitle: "Platforms We",
-    title: "Platforms We Work With",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg.src,
-    SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    ]
-}
-
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Our Awards",
-    title: "Awards & Recognitions",
-    desc: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-    slides: [
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-
-    ]
-}
-
-
 
 // Call to Action
 
 export const CallActionData = {
     subtitle: "Contact Us",
-    title: "Your Journey to Success Starts Now ",
-    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
+    title: "Make Your Social Media Dreams Come True",
+    desc: "Have questions, or are you ready to take the next step? Let’s collaborate to create a social media strategy that drives growth and delivers results."
 }
 
-// Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
-export const BlgosData = {
-    subtitle: "Our Blogs",
-    title: "Insights and Inspiration ",
-    desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
-    BlogsData: [
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Paid Marketing",
-            img: IMG01.src,
-        },
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Mobile App Design",
-            img: IMG02.src,
-        }, {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "SEO Development & Marketing",
-            img: IMG03.src,
-        }
-    ]
-
-}
 
 // FAQs
-
-
 export const FAQsData = {
     subtitle: "FAQs",
     title: "Frequently Asked Question?",

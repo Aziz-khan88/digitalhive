@@ -14,8 +14,8 @@ import CtaForm from '@/src/app/home/ctaform'
 import FollowUs from '@/src/app/home/followus'
 import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
-import { FollowsData, TestimonialData, IndustryItem } from '@/src/app/home/data/data'
-import { ProcessData, WorkData, BannerData, BlgosData, CallActionData, ChooseUsData, CtaPinkData, FAQsData, IndustriesData, InnerServicesData, NewsLetterData, PartnerData, PlatformsData, PriceData } from '@/src/app/social-media-marketing-inner/data/data'
+import { FollowsData, BlgosData, PlatformsData, PartnerData } from '@/src/app/home/data/data'
+import { ProcessData, BannerData, CallActionData, ChooseUsData, CtaPinkData, FAQsData, IndustriesData, IndustryItem, InnerServicesData, NewsLetterData, PriceData, WorkData, TestimonialData } from '@/src/app/social-media-marketing-inner/data/data'
 
 
 const Page = () => {
