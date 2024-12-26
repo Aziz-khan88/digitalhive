@@ -11,7 +11,7 @@ const CtaServices = ({ data, bg }) => {
                     <Col md={6} className="my-auto">
                         <div className={`${styles.ctaServicesTitle} ${styles.BlackBG}`}>
                             <h2>{data.title}</h2>
-                            <p>{data.txt}</p>
+                            <p>{data.desc}</p>
                             <Link href="#" className='commonBtn'>Get Free Consultation</Link>
                         </div>
                     </Col>
