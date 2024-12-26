@@ -2,144 +2,178 @@
 import BannerPoster from "media/services/paid-marketing/posterImg.webp"
 
 export const BannerData = {
-    subtitle: "Skyrocket Your Rankings with.",
-    title: "Expert SEO Services.",
-    desc: "Get more traffic, more leads, and more customers with a tailored SEO strategy that works.",
+    subtitle: "From Clicks to Convert",
+    title: "Paid Marketing that Delivers",
+    desc: "Struggling to make your ads work harder? Maximize reach, generate leads, and grow revenue.with Infinitidigital’s creative, data- driven marketing campaigns that captivate, convert, and deliver measurable results.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775923/rendition/720p/file.mp4?loc=external&log_user=0&signature=c251642141ee9afe63a88518519e387179687128d687483a6c115a79518c1c54",
     BannerPoster: BannerPoster.src,
-    bannerTitle: "Your Vision, Our Expertise Crafted in Code",
-    bannerContent: "Unlock the power of strategic storytelling to captivate your audience and drive measurable results. Let us craft your success story.",
-
 }
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Your App Journey: Designed, Developed, Delivered",
-    desc: "Your app journey begins with a vision, and we’re here to transform it into reality. Through careful design, expert development, and seamless delivery, we ensure every step is crafted to bring your ideas to life and engage users effectively.",
+    title: "Paid Marketing Done Right: Strategize, Execute, Dominate",
+    desc: "Are you looking for marketing that does more than just reach? Your marketing success is our mission. With a perfect mix of creativity, data, and expertise, we craft campaigns that go beyond impressions–driving real engagement, qualified leads, and sustainable growth for your brand.",
 
     ProcessItem1: [
         {
-            title: "In-Depth Market Research",
+            title: "Market Trends Analysis",
             txt: (<>
                 <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <p>Kickstart with clear goal-setting sessions to ensure campaigns align with your vision.</p>
+                <strong>Industry Pulse Check:</strong>
+                <p>Stay ahead by analyzing paid ad trends and competitor strategies for actionable insights.</p>
+                <strong>Target Group Refinement:</strong>
+                <p>Identify and segment audiences to deliver the right message at the right time, every time.</p>
             </>),
 
         },
         {
-            title: "Goal-Oriented Strategy Creation",
+            title: "Custom Targeting Blueprints",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Audience Research:</strong>
+                <p>Start with in-depth research to uncover audience demographics and buying behaviors.</p>
+                <strong>Intent-Based Targeting:</strong>
+                <p>Identify and target users ready to convert with precision-crafted campaigns.</p>
+                <strong>Campaign Personalization:</strong>
+                <p>Create highly personalized messaging that speaks directly to audience needs.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Ad Creation & Design",
+            title: "High-Impact Ad Designs",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Eye-Catching Visuals:</strong>
+                <p>Design stunning ads that stand out and make a lasting impression on your audience.</p>
+                <strong>Customized Ad Formats:</strong>
+                <p>Leverage video, carousel, and static formats to maximize impact across platforms.</p>
+                <strong>Conversion-Focused Designs:</strong>
+                <p>Combine creative brilliance with strategic elements to boost click-through rates.</p>
             </>),
 
         }, {
-            title: "Targeted Ad Placement",
+            title: "Precision Ad Placements",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Data-Backed Placements:</strong>
+                <p>Leverage audience insights and market data to position your ads where they’ll perform best.</p>
+                <strong>Cross-Platform Expertise:</strong>
+                <p>Deliver ads that dominate across search engines, social platforms, and display networks.</p>
+                <strong>Peak Engagement Times:</strong>
+                <p>Schedule placements during peak activity to maximize visibility and impact.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Launch & Monitor",
+            title: "Daily Metrics Analysis",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Precision Monitoring:</strong>
+                <p>Track campaign metrics, from lead quality to conversion costs, with laser focus.</p>
+                <strong>Performance Breakdown:</strong>
+                <p>Analyze key indicators like engagement and audience behavior for smarter targeting.</p>
+                <strong>Continuous Refinement:</strong>
+                <p>Apply insights daily to optimize creative, bidding, and placement strategies.</p>
             </>),
 
         },
         {
-            title: "Optimization & Reporting",
+            title: "ROI-Driven Optimization",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Live Performance Tracking:</strong>
+                <p>Monitor campaign performance in real-time to catch opportunities and challenges early.</p>
+                <strong>ROI-Centric Changes:</strong>
+                <p>Make quick adjustments to bids, placements, and content to boost ROI consistently.</p>
+                <strong>Adaptive Strategy Refinement:</strong>
+                <p>Modify your strategy on the fly to suit the interests and engagement of your audience.</p>
             </>),
 
         }
     ]
 
 }
+
+// Why Choose Us
+export const ChooseUsData = {
+    subtitle: "Experience the Edge",
+    title: "Paid Marketing That Inspires Growth",
+    desc: "We create paid marketing campaigns that connect. With personalized strategies, captivating ads, and ongoing optimization, we help your brand rise above the noise and achieve the results that truly matter.",
+    Content1: [
+        {
+            title: "Marketing Experts",
+            txt: "Our team brings a blend of creativity and analytical expertise, delivering campaigns that outperform the competition."
+        },
+        {
+            title: "Personalized Campaigns",
+            txt: "We design every strategy with your unique challenges and goals in mind, ensuring maximum impact."
+        }
+    ],
+    Content2: [
+        {
+            title: "Industry-Leading Success",
+            txt: "From building awareness to driving conversions, our proven methods guarantee results you can trust."
+        }
+    ],
+    Content3: [
+        {
+            title: "Your Goals First",
+            txt: "We take the time to understand your vision, building campaigns that align perfectly with your business objectives."
+        },
+        {
+            title: "Refined for Results",
+            txt: "We keep your campaigns performing at their peak through advanced analytics and ongoing optimizations."
+        }
+    ]
+
+}
+
+
+
 //Services
 export const ServicesData = {
     subtitle: "Our Services",
-    title: "Smarter Strategies, Better Results ",
-    desc: "Our tailored solutions ensure your success. Here’s how we help:",
+    title: "Expert Solutions, Exceptional Results",
+    desc: "Is your business getting the attention it deserves? Our customized solutions deliver what you need. Find out how we can help:",
     ServicesItem: [
         {
-            title: (<>Local SEO</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Google Ads Management</>),
+            txt: "Craft precise campaigns on Google to reach high-intent audiences, ensuring maximum visibility and returns on investment.",
             url: "#",
         },
         {
-            title: (<>White Label SEO</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Facebook & Instagram Ads</>),
+            txt: "Leverage social platforms to target ideal customers, delivering creative ads that build awareness and drive measurable results.",
             url: "#",
         },
         {
-            title: (<>NationWide SEO</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Video Advertising</>),
+            txt: "Harness the power of engaging video content on platforms like YouTube to captivate audiences and boost brand recognition.",
             url: "#",
         },
         {
-            title: (<>Facebook Ads</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Native Ad Campaigns</>),
+            txt: "Blend your message naturally into platforms with native ads that deliver value while encouraging meaningful engagement.",
             url: "#",
         },
         {
-            title: (<>On-Page Optimization</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Programmatic Ad Buying</>),
+            txt: "Automate your ad placements with data-driven programmatic buying, ensuring precision targeting and cost-efficient delivery across multiple platforms.",
             url: "#",
         },
         {
-            title: (<>Enterprise SEO</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Retargeting Campaigns</>),
+            txt: "Reconnect with potential customers through retargeting ads that drive conversions by keeping your brand top-of-mind.",
             url: "#",
         },
         {
-            title: (<>SEO Agency</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Shopping Ad Management</>),
+            txt: "Showcase your products with high-impact shopping ads that attract ready-to-buy customers and drive sales for your online store.",
             url: "#",
         },
         {
-            title: (<>Link Building</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Performance Optimization</>),
+            txt: "Monitor and adjust campaigns for peak performance, ensuring your ads deliver results with every dollar spent.",
             url: "#",
         }
 
@@ -148,8 +182,8 @@ export const ServicesData = {
 // CTA 
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "More Competent Paid Marketing Solutions That Work",
+    desc: "From strategy to execution, our innovative ad campaigns are built to enhance your bottom line and drive sustainable growth.",
     img: ImgBg.src
 }
 // Workimport 
@@ -159,8 +193,8 @@ import WorkImg03 from "media/services/paid-marketing/work/work03.webp"
 import WorkImg04 from "media/services/paid-marketing/work/work04.webp"
 export const WorkData = {
     subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Paid Marketing in Action",
+    desc: "Want to know what paid marketing can achieve? See how our specialized paid marketing solutions have helped businesses achieve their goals, driving leads and boosting conversions.",
     WorkItem: [
         {
             title: "Music App",
@@ -281,14 +315,14 @@ export const WorkData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Smart Marketing Solutions at Every Level",
+    desc: "Discover pricing that fits your budget while we craft targeted paid marketing campaigns to maximize audience engagement, attract valuable leads, and increase conversions.",
     PriceItem: [
         {
             bgColor: "#7635FF",
             packagename: "Basic Package",
             price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Start small but smart with paid campaigns designed to increase visibility and generate targeted leads efficiently.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -322,7 +356,7 @@ export const PriceData = {
             bgColor: "#FF6987",
             packagename: "Advanced Package",
             price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Level up with more refined campaigns tailored to engage your audience and drive measurable results.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -356,7 +390,7 @@ export const PriceData = {
             bgColor: "#9AFF35",
             packagename: "Enterprise Package",
             price: "750",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "For businesses seeking maximum growth, we deliver custom solutions with high-impact campaigns that ensure sustained success.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -391,180 +425,88 @@ export const PriceData = {
 
 
 
-// Partner Data
-import Logo1 from "media/home/partnerLogo/logo1.webp";
-import Logo2 from "media/home/partnerLogo/logo2.webp";
-import Logo3 from "media/home/partnerLogo/logo3.webp";
-import Logo4 from "media/home/partnerLogo/logo4.webp";
-import Logo5 from "media/home/partnerLogo/logo5.webp";
-import Logo6 from "media/home/partnerLogo/logo6.webp";
-import Logo7 from "media/home/partnerLogo/logo7.webp";
-import Logo8 from "media/home/partnerLogo/logo8.webp";
-import Logo9 from "media/home/partnerLogo/logo9.webp";
-import Logo10 from "media/home/partnerLogo/logo10.webp";
-import Logo11 from "media/home/partnerLogo/logo11.webp";
-import Logo12 from "media/home/partnerLogo/logo12.webp";
-import Logo13 from "media/home/partnerLogo/logo13.webp";
-import Logo14 from "media/home/partnerLogo/logo14.webp";
-import Logo15 from "media/home/partnerLogo/logo15.webp";
-import Logo16 from "media/home/partnerLogo/logo16.webp";
-import Logo17 from "media/home/partnerLogo/logo17.webp";
-import Logo18 from "media/home/partnerLogo/logo18.webp";
-import Logo19 from "media/home/partnerLogo/logo19.webp";
-import Logo20 from "media/home/partnerLogo/logo20.webp";
-export const PartnerData = {
-    subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    PartnerLogos: [
-        { logo: Logo1.src },
-        { logo: Logo2.src },
-        { logo: Logo3.src },
-        { logo: Logo4.src },
-        { logo: Logo5.src },
-        { logo: Logo6.src },
-        { logo: Logo7.src },
-        { logo: Logo8.src },
-        { logo: Logo9.src },
-        { logo: Logo10.src },
-        { logo: Logo11.src },
-        { logo: Logo12.src },
-        { logo: Logo13.src },
-        { logo: Logo14.src },
-        { logo: Logo15.src },
-        { logo: Logo16.src },
-        { logo: Logo17.src },
-        { logo: Logo18.src },
-        { logo: Logo19.src },
-        { logo: Logo20.src },
-    ]
-}
-
 
 //Industries 
-import Img01 from "media/home/industires/industy01.webp"
-import Img02 from "media/home/industires/industy02.webp"
-import Img03 from "media/home/industires/industy03.webp"
-import Img04 from "media/home/industires/industy04.webp"
-import Img05 from "media/home/industires/industy05.webp"
-import Img06 from "media/home/industires/industy06.webp"
-import Img07 from "media/home/industires/industy07.webp"
+import Business from "media/home/industires/business.webp"
+import Construction from "media/home/industires/construction.webp"
+import Education from "media/home/industires/education.webp"
+import Events from "media/home/industires/events.webp"
+import Content from "media/home/industires/content.webp"
+import Automotive from "media/home/industires/automotive.webp"
+import Sports from "media/home/industires/sports.webp"
+import Ecommerce from "media/home/industires/ecommerce.webp"
+import Healthcare from "media/home/industires/healthcare.webp"
 export const IndustriesData = {
-    subtitle: "Our Industries",
-    title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise:",
-    IndustryItem: [
-        {
-            title: "B2b Business",
-            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles.",
-            Img: Img01.src,
-            url: "#",
-        },
-        {
-            title: "Construction",
-            txt: "Build trust and connect with clients through campaigns and websites designed for credibility.",
-            Img: Img02.src,
-            url: "#",
-        },
-        {
-            title: "Education",
-            txt: "Engage students, parents, and educators with SEO and marketing that inspire action.",
-            Img: Img03.src,
-            url: "#",
-        },
-        {
-            title: "Events",
-            txt: "Create unforgettable moments by driving attendance and boosting engagement.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "E-commerce",
-            txt: "Maximize sales with high-converting websites and compelling campaigns",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "Content Creator",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img05.src,
-            url: "#",
-        },
-        {
-            title: "Automotive",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img06.src,
-            url: "#",
-        },
-        {
-            title: "Spots",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img07.src,
-            url: "#",
-        }
-    ]
-}
-
-// Why Choose Us
-export const ChooseUsData = {
-    subtitle: "Why Choose Us",
-    title: "Creating Impactful Solutions That Matter",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    Content1: [
-        {
-            title: "Expert Team",
-            txt: "Strategists, designers, and developers who bring their A-game to every project."
-        },
-        {
-            title: "Custom Solutions",
-            txt: "Strategies designed around your unique goals and challenges."
-        }
-    ],
-    Content2: [
-        {
-            title: "Proven Success",
-            txt: "A track record of impactful projects across diverse industries."
-        }
-    ],
-    Content3: [
-        {
-            title: "Client-First Approach",
-            txt: "Collaboration and communication that put your vision at the forefront."
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-        }
-    ]
+    subtitle: "Industries We Serve",
+    title: "Partnering with Businesses Across Industries",
+    desc: "Are you curious to know how we help businesses like yours? We work closely with businesses across various industries to develop and execute successful paid marketing campaigns. At Infinitidigital, your success is our priority.",
 
 }
 
-
-//Platforms 
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
-export const PlatformsData = {
-    subtitle: "Platforms We",
-    title: "Platforms We Work With",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg.src,
-    SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    ]
-}
+export const IndustryItem = [
+    {
+        title: "B2b Business",
+        txt: "Reach decision-makers with highly targeted campaigns that simplify complex sales cycles and generate valuable B2B leads.",
+        Img: Business.src,
+        url: "#",
+    },
+    {
+        title: "Construction",
+        txt: "Gain new clients and showcase your skills with strategies tailored to elevate your reputation and grow your business.",
+        Img: Construction.src,
+        url: "#",
+    },
+    {
+        title: "Education",
+        txt: "Boost enrollments with ad campaigns that resonate with students, parents, and educators, inspiring action every step of the way.",
+        Img: Education.src,
+        url: "#",
+    },
+    {
+        title: "Events",
+        txt: "From invitations to follow-ups, our campaigns cover every detail, ensuring maximum engagement for your events.",
+        Img: Events.src,
+        url: "#",
+    },
+    {
+        title: "E-commerce",
+        txt: "Target shoppers with product-specific ads that drive clicks, increase conversions and grow your e-commerce business.",
+        Img: Ecommerce.src,
+        url: "#",
+    },
+    {
+        title: "Content Creator",
+        txt: "From sponsored campaigns to audience engagement, we help creators turn their passion into profit with personalized paid ads.",
+        Img: Content.src,
+        url: "#",
+    },
+    {
+        title: "Automotive",
+        txt: "Our paid campaigns fuel visibility, helping your dealership or brand connect with car buyers and drive sales growth.",
+        Img: Automotive.src,
+        url: "#",
+    },
+    {
+        title: "Sports",
+        txt: "Connect with sports fans through ads that build loyalty, boost brand visibility, and encourage fan participation.",
+        Img: Sports.src,
+        url: "#",
+    }
+    ,
+    {
+        title: "Healthcare",
+        txt: "Enhance patient access with apps for scheduling and consultations.Streamline healthcare processes with secure data management.Build trust through reliable, informative content.",
+        Img: Healthcare.src,
+        url: "#",
+    }
+]
 
 //Awards
 import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
 export const AwardsData = {
     subtitle: "Our Awards",
-    title: "Awards & Recognitions",
-    desc: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
+    title: "Leading the Way in Paid Marketing",
+    desc: "Our wins are a direct reflection of our clients' triumphs. We're driven to deliver amazing results with every campaign.",
     slides: [
         {
             txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
@@ -615,39 +557,39 @@ export const CtaData01 = {
 
 //Testimonials
 export const TestimonialData = {
-    subtitle: "Happy Clients",
-    title: "Hear It from Our Clients ",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Client Voices",
+    title: "Words from Our Clients",
+    desc: "At Inifnitidigital, we value our client's voices. Our paid marketing solutions have delivered exceptional results for businesses across various industries.",
     Testslider: [
         {
-            txt: "Digital Hive transformed our online presence. From zero visibility to ranking on the first page, they delivered beyond our expectations.",
+            txt: "Infinitidigital’s paid marketing strategies gave us an edge in a competitive market. We experienced a 3x increase in leads and a significant drop in cost per acquisition. Their team’s expertise is unparalleled!",
             icon: <ClutchLogo />,
-            namee: "Amanda T.",
-            job: "Founder of BrightTech Solutions",
+            namee: "Sophia W",
+            job: "Head of Marketing at ProBuilders Inc.",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Our sales have doubled since partnering with Digital Hive!",
+            txt: "Our event promotion saw phenomenal results with Infinitidigital’s paid ads. Attendance doubled, and we reached 30% more of our target audience. Their dedication and creativity made it possible!",
             icon: <TrustpilotLogo />,
-            namee: "James M.",
-            job: "COO of NovaRetail Solutions",
+            namee: "Mark J.",
+            job: "Event Manager at InspireNow",
         },
         {
-            txt: "Digital Hive helped us exceed our targets with a comprehensive digital strategy. Highly recommended!",
+            txt: "Our paid ads were underperforming until we partnered with Infinitidigital. Their expert targeting and creative approach increased our click-through rate by 70%, driving more qualified traffic than ever before.",
             icon: <GoogleLogo />,
-            namee: "Sarah K.",
-            job: "MD at GreenWave Industries",
+            namee: "Robert D.",
+            job: "Co-Founder of BoldTech Innovations",
         },
         {
-            txt: "Partnering with Digital Hive was the best decision for our brand’s growth. Their expertise is unparalleled.",
+            txt: "From day one, Infinitidigital’s team understood our goals and created targeted campaigns that exceeded expectations. Their ability to optimize our ad spend while increasing engagement was incredible. We couldn’t be happier with the results!",
             icon: <TrustpilotLogo />,
-            namee: "Tom L.",
-            job: "CEO of BuildPro Solutions",
+            namee: "Emily K.",
+            job: "CMO of UrbanBites",
         },
         {
-            txt: "Our online sales skyrocketed thanks to their incredible SEO and web design services!",
+            txt: "The team at Infinitidigital transformed our paid marketing strategy. Their dynamic retargeting ads helped us recover 25% of lost customers, and our ROI skyrocketed. I highly recommend their services to any business looking to grow!",
             icon: <ClutchLogo />,
-            namee: "Emily R.",
-            job: "Founder of StyleHive Boutique",
+            namee: "Amanda L.",
+            job: "Founder of GreenVibe Organics",
         }
     ]
 }
@@ -655,8 +597,8 @@ export const TestimonialData = {
 
 export const CallActionData = {
     subtitle: "Contact Us",
-    title: "Your Journey to Success Starts Now ",
-    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
+    title: "Your Paid Marketing Success Starts Here ",
+    desc: "Do you need a partner for paid marketing success? Partner with us for paid campaigns that resonate, engage, and convert. Your vision is our mission–let’s make it happen!"
 }
 
 // Blgos
@@ -665,8 +607,8 @@ import IMG02 from "media/home/blogs/blog2.webp"
 import IMG03 from "media/home/blogs/blog3.webp"
 export const BlgosData = {
     subtitle: "Our Blogs",
-    title: "Insights and Inspiration ",
-    desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
+    title: "Quick Tips, Big Impact",
+    desc: "Discover valuable insights, actionable strategies, and the latest tools in paid marketing. Our blog provides concise and impactful information to improve your campaigns.",
     BlogsData: [
         {
             title: "Hear From Our Clients",
@@ -699,29 +641,28 @@ export const BlgosData = {
 export const FAQsData = {
     subtitle: "FAQs",
     title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-
     Fqaslist: [
         {
-            title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
+            title: "What is paid marketing, and how can it benefit my business? ",
+            txt: "Paid marketing involves using paid advertisements to promote your business through platforms like Google, Facebook, and Instagram. It increases visibility, drives targeted traffic, and boosts conversions."
         },
         {
-            title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
+            title: "How do you ensure my paid marketing campaigns deliver results?",
+            txt: "We use data-driven strategies, audience targeting, and continuous optimization to create campaigns that align with your business goals and maximize ROI."
         },
         {
-            title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
+            title: "Which platforms are best for paid advertising?",
+            txt: "It depends on your audience and goals. Popular platforms include Google Ads, Facebook, Instagram, YouTube, and programmatic networks for broader reach."
         },
         {
-            title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
+            title: "Can paid advertising work for local businesses?",
+            txt: "Absolutely! With location-based targeting, paid ads can help local businesses drive foot traffic, increase calls, and generate leads in their area."
         },
         {
-            title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
-        }
+            title: "How do you select the right audience for my paid campaigns?",
+            txt: "We use advanced targeting tools to analyze demographics, interests, behaviors, and geographic data, ensuring your ads reach the most relevant audience."
+        },
+
     ]
 
 }

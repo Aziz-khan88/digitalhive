@@ -2,9 +2,8 @@
 import BannerPoster from "media/innerservices/posterImg.webp"
 
 export const BannerData = {
-    subtitle: "No. 1 SMM Company In US",
-    title: "We Are a Growth-Focused",
-    desc: "Digital Marketing Agency Equipping Businesses for the Digital Era",
+    title: "Your Brand’s Social Media Makeover Starts Now",
+    desc: "Turn clicks into customers with social media strategies that captivate, connect, and convert.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1040514717/rendition/720p/file.mp4?loc=external&log_user=0&signature=6b566d205b96ec56f92d53789db8d3cd56d6a5246289ee01b47b89221a0b6179",
     BannerPoster: BannerPoster.src
 }
@@ -138,38 +137,38 @@ export const WorkData = {
 
 //Services
 export const InnerServicesData = {
-    subtitle: "Our Services",
-    title: "Our Social Media Marketing Services.",
-    desc: "Your app journey begins with a vision, and we’re here to transform it into reality. Through careful design, expert development, and seamles.",
+    subtitle: "Where Creativity Meets Conversions!",
+    title: "Want to stand out on social media? ",
+    desc: "We’re here to help. From growing your brand to engaging your audience and driving real results, our tailored strategies make your social platforms shine.",
     innerServItem: [
         {
-            title: "Editing & Proofreading",
-            txt: "Custom social media plans aligned with your business goals.",
+            title: "Content Creation & Strategy",
+            txt: "Engage your audience with impactful, high-quality content. We craft tailored strategies to boost visibility and keep your brand at the forefront of your mind.",
             url: "#",
         },
         {
-            title: "Editing & Proofreading",
-            txt: "Custom social media plans aligned with your business goals.",
+            title: "Social Media Advertising",
+            txt: "Reach your ideal audience with targeted ad campaigns. Our experts maximize ROI by delivering the right message at the right time.",
             url: "#",
         },
         {
-            title: "Editing & Proofreading",
-            txt: "Custom social media plans aligned with your business goals.",
+            title: "Community Management",
+            txt: "Build meaningful connections with your audience. We foster engagement, respond to interactions, and create a thriving online community.",
             url: "#",
         },
         {
-            title: "Editing & Proofreading",
-            txt: "Custom social media plans aligned with your business goals.",
+            title: "Influencer Marketing",
+            txt: "Amplify your brand’s reach with trusted voices. We connect you with influencers who drive credibility and engagement for your business.",
             url: "#",
         },
         {
-            title: "Editing & Proofreading",
-            txt: "Custom social media plans aligned with your business goals.",
+            title: "Analytics & Reporting",
+            txt: "Make data-driven decisions with actionable insights. We track performance, optimize campaigns, and ensure measurable growth for your social media efforts.",
             url: "#",
         },
         {
-            title: "Editing & Proofreading",
-            txt: "Custom social media plans aligned with your business goals.",
+            title: "Reputation Management",
+            txt: "Protect and enhance your brand’s image. Our team monitors your online presence and ensures your brand stays credible and trusted.",
             url: "#",
         },
     ]
@@ -179,10 +178,61 @@ export const InnerServicesData = {
 
 import ImgBg from "media/components/newsLetterImg.gif"
 export const NewsLetterData = {
-    title: "Let’s Build Something Extraordinary Together!",
-    desc: "Got questions or ready to start your digital transformation? Connect with us today and take the first step toward elevating your brand online.",
+    title: "Let Us Create Something Amazing Together!",
+    desc: "Not sure how to grow your brand? Let us get started! Share your email with us, and we will help you kick off a plan to boost your website’s success.",
     img: ImgBg.src
 }
+
+
+
+// Why Choose Us
+export const ChooseUsData = {
+    subtitle: "Why Choose Us",
+    title: "Solutions That Deliver and Inspire",
+    desc: "Here’s why we’re the ultimate partner to take your brand to the next level.",
+    Content1: [
+        {
+            title: "Expert Team",
+            txt: "Our team of experts works with creativity and skill to deliver the best results for every project."
+        },
+        {
+            title: "Custom Solutions",
+            txt: "We create personalized strategies that fit your unique goals and challenges perfectly."
+        }
+    ],
+    Content2: [
+        {
+            title: "Proven Success",
+            txt: "With years of experience across different industries, we deliver results you can rely on."
+        }
+    ],
+    Content3: [
+        {
+            title: "Client-First Approach",
+            txt: "Your success is our focus. We prioritize open communication and collaboration to achieve your goals."
+        },
+        {
+            title: "Innovation That Drives Growth",
+            txt: "We use the latest tools and ideas to keep your brand ahead of the competition."
+        }
+    ]
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //Content Data
 import ContentImg from "media/innerservices/bookImg.webp"
@@ -804,41 +854,6 @@ export const IndustriesData = {
         }
     ]
 }
-
-// Why Choose Us
-export const ChooseUsData = {
-    subtitle: "Why Choose Us",
-    title: "Creating Impactful Solutions That Matter",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    Content1: [
-        {
-            title: "Expert Team",
-            txt: "Strategists, designers, and developers who bring their A-game to every project."
-        },
-        {
-            title: "Custom Solutions",
-            txt: "Strategies designed around your unique goals and challenges."
-        }
-    ],
-    Content2: [
-        {
-            title: "Proven Success",
-            txt: "A track record of impactful projects across diverse industries."
-        }
-    ],
-    Content3: [
-        {
-            title: "Client-First Approach",
-            txt: "Collaboration and communication that put your vision at the forefront."
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-        }
-    ]
-
-}
-
 
 //Platforms 
 import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";

@@ -2,144 +2,180 @@
 import BannerPoster from "media/services/social-media-marketing/posterImg.webp"
 
 export const BannerData = {
-    subtitle: "Invest Smart, Grow Faster.",
-    title: "Smart Ads, Proven Results.",
-    desc: "We create cost-effective paid marketing strategies that optimize every dollar spent for maximum impact.",
+    subtitle: "Skyrocket Your Rankings with.",
+    title: "Expert SEO Services.",
+    desc: "Get more traffic, more leads, and more customers with a tailored SEO strategy that works.",
     video: "/videos/BannerVideo.mp4",
     BannerPoster: BannerPoster.src,
-    bannerTitle: "Accelerate Growth with Targeted Ads.",
-    bannerContent: "Unlock the power of strategic storytelling to captivate your audience and drive measurable results. Let us craft your success story.",
-
 }
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Your App Journey: Designed, Developed, Delivered",
-    desc: "Your app journey begins with a vision, and we’re here to transform it into reality. Through careful design, expert development, and seamless delivery, we ensure every step is crafted to bring your ideas to life and engage users effectively.",
+    title: "Why Infinitidigital is Your SEO Partner",
+    desc: "Your business deserves SEO strategies that bring measurable growth. Curious about how we help brands like yours succeed? Here’s why partnering with Infinitidigital makes sense:",
 
     ProcessItem1: [
         {
-            title: "In-Depth Market Research",
+            title: "Data-Driven Insights",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Comprehensive Analytics: </strong>
+                <p>Leverage in-depth data to understand your audience and uncover opportunities.</p>
+                <strong>Strategic Recommendations:</strong>
+                <p>Transform insights into actionable SEO strategies tailored to your goals.</p>
+                <strong>Performance Metrics:</strong>
+                <p>Track success with measurable results at every step.</p>
             </>),
 
         },
         {
-            title: "Goal-Oriented Strategy Creation",
+            title: "Local and National Reach",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Local Optimization: </strong>
+                <p>Dominate regional searches and connect with nearby customers.</p>
+                <strong>National Campaigns:</strong>
+                <p>Expand your visibility with strategies that capture audiences nationwide.</p>
+                <strong>Audience Targeting:</strong>
+                <p>Ensure your message resonates across geographic and demographic boundaries.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Ad Creation & Design",
+            title: "Proven Performance",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Search Ranking Success:</strong>
+                <p>Achieve higher visibility on search engines for key terms.</p>
+                <strong>Conversion Optimization: </strong>
+                <p>Drive not just traffic but meaningful user actions.</p>
+                <strong>Real-World Results: </strong>
+                <p>Showcase measurable growth backed by data.</p>
             </>),
 
         }, {
-            title: "Targeted Ad Placement",
+            title: "Ongoing Adjustments",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Continuous Monitoring: </strong>
+                <p>Track trends and adapt your strategy to stay ahead.</p>
+                <strong>Performance Tweaks: </strong>
+                <p>Optimize campaigns for better results over time.</p>
+                <strong>Algorithm Adaptation: </strong>
+                <p>Stay compliant with the latest search engine updates.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Launch & Monitor",
+            title: "Collaborative Process",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Transparent Communication: </strong>
+                <p>Keep your goals and feedback at the forefront.</p>
+                <strong>Partnership Approach</strong>
+                <p>Work together to design strategies that align with your vision.</p>
+                <strong>Shared Success: </strong>
+                <p>Celebrate results achieved through mutual collaboration.</p>
             </>),
 
         },
         {
-            title: "Optimization & Reporting",
+            title: "Innovative Techniques",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Emerging Trends: </strong>
+                <p>Stay ahead with strategies that leverage the latest SEO developments.</p>
+                <strong>Creative Content: </strong>
+                <p>Craft engaging, optimized content that resonates with users.</p>
+                <strong>Technical Expertise: </strong>
+                <p>Build a solid foundation with cutting-edge technical solutions.</p>
             </>),
 
         }
     ]
 
 }
+
+
+// Why Choose Us
+export const ChooseUsData = {
+    subtitle: "Why Choose Us",
+    title: "From Strategy to Success",
+    desc: "Effective SEO starts with understanding your business. Here’s how we turn your goals into measurable outcomes:",
+    Content1: [
+        {
+            title: "Thorough Research",
+            txt: "We analyze your industry, competitors, and audience to uncover opportunities."
+        },
+        {
+            title: "Customized Campaigns",
+            txt: "Every strategy is tailored to meet your unique challenges and goals."
+        }
+    ],
+    Content2: [
+        {
+            title: "Technical Optimization",
+            txt: "We ensure your website structure and performance align with search engine requirements."
+        }
+    ],
+    Content3: [
+        {
+            title: "Content That Converts",
+            txt: "Engaging, keyword-focused content designed to attract and retain users."
+        },
+        {
+            title: "Continuous Improvements",
+            txt: "We track progress and adapt strategies for long-term growth.Wouldn’t you love an SEO plan that grows with your business?"
+        }
+    ]
+
+}
+
+
+
+
 //Services
 export const ServicesData = {
     subtitle: "Our Services",
-    title: "Smarter Strategies, Better Results ",
-    desc: "Our tailored solutions ensure your success. Here’s how we help:",
+    title: "Comprehensive SEO Services",
+    desc: "Isn’t it time to maximize your online potential? Greet solutions that deliver real results. Here how: ",
     ServicesItem: [
         {
-            title: (<>PPC Ads</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Local SEO</>),
+            txt: "Capture nearby customers with strategies designed to dominate local searches.",
             url: "#",
         },
         {
-            title: (<>Social Media Ads</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>White Label SEO</>),
+            txt: "Offer professional SEO services under your brand without extra overhead.",
             url: "#",
         },
         {
-            title: (<>Amazon Ads</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Nationwide SEO</>),
+            txt: "Reach audiences across the country with strategies tailored for a broader market.",
             url: "#",
         },
         {
-            title: (<>Facebook Ads</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>On-Page Optimization</>),
+            txt: "Fine-tune your site’s content and structure for better visibility and engagement.",
             url: "#",
         },
         {
-            title: (<>YouTube Ads</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Enterprise SEO</>),
+            txt: "Scalable solutions for large businesses in competitive markets.",
             url: "#",
         },
         {
-            title: (<>Advertising</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Link Building:</>),
+            txt: "Build authority and improve rankings with quality backlinks.",
             url: "#",
         },
         {
-            title: (<>Video Advertising</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-            url: "#",
+            title: (<>SEO Audits</>),
+            txt: "",
+            url: "Get a detailed analysis of your site’s strengths and areas for improvement.",
         },
         {
-            title: (<>Google Ads</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            title: (<>Lorem ipsum</>),
+            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
             url: "#",
         }
 
@@ -148,8 +184,8 @@ export const ServicesData = {
 // CTA 
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Transform Your Vision Into Results",
+    desc: "Your business deserves more than just aesthetics—it needs results-driven designs that captivate your audience and drive measurable growth. At Infinitidigital, we craft innovative, functional, and engaging SEO solutions tailored to your goals.",
     img: ImgBg.src
 }
 // Workimport 
@@ -158,34 +194,34 @@ import WorkImg02 from "media/services/paid-marketing/work/work02.webp"
 import WorkImg03 from "media/services/paid-marketing/work/work03.webp"
 import WorkImg04 from "media/services/paid-marketing/work/work04.webp"
 export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Our Recent SEO Success Stories",
+    title: "Bringing Strategies to Life",
+    desc: "SEO is about more than rankings—it’s about results. At Infinitidigital, we’ve helped businesses across industries achieve measurable growth and build long-term success. Here are some of our recent achievements:",
     WorkItem: [
         {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
+            title: "Boosted Local Visibility",
+            txt: "For a small business in healthcare, we optimized local SEO strategies that increased appointment bookings by 45% within three months.",
             Img: WorkImg01.src,
             url: "#",
             category: "Mobile App Development",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Nationwide Expansion",
+            txt: "Helped an e-commerce brand dominate search results across key states, resulting in a 60% revenue growth quarter over quarter.",
             Img: WorkImg02.src,
             url: "#",
             category: "Mobile App Development",
         },
         {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
+            title: "White Label Success",
+            txt: "Collaborated with agencies to deliver SEO solutions under their branding, earning consistent client satisfaction and retention rates of over 85%.",
             Img: WorkImg03.src,
             url: "#",
             category: "Mobile App Development",
         },
         {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
+            title: "Content Optimization",
+            txt: "Revitalized an education platform’s blog with SEO-focused strategies, increasing organic traffic by 120% in six months.",
             Img: WorkImg04.src,
             url: "#",
             category: "Mobile App Development",
@@ -288,7 +324,7 @@ export const PriceData = {
             bgColor: "#7635FF",
             packagename: "Basic Package",
             price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Start building your online presence with an affordable package designed for small businesses.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -322,7 +358,7 @@ export const PriceData = {
             bgColor: "#FF6987",
             packagename: "Advanced Package",
             price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Scale your social media impact with strategic content and enhanced SEO tactics.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -356,7 +392,7 @@ export const PriceData = {
             bgColor: "#9AFF35",
             packagename: "Enterprise Package",
             price: "750",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "For brands aiming to dominate their market with premium, SEO-driven strategies.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -413,9 +449,9 @@ import Logo18 from "media/home/partnerLogo/logo18.webp";
 import Logo19 from "media/home/partnerLogo/logo19.webp";
 import Logo20 from "media/home/partnerLogo/logo20.webp";
 export const PartnerData = {
-    subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
+    subtitle: "Partnerships That Drive Success",
+    title: "Trusted by Leading Brands Across the Globe",
+    desc: "At Infinitidigital, we proudly collaborate with some of the most visionary brands—from global enterprises to trailblazing startups. Our partnerships are rooted in trust, driven by creativity, and guided by results-oriented strategies that deliver measurable outcomes. Together, we don’t just build campaigns; we build success stories.",
     PartnerLogos: [
         { logo: Logo1.src },
         { logo: Logo2.src },
@@ -505,146 +541,77 @@ export const IndustriesData = {
     ]
 }
 
-// Why Choose Us
-export const ChooseUsData = {
-    subtitle: "Why Choose Us",
-    title: "Creating Impactful Solutions That Matter",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    Content1: [
-        {
-            title: "Expert Team",
-            txt: "Strategists, designers, and developers who bring their A-game to every project."
-        },
-        {
-            title: "Custom Solutions",
-            txt: "Strategies designed around your unique goals and challenges."
-        }
-    ],
-    Content2: [
-        {
-            title: "Proven Success",
-            txt: "A track record of impactful projects across diverse industries."
-        }
-    ],
-    Content3: [
-        {
-            title: "Client-First Approach",
-            txt: "Collaboration and communication that put your vision at the forefront."
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-        }
-    ]
-
-}
-
-
-//Platforms 
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
-export const PlatformsData = {
-    subtitle: "Platforms We",
-    title: "Platforms We Work With",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg.src,
-    SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    ]
-}
 
 //Awards
 import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
 export const AwardsData = {
-    subtitle: "Our Awards",
-    title: "Awards & Recognitions",
-    desc: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
+    subtitle: "Awards & Recognitions",
+    title: "Celebrating Excellence, Innovation, and Results",
+    desc: "At Infinitidigital, our achievements reflect the trust our clients place in us and our untiring dedication to delivering impactful results. We’re not just about meeting goals—we’re about exceeding them.",
     slides: [
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Best SEO Agency of the Year (Digital Impact Awards): Recognized for delivering outstanding search engine optimization strategies that drive measurable growth.",
             icon: <ClutchLogo />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Excellence in Digital Marketing (Global Marketing Leaders Awards): Celebrated for innovative and client-focused campaigns",
             icon: <TrustpilotLogo />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Top Content Marketing Firm (CMO Excellence Awards): Awarded for creating SEO-optimized content that enhances visibility and engagement.",
             icon: <GoogleLogo />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Leader in E-Commerce SEO Solutions (E-Business Recognition Awards): Honored for helping e-commerce brands dominate search rankings.",
             icon: <ClutchLogo />,
 
         },
         {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            txt: "Customer Choice Award (Business Excellence Circle): Acknowledged for consistent client satisfaction and exceptional results.",
             icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
 
         },
 
     ]
 }
 
-// CTA  01
-import ImgBg1 from "media/home/ctaBg1.webp"
-export const CtaData01 = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg1.src
-}
+
 
 //Testimonials
 export const TestimonialData = {
     subtitle: "Happy Clients",
-    title: "Hear It from Our Clients ",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Hear It from Our Clients",
+    desc: "At Infinitidigital, client success is our top priority. We’ve worked with businesses across industries to transform their online presence, amplify visibility, and achieve measurable growth. Our results-driven approach consistently delivers exceptional outcomes that speak for themselves.",
     Testslider: [
         {
-            txt: "Digital Hive transformed our online presence. From zero visibility to ranking on the first page, they delivered beyond our expectations.",
+            txt: "Infinitidigital transformed our SEO strategy, helping us rank #1 in local search results. Their expertise boosted our visibility and increased our sales by 50% in three months.",
             icon: <ClutchLogo />,
             namee: "Amanda T.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Our sales have doubled since partnering with Digital Hive!",
+            txt: "Thanks to Infinitidigital, our e-commerce store saw a 120% growth in organic traffic. Their insights and strategies made a significant impact on our bottom line.",
             icon: <TrustpilotLogo />,
             namee: "James M.",
             job: "COO of NovaRetail Solutions",
         },
         {
-            txt: "Digital Hive helped us exceed our targets with a comprehensive digital strategy. Highly recommended!",
+            txt: "Their attention to detail and commitment to results set them apart. Our site traffic doubled, and customer engagement soared within weeks of their intervention.",
             icon: <GoogleLogo />,
             namee: "Sarah K.",
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "Partnering with Digital Hive was the best decision for our brand’s growth. Their expertise is unparalleled.",
+            txt: "Infinitidigital’s tailored SEO strategies helped us enter new markets with ease. Their team’s dedication ensured we saw a tangible return on investment.",
             icon: <TrustpilotLogo />,
             namee: "Tom L.",
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "Our online sales skyrocketed thanks to their incredible SEO and web design services!",
+            txt: "Partnering with Infinitidigital was the best decision for our online presence. Our rankings improved drastically, and we’ve gained long-term customers as a result.",
             icon: <ClutchLogo />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",
@@ -655,8 +622,8 @@ export const TestimonialData = {
 
 export const CallActionData = {
     subtitle: "Contact Us",
-    title: "Your Journey to Success Starts Now ",
-    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
+    title: "Your Journey to Success Starts Now",
+    desc: "Your vision deserves more than just a digital presence—it deserves a strategy that delivers measurable results and drives lasting growth. Let’s collaborate to create impactful strategies tailored to your goals and share stories that matter."
 }
 
 // Blgos
@@ -665,8 +632,8 @@ import IMG02 from "media/home/blogs/blog2.webp"
 import IMG03 from "media/home/blogs/blog3.webp"
 export const BlgosData = {
     subtitle: "Our Blogs",
-    title: "Insights and Inspiration ",
-    desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
+    title: "Insights and Inspiration",
+    desc: "Stay informed and inspired with actionable advice and the latest trends. Our blog is your go-to resource for expert insights on SEO, social media strategies, web design innovations, and more. ",
     BlogsData: [
         {
             title: "Hear From Our Clients",
@@ -699,28 +666,27 @@ export const BlgosData = {
 export const FAQsData = {
     subtitle: "FAQs",
     title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
     Fqaslist: [
         {
-            title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
+            title: "What is SEO, and why is it important for my business? ",
+            txt: "SEO (Search Engine Optimization) is the process of optimizing your website to rank higher in search engine results. It increases visibility, attracts organic traffic, and helps build trust with your audience. Isn’t more traffic and trust what every business needs?"
         },
         {
-            title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
+            title: "How long does it take to see results from SEO?",
+            txt: "SEO is a long-term strategy. While some improvements can be seen within a few months, consistent efforts typically yield significant results in 6 to 12 months. Ready to start building for the future?",
         },
         {
-            title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
+            title: "Can SEO work for small businesses?",
+            txt: "Absolutely! SEO is scalable and can be tailored to fit any budget. Local SEO, in particular, is perfect for small businesses looking to attract customers in their area. Isn’t it time your business got noticed?"
         },
         {
-            title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
+            title: "What is the difference between on-page and off-page SEO?",
+            txt: "On-page SEO focuses on optimizing elements within your website, such as content and meta tags. Off-page SEO involves external efforts like link building to improve your site’s authority. Both are essential for success—are you leveraging them effectively?"
         },
         {
-            title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
+            title: "How does Infinitidigital approach SEO for clients?",
+            txt: "We start with a comprehensive audit to understand your needs, followed by tailored strategies that include keyword research, content optimization, technical fixes, and link-building campaigns. Wouldn’t you love a partner that delivers measurable growth?"
         }
     ]
 
