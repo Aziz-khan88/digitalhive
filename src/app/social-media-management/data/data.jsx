@@ -16,7 +16,8 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Make Every Click Count with Infinitidigital ",
     contentTxt: (<>
-        <p>Have you ever wondered why some ads captivate while others fade into the background? The secret lies in strategy. At Infinitidigital, we don’t just run campaigns; we craft journeys that turn curious clicks into loyal customers. Why stick to one platform when your audience lives across many? Whether it’s driving traffic on Facebook, starting trends on TikTok, or growing professional networks on LinkedIn, we craft strategies tailored to each platform’s unique advantages. </p>
+        <p>Make Every Click Count with Infinitidigital you ever wondered why some ads captivate while others fade into the background? The secret lies in strategy. At Infinitidigital, we don’t just run campaigns; we craft journeys that turn curious clicks into loyal customers.</p>
+        <p>Why stick to one platform when your audience lives across many? Let’s meet your audience where they are. Ready to connect with the right people at the right time? Let’s make it happen.</p>
     </>),
     img: ContentImg.src
 }
@@ -45,7 +46,7 @@ export const ServicesData = {
         },
         {
             title: (<>Content <br />Creation</>),
-            txt: "Struggling to stand out? We create visuals, videos, and messaging that stop scrolling thumbs and build lasting impressions",
+            txt: "Struggling to stand out? We create visuals, videos, and messaging that stop scrolling thumbs and build lasting impressions.",
             url: "#",
         },
         {
@@ -104,31 +105,31 @@ export const TestimonialData = {
     desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "We were struggling to make an impact online until Infinitidigital came on board. Their Instagram strategy boosted engagement by 80%, and we started seeing results almost immediately.",
+            txt: "We were struggling to make an impact online until Infinitidigital came on board. Their Instagram strategy transformed our engagement, resulting in an 80% boost. The results were almost immediate, leading to a noticeable increase in brand awareness. Infinitidigital really understood our needs and tailored their approach to fit them perfectly.",
             icon: <ClutchLogo />,
             namee: "Sophia T.",
             job: "Marketing Manager, BrightLeaf Naturals",
         },
         {
-            txt: "Our Facebook campaigns used to feel like throwing darts in the dark. Thanks to Infinitidigital, we saw a 60% increase in leads within weeks. These guys know their stuff!",
+            txt: "Our Facebook campaigns felt like throwing darts in the dark before Infinitidigital joined us. They implemented strategies that led to a remarkable 60% increase in leads within just weeks. The clarity and focus they provided transformed our outreach. It's clear that these guys truly understand the intricacies of digital marketing. We're thrilled with the results!",
             icon: <TrustpilotLogo />,
             namee: "Josh B.",
             job: "Founder, EcoKart Solutions",
         },
         {
-            txt: "IWe needed a fresh approach to reach Gen Z, and Infinitidigital delivered. Their TikTok campaign doubled our followers and sparked conversations we’d never seen.",
+            txt: "To connect with Gen Z, we needed a fresh approach, and Infinitidigital delivered exactly that. Their TikTok campaign doubled our followers and ignited conversations we’d never experienced before. The creativity and innovation they brought to the table were remarkable. We’re excited about the new engagement and vibrant community they helped foster.",
             icon: <GoogleLogo />,
             namee: "Elena C.",
             job: "Brand Manager, GlowVibe",
         },
         {
-            txt: "Working with Infinitidigital was the best decision we made. Their personalized LinkedIn strategy brought us high-quality leads and positioned us as industry leaders.",
+            txt: "Working with Infinitidigital was one of the best decisions for our business. Their personalized LinkedIn strategy significantly elevated our brand's presence, bringing in high-quality leads and positioning us as industry leaders. The professional approach and insight they offered were invaluable. We're grateful for their partnership in driving our growth forward!",
             icon: <Forbes />,
             namee: "Adam P.",
             job: "CEO, FutureEdge Innovations",
         },
         {
-            txt: "Our collaboration with Infinitidigital connected us with the right influencers. In just a month, we gained over 500K impressions and saw direct sales growth.",
+            txt: "Our collaboration with Infinitidigital was a game-changer. They connected us with the right influencers, and we gained over 500K impressions in just a month. This partnership resulted in a significant spike in direct sales, transforming our marketing strategy. Their expertise in influencer marketing truly made a difference, and we're delighted with the outcomes.",
             icon: <Upcity />,
             namee: "Lila  W.",
             job: "Social Media Manager, StyleSphere",
@@ -147,24 +148,24 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: ". How do you ensure my ads reach the right people?",
-            txt: "Ever feel like your ads are being ignored? We don’t let that happen. By analyzing demographics, behaviors, and interests, we precisely target your ideal audience."
+            title: "How do you ensure my ads reach the right people?",
+            txt: "We thoroughly analyze demographics and interests to reach your target audience effectively. This strategic targeting enhances your ads' visibility and engagement. By focusing on your ideal customers, we improve interaction rates. Our goal is to maximize the impact of your advertising."
         },
         {
             title: "Can I really measure social media ROI?",
-            txt: "Absolutely. Our performance reports break down key metrics like conversions, engagement, and cost per result—no fluff—just clear data to show what’s working."
+            txt: "Yes, measuring social media ROI is not only possible but crucial for your strategy. We provide detailed performance reports highlighting key metrics such as conversions and engagement. This ensures you understand what’s working and what isn’t. Our clear data empowers you to make informed decisions."
         },
         {
             title: "What platforms do you recommend for my business? ",
-            txt: "It depends on your goals! Want visual impact? Instagram’s your go-to. Need to reach professionals? LinkedIn. Our team will guide you based on your audience and objectives."
+            txt: "The best platforms depend on your specific business objectives and audience. If visual impact is key, Instagram is a top choice. Alternatively, if you're targeting professionals, LinkedIn would be more suitable. We work closely with you to identify the platforms that align with your goals."
         },
         {
             title: "How long before I see results?",
-            txt: "While some strategies show quick wins in weeks, social media is also about sustainable growth. We balance immediate impact with long-term success."
+            txt: "Some strategies may yield quick wins in just a few weeks. However, social media is also about fostering long-term relationships and growth. We emphasize both immediate results and sustainable success to benefit your business. Patience and consistent effort are essential for lasting impact."
         },
         {
             title: "Do you handle content creation too?",
-            txt: "Yes! From eye-catching visuals to persuasive copy, we handle everything to ensure your ads resonate and drive action."
+            txt: "Absolutely. We manage all aspects of content creation for you. Our team creates engaging visuals and compelling copy to connect with your audience. This comprehensive service ensures your ads drive effective action so you can focus on other important areas of your business with peace of mind."
         }
     ]
 

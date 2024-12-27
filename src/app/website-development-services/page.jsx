@@ -11,8 +11,8 @@ import CtaForm from '@/src/app/home/ctaform'
 import FollowUs from '@/src/app/home/followus'
 import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
-import { BannerData, StateCounter, ProcessData, ContentData, NewsLetterData, WebProjectData, PriceData } from '@/src/app/website-development-services/data/data'
-import { FollowsData, TestimonialData, PartnerData, CallActionData, BlgosData, FAQsData } from '@/src/app/home/data/data'
+import { BannerData, StateCounter, ProcessData, ContentData, NewsLetterData, WebProjectData, PriceData, FAQsData } from '@/src/app/website-development-services/data/data'
+import { FollowsData, TestimonialData, PartnerData, CallActionData, BlgosData, } from '@/src/app/home/data/data'
 
 const Page = () => {
     return (

@@ -296,11 +296,7 @@ export const ContentData = {
     title: "Outshine Your Competitors with Creative, Results-Driven Strategies",
     desc: (<>
         <p>Why settle for average when your brand can shine? At Infinitidigital, we combine creativity, strategy, and real-world results to help you dominate the competition.</p>
-        <ul className="ContentUl">
-            <li><strong><MenuIcon />Innovative Solutions:</strong> Stay ahead of trends with strategies that work.</li>
-            <li><strong> <MenuIcon />Audience-Centric Approach:</strong>Wondering how to connect with your audience? We craft content that speaks to their needs and interests.</li>
-            <li><strong> <MenuIcon />Measurable Success:</strong>We don’t guess—we track. Our reports show exactly how your campaigns perform and where we’re driving growth.</li>
-        </ul>
+        <p>Innovative solutions are essential to staying ahead of trends with effective strategies.If you’re wondering how to connect with your audience, we craft content that speaks to their needs and interests. We don’t guess when it comes to measuring success—we track everything meticulously. Our reports show exactly how your campaigns perform and where we’re driving growth.</p>
     </>
     ),
     img: ContentImage.src
@@ -585,7 +581,7 @@ export const FAQsData = {
     title: "Your Questions, Answered",
     Fqaslist: [
         {
-            title: "What makes Infinitidigital’s SMM services unique",
+            title: "What makes Infinitidigital’s SMM services unique?",
             txt: "Infinitidigital’s Social Media Marketing services stand out because we craft strategies tailored to your brand’s goals and audience. By blending innovation with data-driven insights, we ensure every campaign is unique and impactful. Our approach emphasizes creative solutions and measurable results, delivering meaningful engagement and long-term growth for your business."
         },
         {

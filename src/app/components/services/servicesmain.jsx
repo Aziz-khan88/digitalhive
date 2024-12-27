@@ -22,7 +22,7 @@ const ServicesMain = ({ data }) => {
                                         <div className={styles.title}>{item.title}</div>
                                         <div className={styles.barLine}></div>
                                         <div className={styles.readMore}>
-                                            <Link href={item.url}>Read More</Link>
+                                            <Link href={item.url}>Contact Us</Link>
                                         </div>
                                         <Link href={item.url} className={styles.btnReaMore}>
                                             <ArrowIcon />

@@ -2,20 +2,17 @@
 import BannerPoster from "media/innerservices/website-development-services/bannerImg.webp"
 
 export const BannerData = {
-    title: "Book Marketing Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Expert Website Development",
+    desc: "Looking to boost your online presence? Can’t seem to get the desired results? At Infinitidigital, we specialize in creating high-performance websites tailored to your business needs. We ensure seamless user experiences and measurable results that drive success.",
     video: "",
     BannerPoster: BannerPoster.src
 }
 
-
-
 // States Counter
-
 export const StateCounter = {
-    subtitle: "The Company-State",
-    title: "Your App Journey: Designed, Developed, Delivered",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Website Development",
+    title: "Powerful Websites That Drive Success",
+    desc: "Want to create a website that leaves a lasting impact? Look no further! Infinitidigital builds high-performing websites that look great and drive business growth. We create custom solutions to meet your unique needs..",
     stateItem: [
         {
             numbers: "200+",
@@ -37,8 +34,8 @@ export const StateCounter = {
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Our Proven Content Marketing Process",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Our Seamless Website Development Process",
+    desc: "Wondering how we always succeed? At Infinitidigital, we follow a proven process to create websites that align with your goals. From planning to launch, we ensure every detail matters.",
 
     ProcessItem1: [
         {
@@ -117,7 +114,6 @@ export const ProcessData = {
 
         }
     ]
-
 }
 
 
@@ -125,11 +121,9 @@ export const ProcessData = {
 import ContentImg from "media/innerservices/website-development-services/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Why Partner with Our Book Writing Experts?",
+    contentTitle: "Building Scalable Websites for Long-Term Success",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Want to know our secret?At Infinitidigital, we create scalable websites that grow with your business.Our team of expert developers focuses on functionality, performance, and design to ensure long-term success.Whether you’re launching a new site or revamping an existing one, we deliver high-quality solutions that enhance user experience and drive business growth.</p>
     </>),
     img: ContentImg.src
 }
@@ -138,13 +132,12 @@ export const ContentData = {
 
 import ImgBg from "media/innerservices/website-development-services/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Let’s Build Something Extraordinary Together!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Empower Your Digital Presence",
+    desc: "We create stunning websites that work seamlessly to help your business grow. The Infinitidigital team ensures your website is fast and responsive, keeping visitors engaged and encouraging them to return!",
     img: ImgBg.src,
-
 }
-// Web Projects
 
+// Web Projects
 import Project01 from "media/innerservices/website-development-services/projects/project01.webp"
 import Project02 from "media/innerservices/website-development-services/projects/project02.webp"
 import Project03 from "media/innerservices/website-development-services/projects/project03.webp"
@@ -156,9 +149,9 @@ import Project08 from "media/innerservices/website-development-services/projects
 import Project09 from "media/innerservices/website-development-services/projects/project02.webp"
 
 export const WebProjectData = {
-    subtitle: "Our Projects",
-    title: "Making brands the best of what they can be",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Achieve Growth",
+    title: "Build Your Online Success Today",
+    desc: "Our website development services focus on creating user-friendly, responsive sites that reflect your brand and drive customer engagement, enhancing your online success.",
     ProjectImages: [
         Project01.src,
         Project02.src,
@@ -175,8 +168,8 @@ export const WebProjectData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Affordable Website Development Solutions",
+    desc: "At Infinitidigital, we offer pricing plans designed to suit businesses of all sizes. Whether you're just starting or scaling up, we ensure high-quality results within your budget.",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -282,3 +275,75 @@ export const PriceData = {
         }
     ]
 };
+
+
+//Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
+export const TestimonialData = {
+    subtitle: "Happy Clients",
+    title: "What Our Clients Say About Us",
+    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    Testslider: [
+        {
+            txt: "Infinitidigital delivered a remarkable website for my business! Their team understood my vision and created a site showcasing our products beautifully. The user-friendly design and seamless experience have boosted our customer engagement. I’m beyond satisfied with their work and highly recommend them to anyone needing top-notch website development!",
+            icon: <ClutchLogo />,
+            namee: "Jessica L.",
+            job: "Founder of Organic Goods",
+        },
+        {
+            txt: "The website Infinitidigital developed for my tech company exceeded all expectations. From responsive design to efficient functionality, they really understood our needs. The process was smooth, and the team’s expertise was evident at every stage. Thanks to their efforts, we now have a website that sets us apart in a competitive market.",
+            icon: <TrustpilotLogo />,
+            namee: "David P. ",
+            job: "Owner of Tech Solutions",
+        },
+        {
+            txt: "We’re thrilled with the website Infinitidigital created for our agency. Their team really took the time to understand our goals and delivered a modern site that is easy to navigate and full of great features. They made the entire process simple and efficient. Our clients love the new look and feel.",
+            icon: <GoogleLogo />,
+            namee: "Sophia M.",
+            job: "CEO of Bright Future Marketing",
+        },
+        {
+            txt: "Working with Infinitidigital was a fantastic experience. They turned our vision into a professional, user-friendly website that showcases our eco-friendly products perfectly. The project was completed on time, and the team was always available for questions. Their attention to detail and innovative approach helped us create a site we’re proud of.",
+            icon: <TrustpilotLogo />,
+            namee: "Ethan C.",
+            job: "Founder of Green Horizon",
+        },
+        {
+            txt: "Our experience with Infinitidigital was incredible! Their web development team understood our creative vision and built a website that reflects our unique style. From layout to functionality, everything was tailored to our needs. The result is a stunning site that perfectly aligns with our brand. I highly recommend them for web development.",
+            icon: <ClutchLogo />,
+            namee: "Lily H. ",
+            job: "Director of Creative Arts Studio",
+        }
+    ]
+}
+
+// FAQs
+
+
+export const FAQsData = {
+    subtitle: "FAQs",
+    title: "Frequently Asked Question?",
+    Fqaslist: [
+        {
+            title: "What makes Infinitidigital’s website development services unique?",
+            txt: "Infinitidigital stands out by blending creativity with technology, ensuring that every website we build is visually appealing, functional, and optimized for performance. We deliver custom solutions tailored to each client's needs, providing a unique digital presence. Our team’s attention to detail guarantees results that elevate your brand."
+        },
+        {
+            title: "How long does it take to build a website?",
+            txt: "The timeline for building a website depends on the complexity and scope of the project. Typically, a fully functional site can take 4 to 8 weeks. We ensure each phase of development meets your expectations before moving forward to ensure high-quality results within an agreed-upon timeframe."
+        },
+        {
+            title: "Do you offer ongoing support after the website is live?",
+            txt: "Yes, Infinitidigital provides ongoing support and maintenance to ensure your website remains up-to-date and performs optimally. We offer services like security updates, performance checks, and enhancements. Our team is always available to resolve any issues or make improvements as your business grows."
+        },
+        {
+            title: "Can you help with website content creation?",
+            txt: "Absolutely! In addition to web design and development, we offer content creation services to ensure your website’s messaging aligns with your brand. Our experts craft engaging copy and visuals that resonate with your target audience, helping strengthen your online presence and drive meaningful user interactions."
+        },
+        {
+            title: "Will my website be mobile-friendly?",
+            txt: "Yes, all websites developed by Infinitidigital are fully responsive, meaning they are designed to work seamlessly across all devices. We prioritize mobile optimization, ensuring your website delivers a smooth and engaging experience whether accessed from a phone, tablet, or desktop."
+        }
+    ]
+
+}

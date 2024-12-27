@@ -4,7 +4,7 @@ import BannerPoster from "media/services/paid-marketing/posterImg.webp"
 export const BannerData = {
     subtitle: "From Clicks to Convert",
     title: "Paid Marketing that Delivers",
-    desc: "Struggling to make your ads work harder? Maximize reach, generate leads, and grow revenue.with Infinitidigital’s creative, data- driven marketing campaigns that captivate, convert, and deliver measurable results.",
+    desc: "Struggling to make your ads work harder? Maximize reach, generate leads, and grow revenue with Infinitidigital’s creative, data-driven marketing campaigns that captivate, convert, and deliver measurable results.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775923/rendition/720p/file.mp4?loc=external&log_user=0&signature=c251642141ee9afe63a88518519e387179687128d687483a6c115a79518c1c54",
     BannerPoster: BannerPoster.src,
 }
@@ -501,51 +501,7 @@ export const IndustryItem = [
     }
 ]
 
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Our Awards",
-    title: "Leading the Way in Paid Marketing",
-    desc: "Our wins are a direct reflection of our clients' triumphs. We're driven to deliver amazing results with every campaign.",
-    slides: [
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
 
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-
-    ]
-}
 
 // CTA  01
 import ImgBg1 from "media/home/ctaBg1.webp"
@@ -556,6 +512,7 @@ export const CtaData01 = {
 }
 
 //Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Client Voices",
     title: "Words from Our Clients",
@@ -601,41 +558,6 @@ export const CallActionData = {
     desc: "Do you need a partner for paid marketing success? Partner with us for paid campaigns that resonate, engage, and convert. Your vision is our mission–let’s make it happen!"
 }
 
-// Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
-export const BlgosData = {
-    subtitle: "Our Blogs",
-    title: "Quick Tips, Big Impact",
-    desc: "Discover valuable insights, actionable strategies, and the latest tools in paid marketing. Our blog provides concise and impactful information to improve your campaigns.",
-    BlogsData: [
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Paid Marketing",
-            img: IMG01.src,
-        },
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Mobile App Design",
-            img: IMG02.src,
-        }, {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "SEO Development & Marketing",
-            img: IMG03.src,
-        }
-    ]
-
-}
 
 // FAQs
 export const FAQsData = {

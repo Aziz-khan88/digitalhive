@@ -10,8 +10,8 @@ import CtaForm from "@/src/app/home/ctaform";
 import FollowUs from "@/src/app/home/followus";
 import Blogs from "@/src/app/home/blogs";
 import Faqs from "@/src/app/home/faq";
-import { BannerData, ContentData, NewsLetterData, TableContetData, TwoBoxData, InnerServicesData, ContentData1, TestimonialData, PlatformsData, CallActionData, FollowsData, BlgosData, FAQsData } from '@/src/app/social-media-ads/data/data'
-
+import { BannerData, ContentData, NewsLetterData, TableContetData, TwoBoxData, InnerServicesData, ContentData1, TestimonialData, CallActionData, FAQsData } from '@/src/app/social-media-ads/data/data'
+import { FollowsData, BlgosData, PlatformsData } from "@/src/app/home/data/data"
 const Page = () => {
     return (
         <>

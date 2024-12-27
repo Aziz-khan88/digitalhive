@@ -1,21 +1,16 @@
 //Banner
 import BannerPoster from "media/innerservices/website-design-services/bannerImg.webp"
-
 export const BannerData = {
-    title: "Book Marketing Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Build. Design. Innovate.",
+    desc: "Looking for a custom website that blends creativity and functionality? You’ve come to the right place! At Infinitidigital, we create websites that ensure exceptional user experiences, enhanced brand visibility, and measurable business growth.",
     video: "",
     BannerPoster: BannerPoster.src
 }
-
-
-
 // States Counter
-
 export const StateCounter = {
-    subtitle: "The Company-State",
-    title: "Your App Journey: Designed, Developed, Delivered",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Crafting Impactful Designs",
+    title: "Shaping Exceptional Online Experiences",
+    desc: "We merge creativity and strategy to deliver innovative website designs that captivate audiences and empower businesses to thrive online.",
     stateItem: [
         {
             numbers: "200+",
@@ -33,12 +28,11 @@ export const StateCounter = {
         }
     ]
 }
-
 // Process
 export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Our Proven Content Marketing Process",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Expert Design Services",
+    title: "Your Partner for Digital Excellence",
+    desc: "Infinitidigital offers innovative website design services tailored to meet your unique needs, ensuring your brand stands out digitally.",
 
     ProcessItem1: [
         {
@@ -119,32 +113,24 @@ export const ProcessData = {
     ]
 
 }
-
-
 //Content Data
 import ContentImg from "media/innerservices/website-design-services/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Why Partner with Our Book Writing Experts?",
+    contentTitle: "Boost Your Brand with Unique Websites",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
     </>),
     img: ContentImg.src
 }
-
 // NewsLetter
-
 import ImgBg from "media/innerservices/website-design-services/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Let’s Build Something Extraordinary Together!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Customized Websites for Your Business Growth",
+    desc: "We design tailored websites that align with your brand, ensuring a seamless user experience and boosting business growth.",
     img: ImgBg.src,
-
 }
 // Web Projects
-
 import Project01 from "media/innerservices/website-design-services/projects/project01.webp"
 import Project02 from "media/innerservices/website-design-services/projects/project02.webp"
 import Project03 from "media/innerservices/website-design-services/projects/project03.webp"
@@ -154,11 +140,10 @@ import Project06 from "media/innerservices/website-design-services/projects/proj
 import Project07 from "media/innerservices/website-design-services/projects/project03.webp"
 import Project08 from "media/innerservices/website-design-services/projects/project01.webp"
 import Project09 from "media/innerservices/website-design-services/projects/project02.webp"
-
 export const WebProjectData = {
     subtitle: "Our Projects",
-    title: "Making brands the best of what they can be",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Creating Websites That Drive Results for Your Brand",
+    desc: "Our team designs websites that look great and deliver measurable results, increasing engagement, conversions, and brand loyalty.",
     ProjectImages: [
         Project01.src,
         Project02.src,
@@ -171,12 +156,11 @@ export const WebProjectData = {
         Project09.src,
     ],
 }
-
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Explore Affordable Website Design Packages",
+    desc: "Find the perfect package that fits your needs and budget. We ensure cost-effective solutions without compromising on quality.",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -282,3 +266,76 @@ export const PriceData = {
         }
     ]
 };
+
+
+//Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
+export const TestimonialData = {
+    subtitle: "Happy Clients",
+    title: "Hear It from Our Clients ",
+    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    Testslider: [
+        {
+            txt: "Infinitidigital completely transformed our online presence. The website they designed is stunning, easy to navigate, and functional. They truly understood our needs, blending creativity and practicality. Our customers love the smooth user experience, and we’ve seen a significant increase in sales. I highly recommend their services!",
+            icon: <ClutchLogo />,
+            namee: "Sarah T.",
+            job: "Founder of E-Commerce Entrepreneur",
+        },
+        {
+            txt: "The team at Infinitidigital exceeded all our expectations. Their attention to detail and commitment to delivering a top-notch design were evident from start to finish. They took the time to understand our brand, and the result perfectly captures our vision. We couldn’t be happier with the outcome.",
+            icon: <TrustpilotLogo />,
+            namee: "Mike  P.",
+            job: "COO of Small Business Owner",
+        },
+        {
+            txt: "Infinitidigital brought our vision to life with a creative and user-friendly design. The website not only looks great but has also significantly improved our engagement rates. Their expertise and dedication were evident throughout the process. We’re thrilled with the final product and its positive impact on our brand.",
+            icon: <GoogleLogo />,
+            namee: "James K.",
+            job: "Co-Founder of SaaS",
+        },
+        {
+            txt: "Working with Infinitidigital was a fantastic experience. Their team delivered a sleek, professional website that has driven measurable growth for our business. They understood our needs and executed the project flawlessly. The site’s performance and user experience have exceeded our expectations, and we continue to see positive results.",
+            icon: <TrustpilotLogo />,
+            namee: "Linda M.",
+            job: "CEO of Nonprofit Director",
+        },
+        {
+            txt: "From start to finish, the Infinitidigital team was professional, creative, and attentive to our needs. They crafted a website that reflects our mission and engages visitors effectively. The final product exceeded all our expectations, and we’ve already noticed increased support and interest in our cause. I highly recommend it!",
+            icon: <ClutchLogo />,
+            namee: "Emily M.",
+            job: "Founder of StyleHive Boutique",
+        }
+    ]
+}
+
+// FAQs
+
+
+export const FAQsData = {
+    subtitle: "FAQs",
+    title: "Frequently Asked Question?",
+
+    Fqaslist: [
+        {
+            title: "What industries do you design websites for?",
+            txt: "We work across all industries, tailoring designs to meet each business's unique needs. From e-commerce to corporate, we ensure every website stands out. Our goal is to enhance user engagement and drive business success."
+        },
+        {
+            title: "How long does the website design process take?",
+            txt: "The timeline depends on the project scope, but most websites are completed within 4-8 weeks. We work closely with clients to ensure timely delivery. Each project gets the attention it deserves to meet your goals."
+        },
+        {
+            title: "Do you offer support after the website is launched?",
+            txt: "Yes, we provide post-launch support to ensure everything runs smoothly. Our team is available to address any concerns or issues. We help keep your website updated and functional in the long term."
+        },
+        {
+            title: "Can you redesign my existing website?",
+            txt: "Absolutely! We specialize in modernizing outdated websites for improved design and functionality. We ensure your site reflects current trends and engages your audience. A fresh, functional redesign can boost your business."
+        },
+        {
+            title: "Are your designs mobile-friendly?",
+            txt: "Yes, every website we design is fully responsive and optimized for all devices. Whether it's a phone, tablet, or desktop, your website will function flawlessly. Mobile optimization is key to reaching a wider audience."
+        }
+    ]
+
+}
