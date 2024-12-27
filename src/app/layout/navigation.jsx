@@ -157,15 +157,15 @@ const SEO = [
     },
     {
         title: "Small Business SEO",
-        url: "#",
+        url: "/small-bussiness-seo",
     },
     {
         title: "Enterprise SEO",
-        url: "#",
+        url: "/enterprise-seo",
     },
     {
         title: "SEO Agency",
-        url: "#",
+        url: "/seo-agency",
     }
 ]
 const MobileApp = [
