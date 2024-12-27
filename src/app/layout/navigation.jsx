@@ -175,7 +175,7 @@ const MobileApp = [
     },
     {
         title: "Android App Development",
-        url: "#",
+        url: "/android-app-development",
     },
     {
         title: "iOS App Development",
@@ -255,7 +255,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/mobile-app-development">Mobile App Design & Development <SubMenuIcon /></Link>
+                        <Link href="/mobile-app-development">Mobile Application <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
                             {MobileApp.map((item, index) => (
                                 <li onClick={handleClick} key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>

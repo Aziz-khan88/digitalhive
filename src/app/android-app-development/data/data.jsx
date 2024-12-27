@@ -1,70 +1,96 @@
 //Banner
-import BannerPoster from "media/innerservices/book-video-trailer/bannerImg.webp"
-
+import BannerPoster from "media/innerservices/android-app-development/bannerImg.webp"
 export const BannerData = {
-    title: "Book Marketing Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Build. Design. Innovate.",
+    desc: "Looking for a custom website that blends creativity and functionality? You’ve come to the right place! At Infinitidigital, we create websites that ensure exceptional user experiences, enhanced brand visibility, and measurable business growth.",
     video: "",
     BannerPoster: BannerPoster.src
 }
-
-//Services
-
-export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Our Social Media Advertising Services Can Help You:",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    ServicesItem: [
+// States Counter
+export const StateCounter = {
+    subtitle: "Crafting Impactful Designs",
+    title: "Shaping Exceptional Online Experiences",
+    desc: "We merge creativity and strategy to deliver innovative website designs that captivate audiences and empower businesses to thrive online.",
+    stateItem: [
         {
-            title: (<>Ghost Book<br />Writing</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
-            url: "#",
+            numbers: "200+",
+            namee: "App Launched"
         },
         {
-            title: (<>Editing & <br />Proofreading</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
-            url: "#",
-        },
-        {
-            title: (<>Book <br />Formatting</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
-            url: "#",
-        },
-        {
-            title: (<>Publishing <br />Support</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
-            url: "#",
-        },
-
+            numbers: "100+",
+            namee: "App Development Experts"
+        }, {
+            numbers: "3M",
+            namee: "Active App Users"
+        }, {
+            numbers: "4.9",
+            namee: "Rating On Clutch"
+        }
     ]
 }
 
+//Services
+export const ServicesData = {
+    subtitle: "Our Services",
+    title: "Expert Solutions, Exceptional Results",
+    desc: "Is your business getting the attention it deserves? Our customized solutions deliver what you need. Find out how we can help:",
+    ServicesItem: [
+        {
+            title: (<>Google Ads <br />Management</>),
+            txt: "Craft precise campaigns on Google to reach high-intent audiences, ensuring maximum visibility and returns on investment.",
+            url: "#",
+        },
+        {
+            title: (<>Facebook & <br />Instagram Ads</>),
+            txt: "Leverage social platforms to target ideal customers, delivering creative ads that build awareness and drive measurable results.",
+            url: "#",
+        },
+        {
+            title: (<>Video <br />Advertising</>),
+            txt: "Harness the power of engaging video content on platforms like YouTube to captivate audiences and boost brand recognition.",
+            url: "#",
+        },
+        {
+            title: (<>Native Ad <br />Campaigns</>),
+            txt: "Blend your message naturally into platforms with native ads that deliver value while encouraging meaningful engagement.",
+            url: "#",
+        },
+        {
+            title: (<>Programmatic Ad <br />Buying</>),
+            txt: "Automate your ad placements with data-driven programmatic buying, ensuring precision targeting and cost-efficient delivery across multiple platforms.",
+            url: "#",
+        },
+        {
+            title: (<>Retargeting <br />Campaigns</>),
+            txt: "Reconnect with potential customers through retargeting ads that drive conversions by keeping your brand top-of-mind.",
+            url: "#",
+        },
+        {
+            title: (<>Shopping Ad <br />Management</>),
+            txt: "Showcase your products with high-impact shopping ads that attract ready-to-buy customers and drive sales for your online store.",
+            url: "#",
+        },
+        {
+            title: (<>Performance <br />Optimization</>),
+            txt: "Monitor and adjust campaigns for peak performance, ensuring your ads deliver results with every dollar spent.",
+            url: "#",
+        }
+
+    ]
+}
 // NewsLetter
-
-import ImgBg from "media/innerservices/book-video-trailer/ctaImage.webp"
+import ImgBg from "media/innerservices/android-app-development/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Let’s Build Something Extraordinary Together!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    img: ImgBg.src
+    title: "Customized Websites for Your Business Growth",
+    desc: "We design tailored websites that align with your brand, ensuring a seamless user experience and boosting business growth.",
+    img: ImgBg.src,
 }
 
-//Content Data
-import ContentImg from "media/innerservices/book-video-trailer/Img01.webp"
-import { MenuIcon } from "@/src/app/app-constants"
-export const ContentData = {
-    maintitle: true,
-    contentTitle: "Why Partner with Our Book Writing Experts?",
-    contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    </>),
-    img: ContentImg.src
-}
 // Process
 export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Our Proven Content Marketing Process",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "Expert Design Services",
+    title: "Your Partner for Digital Excellence",
+    desc: "Infinitidigital offers innovative website design services tailored to meet your unique needs, ensuring your brand stands out digitally.",
 
     ProcessItem1: [
         {
@@ -145,7 +171,16 @@ export const ProcessData = {
     ]
 
 }
-
+//Content Data
+import ContentImg from "media/innerservices/android-app-development/Img01.webp"
+export const ContentData = {
+    maintitle: true,
+    contentTitle: "Boost Your Brand with Unique Websites",
+    contentTxt: (<>
+        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
+    </>),
+    img: ContentImg.src
+}
 
 // Workimport 
 import WorkImg01 from "media/services/content-marketing/img01.webp"
@@ -274,106 +309,24 @@ export const WorkData = {
     ]
 }
 
+//Content Data
+import ContentImg1 from "media/innerservices/android-app-development/Img02.webp"
 
-//Book Tabs
-import Book01 from "media/innerservices/book/book01.webp"
-import Book02 from "media/innerservices/book/book02.webp"
-import Book03 from "media/innerservices/book/book03.webp"
-import Book04 from "media/innerservices/book/book04.webp"
-import Book05 from "media/innerservices/book/book05.webp"
-import Book06 from "media/innerservices/book/book06.webp"
-import Book07 from "media/innerservices/book/book07.webp"
-import Book08 from "media/innerservices/book/book08.webp"
-import Book09 from "media/innerservices/book/book09.webp"
-import Book10 from "media/innerservices/book/book10.webp"
-export const BookTabsData = {
-    subtitle: "Book Gallery",
-    title: "Diverse Expertise Across Genres",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    BookTabs: [
-        {
-            tabtitle: "Fiction",
-            images: [
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-            ],
-        },
-        {
-            tabtitle: "Non-Fiction",
-            images: [
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-            ],
-        },
-        {
-            tabtitle: "Biographies",
-            images: [
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book04.src,
-                Book05.src,
-                Book06.src,
-                Book07.src,
-            ],
-        },
-        {
-            tabtitle: "Children’s Books",
-            images: [
-                Book05.src,
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book10.src,
-            ],
-        },
-        {
-            tabtitle: "Personal Stories",
-            images: [
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-            ],
-        },
-    ],
+export const ContentData1 = {
+    contentTitle: "Why Partner with Our Book Writing Experts?",
+    contentTxt: (<>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </>),
+    img: ContentImg1.src
 }
 
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Explore Affordable Website Design Packages",
+    desc: "Find the perfect package that fits your needs and budget. We ensure cost-effective solutions without compromising on quality.",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -480,17 +433,75 @@ export const PriceData = {
     ]
 };
 
-// CTA  Pink
-import ImgBgPink from "media/innerservices/book-video-trailer/BgImage.webp"
-export const CtaPinkData = {
-    title: "Want a Customized Package Tailored Just for You?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBgPink.src
+
+//Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
+export const TestimonialData = {
+    subtitle: "Happy Clients",
+    title: "Hear It from Our Clients ",
+    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    Testslider: [
+        {
+            txt: "Infinitidigital completely transformed our online presence. The website they designed is stunning, easy to navigate, and functional. They truly understood our needs, blending creativity and practicality. Our customers love the smooth user experience, and we’ve seen a significant increase in sales. I highly recommend their services!",
+            icon: <ClutchLogo />,
+            namee: "Sarah T.",
+            job: "Founder of E-Commerce Entrepreneur",
+        },
+        {
+            txt: "The team at Infinitidigital exceeded all our expectations. Their attention to detail and commitment to delivering a top-notch design were evident from start to finish. They took the time to understand our brand, and the result perfectly captures our vision. We couldn’t be happier with the outcome.",
+            icon: <TrustpilotLogo />,
+            namee: "Mike  P.",
+            job: "COO of Small Business Owner",
+        },
+        {
+            txt: "Infinitidigital brought our vision to life with a creative and user-friendly design. The website not only looks great but has also significantly improved our engagement rates. Their expertise and dedication were evident throughout the process. We’re thrilled with the final product and its positive impact on our brand.",
+            icon: <GoogleLogo />,
+            namee: "James K.",
+            job: "Co-Founder of SaaS",
+        },
+        {
+            txt: "Working with Infinitidigital was a fantastic experience. Their team delivered a sleek, professional website that has driven measurable growth for our business. They understood our needs and executed the project flawlessly. The site’s performance and user experience have exceeded our expectations, and we continue to see positive results.",
+            icon: <TrustpilotLogo />,
+            namee: "Linda M.",
+            job: "CEO of Nonprofit Director",
+        },
+        {
+            txt: "From start to finish, the Infinitidigital team was professional, creative, and attentive to our needs. They crafted a website that reflects our mission and engages visitors effectively. The final product exceeded all our expectations, and we’ve already noticed increased support and interest in our cause. I highly recommend it!",
+            icon: <ClutchLogo />,
+            namee: "Emily M.",
+            job: "Founder of StyleHive Boutique",
+        }
+    ]
 }
-// Industrie Data
-export const IndustriesData = {
-    subtitle: "Industries We Serve",
-    title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+
+// FAQs
+
+
+export const FAQsData = {
+    subtitle: "FAQs",
+    title: "Frequently Asked Question?",
+
+    Fqaslist: [
+        {
+            title: "What industries do you design websites for?",
+            txt: "We work across all industries, tailoring designs to meet each business's unique needs. From e-commerce to corporate, we ensure every website stands out. Our goal is to enhance user engagement and drive business success."
+        },
+        {
+            title: "How long does the website design process take?",
+            txt: "The timeline depends on the project scope, but most websites are completed within 4-8 weeks. We work closely with clients to ensure timely delivery. Each project gets the attention it deserves to meet your goals."
+        },
+        {
+            title: "Do you offer support after the website is launched?",
+            txt: "Yes, we provide post-launch support to ensure everything runs smoothly. Our team is available to address any concerns or issues. We help keep your website updated and functional in the long term."
+        },
+        {
+            title: "Can you redesign my existing website?",
+            txt: "Absolutely! We specialize in modernizing outdated websites for improved design and functionality. We ensure your site reflects current trends and engages your audience. A fresh, functional redesign can boost your business."
+        },
+        {
+            title: "Are your designs mobile-friendly?",
+            txt: "Yes, every website we design is fully responsive and optimized for all devices. Whether it's a phone, tablet, or desktop, your website will function flawlessly. Mobile optimization is key to reaching a wider audience."
+        }
+    ]
 
 }
