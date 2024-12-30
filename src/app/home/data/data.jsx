@@ -428,7 +428,7 @@ export const PlatformsData = {
 }
 
 //Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+
 export const AwardsData = {
     subtitle: "Awards & Recognitions",
     title: "Celebrating Excellence, Innovation, and Results",
@@ -477,7 +477,7 @@ export const CtaData01 = {
 }
 
 //Testimonials
-
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Our Clients ",

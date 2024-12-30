@@ -170,20 +170,16 @@ const SEO = [
 ]
 const MobileApp = [
     {
-        title: "Mobile App Development",
-        url: "#",
-    },
-    {
         title: "Android App Development",
         url: "/android-app-development",
     },
     {
         title: "iOS App Development",
-        url: "#",
+        url: "/ios-app-development",
     },
     {
         title: "Software Development",
-        url: "#",
+        url: "/software-development",
     },
 ]
 const Navigation = ({ scrolled, isLight }) => {
@@ -255,7 +251,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/mobile-app-development">Mobile Application <SubMenuIcon /></Link>
+                        <Link href="/mobile-app-development">Mobile App Development <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
                             {MobileApp.map((item, index) => (
                                 <li onClick={handleClick} key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -338,7 +334,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                             </ul>
                                         </div>
                                         <div className={`${styles.serivesMenuItem} ${isActiveSubMenu(MobileApp) ? styles.active : ""}`} >
-                                            <div className={styles.title}><Link href="/mobile-app-development">Mobile App Design & Development<ArrowIcon /></Link></div>
+                                            <div className={styles.title}><Link href="/mobile-app-development">Mobile App Development<ArrowIcon /></Link></div>
                                             <ul>
                                                 {MobileApp.map((item, index) => (
                                                     <li key={index} className={isActiveLink(item.url) ? styles.active : ""}><Link href={item.url}><MenuIcon />{item.title}</Link></li>

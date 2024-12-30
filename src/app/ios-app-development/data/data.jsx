@@ -1,5 +1,5 @@
 //Banner
-import BannerPoster from "media/innerservices/android-app-development/bannerImg.webp"
+import BannerPoster from "media/innerservices/ios-app-development/bannerImg.webp"
 export const BannerData = {
     title: "Build. Design. Innovate.",
     desc: "Looking for a custom website that blends creativity and functionality? You’ve come to the right place! At Infinitidigital, we create websites that ensure exceptional user experiences, enhanced brand visibility, and measurable business growth.",
@@ -79,7 +79,7 @@ export const ServicesData = {
     ]
 }
 // NewsLetter
-import ImgBg from "media/innerservices/android-app-development/ctaImage.webp"
+import ImgBg from "media/innerservices/ios-app-development/ctaImage.webp"
 export const NewsLetterData = {
     title: "Customized Websites for Your Business Growth",
     desc: "We design tailored websites that align with your brand, ensuring a seamless user experience and boosting business growth.",
@@ -172,7 +172,7 @@ export const ProcessData = {
 
 }
 //Content Data
-import ContentImg from "media/innerservices/android-app-development/Img01.webp"
+import ContentImg from "media/innerservices/ios-app-development/Img01.webp"
 export const ContentData = {
     maintitle: true,
     contentTitle: "Boost Your Brand with Unique Websites",
@@ -182,8 +182,9 @@ export const ContentData = {
     img: ContentImg.src
 }
 
+
 //Content Data
-import ContentImg2 from "media/innerservices/android-app-development/ImgBlack.webp"
+import ContentImg2 from "media/innerservices/ios-app-development/ImgBlack.webp"
 export const ContentData2 = {
     maintitle: true,
     contentTitle: "Boost Your Brand with Unique Websites",
@@ -192,6 +193,7 @@ export const ContentData2 = {
     </>),
     img: ContentImg2.src
 }
+
 // Workimport 
 import WorkImg01 from "media/services/content-marketing/img01.webp"
 import WorkImg02 from "media/services/content-marketing/img02.webp"
@@ -320,7 +322,7 @@ export const WorkData = {
 }
 
 //Content Data
-import ContentImg1 from "media/innerservices/android-app-development/Img02.webp"
+import ContentImg1 from "media/innerservices/ios-app-development/Img02.webp"
 
 export const ContentData1 = {
     contentTitle: "Why Partner with Our Book Writing Experts?",
