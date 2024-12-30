@@ -6,6 +6,12 @@
     top: 0;
     z-index: 9;
 
+    .mainLogo {
+        svg {
+            height: 80px;
+            width: auto;
+        }
+    }
 
 
     .lastBtn {
@@ -25,11 +31,14 @@
     &.isLight {
         .mainLogo {
             svg {
+
                 path {
-                    fill: #000;
+                    &:nth-child(1) {
+                        fill: #000;
+                    }
 
                     &:last-child {
-                        fill: #9AFF35;
+                        fill: #000;
                     }
                 }
 
@@ -45,10 +54,12 @@
         .mainLogo {
             svg {
                 path {
-                    fill: #fff;
+                    &:nth-child(1) {
+                        fill: #fff;
+                    }
 
                     &:last-child {
-                        fill: #9AFF35;
+                        fill: #fff;
                     }
                 }
 
@@ -88,7 +99,7 @@
 
             .mainLogo {
                 svg {
-                    height: 55px;
+                    height: 75px;
                     width: auto;
                 }
             }
@@ -112,7 +123,7 @@
 
         .mainLogo {
             svg {
-                height: 55px;
+                height: 70px;
                 width: auto;
             }
         }
@@ -132,7 +143,7 @@
 
             .mainLogo {
                 svg {
-                    height: 50px;
+                    height: 65px;
                     width: auto;
                 }
             }
@@ -158,7 +169,7 @@
 
         .mainLogo {
             svg {
-                height: 50px;
+                height: 60px;
                 width: auto;
             }
         }
@@ -177,7 +188,7 @@
 
             .mainLogo {
                 svg {
-                    height: 45px;
+                    height: 55px;
                     width: auto;
                 }
             }
@@ -202,6 +213,50 @@
 
         .mainLogo {
             svg {
+                height: 55px;
+                width: auto;
+            }
+        }
+
+        &.active {
+            height: 65px;
+
+            .lastBtn {
+                height: 45px;
+
+                a {
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+            }
+
+            .mainLogo {
+                svg {
+                    height: 50px;
+                    width: auto;
+                }
+            }
+        }
+
+
+
+        .lastBtn {
+            height: 50px;
+
+            a {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .headerSection {
+        height: 75px;
+
+        .mainLogo {
+            svg {
                 height: 50px;
                 width: auto;
             }
@@ -240,57 +295,13 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width:899px) {
-    .headerSection {
-        height: 75px;
-
-        .mainLogo {
-            svg {
-                height: 45px;
-                width: auto;
-            }
-        }
-
-        &.active {
-            height: 65px;
-
-            .lastBtn {
-                height: 45px;
-
-                a {
-                    font-size: 13px;
-                    line-height: 22px;
-                }
-            }
-
-            .mainLogo {
-                svg {
-                    height: 40px;
-                    width: auto;
-                }
-            }
-        }
-
-
-
-        .lastBtn {
-            height: 50px;
-
-            a {
-                font-size: 14px;
-                line-height: 22px;
-            }
-        }
-    }
-}
-
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .headerSection {
         height: 70px;
 
         .mainLogo {
             svg {
-                height: 40px;
+                height: 50px;
                 width: auto;
             }
         }
@@ -304,7 +315,7 @@
 
             .mainLogo {
                 svg {
-                    height: 35px;
+                    height: 45px;
                     width: auto;
                 }
             }
