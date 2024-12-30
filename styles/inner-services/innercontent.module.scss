@@ -68,6 +68,19 @@
             }
         }
 
+        &.bgBlack {
+            background-image: url('../../public/innerservices//ios-app-development/bgBlack.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding-bottom: 0px;
+            overflow: hidden;
+
+            h2,
+            p {
+                color: #fff;
+            }
+        }
 
         &.bggray {
             background: #F7F7F7;

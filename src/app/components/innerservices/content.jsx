@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Col, Container, Row } from 'react-bootstrap'
 
-const ContentSection = ({ data, bggray, simple }) => {
+const ContentSection = ({ data, bggray, simple, bgBlack }) => {
     return (
         <section className={`pt-100 ${styles.innerServicesContent} `}>
             <Container>
@@ -17,7 +17,7 @@ const ContentSection = ({ data, bggray, simple }) => {
                     </Row>
                     : null
                 }
-                <Row className={`${bggray === "yes" ? styles.bggray : ""} ${styles.imgBox} ${simple === "yes" ? styles.SimpleBg : ''}`}>
+                <Row className={`${bggray === "yes" ? styles.bggray : ""} ${bgBlack === "yes" ? styles.bgBlack : ""} ${styles.imgBox} ${simple === "yes" ? styles.SimpleBg : ''}`}>
                     <Col md={6} className={`${simple === "yes" ? styles.imgSimple : ''}`} >
                         {simple === "yes" ?
                             <Image src={data.img} alt="Book Image" width={460} height={550} />

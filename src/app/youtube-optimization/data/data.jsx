@@ -2,8 +2,8 @@
 import BannerPoster from "media/innerservices/youtube-optimization/bannerImg.webp"
 
 export const BannerData = {
-    title: "YouTube Optimization Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Advanced YouTube Optimization Services",
+    desc: "Your channel deserves more than just views—it deserves growth. At Infinitidigital, we combine proven strategies, creativity, and advanced tools to help your content shine. Whether you're just starting or looking to scale, our team ensures your channel reaches its full potential.",
     video: "#",
     BannerPoster: BannerPoster.src
 }
@@ -14,10 +14,9 @@ export const BannerData = {
 import ContentImg from "media/innerservices/youtube-optimization/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Transform Your Social Media Presence",
+    contentTitle: "Lets Make Your Channel Unstoppable",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+        <p>Your channel is more than just videos—it’s your voice, your brand, and your story. At Infinitidigital, we help you optimize every aspect of your channel so you can connect, grow, and thrive on YouTube. Imagine your videos reaching the right audience, driving engagement, and building a loyal community. With our advanced YouTube optimization services, your channel will become a growth powerhouse.</p>
     </>),
     img: ContentImg.src
 }
@@ -26,8 +25,8 @@ export const ContentData = {
 
 import ImgBg from "media/components/newsLetterImg.gif"
 export const NewsLetterData = {
-    title: "Let’s Build Something Extraordinary Together!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Let’s Create Something Amazing Together!",
+    desc: "Your next big breakthrough starts here. Share your email, and let’s explore how Infinitidigital can turn your vision into reality. From strategy to execution, we’re here to make it happen.",
     img: ImgBg.src
 }
 
@@ -38,43 +37,43 @@ export const ServicesData = {
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ServicesItem: [
         {
-            title: (<>Keyword Research &<br />Video SEO</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Keyword Research<br />& Video SEO</>),
+            txt: "Think of us as your YouTube GPS—getting your content in front of the right audience every time. With our SEO wizardry, your videos will go from “hidden gem” to “can’t miss.”",
             url: "#",
         },
         {
-            title: (<>Title & Description<br />Optimization</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Title & Description <br />Optimization</>),
+            txt: "Clickbait? No thanks. We craft click-worthy titles and descriptions that make viewers curious—and actually deliver on what they’re looking for.",
             url: "#",
         },
         {
-            title: (<>Thumbnail<br />Design</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Thumbnail <br />Design</>),
+            txt: "Stop the scroll. Our thumbnails do the talking, making sure your videos are the ones viewers choose to click—every single time.",
             url: "#",
         },
         {
             title: (<>Tag & Metadata<br />Optimization</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "Get cozy with YouTube’s algorithm. We optimize your tags and metadata to make sure your videos are where they belong—right in front of your audience.",
             url: "#",
         },
         {
             title: (<>Channel<br />Branding</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "Your channel should look as good as your content. From banners to logos, we create a professional, unforgettable brand that viewers can’t resist subscribing to.",
             url: "#",
         },
         {
-            title: (<>Playlist Creation & <br />Organization</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Playlist Creation <br />& Organization</>),
+            txt: "Keep ‘em watching. We organize your content into playlists that flow like a binge-worthy series. Goodbye drop-offs, hello endless watch time.",
             url: "#",
         },
         {
-            title: (<>Audience Analytics<br />& Reporting</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Audience Analytics <br /> & Reporting</>),
+            txt: "Data doesn’t have to be boring. We turn your numbers into easy-to-understand insights that guide your next big move—and keep your audience growing.",
             url: "#",
         },
         {
-            title: (<>Engagement <br />Strategies</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Engagement <br /> Strategies</>),
+            txt: "Stop shouting into the void. We help you create real conversations with your viewers, turning casual watchers into die-hard fans.",
             url: "#",
         },
 
@@ -86,15 +85,94 @@ import ContentImg1 from "media/innerservices/youtube-optimization/Img02.webp"
 import { MenuIcon } from "@/src/app/app-constants"
 export const ContentData1 = {
     maintitle: true,
-    contentTitle: "What You’ll Gain with YouTube Optimization",
+    contentTitle: "What You’ll Gain with YouTube Optimization?",
     contentTxt: (<>
-        <ul className="ContentUl">
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-        </ul>
+        <p>Think your channel is doing “okay”? Let’s make it exceptional. At Infinitidigital, we’ll help you turn casual viewers into loyal subscribers and give your content the spotlight it deserves. </p>
+        <p>
+            <strong>Better Engagement:</strong> Your viewers will stick around longer, and actually hit that like button!<br />
+            <strong>Stronger Retention:</strong>Keep your audience coming back for more, video after video.<br />
+            <strong>Increased Visibility:</strong>Show up where it matters—right in front of your ideal audience.<br />
+            <strong>Higher Click-Through Rates:</strong>Thumbnails, titles, and tags that get the clicks you need.<br />
+            <strong>Real Results:</strong>Growth you can see in your views, subscribers, and ROI.<br />
+        </p>
+
     </>),
     img: ContentImg1.src
+}
+
+
+//Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
+export const TestimonialData = {
+    subtitle: "Happy Clients",
+    title: "Hear It from Our Clients ",
+    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    Testslider: [
+        {
+            txt: "Infinitidigital completely transformed my YouTube channel. From optimizing my keywords to designing eye-catching thumbnails, their team took my content to the next level. Within two months, my views doubled, and I gained over 5,000 new subscribers. Highly recommend!",
+            icon: <ClutchLogo />,
+            namee: "Chris M.",
+            job: "Founder of BrightTech Solutions",
+        },
+        {
+            txt: "I was struggling to get my videos noticed until I partnered with Infinitidigital. Their attention to detail and creative strategies helped me rank higher in search results and grow my audience. Now, I’m finally seeing real engagement and steady subscriber growth.",
+            icon: <TrustpilotLogo />,
+            namee: "Emily R.",
+            job: "COO of NovaRetail Solutions",
+        },
+        {
+            txt: "The team at Infinitidigital made the optimization process easy and stress-free. They explained every step, optimized my channel branding, and gave me insights into my analytics that I never knew I needed. My YouTube growth has been phenomenal.",
+            icon: <GoogleLogo />,
+            namee: "Daniel K.",
+            job: "MD at GreenWave Industries",
+        },
+        {
+            txt: "Infinitidigital not only optimized my videos but helped me understand how to retain my audience with playlists and engagement strategies. The results? A 300% increase in watch time and a community that keeps coming back for more. They’re worth every penny!.",
+            icon: <TrustpilotLogo />,
+            namee: "Sophia L.",
+            job: "CEO of BuildPro Solutions",
+        },
+        {
+            txt: "After working with Infinitidigital, my YouTube channel has never been the same. They revamped my video SEO, gave me data-driven advice, and provided actionable steps to build better engagement. Now, I’m attracting the right audience and finally hitting my goals.",
+            icon: < ClutchLogo />,
+            namee: "Mark T.",
+            job: "Founder of StyleHive Boutique",
+        }
+    ]
+}
+
+// Call to Action
+
+export const CallActionData = {
+    subtitle: "Contact Us",
+    title: "Let’s Grow Your YouTube Channel Together",
+    desc: "Want to take your YouTube channel to the next level? Whether you need advice or are ready to start optimizing, we’re here to help.Together, we’ll create strategies to grow your audience, boost engagement, and get real results."
+}
+
+// FAQs
+
+
+export const FAQsData = {
+    subtitle: "FAQs",
+    title: "What is YouTube Optimization, and why do I need it?",
+
+    Fqaslist: [
+        {
+            title: "How long does it take to see results?",
+            txt: "You’ll typically see improvements in 4-6 weeks, with steady growth over time."
+        },
+        {
+            title: "Can you help with thumbnails and branding?",
+            txt: "Yes, we create stunning thumbnails and cohesive branding to attract more viewers and subscribers."
+        },
+        {
+            title: "Will optimization improve my YouTube rankings? ",
+            txt: "Absolutely! We optimize keywords and metadata to make your videos more discoverable."
+        },
+        {
+            title: "Do you provide performance insights? ",
+            txt: "Yes, our detailed reports show what’s working and guide your channel’s growth strategy."
+        },
+    ]
+
 }

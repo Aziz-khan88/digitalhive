@@ -12,7 +12,7 @@ import CtaForm from '@/src/app/home/ctaform'
 import FollowUs from '@/src/app/home/followus'
 import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
-import { BannerData, StateCounter, ProcessData, ContentData, ContentData1, ContentData2, NewsLetterData, WorkData, ServicesData } from '@/src/app/android-app-development/data/data'
+import { BannerData, StateCounter, ProcessData, ContentData, ContentData1, ContentData2, NewsLetterData, WorkData, ServicesData } from '@/src/app/ios-app-development/data/data'
 import { FollowsData, TestimonialData, PartnerData, CallActionData, BlgosData, FAQsData } from '@/src/app/home/data/data'
 
 const Page = () => {

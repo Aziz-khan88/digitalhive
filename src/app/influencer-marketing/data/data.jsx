@@ -14,7 +14,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Grow Your Business with Influencer Marketing That Delivers",
     contentTxt: (<>
-        <p>At Infinitidigital, we connect you with influencers who align with your brand and audience. We create campaigns that spark conversations, build meaningful connections, and deliver real results.</p>
+        <p>At Infinitidigital, we connect you with influencers who truly align with your brand and audience. Together, we create campaigns that spark conversations, build meaningful connections, and deliver real results.</p>
         <p>We go beyond managing influencer marketing—we create experiences that resonate. From finding the right influencers to building impactful strategies, every step is designed to amplify your reach and grow your business. Let us help share your story and turn influencer collaborations into lasting success.</p>
     </>),
     img: ContentImg.src
@@ -24,8 +24,8 @@ export const ContentData = {
 
 import ImgBg from "media/components/newsLetterImg.gif"
 export const NewsLetterData = {
-    title: "Let’s Create Something Amazing Together",
-    desc: "Your next big breakthrough starts here. Share your email, and explore how Infinitidigital can turn your vision into reality. From strategy to execution, we’re here to make it happen.",
+    title: "Let’s Create Something Amazing Together!",
+    desc: "Your next big breakthrough starts here. Share your email, and let’s explore how Infinitidigital can turn your vision into reality. From strategy to execution, we’re here to make it happen.",
     img: ImgBg.src
 }
 
@@ -33,7 +33,7 @@ export const NewsLetterData = {
 
 export const TableContetData = {
     title: "Influencer Marketing That Fits Your Brand",
-    desc: "Ready to make waves with your brand while having a little fun along the way? Our customized packages align with your goals and budget, connecting your brand with the right influencers to drive measurable success.",
+    desc: "Whether you’re launching your first campaign or scaling your influencer strategy, we have the perfect plan for your needs. Our customized packages align with your goals and budget, connecting your brand with the right influencers to drive measurable success.",
     tabledata: {
         feature: [
             "Monthly Social Ad Spend with Network",
@@ -135,32 +135,32 @@ export const InnerServicesData = {
     desc: "Infinitidigital takes care of everything, from strategy to outcomes, to ensure your company succeeds!",
     innerServItem: [
         {
-            title: "Identifying the Perfect Influencers",
+            title: (<>Identifying the<br />Perfect Influencers</>),
             txt: "We don't just find influencers; we uncover the voices that align with your brand's story, ensuring every collaboration feels authentic and impactful.",
             url: "#",
         },
         {
-            title: "Building Tailored Campaigns",
+            title: (<>Building<br />Tailored Campaigns</>),
             txt: "From creative concepts to actionable plans, we design influencer campaigns that captivate audiences and drive real results.",
             url: "#",
         },
         {
-            title: "Seamless Collaboration Management",
+            title: (<>Seamless Collaboration<br /> Management</>),
             txt: "Leave the logistics to us—contracts, communication, and coordination are all handled smoothly so you can focus on the bigger picture.",
             url: "#",
         },
         {
-            title: "Creating Engaging Content",
+            title: (<>Creating<br />Engaging Content</>),
             txt: "Whether it’s stunning visuals or compelling messages, we work with influencers to craft content that resonates with their audience and amplifies your brand.",
             url: "#",
         },
         {
-            title: "Monitoring and Optimizing Campaigns",
+            title: (<>Monitoring & Optimizing<br /> Campaigns</>),
             txt: "We track every post, story, and reel, analyzing performance and fine-tuning strategies to ensure maximum impact.",
             url: "#",
         },
         {
-            title: "Delivering Transparent Results",
+            title: (<>Delivering Transparent<br />Results</>),
             txt: "From engagement to ROI, we provide clear, data-driven reports showing exactly how your campaigns drive success.",
             url: "#",
         },
@@ -186,33 +186,33 @@ export const TestimonialData = {
     desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Working with Infinitidigital transformed our marketing strategy at GreenLeaf Naturals. They matched us with influencers who truly resonated with our brand, resulting in a remarkable 70% increase in engagement. We are thrilled with the outcomes and can’t imagine launching another campaign without their expertise!",
+            txt: "Working with Infinitidigital was a game-changer for us. They connected us with influencers who truly understood our brand, and the campaigns brought in a 70% boost in engagement. We couldn’t be happier!",
             icon: <ClutchLogo />,
-            namee: "Emily T.",
+            namee: "Sarah J.",
             job: "Founder of GreenLeaf Naturals",
         },
         {
-            txt: "Infinitidigital truly excelled in connecting us with influencers at TechVista that aligned seamlessly with our objectives. Within weeks, we saw our follower count double, leading to a dramatic increase in sales. The results have been outstanding, and we’re incredibly grateful for their dedicated support!",
+            txt: "Infinitidigital nailed it! They paired us with influencers whose audiences aligned perfectly with our goals. Within weeks, our follower count doubled, and our sales skyrocketed. The results speak for themselves.",
             icon: <TrustpilotLogo />,
-            namee: "Michael M.",
+            namee: "James P.",
             job: "COO of TechVista",
         },
         {
-            txt: "Our goal at CreativeYouth was to engage with Gen Z authentically, and Infinitidigital delivered beyond our expectations. Their influencer campaigns were spot on, resulting in a 60% boost in website traffic. We highly recommend them to anyone looking to strengthen their connection with a younger audience!",
+            txt: "We wanted to create an authentic connection with Gen Z, and Infinitidigital delivered. The influencer campaigns were on point, and we saw a 60% increase in website traffic. Highly recommended!",
             icon: <GoogleLogo />,
-            namee: "Rachel W.",
+            namee: "Elena R.",
             job: "MD at CreativeYouth",
         },
         {
-            txt: "Infinitidigital managed everything for us at BrightPath Solutions—from influencer selection to contract handling and campaign execution. Their process was seamless, alleviating stress on our end. Our return on investment has been exceptional, and we can’t thank their fantastic team enough for their dedication and professionalism!",
+            txt: "Infinitidigital took care of everything—from finding influencers to managing contracts and campaigns. It was seamless and stress-free, and our ROI has never been better. Fantastic team!",
             icon: <TrustpilotLogo />,
-            namee: "Tom H.",
+            namee: "Paul M.",
             job: "CEO of BrightPath Solutions",
         },
         {
-            txt: "Thanks to the influencer partnerships arranged by Infinitidigital, we at UrbanStyle achieved over 500,000 impressions in just one month. Our products are flying off the shelves, and the bump in brand awareness is remarkable! We appreciate their efforts in elevating our marketing strategy. ",
+            txt: "The influencer partnerships Infinitidigital arranged helped us gain over 500K impressions in just one month. Our products are flying off the shelves, and the brand awareness we’ve achieved is incredible!",
             icon: <ClutchLogo />,
-            namee: " Mia L.",
+            namee: "Laura C.",
             job: "Founder of UrbanStyle",
         }
     ]
