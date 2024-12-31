@@ -42,77 +42,77 @@ export const ProcessData = {
 
     ProcessItem1: [
         {
-            title: "Strategy Development",
+            title: "Custom WordPress Themes",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Essential Themes:</strong>
+                <p>Tailored design to meet specific client requirements, ensuring that each theme reflects the brand’s identity and vision.  .</p>
+                <strong>User Friendliness:</strong>
+                <p>User-friendly triangulation enhances user experience and makes it easy for visitors to find what they need without frustration.</p>
+                <strong>Seamless Sharing:</strong>
+                <p>Social media integration connects the website with popular platforms, allowing for seamless sharing and driving more traffic.</p>
             </>),
 
         },
         {
-            title: "Content Distribution",
+            title: "Responsive Design",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Guaranteed Accessibility:</strong>
+                <p>Adopting a mobile-first approach to guarantee that the site is fully accessible and looks great on all devices, including smartphones and tablets.</p>
+                <strong>Consistency:</strong>
+                <p>Conducting thorough cross-browser compatibility testing to ensure that users have a consistent experience regardless of their browser choice.</p>
+                <strong>Fluidity:</strong>
+                <p>Implementing fluid layouts that adapt dynamically to different screen sizes, providing an optimal viewing experience for every user.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Content Planning",
+            title: "Plugin Installation",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Accuracy:</strong>
+                <p>Careful selection of essential plugins that enhance site functionality while ensuring they are beneficial and not bloated.  </p>
+                <strong>Compatibility:</strong>
+                <p>Committing to regular updates for installed plugins to maintain compatibility with the latest WordPress version and to improve performance.</p>
+                <strong>Development:</strong>
+                <p>Developing custom plugins tailored to specific site needs, offering unique features that are not available through standard plugins.</p>
             </>),
 
         }, {
-            title: "Performance Analysis",
+            title: "SEO Optimization",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Keyword Research:</strong>
+                <p>Conducting in-depth keyword research to identify terms and phrases that attract the right audience and drive targeted traffic to the site.  </p>
+                <strong>Optimization:</strong>
+                <p>Implementing best practices for optimizing meta tags, descriptions, and headings to improve visibility in search engine results.  </p>
+                <strong>Enhancement:</strong>
+                <p>Focusing on enhancing site speed and performance, as these factors are crucial for retaining visitors and boosting search rankings.  </p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Content Creation",
+            title: "Site Security ",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Backup:</strong>
+                <p>Establishing regular backup routines to safeguard website data against potential loss due to hacks, crashes, or human errors. </p>
+                <strong>Installation:</strong>
+                <p>Installing SSL certificates to ensure secure data transmission builds trust with visitors and is necessary for e-commerce sites.</p>
+                <strong>Continuous Monitoring:</strong>
+                <p>Continuously monitoring the site for vulnerabilities, applying the latest security updates, and maintaining a proactive approach to cybersecurity. </p>
             </>),
 
         },
         {
-            title: "Optimization & Repurposing",
+            title: "Ongoing Support",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Performance Check-ups:</strong>
+                <p>Providing routine performance check-ups to monitor site health, including load times and functionality, ensuring everything runs smoothly.</p>
+                <strong>Prompt Assistance:</strong>
+                <p>We offer prompt troubleshooting assistance for any technical issues that arise so clients can focus on their business without interruption.</p>
+                <strong>Ongoing Training:</strong>
+                <p>Delivering ongoing training and resources to clients on WordPress features and updates, empowering them to manage their sites confidently.</p>
             </>),
 
         }
@@ -331,23 +331,23 @@ export const FAQsData = {
     Fqaslist: [
         {
             title: "What is WordPress development? ",
-            txt: "WordPress development involves creating custom websites using the WordPress platform. It includes theme customization, plugin integration, SEO optimization, and responsive design. Our experts build websites that are tailored to meet your unique business needs."
+            txt: "WordPress development refers to creating custom websites using the WordPress platform. This includes customizing themes to reflect your brand, integrating plugins for added functionality, optimizing for SEO to enhance visibility, and ensuring a responsive design that works well on all devices. Our experts are dedicated to tailoring websites to meet your specific business needs."
         },
         {
             title: "How long does it take to build a WordPress website?",
-            txt: "The timeline for building a WordPress website varies based on complexity and requirements. Typically, it takes 4-8 weeks for a custom website. We ensure every detail is crafted to perfection within the given timeline."
+            txt: "The time it takes to build a WordPress website varies depending on complexity and requirements, typically ranging from 4 to 8 weeks. This timeline allows us to conduct thorough planning, design, development, and testing, ensuring that every detail is crafted to meet your expectations."
         },
         {
             title: "Do I need technical skills to manage my WordPress site?",
-            txt: "No, WordPress is designed to be user-friendly. After we build your website, we provide training on how to manage it easily. You’ll be able to make updates without technical expertise."
+            txt: "No technical skills are required to manage your WordPress site. The platform is user-friendly. After we launch your site, we provide training to help you easily update content, add images, and make changes without needing technical expertise."
         },
         {
             title: "Will my WordPress site be mobile-friendly?",
-            txt: "Absolutely! We design all WordPress websites to be fully responsive. This ensures that your site looks great and functions perfectly on all devices, including smartphones and tablets."
+            txt: "Absolutely! We design all WordPress websites to be fully responsive, ensuring they look great and function well on smartphones, tablets, and desktops. This mobile-friendly approach enhances user experience and supports your search engine optimization efforts."
         },
         {
             title: "Can I update my WordPress site after launch?",
-            txt: "Yes, you can easily update your WordPress website after launch. We make it simple to add new content, images, and products. Our team will also provide ongoing support if needed."
+            txt: "Yes, you can easily update your WordPress site after launch. You'll be able to add new content and images as needed. We also provide ongoing support to ensure you feel confident managing your website independently."
         }
     ]
 

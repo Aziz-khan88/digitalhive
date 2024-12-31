@@ -2,8 +2,8 @@
 import BannerPoster from "media/innerservices/book-editing/bannerImg.webp"
 
 export const BannerData = {
-    title: "Book Editing Services To Perfect Your Manuscript",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Struggling to Perfect Your Manuscript? ",
+    desc: "Your manuscript deserves to shine—but turning it into a polished, captivating book can feel overwhelming. Are you struggling to refine your story, fix structural flaws, or perfect the language? Let Infinitidigital uplift your manuscript with tailored editing services designed to make your book stand out.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -12,27 +12,27 @@ export const BannerData = {
 
 export const ServicesData = {
     subtitle: "Our Services",
-    title: "Our Social Media Advertising Services Can Help You:",
+    title: "Comprehensive Book Editing Services",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ServicesItem: [
         {
-            title: (<>Ghost Book<br />Writing</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Developmental <br />Editing</>),
+            txt: "Refining the big picture of your manuscript. We analyze structure, plot, pacing, and character development to strengthen your story’s foundation, ensuring every element works cohesively.",
             url: "#",
         },
         {
-            title: (<>Editing & <br />Proofreading</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Copy <br />editing</>),
+            txt: "Polishing your manuscript at the sentence level. We focus on grammar, syntax, and style consistency while enhancing readability and ensuring your voice remains authentic.",
             url: "#",
         },
         {
-            title: (<>Book <br />Formatting</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Line  <br />Editing</>),
+            txt: "Elevating the tone and flow of your writing. Our editors refine sentence structure, word choice, and overall language to create a smooth and engaging reading experience.",
             url: "#",
         },
         {
-            title: (<>Publishing <br />Support</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Book <br />Proofreading</>),
+            txt: "The final quality check. We review your manuscript for typos, formatting errors, and inconsistencies to ensure it’s publication-ready.",
             url: "#",
         },
 
@@ -51,10 +51,9 @@ export const NewsLetterData = {
 
 //Content Data
 import ContentImg from "media/innerservices/book-editing/Img01.webp"
-import { MenuIcon } from "@/src/app/app-constants"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Why Partner with Our Book Writing Experts?",
+    contentTitle: "Why Partner with Our Book Editing Experts?",
     contentTxt: (<>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -65,215 +64,87 @@ export const ContentData = {
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Our Proven Content Marketing Process",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Our Proven Book Editing Process",
+    desc: "Does your book deliver its full potential? We evaluate your manuscript's strengths and weaknesses, offering actionable feedback to enhance its impact.",
 
     ProcessItem1: [
         {
-            title: "Strategy Development",
+            title: "Manuscript Assessment",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Structural Insights:</strong>
+                <p>Pinpointing areas to improve plot, pacing, and organization.</p>
+                <strong>Target Audience Alignment:</strong>
+                <p>Ensuring the content resonates with your readers.</p>
+                <strong>Genre Expertise:</strong>
+                <p>Fine-tuning your book’s tone and style to meet genre expectations.</p>
             </>),
 
         },
         {
-            title: "Content Distribution",
+            title: "Editing Roadmap",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Customized Approach:</strong>
+                <p>Tailored strategies based on your goals and manuscript needs.</p>
+                <strong>Milestone Planning:</strong>
+                <p>Breaking down the process into achievable steps.</p>
+                <strong>Collaboration Opportunities:</strong>
+                <p>Keeping you involved and informed at every stage.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Content Planning",
+            title: "Comprehensive Editing",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>In-depth Revisions:</strong>
+                <p>Strengthening narrative flow, tone, and voice.</p>
+                <strong>Language Polish:</strong>
+                <p>Refining syntax, grammar, and word choice.</p>
+                <strong>Continuity Checks:</strong>
+                <p>Ensuring consistent characters, timelines, and themes.</p>
             </>),
 
         }, {
-            title: "Performance Analysis",
+            title: "Quality Refinement",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Detailed Edits:</strong>
+                <p>Addressing sentence clarity, paragraph transitions, and dialogue.</p>
+                <strong>Formatting Precision:</strong>
+                <p>Ensuring alignment with publishing guidelines.</p>
+                <strong>Reader Engagement:</strong>
+                <p>Enhancing the emotional connection with your audience.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Content Creation",
+            title: "Pre-Publication Review",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Final Proofreading:</strong>
+                <p>Eliminating errors to achieve perfection.</p>
+                <strong>Submission Readiness:</strong>
+                <p>Preparing query letters, synopses, and proposals.</p>
+                <strong>Feedback Integration:</strong>
+                <p>Refining content based on beta reader and author input.</p>
             </>),
 
         },
         {
-            title: "Optimization & Repurposing",
+            title: "Publishing Preparation",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Polished Submission Materials:</strong>
+                <p>Crafting professional query letters and proposals.</p>
+                <strong>Formatting Excellence:</strong>
+                <p>Optimizing for print and digital platforms.</p>
+                <strong>Launch Strategy:</strong>
+                <p>Offering insights on marketing and distribution.</p>
             </>),
 
         }
     ]
 
-}
-
-
-// Workimport 
-import WorkImg01 from "media/services/content-marketing/img01.webp"
-import WorkImg02 from "media/services/content-marketing/img02.webp"
-import WorkImg03 from "media/services/content-marketing/img03.webp"
-import WorkImg04 from "media/services/content-marketing/img04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
 }
 
 
@@ -290,7 +161,7 @@ import Book09 from "media/innerservices/book/book09.webp"
 import Book10 from "media/innerservices/book/book10.webp"
 export const BookTabsData = {
     subtitle: "Book Gallery",
-    title: "Diverse Expertise Across Genres",
+    title: "Perfecting Your Book Across Genres",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     BookTabs: [
         {
@@ -374,8 +245,8 @@ export const BookTabsData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Tailored for Every Author",
+    desc: "We offer flexible pricing to suit every stage of your editing journey. Whether you need comprehensive edits or a final proofread, our packages are designed to meet your needs.",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -485,8 +356,8 @@ export const PriceData = {
 // CTA  Pink
 import ImgBgPink from "media/innerservices/book-editing/BgImage.webp"
 export const CtaPinkData = {
-    title: "Want a Customized Package Tailored Just for You?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Want a Custom Package? ",
+    desc: "Let us tailor our services to fit your specific needs. Contact us for a personalized quote. We align our services to your specific goals and vision. ",
     img: ImgBgPink.src
 }
 // Industrie Data
@@ -494,5 +365,83 @@ export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
     desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+
+}
+
+
+//Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+export const TestimonialData = {
+    subtitle: "Happy Clients",
+    title: "Hear It from Authors Like You",
+    desc: "Your book is unique, and so should your editing process. The perfection your book deserves is just a click away!",
+    Testslider: [
+        {
+            txt: "Infinitidigital transformed my rough draft into a polished gem. Their developmental edits strengthened my story’s pacing and characters, and their meticulous proofreading caught every detail. Thanks to their expertise, my book is ready for submission, and I feel confident presenting it to agents. I’m grateful for their support at every step.",
+            icon: <ClutchLogo />,
+            namee: "Ella R.",
+            job: "Author of Echoes of the Past",
+        },
+        {
+            txt: "I was overwhelmed revising my novel until I found Infinitidigital. Their editors provided invaluable insights that sharpened my plot and deepened my character. The collaborative process was seamless, and their thoughtful suggestions elevated my story. I’m thrilled with the results and excited to share my book with readers. Thank you for your incredible work!",
+            icon: <TrustpilotLogo />,
+            namee: "Mark L.",
+            job: "Author of Winds of Change",
+        },
+        {
+            txt: "Infinitidigital’s editing services were exactly what I needed to elevate my self-published book. Their attention to detail and ability to refine my writing without losing my voice was exceptional. Thanks to them, my book looks and reads professionally, receiving praise from readers and industry professionals alike. I can’t recommend them enough!",
+            icon: <GoogleLogo />,
+            namee: "Sophie N.",
+            job: "Author of Adventures with Benny",
+        },
+        {
+            txt: "I thought my manuscript was complete until Infinitidigital worked its magic. Their edits improved every aspect—from dialogue flow to narrative tension. The feedback process was collaborative, helping me grow as a writer. Readers have been raving about the changes, and I couldn’t be happier with the transformation. Their team truly goes above and beyond.",
+            icon: <TrustpilotLogo />,
+            namee: "James C.",
+            job: "Author of The Final Act",
+        },
+        {
+            txt: "Infinitidigital didn’t just edit my book—they brought out its full potential. Their detailed editing refined my story’s pacing, language, and character development, making it shine. The team’s dedication and understanding of my vision were invaluable. Now, I’m confident about submitting to publishers, knowing my manuscript is at its best.",
+            icon: <TrustpilotLogo />,
+            namee: "Anna T.",
+            job: "The Silver Lining",
+        }
+    ]
+}
+// Call to Action
+
+export const CallActionData = {
+    subtitle: "Contact Us",
+    title: "Enthrall Readers with a Polished Manuscript Today",
+    desc: "Are you ready to perfect your story? Whether preparing to publish or refining your first draft, Infinitidigital is here to help. Let’s collaborate to renovate your manuscript into a book readers will love."
+}
+
+// FAQs
+export const FAQsData = {
+    subtitle: "FAQs",
+    title: "Your Book Marketing Questions Answered",
+
+    Fqaslist: [
+        {
+            title: "How does Infinitidigital approach book editing?",
+            txt: "Infinitidigital starts with a deep dive into your manuscript. We assess its structure, narrative flow, and language to understand its strengths and identify areas for improvement. Our editors then craft a tailored editing plan, ensuring that every word, scene, and chapter serves the story while maintaining your voice. This process ensures your book resonates with readers and stands out in the competitive publishing world."
+        },
+        {
+            title: "How long does the book editing process take?",
+            txt: "Timelines depend on the manuscript's length and the depth of editing required. Lighter edits, like proofreading, take 2-4 weeks, while comprehensive edits, including developmental and line editing, can take 6-8 weeks. Rest assured, our editors prioritize quality, keeping you informed at every stage with clear updates and actionable feedback."
+        },
+        {
+            title: "Can Infinitidigital handle books in multiple genres?",
+            txt: "Yes, our team has expertise in a broad range of genres. From gripping thrillers and heartfelt memoirs to informative non-fiction and imaginative children’s books, we adapt our editing approach to suit your genre. We ensure your book meets the expectations of its target audience while preserving its unique essence."
+        },
+        {
+            title: "What does developmental editing include?",
+            txt: "Developmental editing focuses on the big-picture elements of your manuscript. We evaluate plot structure, pacing, character arcs, and theme alignment. We aim to help you refine these foundational aspects so your story flows naturally, engages readers, and delivers emotional impact. We work closely with you to ensure every element supports the story’s goals."
+        },
+        {
+            title: "What happens if I’m not satisfied with the edits?",
+            txt: "Your satisfaction is our priority. We offer opportunities for revisions and discussions to address any concerns you might have. Our collaborative process ensures that your vision remains intact while benefiting from professional input. We’ll refine your manuscript together until you’re delighted with the results."
+        }
+    ]
 
 }

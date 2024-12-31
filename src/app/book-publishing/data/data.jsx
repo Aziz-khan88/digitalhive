@@ -2,8 +2,8 @@
 import BannerPoster from "media/innerservices/book-publishing/bannerImg.webp"
 
 export const BannerData = {
-    title: "Bring Your Story to Life with Expert Book Writing Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Ready to Publish Your Manuscript?",
+    desc: "Your manuscript deserves to be more than just a file on your computer—it’s your story, voice, and dream. Infinitidigital guides you through every step, transforming your manuscript into a professionally published book.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -12,27 +12,27 @@ export const BannerData = {
 
 export const ServicesData = {
     subtitle: "Our Services",
-    title: "Our Social Media Advertising Services Can Help You:",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Complete Book Publishing Services",
+    desc: "Feeling lost about where to start? Is formatting, pitching, or choosing a platform keeping you awake? Let us make your life easier! ",
     ServicesItem: [
         {
-            title: (<>Ghost Book<br />Writing</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Manuscript <br />Evaluation</>),
+            txt: "Is your book ready for publication? We provide detailed feedback on your manuscript’s strengths, marketability, and areas for improvement, aligning it with your publishing goals.",
             url: "#",
         },
         {
-            title: (<>Editing & <br />Proofreading</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Formatting  & <br />Layout</>),
+            txt: "Perfect presentation matters. Our experts create polished layouts for print and digital platforms, ensuring your book meets professional standards and captivates readers.",
             url: "#",
         },
         {
-            title: (<>Book <br />Formatting</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Submission  <br />Assistance</>),
+            txt: "Ready to pitch your book? We craft professional submission materials, from query letters to synopses, that enhance your chances of success.",
             url: "#",
         },
         {
-            title: (<>Publishing <br />Support</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            title: (<>Marketing  <br />Support</>),
+            txt: "Don’t let your book go unnoticed. We optimize keywords, craft compelling back cover blurbs, and develop strategies that boost your book’s visibility and sales.",
             url: "#",
         },
 
@@ -43,8 +43,8 @@ export const ServicesData = {
 
 import ImgBg from "media/innerservices/book-publishing/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Let’s Build Something Extraordinary Together!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "What’s Next After Publishing? ",
+    desc: "If you’re worried about visibility? We ensure your book gets the spotlight it deserves. We help you sustain momentum and measure success that’s impactful for you and your book.",
     img: ImgBg.src,
 
 }
@@ -54,226 +54,98 @@ export const NewsLetterData = {
 import ContentImg from "media/innerservices/book-publishing/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Why Partner with Our Book Writing Experts?",
+    contentTitle: "Why Partner with Our Book Publishing Experts?",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Confused by all the publishing options? From Amazon Kindle to traditional publishers, we simplify the process, ensuring your book reaches the readers it’s meant for. Isn’t it time to take the guesswork out of publishing?</p>
+        <p>Frustrated by technical details? Whether it’s formatting for print or creating an ebook, we handle the tedious aspects so you can focus on your passion: writing.</p>
+        <p>Struggling to stand out? A crowded market means your book needs to shine. We help craft pitches, query letters, and metadata that make agents, publishers, and readers take notice.</p>
     </>),
     img: ContentImg.src
 }
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Our Proven Content Marketing Process",
+    title: "Our Recognized Book Publishing Process",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
 
     ProcessItem1: [
         {
-            title: "Strategy Development",
+            title: "Initial Consultation",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Finding the Right Path:</strong>
+                <p>Traditional, self-publishing, or hybrid—we help you decide.</p>
+                <strong>Market Analysis:</strong>
+                <p>Understand your readers and genre trends for maximum impact.</p>
+                <strong>Personalized Strategy:</strong>
+                <p>Clear steps to turn your manuscript into a published book.</p>
             </>),
 
         },
         {
-            title: "Content Distribution",
+            title: "Manuscript Preparation",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Tailored Formatting:</strong>
+                <p>Aligning your manuscript with publishing guidelines.</p>
+                <strong>Professional Touches:</strong>
+                <p>Polished query letters and synopses.</p>
+                <strong>Optional Revisions:</strong>
+                <p>Strengthen marketability while keeping your vision intact.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Content Planning",
+            title: "Platform Optimization",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Digital Excellence:</strong>
+                <p>Ready-to-upload Kindle and ePub files.</p>
+                <strong>Print Perfection:</strong>
+                <p>High-quality layouts for physical copies.</p>
+                <strong>Metadata Mastery:</strong>
+                <p>Descriptions, keywords, and categories that draw readers in.</p>
             </>),
 
         }, {
-            title: "Performance Analysis",
+            title: "Submission Support",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Attention-Grabbing Pitches:</strong>
+                <p>Query letters that capture interest.</p>
+                <strong>Platform Expertise:</strong>
+                <p>Tailored submissions for agents and publishers.</p>
+                <strong>Feedback Integration:</strong>
+                <p>Address publisher notes with ease.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Content Creation",
+            title: "Marketing Launch",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Compelling Blurbs:</strong>
+                <p>Back cover copy that hooks readers.</p>
+                <strong>Strategic Campaigns:</strong>
+                <p>Social media buzz and pre-order incentives.</p>
+                <strong>Launch Events:</strong>
+                <p>Plan giveaways and virtual readings to build excitement.</p>
             </>),
 
         },
         {
-            title: "Optimization & Repurposing",
+            title: "Post-Publication Support",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Performance Tracking:</strong>
+                <p>Monitor sales and engagement.</p>
+                <strong>Continuous Promotion:</strong>
+                <p>Campaigns to keep your book thriving.</p>
+                <strong>Updates and Refinements:</strong>
+                <p>Perfecting your content as feedback rolls in.</p>
             </>),
 
         }
     ]
 
-}
-
-
-// Workimport 
-import WorkImg01 from "media/services/content-marketing/img01.webp"
-import WorkImg02 from "media/services/content-marketing/img02.webp"
-import WorkImg03 from "media/services/content-marketing/img03.webp"
-import WorkImg04 from "media/services/content-marketing/img04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
 }
 
 
@@ -290,8 +162,8 @@ import Book09 from "media/innerservices/book/book09.webp"
 import Book10 from "media/innerservices/book/book10.webp"
 export const BookTabsData = {
     subtitle: "Book Gallery",
-    title: "Diverse Expertise Across Genres",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "We Excel in Diverse, Distinctive Genres",
+    desc: "Pitching your book can be intimidating. Let us help you make an impression. With Infinitidigital, you have the roadmap to success! ",
     BookTabs: [
         {
             tabtitle: "Fiction",
@@ -374,8 +246,8 @@ export const BookTabsData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Tailored for Every Author",
+    desc: "We offer flexible pricing to suit every stage of your publishing journey. Whether you need formatting, marketing, or full-service publishing support, our packages are designed with your needs in mind.",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -485,8 +357,8 @@ export const PriceData = {
 // CTA  Pink
 import ImgBgPink from "media/innerservices/book-publishing/BgImage.webp"
 export const CtaPinkData = {
-    title: "Want a Customized Package Tailored Just for You?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Want a Custom Package?",
+    desc: "Overwhelmed by self-publishing platforms? Let us tailor our services to fit your specific needs. Contact us for a personalized quote. We make it easy, ensuring your book stands out digitally and in print.",
     img: ImgBgPink.src
 }
 // Industrie Data
@@ -494,5 +366,83 @@ export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
     desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+
+}
+
+
+//Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+export const TestimonialData = {
+    subtitle: "Happy Clients",
+    title: " Hear It from Authors Like You",
+    desc: "Do you know where your book fits in the publishing world? We start with a one-on-one session to identify your goals and outline the best strategies.",
+    Testslider: [
+        {
+            txt: "Infinitidigital made publishing easy. They didn’t just polish my book—they amplified its potential. They turned my book into a global success, from optimizing metadata to launching strategic campaigns. Readers worldwide are connecting with my story, and I couldn’t have done it without their exceptional team! Their approach to understanding my goals and market trends gave my book the spotlight it deserved.",
+            icon: <ClutchLogo />,
+            namee: "Jessica W.",
+            job: "Author of The Heart’s Compass",
+        },
+        {
+            txt: "Self-publishing felt overwhelming until I partnered with Infinitidigital. Their professional formatting, tailored pitches, and insightful marketing strategies made all the difference. Now, my book is a bestseller on Amazon, with a steady stream of five-star reviews and a growing fan base. The team’s expertise and constant support ensured that every aspect of my book exceeded expectations.",
+            icon: <TrustpilotLogo />,
+            namee: "David K.",
+            job: "Author of Silent Echoes",
+        },
+        {
+            txt: "Infinitidigital was a game-changer for my publishing journey. Their submission materials caught the attention of top publishers, and their guidance on positioning my book was invaluable. Today, my book has reached shelves across the country, and I owe so much to their expertise and dedication! They took my vision and turned it into something extraordinary",
+            icon: < GoogleLogo />,
+            namee: "Emma H.",
+            job: "Author of Rising Tides",
+        },
+        {
+            txt: "As an indie author, I needed a team that understood my challenges, and Infinitidigital delivered in every way. Their detailed formatting, captivating blurbs, and strategic promotions helped my book stand out. Sales are thriving, and my audience continues to grow. Their dedication and personalized approach ensured my success in a competitive market.",
+            icon: <TrustpilotLogo />,
+            namee: "Liam J.",
+            job: "Author of Threads of Time",
+        },
+        {
+            txt: "The thought of publishing my book felt overwhelming, but Infinitidigital turned it into a smooth, exciting process. Their attention to detail was outstanding, from perfecting the manuscript to crafting an incredible marketing plan. My book is now a category bestseller, and I couldn’t be happier! Their comprehensive approach gave me confidence every step of the way.",
+            icon: <TrustpilotLogo />,
+            namee: "Sophia R.",
+            job: "Author of Echoes of the Soul",
+        }
+    ]
+}
+// Call to Action
+
+export const CallActionData = {
+    subtitle: "Contact Us",
+    title: "Does Your Manuscript Meet Industry Standards? ",
+    desc: "Still pondering over what to do with your manuscript? We refine it for seamless submission and reader appeal. Get in touch now to make your book a bestseller! "
+}
+
+// FAQs
+export const FAQsData = {
+    subtitle: "FAQs",
+    title: "Your Book Marketing Questions Answered",
+
+    Fqaslist: [
+        {
+            title: "How does Infinitidigital approach book publishing?",
+            txt: "Infinitidigital creates tailored publishing strategies for each author. We handle everything from detailed manuscript evaluations to platform-specific optimizations to ensure your book stands out. With expert guidance at every step, we make publishing straightforward and successful. Our team takes the stress out of the publishing process so you can focus on what you do best—writing."
+        },
+        {
+            title: "How long does the publishing process take?",
+            txt: "The timeline depends on the complexity of your needs. Formatting and platform setup often take 2-3 weeks, while comprehensive publishing plans, including marketing strategies, may require 6-8 weeks. We prioritize quality and efficiency to meet your goals, ensuring that each step is completed with precision and care to deliver an exceptional final product."
+        },
+        {
+            title: "Can you help with both self-publishing and traditional publishing?",
+            txt: "Absolutely! Whether self-publishing on platforms like Amazon or pursuing traditional publishers, we guide you through the process. Our services include formatting, crafting compelling pitches, and ensuring your book is submission-ready for agents or editors. With tailored support, we help you choose the path that best suits your book’s goals and audience."
+        },
+        {
+            title: "What is metadata optimization, and why is it important?",
+            txt: "Metadata covers your book’s title, description, keywords, and categories. Optimizing these elements makes your book more discoverable to readers searching for similar content. Strong metadata can significantly boost your book’s visibility and sales potential, creating a solid foundation for long-term success in a competitive market."
+        },
+        {
+            title: "Do you provide post-publication support?",
+            txt: "Yes! We offer services to track sales performance, refine marketing campaigns, and plan ongoing promotions. Our team ensures your book thrives post-publication, maintaining momentum and reaching new readers over time. We stay with you every step of the way to adapt strategies and maximize your book’s success."
+        }
+    ]
 
 }
