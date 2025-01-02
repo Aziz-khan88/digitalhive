@@ -16,32 +16,32 @@ export const InnerServicesData = {
     innerServItem: [
         {
             title: "Precision Viewer Targeting",
-            txt: "Reaching your ideal customers has never been easier. Our precision targeting tools focus on audience interests, search behavior, and watch patterns to place your YouTube Ads exactly where they’ll drive the most impact.",
+            txt: "Our precision targeting tools focus on audience interests, search behavior, and watch patterns to place your YouTube Ads exactly where they’ll drive the most impact.",
             url: "#",
         },
         {
             title: "Impactful Video Ad Production",
-            txt: "",
+            txt: "We create visually compelling and emotionally engaging YouTube Ads that make your brand unforgettable to your target audience.",
             url: "#",
         },
         {
             title: "Seamless Channel Engagement",
-            txt: "",
+            txt: "We design seamless viewer experiences by aligning ad campaigns with channel content that keeps audiences engaged and encourages repeat visits.",
             url: "#",
         },
         {
             title: "Campaign Setup & Optimization",
-            txt: "",
+            txt: "We handle the technical complexities of setting up and managing campaigns that achieve high engagement rates and measurable ROI without wasting time.",
             url: "#",
         },
         {
             title: "In-Depth Video Performance Metrics",
-            txt: "",
+            txt: "We handle the technical complexities of setting up and managing campaigns that achieve high engagement rates and measurable ROI without wasting time.",
             url: "#",
         },
         {
             title: "Continuous Ad Refinement",
-            txt: "",
+            txt: "We experiment with new creatives, analyze audience behavior, and adapt strategies to ensure your YouTube Ads perform at their best.",
             url: "#",
         },
     ]
@@ -101,74 +101,74 @@ export const ProcessData = {
             title: "Understanding Your Goals",
             txt: (<>
                 <strong>Setting Clear Outcomes:</strong>
-                <p>Pinpoint measurable goals to guide your YouTube Ads strategy and align them with your broader business objectives for maximum impact.</p>
+                <p>Define specific, measurable objectives that align with your broader business aims to maximize YouTube Ads impact.</p>
                 <strong>Audience Behavior Analysis:</strong>
-                <p>Explore what drives your audience to engage and convert, leveraging insights to craft ads that resonate on a personal level.</p>
+                <p>Investigate what motivates your audience, using insights to create resonant, personalized ads.</p>
                 <strong>Evaluating Competitor Strategies:</strong>
-                <p>Study competitor campaigns to identify gaps and opportunities, ensuring your ads stand out with distinctive messaging and targeting.</p>
+                <p>Analyze competitors to find opportunities for unique messaging and better targeting.</p>
             </>),
 
         },
         {
-            title: "Content Distribution",
+            title: "Creative Concept Development",
             txt: (<>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
+                <strong>Innovative Brainstorming:</strong>
+                <p>Craft bold, emotionally resonant ideas that capture audience interest and engagement.</p>
+                <strong>Developing Brand-Aligned Scripts:</strong>
+                <p>Craft scripts that embody your brand’s voice and directly engage your target audience.</p>
+                <strong>Conceptual Storyboarding:</strong>
+                <p>Design a visual plan that ensures ad clarity and consistency, emphasizing key moments.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Content Planning",
+            title: "Video Production",
             txt: (<>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
+                <strong>Cutting-Edge Tools:</strong>
+                <p>Employ advanced tools and techniques to produce visually and audibly superior ads.</p>
+                <strong>Emotion-Driven Storylines:</strong>
+                <p>Develop ads with narratives that connect with viewers on an emotional level, enhancing brand connection.</p>
+                <strong>Tailored for YouTube:</strong>
+                <p>Customize ad formats and content to align with YouTube’s audience preferences and maximize performance.</p>
             </>),
 
         }, {
-            title: "Performance Analysis",
+            title: "Strategic Targeting",
             txt: (<>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
+                <strong>Audience Segmentation:</strong>
+                <p>To refine messaging, segment your audience based on demographics, interests, and behaviors.</p>
+                <strong>Platform-Specific Insights:</strong>
+                <p>Leverage YouTube’s targeting tools to reach users most interested in your offerings.</p>
+                <strong>Ad Placement Optimization:</strong>
+                <p>Select optimal ad placements on YouTube for the greatest engagement.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Content Creation",
+            title: "Campaign Launch & Management",
             txt: (<>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
+                <strong>Seamless Campaign Launch:</strong>
+                <p>Ensure precise timing and execution during campaign rollout for optimal visibility.</p>
+                <strong>Ongoing Performance Monitoring:</strong>
+                <p>Monitor campaign metrics in real-time to identify areas needing improvement.</p>
+                <strong>Proactive Adjustments:</strong>
+                <p>Continuously optimize targeting, bidding, and creative aspects based on data insights.</p>
             </>),
 
         },
         {
-            title: "Optimization & Repurposing",
+            title: "Performance Analysis & Optimization",
             txt: (<>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
-                <strong>:</strong>
-                <p></p>
+                <strong>Thorough Campaign Insights:</strong>
+                <p>Review detailed metrics to enhance campaign performance and identify improvement areas.</p>
+                <strong>Adaptable Strategy Updates:</strong>
+                <p>Quickly implement data-driven changes in response to audience behavior and trends.</p>
+                <strong>Strategizing for Future Wins:</strong>
+                <p>Apply insights from current campaigns to develop more effective future strategies.</p>
             </>),
 
         }

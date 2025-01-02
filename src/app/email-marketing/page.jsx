@@ -8,8 +8,8 @@ import FollowUs from "@/src/app/home/followus";
 import Blogs from "@/src/app/home/blogs";
 import Faqs from "@/src/app/home/faq";
 import ServicesMain from '@/src/app/components/services/servicesmain'
-import { PlatformsData, TestimonialData, CallActionData, FollowsData, BlgosData, FAQsData } from '@/src/app/home/data/data'
-import { BannerData, ContentData, NewsLetterData, ContentData1, ServicesData } from '@/src/app/email-marketing/data/data'
+import { PlatformsData, CallActionData, FollowsData, BlgosData } from '@/src/app/home/data/data'
+import { BannerData, ContentData, TestimonialData, NewsLetterData, ContentData1, ServicesData, FAQsData } from '@/src/app/email-marketing/data/data'
 
 const Page = () => {
     return (

@@ -8,8 +8,8 @@ import FollowUs from "@/src/app/home/followus";
 import Blogs from "@/src/app/home/blogs";
 import Faqs from "@/src/app/home/faq";
 import ServicesMain from '@/src/app/components/services/servicesmain'
-import { PlatformsData, TestimonialData, CallActionData, FollowsData, BlgosData, FAQsData } from '@/src/app/home/data/data'
-import { BannerData, ContentData, NewsLetterData, ContentData1, ServicesData } from '@/src/app/youtube-monetization/data/data'
+import { PlatformsData, FollowsData, BlgosData } from '@/src/app/home/data/data'
+import { BannerData, ContentData, NewsLetterData, ContentData1, TestimonialData, CallActionData, ServicesData, FAQsData } from '@/src/app/youtube-monetization/data/data'
 
 const Page = () => {
     return (

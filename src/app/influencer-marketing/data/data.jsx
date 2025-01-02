@@ -14,8 +14,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Grow Your Business with Influencer Marketing That Delivers",
     contentTxt: (<>
-        <p>At Infinitidigital, we connect you with influencers who truly align with your brand and audience. Together, we create campaigns that spark conversations, build meaningful connections, and deliver real results.</p>
-        <p>We go beyond managing influencer marketing—we create experiences that resonate. From finding the right influencers to building impactful strategies, every step is designed to amplify your reach and grow your business. Let us help share your story and turn influencer collaborations into lasting success.</p>
+        <p>At Infinitidigital, we connect you with influencers who truly align with your brand and audience. Together, we create campaigns that spark conversations, build meaningful connections, and deliver real results.We go beyond managing influencer marketing—we create experiences that resonate. From finding the right influencers to building impactful strategies, every step is designed to amplify your reach and grow your business. Let us help share your story and turn influencer collaborations into lasting success.</p>
     </>),
     img: ContentImg.src
 }
