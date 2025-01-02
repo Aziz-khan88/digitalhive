@@ -13,26 +13,26 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Complete Book Publishing Services",
-    desc: "Feeling lost about where to start? Is formatting, pitching, or choosing a platform keeping you awake? Let us make your life easier! ",
+    desc: "Is formatting, pitching, or choosing a platform keeping you awake? Let us make your life easier! ",
     ServicesItem: [
         {
             title: (<>Manuscript <br />Evaluation</>),
-            txt: "Is your book ready for publication? We provide detailed feedback on your manuscript’s strengths, marketability, and areas for improvement, aligning it with your publishing goals.",
+            txt: "We provide detailed feedback on your manuscript’s strengths and marketability and align it with your publishing goals.",
             url: "#",
         },
         {
             title: (<>Formatting  & <br />Layout</>),
-            txt: "Perfect presentation matters. Our experts create polished layouts for print and digital platforms, ensuring your book meets professional standards and captivates readers.",
+            txt: "Our experts create polished layouts for print and digital platforms, ensuring your book meets professional standards.",
             url: "#",
         },
         {
             title: (<>Submission  <br />Assistance</>),
-            txt: "Ready to pitch your book? We craft professional submission materials, from query letters to synopses, that enhance your chances of success.",
+            txt: "We craft professional submission materials, from query letters to synopses, that enhance your chances of success.",
             url: "#",
         },
         {
             title: (<>Marketing  <br />Support</>),
-            txt: "Don’t let your book go unnoticed. We optimize keywords, craft compelling back cover blurbs, and develop strategies that boost your book’s visibility and sales.",
+            txt: "We optimize keywords, craft compelling back cover blurbs, and develop strategies that boost your book’s visibility.",
             url: "#",
         },
 
@@ -56,9 +56,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Why Partner with Our Book Publishing Experts?",
     contentTxt: (<>
-        <p>Confused by all the publishing options? From Amazon Kindle to traditional publishers, we simplify the process, ensuring your book reaches the readers it’s meant for. Isn’t it time to take the guesswork out of publishing?</p>
-        <p>Frustrated by technical details? Whether it’s formatting for print or creating an ebook, we handle the tedious aspects so you can focus on your passion: writing.</p>
-        <p>Struggling to stand out? A crowded market means your book needs to shine. We help craft pitches, query letters, and metadata that make agents, publishers, and readers take notice.</p>
+        <p>A crowded market means your book needs to shine.We help craft pitches, query letters, and metadata that make agents, publishers, and readers take notice.From Amazon Kindle to traditional publishers, we simplify the process, ensuring your book reaches the readers it’s meant for.Isn’t it time to take the guesswork out of publishing?.</p>
     </>),
     img: ContentImg.src
 }
@@ -66,7 +64,7 @@ export const ContentData = {
 export const ProcessData = {
     subtitle: "Our Process",
     title: "Our Recognized Book Publishing Process",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    desc: "Is your manuscript's potential being held back by structural flaws or distracting errors? Let us help you refine your narrative, polish your prose, and unlock your story's full brilliance.",
 
     ProcessItem1: [
         {
@@ -246,8 +244,8 @@ export const BookTabsData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Tailored for Every Author",
-    desc: "We offer flexible pricing to suit every stage of your publishing journey. Whether you need formatting, marketing, or full-service publishing support, our packages are designed with your needs in mind.",
+    title: "Invest in Your Story and Uplift Your Authorial Presence",
+    desc: "Ready to turn your ideas into a published masterpiece? Our book-writing packages cater to first-time authors and seasoned storytellers, bringing your literary vision to life with flair!",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -374,7 +372,7 @@ export const IndustriesData = {
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Happy Clients",
-    title: " Hear It from Authors Like You",
+    title: "Hear It from Authors Like You",
     desc: "Do you know where your book fits in the publishing world? We start with a one-on-one session to identify your goals and outline the best strategies.",
     Testslider: [
         {

@@ -39,77 +39,77 @@ export const ProcessData = {
 
     ProcessItem1: [
         {
-            title: "Strategy Development",
+            title: "Detailed Planning",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Goal Alignment:</strong>
+                <p>Establish clear objectives to guide the project.</p>
+                <strong>Resource Allocation:</strong>
+                <p>Identify and allocate necessary resources efficiently.</p>
+                <strong>Strategy Development:</strong>
+                <p>Craft a step-by-step strategy to achieve project milestones.</p>
             </>),
 
         },
         {
-            title: "Content Distribution",
+            title: "Custom Designs",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Tailored Solutions:</strong>
+                <p>Create designs that perfectly fit the client’s specifications and brand identity.</p>
+                <strong>Innovative Concepts:</strong>
+                <p>Integrate the latest design trends and technologies.</p>
+                <strong>Feedback Incorporation:</strong>
+                <p>Adjust designs based on client and user feedback for optimal results.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Content Planning",
+            title: "User-Centered Approach",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Empathy Mapping:</strong>
+                <p>Understand user needs, motivations, and pain points.</p>
+                <strong>Persona Development:</strong>
+                <p>Build detailed user personas to guide design and functionality.</p>
+                <strong>Usability Testing:</strong>
+                <p>Conduct tests with real users to ensure intuitive user experiences.</p>
             </>),
 
         }, {
-            title: "Performance Analysis",
+            title: "Seamless Development",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Agile Methodology:</strong>
+                <p>Employ agile practices for flexible and efficient development.</p>
+                <strong>Cross-functional Collaboration:</strong>
+                <p>Foster teamwork between designers, developers, and stakeholders.</p>
+                <strong>Continuous Integration:</strong>
+                <p>Regularly integrate code changes to detect and fix issues early.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Content Creation",
+            title: "Rigorous Testing",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Comprehensive QA:</strong>
+                <p>Implement thorough quality assurance protocols to catch and fix bugs.</p>
+                <strong>Performance Optimization:</strong>
+                <p>Ensure the application performs well under various conditions.</p>
+                <strong>Security Checks:</strong>
+                <p>Conduct security assessments to safeguard against vulnerabilities.</p>
             </>),
 
         },
         {
-            title: "Optimization & Repurposing",
+            title: "Timely Delivery",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Project Management:</strong>
+                <p>Use effective project management tools and techniques to keep track of progress.</p>
+                <strong>Deadline Adherence:</strong>
+                <p>Maintain a strict adherence to timelines to ensure on-time delivery.</p>
+                <strong>Final Review and Launch:</strong>
+                <p>Perform a final review to ensure all specifications are met before launch.</p>
             </>),
 
         }

@@ -36,77 +36,78 @@ export const ProcessData = {
 
     ProcessItem1: [
         {
-            title: "Strategy Development",
+            title: "Flexibility Across Devices",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Adaptive Layouts:</strong>
+                <p>Designing fluid grid systems that adapt to different screen sizes.</p>
+                <strong>Media Queries:</strong>
+                <p>Utilizing CSS techniques to adjust content presentation according to device capabilities.</p>
+                <strong>Responsive Images:</strong>
+                <p>Implementing scalable images that work well on devices with varying resolutions.</p>
             </>),
 
         },
         {
-            title: "Content Distribution",
+            title: "Enhanced User Experience",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Seamless Navigation:</strong>
+                <p>Ensure website menus, buttons, and links are easily accessible across all devices.</p>
+                <strong>Optimal Viewing:</strong>
+                <p>Balancing text size, image resolution, and interactive elements for readability and interaction.</p>
+                <strong>Consistent Experience:</strong>
+                <p>Maintaining a uniform user experience that adapts seamlessly between desktop and mobile platforms.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Content Planning",
+            title: "Improved SEO Performance",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Google’s Mobile-First Indexing:</strong>
+                <p>Prioritizing mobile-friendly sites in search engine rankings.</p>
+                <strong>Load Speed Optimization:</strong>
+                <p>Enhancing site speed to improve user engagement and reduce bounce rates.</p>
+                <strong>Reduced Bounce Rate:</strong>
+                <p>Designing an engaging user interface that keeps visitors on the site longer.</p>
             </>),
 
         }, {
-            title: "Performance Analysis",
+            title: "Secure Transaction Processing",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Payment Gateways:</strong>
+                <p>Integrating reliable and secure payment systems.</p>
+                <strong>Data Encryption:</strong>
+                <p>Protecting user data and transactions with high-level security protocols.</p>
+                <strong>Fraud Detection Systems:</strong>
+                <p>Implementing advanced systems to detect and prevent fraudulent activities.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Content Creation",
+            title: "Customizable Shopping Features",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Product Customization:</strong>
+                <p>Allowing users to customize products directly on the website.</p>
+                <strong>Dynamic Search Filters:</strong>
+                <p>Implementing advanced search options to improve customer product discovery.</p>
+                <strong>Wishlist and Favorites:</strong>
+                <p>Enabling customers to save and manage their preferred products easily.</p>
+
             </>),
 
         },
         {
-            title: "Optimization & Repurposing",
+            title: "Scalability and Integration",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Platform Growth:</strong>
+                <p>Ensuring the platform can handle increasing product loads and user numbers.</p>
+                <strong>Third-party Integration:</strong>
+                <p>Seamlessly integrating with inventory management, CRM, and other essential services.</p>
+                <strong>Multi-channel Selling:</strong>
+                <p>Facilitating product sales across different online and offline channels.</p>
             </>),
 
         }
@@ -318,23 +319,23 @@ export const FAQsData = {
     Fqaslist: [
         {
             title: "What industries do you design websites for?",
-            txt: "We work across all industries, tailoring designs to meet each business's unique needs. From e-commerce to corporate, we ensure every website stands out. Our goal is to enhance user engagement and drive business success."
+            txt: "We design websites across diverse industries, ensuring each project is uniquely tailored to meet specific business needs. Whether you're in e-commerce, healthcare, education, or corporate sectors, we create distinctive sites that stand out visually and are optimized for user engagement and business success. Our approach involves understanding your industry's standards and customer expectations to deliver a competitive, high-performing website."
         },
         {
             title: "How long does the website design process take?",
-            txt: "The timeline depends on the project scope, but most websites are completed within 4-8 weeks. We work closely with clients to ensure timely delivery. Each project gets the attention it deserves to meet your goals."
+            txt: "Depending on the complexity and scope of the project, the website design process can take anywhere from 4 to 8 weeks. We collaborate closely with our clients throughout the process to meet all needs within the agreed timeline. Our dedicated team prioritizes efficient project management and open communication to ensure that each website is crafted carefully to meet and exceed your strategic goals."
         },
         {
             title: "Do you offer support after the website is launched?",
-            txt: "Yes, we provide post-launch support to ensure everything runs smoothly. Our team is available to address any concerns or issues. We help keep your website updated and functional in the long term."
+            txt: "Yes, our commitment to your website extends beyond the launch. We offer comprehensive post-launch support to address any technical issues, updates, or enhancements your site may need. Our support team is readily available to ensure your website remains functional and efficient, helping you manage updates and align your site with the latest web standards and security practices."
         },
         {
             title: "Can you redesign my existing website?",
-            txt: "Absolutely! We specialize in modernizing outdated websites for improved design and functionality. We ensure your site reflects current trends and engages your audience. A fresh, functional redesign can boost your business."
+            txt: "Absolutely. We specialize in revitalizing outdated websites, enhancing both design and functionality to reflect the latest trends. Our redesign process focuses on not just giving your site a new look but also improving its performance and user engagement. By upgrading your website, we aim to help you attract more visitors, retain them longer, and ultimately boost your business outcomes."
         },
         {
             title: "Are your designs mobile-friendly?",
-            txt: "Yes, every website we design is fully responsive and optimized for all devices. Whether it's a phone, tablet, or desktop, your website will function flawlessly. Mobile optimization is key to reaching a wider audience."
+            txt: "Every website we design is developed to be fully responsive and mobile-friendly. We ensure your site delivers a seamless and efficient user experience on all devices, including smartphones, tablets, and desktops. Emphasizing mobile optimization is crucial for expanding your reach and improving your site's accessibility, usability, and search engine ranking, helping you connect with a broader audience effectively."
         }
     ]
 

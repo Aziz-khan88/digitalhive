@@ -2,8 +2,8 @@
 import BannerPoster from "media/innerservices/amazon-ads/bannerImg.webp"
 
 export const BannerData = {
-    title: "Maximize ROI with Expert PPC Ad Management",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Make Your Products Shine with Amazon Ads",
+    desc: "Not getting the sales you expected? If your sales aren’t where they should be, our Amazon Ads strategies can turn things around. More clicks, more visibility, more sales—starting today!",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -11,37 +11,37 @@ export const BannerData = {
 //Services
 export const InnerServicesData = {
     subtitle: "Our Services",
-    title: "Comprehensive PPC Ad Management Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Amazon Ads That Work as Hard as You Do",
+    desc: "Your products deserve more than basic ads—they deserve campaigns that reflect the effort you’ve put into your business. Let us help you drive results that matter.",
     innerServItem: [
         {
-            title: "Keyword Research & Strategy",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            title: "Strategic Keyword Planning",
+            txt: "We pinpoint the keywords that matter most, connecting your products with customers ready to buy.",
             url: "#",
         },
         {
-            title: "Ad Creation & Optimization",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            title: "Creative Ad Design",
+            txt: "Every ad we create is tailored to capture attention and convert, ensuring your products shine on Amazon.",
             url: "#",
         },
         {
-            title: "Landing Page Optimization",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            title: "Perfecting Product Pages",
+            txt: "Your product page is the final step in the journey. We make it irresistible with optimized content and design.",
             url: "#",
         },
         {
-            title: "Campaign Management",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            title: "Campaign Monitoring Made Easy",
+            txt: "From start to finish, we track and adjust your Amazon campaigns to ensure consistent growth and ROI.",
             url: "#",
         },
         {
-            title: "Performance Tracking & Reporting",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            title: "Transparent Performance Insights",
+            txt: "We believe in clarity. Our detailed reporting helps you stay informed and make confident decisions.",
             url: "#",
         },
         {
-            title: "A/B Testing",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            title: "Continuous Ad Refinement",
+            txt: "Testing is key to success. We analyze and refine your ads to keep them fresh, relevant, and high-performing.",
             url: "#",
         },
     ]
@@ -51,9 +51,9 @@ export const InnerServicesData = {
 // States Counter
 
 export const StateCounter = {
-    subtitle: "The Company-State",
-    title: "Your App Journey: Designed, Developed, Delivered",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    subtitle: "The Amazon Advantage",
+    title: "Your Ads: Planned, Targeted, Executed",
+    desc: "Success on Amazon requires precision. We help your business thrive in the cutthroat industry with tailored ad strategies and performance-driven campaigns.",
     stateItem: [
         {
             numbers: "200+",
@@ -72,82 +72,82 @@ export const StateCounter = {
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Our Proven Content Marketing Process",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Amazon Ads Done Right, Every Time",
+    desc: "Are you tired of mediocre results? Our process is designed to eliminate the guesswork in Amazon advertising. From strategy to reporting, we focus on what works, delivering campaigns that grow your business.",
 
     ProcessItem1: [
         {
-            title: "Strategy Development",
+            title: "Amazon Ads Blueprint",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Initial Insights:</strong>
+                <p>We understand your business goals, product offerings, and target market.</p>
+                <strong>Competitive Edge Analysis:</strong>
+                <p>Analyzing competitors and industry dynamics reveals actionable insights to outperform the competition.</p>
+                <strong>Customer Persona Creation:</strong>
+                <p>We craft detailed profiles of your ideal customers to align ad campaigns.</p>
             </>),
 
         },
         {
-            title: "Content Distribution",
+            title: "Campaign Development",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Custom Campaign Design:</strong>
+                <p>We build campaigns tailored to your goals, products, and audience preferences to ensure measurable outcomes.</p>
+                <strong>Budget Allocation:</strong>
+                <p>With strategic budget planning, we focus resources on high-performing ads to maximize returns.</p>
+                <strong>Timeline Management:</strong>
+                <p>We structure campaigns to align with product launches, promotions, and seasonal trends for maximum impact.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Content Planning",
+            title: "Targeted Campaign Deployment",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Ad Placement Strategy:</strong>
+                <p>We strategically position your ads across Amazon to maximize visibility and engagement.</p>
+                <strong>Bid Optimization:</strong>
+                <p>Our team manages bids to ensure optimal ad placements while staying within your budget.</p>
+                <strong>Audience Targeting:</strong>
+                <p>Using insights from user personas, we tailor your campaigns to reach the most relevant customers</p>
             </>),
 
         }, {
-            title: "Performance Analysis",
+            title: "Accurate Placement of Ads",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Optimizing Visibility:</strong>
+                <p>Your ads are positioned where the most prospective buyers will see them, from search results to product pages.</p>
+                <strong>Advanced Targeting:</strong>
+                <p>We customize placements based on audience analytics to ensure your products are successful.</p>
+                <strong>Real-Time Insights:</strong>
+                <p>Constant monitoring helps us refine placements and targeting to improve performance throughout the campaign.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Content Creation",
+            title: "Comprehensive Ad Reporting ",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Transparent Results:</strong>
+                <p>We offer complete reports on impressions, clicks, and purchases to update you on your campaign’s performance.</p>
+                <strong>Actionable Recommendations:</strong>
+                <p>Our analysis’s findings lead to precise, doable plans for continuous development.</p>
+                <strong>Custom Dashboards:</strong>
+                <p>Get access to user-friendly dashboards that enable you to monitor campaign stats and see results instantly.</p>
             </>),
 
         },
         {
-            title: "Optimization & Repurposing",
+            title: "Long-Term Amazon Success",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Expanding Reach:</strong>
+                <p>We grow your campaigns strategically, connecting with untapped audiences to drive sales.</p>
+                <strong>Optimizing for Excellence:</strong>
+                <p>Winning strategies are optimized further to achieve better performance across all product lines.</p>
+                <strong>Market Responsiveness:</strong>
+                <p>We keep your campaigns agile, evolving them to match market trends and shopper demands.</p>
             </>),
 
         }
@@ -161,11 +161,10 @@ import ContentImg from "media/innerservices/amazon-ads/Img01.webp"
 export const ContentData = {
     maintitle: true,
     bgcolor: "#FCCA07",
-    contentTitle: "Why Choose PPC for Your Business?",
+    contentTitle: "Why Choose Amazon Ads for Your Business?",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Are you struggling to get your products noticed? Amazon ads are the secret to giving your brand unmatched visibility. With billions of shoppers visiting Amazon monthly, it’s the perfect platform to showcase your products and drive consistent sales growth.</p>
+        <p> We connect you with the right audience at the right time to maximize your impact. From increasing visibility to driving conversions, we craft campaigns that transform your store into a sales powerhouse. Success starts here!</p>
     </>),
     img: ContentImg.src
 }
@@ -175,8 +174,8 @@ export const ContentData = {
 
 import ImgBg from "media/innerservices/amazon-ads/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Let’s Build Something Extraordinary Together!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Your Amazon Success Story Starts Here",
+    desc: "Every great business needs a winning strategy. Let’s partner to design Amazon Ads that deliver visibility, conversions, and long-term growth.",
     img: ImgBg.src,
 
 }
@@ -185,14 +184,14 @@ export const NewsLetterData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Quality Discounts Uplift Your Social Media Presence Today!",
+    desc: "Choose a package that suits your needs and budget. We offer customized Amazon Ads management to help you grow your business.",
     PriceItem: [
         {
             bgColor: "#7635FF",
             packagename: "Basic Package",
             price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Our services are for everyone, priced to be accessible without compromising quality.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -226,7 +225,7 @@ export const PriceData = {
             bgColor: "#FF6987",
             packagename: "Advanced Package",
             price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
+            txt: "Our services are for everyone, priced to be accessible without compromising quality.",
             bodyPoints: [
                 {
                     title: "Social Media Posts",
@@ -292,3 +291,81 @@ export const PriceData = {
         }
     ]
 };
+
+
+//Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+export const TestimonialData = {
+    subtitle: "Happy Clients",
+    title: "Words from Our Clients",
+    desc: "At Infinitidigital, our mission is to help businesses thrive on Amazon. Our clients have seen significant benefits, from increased product awareness to unmatched sales growth, and they are eager to share their experiences.",
+    Testslider: [
+        {
+            txt: "The team at Infinitidigital understands Amazon Ads like no one else. They took our fitness gear brand to the top of the heap, increasing our ROI by 60% in the first quarter. Their detailed performance reports and regular optimization efforts set them apart from other agencies. We highly recommend them.",
+            icon: <ClutchLogo />,
+            namee: "Nathan S.",
+            job: "CEO, FitLife Gear",
+        },
+        {
+            txt: "Infinitidigital transformed our Amazon Ads campaigns completely. Our product visibility skyrocketed, and within three months, our revenue doubled. Their team’s attention to detail and data-driven approach ensured that every ad worked to deliver results. Partnering with them was one of the best decisions we’ve made for our business.",
+            icon: <TrustpilotLogo />,
+            namee: "Amanda T.",
+            job: "Founder, BrightTech Solutions",
+        },
+        {
+            txt: "Infinitidigital’s expertise in Amazon Ads is unmatched. They helped us optimize our product listings and target the right buyers, which significantly boosted sales. Their team is always available to provide updates and recommendations. If you’re looking for a results-driven agency, look no further.",
+            icon: <GoogleLogo />,
+            namee: "Michael H.",
+            job: "Owner, AutoXperts",
+        },
+        {
+            txt: "Infinitidigital turned our educational product listings into top performers. Their spot-on keyword research and ad placement strategies led to a 35% increase in traffic and a 50% rise in sales. Their dedication to client success is impressive. They’re more than an agency—they’re a growth partner.",
+            icon: <TrustpilotLogo />,
+            namee: "Laura P.",
+            job: "Head of Marketing, EduGrow Solutions",
+        },
+        {
+            txt: "Infinitidigital made a massive difference for our Amazon store. Their expertise in ad management and audience targeting helped us reduce ad spend while significantly increasing sales. The team is easy to work with and always provides valuable insights. They’ve become an integral part of our growth strategy.",
+            icon: <TrustpilotLogo />,
+            namee: "Catherine M.",
+            job: "Founder, LuxeHome Essentials",
+        }
+    ]
+}
+// Call to Action
+
+export const CallActionData = {
+    subtitle: "Speak with Us",
+    title: "Let’s Redefine the Future",
+    desc: "Do you need assistance or have questions about the next step? We're here for you. Let's collaborate to create strategies that improve your brand, drive growth, and turn your ultimate goal into action. Reach out to us right now!"
+}
+
+// FAQs
+export const FAQsData = {
+    subtitle: "FAQs",
+    title: "Frequently Asked Questions",
+
+    Fqaslist: [
+        {
+            title: "What are Amazon Ads?",
+            txt: "Amazon Ads are advertising solutions that Amazon provides to help businesses promote their products on the platform. They include sponsored products, brands, and display ads, allowing you to reach shoppers actively searching for items like yours. Contact us today to make it easier for you! "
+        },
+        {
+            title: "How do Amazon Ads work?",
+            txt: "Amazon Ads use a pay-per-click (PPC) model, meaning you only pay when someone clicks on your ad. Ads are displayed based on keywords, audience targeting, or product placements, driving visibility and sales for your products. Reach out today to get started with the process."
+        },
+        {
+            title: "Can Amazon Ads work for small businesses?",
+            txt: "Absolutely. Amazon Ads are scalable, making them suitable for businesses of all sizes. With the right strategy, even small companies can compete by targeting niche markets or leveraging cost-effective ad types. This is exactly what your book needs. Let’s chat."
+        },
+        {
+            title: "How long does it take to see results from Amazon Ads?",
+            txt: "Results can vary depending on factors such as competition and budget, but most campaigns show improvements in visibility and traffic within the first few weeks. Optimized campaigns tend to yield better results over time. The sooner you get started, the better it will be. Let’s begin."
+        },
+        {
+            title: "Why should I hire an agency to manage my Amazon Ads?",
+            txt: "An experienced agency can optimize your campaigns with data-driven strategies, keyword research, and audience targeting. This will save you time, reduce costs, maximize returns, and ensure consistent performance improvements. Schedule a consultation if you’re still confused and let us pave the way. "
+        }
+    ]
+
+}

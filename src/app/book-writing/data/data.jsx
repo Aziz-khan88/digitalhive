@@ -17,22 +17,22 @@ export const ServicesData = {
     ServicesItem: [
         {
             title: (<>Ghost Book<br />Writing</>),
-            txt: "Our seasoned ghostwriters transform your ideas into captivating narratives. From concept development to the final manuscript, we ensure your voice is authentically captured, making your story shine.",
+            txt: "From concept development to the final manuscript, we ensure your voice is authentically captured, making your story shine.",
             url: "#",
         },
         {
             title: (<>Editing & <br />Proofreading</>),
-            txt: "Perfecting your book’s language, structure, and flow is essential. Our editors refine every detail, ensuring your manuscript is polished, professional, and ready for publication.",
+            txt: "Our editors refine every detail, ensuring your manuscript is polished, professional, and ready for publication.",
             url: "#",
         },
         {
             title: (<>Book <br />Formatting</>),
-            txt: "Create a visually stunning book that enhances readability and adheres to publishing standards. Our formatting services ensure a flawless presentation for print or digital platforms.",
+            txt: "Our formatting services ensure a flawless presentation for print or digital platforms.",
             url: "#",
         },
         {
             title: (<>Publishing <br />Support</>),
-            txt: "Publishing can be complex, but our guidance simplifies the process. From preparing submission materials to designing your book cover, we help you every step of the way.",
+            txt: "From preparing submission materials to designing your book cover, we help you every step of the way.",
             url: "#",
         },
 
@@ -48,13 +48,8 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Why Partner with Our Book Writing Experts?",
     contentTxt: (<>
-        <ul className="ContentUl">
-            <li><span><MenuIcon /></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-            <li><span><MenuIcon /></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-            <li><span><MenuIcon /></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-            <li><span><MenuIcon /></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-            <li><span><MenuIcon /></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-        </ul>
+        <p>Writing a book is no small feat—it’s a journey of creativity, discipline, and strategy.  That’s why our team is here to guide you, from brainstorming ideas to the final chapter.</p>
+        <p>Whether it’s a novel, memoir, or business book, we craft every project with a clear, engaging narrative tailored to your voice and purpose. Our expertise ensures that your book resonates with readers and positions it for success in today’s competitive market.</p>
     </>),
     img: ContentImg.src
 }
@@ -155,132 +150,6 @@ export const NewsLetterData = {
 }
 
 
-// Workimport 
-import WorkImg01 from "media/services/content-marketing/img01.webp"
-import WorkImg02 from "media/services/content-marketing/img02.webp"
-import WorkImg03 from "media/services/content-marketing/img03.webp"
-import WorkImg04 from "media/services/content-marketing/img04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
-}
 
 
 //Book Tabs
@@ -297,7 +166,7 @@ import Book10 from "media/innerservices/book/book10.webp"
 export const BookTabsData = {
     subtitle: "Book Gallery",
     title: "Bringing Your Story to Life Across Genres",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    desc: "Wondering how to share your personal experiences in a meaningful way? Explore ways to turn your stories into narratives that connect and inspire others. ",
     BookTabs: [
         {
             tabtitle: "Fiction",
@@ -380,8 +249,8 @@ export const BookTabsData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Tailored for Every Author",
-    desc: "We offer flexible pricing to suit every stage of your book-writing journey. Whether you’re just starting or need help completing your manuscript, our packages are designed with your success in mind.",
+    title: "Invest in Your Story and Uplift Your Authorial Presence",
+    desc: "Ready to turn your ideas into a published masterpiece? Our book-writing packages cater to both first-time authors and seasoned storytellers, bringing your literary vision to life with flair!",
     PriceItem: [
         {
             bgColor: "#7635FF",

@@ -13,26 +13,26 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Inclusive Book Marketing Services",
-    desc: "Are you looking to establish a successful online presence for your book? At Infinitidigital, we specialize in doing just that! Partner with us to ensure your book receives the attention it deserves.",
+    desc: "At Infinitidigital, we specialize in doing just that! Partner with us to ensure your book receives the attention it deserves.",
     ServicesItem: [
         {
             title: (<>Ghost Book<br />Writing</>),
-            txt: "Our expert ghostwriters transform your vision into a captivating story. From brainstorming ideas to the final edit, we ensure your voice shines, and your narrative resonates with readers.",
+            txt: "From brainstorming ideas to the final edit, we ensure your voice shines, and your narrative resonates with readers.",
             url: "#",
         },
         {
             title: (<>Editing & <br />Proofreading</>),
-            txt: "Polished manuscripts are the key to credibility. Our team refines grammar, tone, and structure to ensure your book is flawless, professional, and ready to captivate readers at first glance.",
+            txt: "Our team refines grammar, tone, and structure to ensure your book is flawless.",
             url: "#",
         },
         {
             title: (<>Book <br />Formatting</>),
-            txt: "Make your book visually stunning with professional formatting for both print and digital platforms. We enhance readability while ensuring compatibility with Amazon, IngramSpark, and other publishing platforms.",
+            txt: "We enhance readability while ensuring compatibility with Amazon, IngramSpark, and other publishing platforms.",
             url: "#",
         },
         {
             title: (<>Publishing <br />Support</>),
-            txt: "Publishing can be overwhelming—but not with our guidance. From query letters to cover design and submissions, we’re here to support you through every phase of your publishing journey.",
+            txt: "From query letters to cover design and submissions, we’re here to support you through every phase of your publishing journey.",
             url: "#",
         },
 
@@ -56,12 +56,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Why Partner with Our Book Marketing Experts?",
     contentTxt: (<>
-        <strong>Struggling to stand out in a crowded market?</strong>
-        <p>Even the most brilliant stories need expert promotion to find their audience. Our team specializes in connecting authors with readers through campaigns that drive engagement and build your brand.</p>
-        <strong>Frustrated with self-promotion that feels exhausting? </strong>
-        <p>Leave the heavy lifting to us. From strategy to execution, we craft campaigns that resonate and deliver measurable success.</p>
-        <strong>Worried about wasting time and resources? </strong>
-        <p>Our data-driven approach ensures every effort aligns with your goals, saving you time while maximizing your reach.</p>
+        <p>Even the most brilliant stories need expert promotion to find their audience. Our team specializes in connecting authors with readers through campaigns that drive engagement and build your brand. Leave the heavy lifting to us. From strategy to execution, we craft campaigns that resonate and deliver measurable success. Our data-driven approach ensures that every effort aligns with your goals, saving you time while maximizing your reach.</p>
     </>),
     img: ContentImg.src
 }
@@ -152,134 +147,6 @@ export const ProcessData = {
 }
 
 
-// Workimport 
-import WorkImg01 from "media/services/content-marketing/img01.webp"
-import WorkImg02 from "media/services/content-marketing/img02.webp"
-import WorkImg03 from "media/services/content-marketing/img03.webp"
-import WorkImg04 from "media/services/content-marketing/img04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Diverse Expertise Across Genres",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
-}
-
-
 //Book Tabs
 import Book01 from "media/innerservices/book/book01.webp"
 import Book02 from "media/innerservices/book/book02.webp"
@@ -293,8 +160,8 @@ import Book09 from "media/innerservices/book/book09.webp"
 import Book10 from "media/innerservices/book/book10.webp"
 export const BookTabsData = {
     subtitle: "Book Gallery",
-    title: "Diverse Expertise Across Genres",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Proficiency Across Multiple Genres",
+    desc: "Do you find establishing your voice as an authority challenging, leaving you wondering if your message is even being heard? Worry not, we’re here to help. ",
     BookTabs: [
         {
             tabtitle: "Fiction",
@@ -377,8 +244,8 @@ export const BookTabsData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Affordable Packages Tailored for Every Author",
+    desc: "We offer flexible pricing to suit every stage of your book-writing journey. Whether you’re just starting or need help completing your manuscript, our packages are designed with your success in mind.",
     PriceItem: [
         {
             bgColor: "#7635FF",

@@ -13,26 +13,26 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Comprehensive Book Editing Services",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "Are you tired of pouring your heart into your manuscript only to feel it fall flat due to structural issues or pesky typos? Let us help your story shine—let's get started today!",
     ServicesItem: [
         {
             title: (<>Developmental <br />Editing</>),
-            txt: "Refining the big picture of your manuscript. We analyze structure, plot, pacing, and character development to strengthen your story’s foundation, ensuring every element works cohesively.",
+            txt: "Let's analyze structure, plot, and character development for a cohesive story.",
             url: "#",
         },
         {
             title: (<>Copy <br />editing</>),
-            txt: "Polishing your manuscript at the sentence level. We focus on grammar, syntax, and style consistency while enhancing readability and ensuring your voice remains authentic.",
+            txt: "We focus on grammar, syntax, and style consistency while enhancing readability and ensuring your voice remains authentic.",
             url: "#",
         },
         {
             title: (<>Line  <br />Editing</>),
-            txt: "Elevating the tone and flow of your writing. Our editors refine sentence structure, word choice, and overall language to create a smooth and engaging reading experience.",
+            txt: "Our editors refine sentence structure, word choice, and overall language to create a smooth and engaging reading experience.",
             url: "#",
         },
         {
             title: (<>Book <br />Proofreading</>),
-            txt: "The final quality check. We review your manuscript for typos, formatting errors, and inconsistencies to ensure it’s publication-ready.",
+            txt: "We review your manuscript for typos and formatting errors to ensure it is publication-ready.",
             url: "#",
         },
 
@@ -43,8 +43,8 @@ export const ServicesData = {
 
 import ImgBg from "media/innerservices/book-editing/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Let’s Build Something Extraordinary Together!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Does Your Manuscript Reflect Its Full Potential?",
+    desc: "Planning to self-publish or submit to traditional publishers? We offer guidance to ensure your manuscript meets all requirements and stands out in the market. Let Infinitidigital perfect every detail for you.",
     img: ImgBg.src
 }
 
@@ -55,9 +55,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Why Partner with Our Book Editing Experts?",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Editing a book goes beyond catching typos—it enhances the flow, tightens the narrative, and amplifies the emotional impact. Our editors specialize in transforming raw manuscripts into professional, reader-ready books.Whether your book is a memoir, a novel, or a business book, we refine your content to ensure clarity, coherence, and engagement while maintaining your unique voice. We fine-tune your manuscript to meet professional standards, increasing its chances of success with publishers and readers alike.</p>
     </>),
     img: ContentImg.src
 }
@@ -162,7 +160,7 @@ import Book10 from "media/innerservices/book/book10.webp"
 export const BookTabsData = {
     subtitle: "Book Gallery",
     title: "Perfecting Your Book Across Genres",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    desc: "Wondering how to refine your book to its best? Explore ways to turn your stories into narratives that connect and inspire others. ",
     BookTabs: [
         {
             tabtitle: "Fiction",
@@ -245,8 +243,8 @@ export const BookTabsData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Tailored for Every Author",
-    desc: "We offer flexible pricing to suit every stage of your editing journey. Whether you need comprehensive edits or a final proofread, our packages are designed to meet your needs.",
+    title: "Invest in Your Story and Uplift Your Authorial Presence",
+    desc: "Ready to turn your ideas into a published masterpiece? Our book-writing packages cater to both first-time authors and seasoned storytellers, bringing your literary vision to life with flair!",
     PriceItem: [
         {
             bgColor: "#7635FF",

@@ -13,8 +13,8 @@ import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
 import PlateFroms from '@/src/app/home/plateform'
 import Industries from '@/src/app/home/Industries'
-import { BannerData, StateCounter, ProcessData, ContentData, NewsLetterData, PriceData, InnerServicesData } from '@/src/app/youtube-ads/data/data'
-import { FollowsData, TestimonialData, PartnerData, CallActionData, BlgosData, PlatformsData, FAQsData, IndustriesData, IndustryItem } from '@/src/app/home/data/data'
+import { BannerData, StateCounter, ProcessData, ContentData, NewsLetterData, PriceData, TestimonialData, FAQsData, CallActionData, InnerServicesData } from '@/src/app/youtube-ads/data/data'
+import { FollowsData, PartnerData, BlgosData, PlatformsData, IndustriesData, IndustryItem } from '@/src/app/home/data/data'
 
 const Page = () => {
     return (
