@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/email-marketing/bannerImg.webp"
 
 export const BannerData = {
     title: "Drive Results with Targeted Email Marketing",
-    desc: "At Infinitidigital, we craft personalized email marketing campaigns to maximize engagement and drive results. Whether you're looking to increase brand awareness, nurture leads, or boost sales, our data-driven strategies deliver impactful outcomes for your business.",
+    desc: "At Infinitidigital, we craft personalized email marketing campaigns to maximize engagement and drive results. Whether you’re looking to increase brand awareness, nurture leads, or boost sales, our data-driven strategies deliver impactful outcomes for your business.",
     video: "#",
     BannerPoster: BannerPoster.src
 }
@@ -86,7 +86,7 @@ export const ContentData1 = {
     maintitle: true,
     contentTitle: "What You’ll Gain with Email Marketing Optimization",
     contentTxt: (<>
-        <p>At Infinitidigital, we’re dedicated to growing your channel from “okay” to exceptional. Our strategies turn casual viewers into loyal subscribers, enhancing engagement and retention. We optimize your content to increase visibility, ensuring it reaches your ideal audience. With improved thumbnails, titles, and tags, you'll see higher click-through rates and tangible growth in views, subscribers, and ROI.</p>
+        <p>At Infinitidigital, we’re dedicated to growing your channel from “okay” to exceptional.Our strategies turn casual viewers into loyal subscribers, enhancing engagement and retention.We optimize your content to increase visibility, ensuring it reaches your ideal audience.With improved thumbnails, titles, and tags, you’ll see higher click-through rates and tangible growth in views, subscribers, and ROI.</p>
     </>),
     img: ContentImg1.src
 }
