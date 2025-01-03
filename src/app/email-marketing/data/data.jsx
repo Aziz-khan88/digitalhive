@@ -38,42 +38,42 @@ export const ServicesData = {
     ServicesItem: [
         {
             title: (<>Monetization Eligibility <br />Setup</>),
-            txt: "Unlock the earning potential of your email campaigns with tailored monetization strategies. From audience segmentation to optimized delivery times, we ensure your emails work harder for you.",
+            txt: "From audience segmentation to optimized delivery times, we ensure your emails work harder for you.",
             url: "#",
         },
         {
             title: (<>Ad Revenue<br />Optimization</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "We help you balance promotions with valuable content to keep your audience engaged and your revenue growing.",
             url: "#",
         },
         {
             title: (<>Channel Growth <br />Strategies</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "From newsletters to drip campaigns, we ensure your emails resonate and inspire action.",
             url: "#",
         },
         {
             title: (<>Content Strategy <br />Development</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "From newsletters to drip campaigns, we ensure your emails resonate and inspire action.",
             url: "#",
         },
         {
             title: (<>Brand Sponsorship<br />Opportunities</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "We connect you with brands that align with your values, creating mutually beneficial partnerships.",
             url: "#",
         },
         {
             title: (<>Membership &<br />Merchandise Setup</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "We help you create campaigns that promote your offerings and build deeper customer relationships.",
             url: "#",
         },
         {
             title: (<>Chat & Sticker<br /> Management</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "We make your campaigns not just informative but also engaging and memorable.",
             url: "#",
         },
         {
             title: (<>Analytics & <br />PerformanceTracking</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor adipiscing elit",
+            txt: "Our detailed performance reports give you actionable insights into open rates, CTRs, and conversions. ",
             url: "#",
         },
 
@@ -82,18 +82,11 @@ export const ServicesData = {
 
 //Content Data
 import ContentImg1 from "media/innerservices/email-marketing/Img02.webp"
-import { MenuIcon } from "@/src/app/app-constants"
 export const ContentData1 = {
     maintitle: true,
     contentTitle: "What You’ll Gain with Email Marketing Optimization",
     contentTxt: (<>
-        <ul className="ContentUl">
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-            <li><span><MenuIcon /></span>Improved audience engagement and retention.</li>
-        </ul>
+        <p>At Infinitidigital, we’re dedicated to growing your channel from “okay” to exceptional. Our strategies turn casual viewers into loyal subscribers, enhancing engagement and retention. We optimize your content to increase visibility, ensuring it reaches your ideal audience. With improved thumbnails, titles, and tags, you'll see higher click-through rates and tangible growth in views, subscribers, and ROI.</p>
     </>),
     img: ContentImg1.src
 }
@@ -126,13 +119,13 @@ export const TestimonialData = {
         },
         {
             txt: "Infinitidigital’s team is amazing to work with. They’re responsive, knowledgeable, and always willing to go the extra mile. Their email marketing strategies improved our engagement rates and strengthened our customer relationships. It’s refreshing to partner with a team that truly cares.",
-            icon: <TrustpilotLogo />,
+            icon: <Forbes />,
             namee: "David P.",
             job: "COO of UrbanRoots",
         },
         {
             txt: "Infinitidigital turned our email marketing into a revenue-driving powerhouse. Their creative approach and deep understanding of our audience delivered measurable results. Sales have increased by 30% since implementing their strategies. If you want real results, this is the team to trust.",
-            icon: <TrustpilotLogo />,
+            icon: <Upcity />,
             namee: "Emily W.",
             job: "Head of Growth at LuminoTech",
         }
