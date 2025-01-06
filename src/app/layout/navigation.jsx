@@ -211,7 +211,8 @@ const Navigation = ({ scrolled, isLight }) => {
                         <Link href="/" >Home</Link>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/social-media-marketing">SMM <SubMenuIcon /></Link>
+                        <Link href="/social-media-marketing" onClick={handleClick}>SMM</Link>
+                        <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {SmmMenu.map((item, index) => (
                                 <li onClick={handleClick} key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -219,7 +220,8 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/content-marketing">Content Marketing <SubMenuIcon /></Link>
+                        <Link href="/content-marketing">Content Marketing</Link>
+                        <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {ContentMarketing.map((item, index) => (
                                 <li onClick={handleClick} key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -227,7 +229,8 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/web-development">Website Design & Development <SubMenuIcon /></Link>
+                        <Link href="/web-development">Website Design & Development</Link>
+                        <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {WebsiteDesign.map((item, index) => (
                                 <li onClick={handleClick} key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -235,7 +238,8 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/paid-marketing">Paid Marketing <SubMenuIcon /></Link>
+                        <Link href="/paid-marketing">Paid Marketing</Link>
+                        <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {PaidMarketing.map((item, index) => (
                                 <li onClick={handleClick} key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -243,7 +247,8 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/seo">SEO <SubMenuIcon /></Link>
+                        <Link href="/seo">SEO</Link>
+                        <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {SEO.map((item, index) => (
                                 <li onClick={handleClick} key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -251,7 +256,8 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/mobile-app-development">Mobile App Development <SubMenuIcon /></Link>
+                        <Link href="/mobile-app-development">Mobile App Development</Link>
+                        <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {MobileApp.map((item, index) => (
                                 <li onClick={handleClick} key={index}><Link href={item.url}><MenuIcon />{item.title}</Link></li>

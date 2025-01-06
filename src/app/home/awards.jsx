@@ -2,7 +2,7 @@
 import styles from "@/styles/home/awards.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import useEmblaCarousel from 'embla-carousel-react'
-import { ArrowIcon } from "@/src/app/app-constants";
+import SliderArrow from "@/src/app/components/sliderarrow";
 
 
 
@@ -26,15 +26,11 @@ const Awards = ({ data }) => {
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
                     </Col>
-                    <Col md={5} className="my-auto">
-                        <div className={styles.embla_container}>
-                            <div className={styles.embla_prev} onClick={prevButtonHandler}>
-                                <ArrowIcon direction="prev" />
-                            </div>
-                            <div className={styles.embla_next} onClick={nextButtonHandler}>
-                                <ArrowIcon direction="next" />
-                            </div>
-                        </div>
+                    <Col md={5} className="mt-auto d-none d-md-block">
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                        />
                     </Col>
                     <Col md={12}>
                         <div className={styles.embla}>
@@ -56,6 +52,12 @@ const Awards = ({ data }) => {
                                 </div>
                             </div>
                         </div>
+                    </Col>
+                    <Col md={12} className="mt-auto d-sm-block d-md-none">
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                        />
                     </Col>
                 </Row>
             </Container>

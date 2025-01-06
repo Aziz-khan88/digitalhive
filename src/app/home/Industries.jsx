@@ -1,15 +1,22 @@
 "use client";
 import styles from "@/styles/home/industry.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
-
+import { ArrowIcon } from "@/src/app/app-constants";
 import Image from "next/image"
 import Link from "next/link"
 import useEmblaCarousel from 'embla-carousel-react'
-import { ArrowIcon } from "@/src/app/app-constants";
+import SliderArrow from "@/src/app/components/sliderarrow";
 
 const OPTIONS = { loop: true, align: 'start' }
 const Industries = ({ data, IndustryData }) => {
-    const [emblaRef] = useEmblaCarousel(OPTIONS)
+    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS)
+    const prevButtonHandler = () => {
+        if (emblaApi) emblaApi.scrollPrev();
+    };
+
+    const nextButtonHandler = () => {
+        if (emblaApi) emblaApi.scrollNext();
+    };
     return (
         <section className={`pt-100 ${styles.industriesSection}`}>
             <Container>
@@ -19,6 +26,14 @@ const Industries = ({ data, IndustryData }) => {
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
                     </Col>
+                    <Col md={5} className="mt-auto d-none d-md-block">
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                        />
+                    </Col>
+                </Row>
+                <Row>
                     <Col md={12}>
                         <div className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
@@ -40,6 +55,12 @@ const Industries = ({ data, IndustryData }) => {
                                 </div>
                             </div>
                         </div>
+                    </Col>
+                    <Col md={12} className="mt-auto d-sm-block d-md-none">
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                        />
                     </Col>
                 </Row>
 

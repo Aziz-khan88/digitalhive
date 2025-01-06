@@ -1,12 +1,13 @@
 "use client"
 import styles from "@/styles/home/testimonials.module.scss"
 import { Container, Row, Col } from "react-bootstrap"
-import { ArrowIcon } from "@/src/app/app-constants";
 import useEmblaCarousel from 'embla-carousel-react'
 import ClassNames from 'embla-carousel-class-names'
 import Autoplay from 'embla-carousel-autoplay'
-const options = { loop: true }
 
+
+const options = { loop: true }
+import SliderArrow from "@/src/app/components/sliderarrow";
 const Testimonials = ({ data }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({ delay: 3000 }), ClassNames()])
     const prevButtonHandler = () => {
@@ -50,14 +51,11 @@ const Testimonials = ({ data }) => {
                                 </div>
                             </div>
                         </section>
-                        <div className={styles.embla_container}>
-                            <div className={styles.embla_prev} onClick={prevButtonHandler}>
-                                <ArrowIcon direction="prev" />
-                            </div>
-                            <div className={styles.embla_next} onClick={nextButtonHandler}>
-                                <ArrowIcon direction="next" />
-                            </div>
-                        </div>
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                            center="yes"
+                        />
                     </Col>
                 </Row>
             </Container>

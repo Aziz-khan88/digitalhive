@@ -694,11 +694,26 @@
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        width: 100%;
+                        flex: 0 0 calc(100% - 30px);
+
+
+                        &:hover {
+                            transition: .3s linear;
+                            color: #9AFF35;
+                        }
+                    }
+
+                    .subMenuIcon {
+                        flex: 0 0 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        height: 100%;
 
                         svg {
                             height: 11px;
                             transform: rotate(90deg);
+
 
                             path {
                                 stroke: #fff;
@@ -706,9 +721,6 @@
                         }
 
                         &:hover {
-                            transition: .3s linear;
-                            color: #9AFF35;
-
                             svg {
                                 transform: rotate(0deg);
 
@@ -751,10 +763,12 @@
                                         height: auto;
                                         justify-content: flex-start;
 
+
                                         svg {
                                             height: 8px;
                                             width: auto;
                                             margin-right: 10px;
+
                                         }
 
                                         &:hover {

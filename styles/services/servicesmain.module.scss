@@ -236,6 +236,11 @@
                         line-height: 28px;
                     }
 
+                    p {
+
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
 
                     .readMore {
                         width: 140px;
@@ -273,7 +278,7 @@
 
                     100% {
                         width: 50px;
-                        height: 4px;
+                        height: 0px;
                         top: 102px;
                         left: 32px;
                     }
@@ -306,6 +311,12 @@
                         font-size: 18px;
                         line-height: 24px;
                         margin-bottom: 10px;
+                    }
+
+                    p {
+
+                        font-size: 15px;
+                        line-height: 23px;
                     }
 
                     .barLine {
@@ -348,7 +359,7 @@
 
                     100% {
                         width: 50px;
-                        height: 4px;
+                        height: 0px;
                         top: 92px;
                         left: 32px;
                     }
@@ -381,6 +392,12 @@
                         font-size: 17px;
                         line-height: 24px;
                         margin-bottom: 10px;
+                    }
+
+                    p {
+
+                        font-size: 15px;
+                        line-height: 23px;
                     }
 
                     .barLine {
@@ -423,7 +440,7 @@
 
                     100% {
                         width: 50px;
-                        height: 4px;
+                        height: 0px;
                         top: 85px;
                         left: 28px;
                     }
@@ -453,9 +470,15 @@
                     }
 
                     .title {
-                        font-size: 16px;
-                        line-height: 22px;
+                        font-size: 15px;
+                        line-height: 20px;
                         margin-bottom: 10px;
+                    }
+
+                    p {
+
+                        font-size: 13px;
+                        line-height: 21px;
                     }
 
                     .barLine {
@@ -486,8 +509,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 18px;
-                            line-height: 24px;
+                            font-size: 16px;
+                            line-height: 21px;
                         }
                     }
                 }
@@ -498,8 +521,8 @@
 
                     100% {
                         width: 50px;
-                        height: 4px;
-                        top: 75px;
+                        height: 0px;
+                        top: 68px;
                         left: 20px;
                     }
                 }
@@ -522,7 +545,7 @@
                 flex: 0 0 calc(33.33% - 10px);
 
                 .servicesMainImage {
-                    height: 280px;
+                    height: 270px;
                     border-radius: 20px;
                     padding: 15px;
 
@@ -535,6 +558,12 @@
                         font-size: 16px;
                         line-height: 22px;
                         margin-bottom: 10px;
+                    }
+
+                    p {
+
+                        font-size: 13px;
+                        line-height: 21px;
                     }
 
                     .barLine {
@@ -566,8 +595,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 18px;
-                            line-height: 24px;
+                            font-size: 16px;
+                            line-height: 21px;
                         }
                     }
                 }
@@ -578,9 +607,9 @@
 
                     100% {
                         width: 50px;
-                        height: 4px;
-                        top: 75px;
-                        left: 25px;
+                        height: 0px;
+                        top: 68px;
+                        left: 20px;
                     }
                 }
 
@@ -617,6 +646,12 @@
                         margin-bottom: 10px;
                     }
 
+                    p {
+
+                        font-size: 13px;
+                        line-height: 21px;
+                    }
+
                     .barLine {
                         margin-bottom: 10px;
                     }
@@ -645,21 +680,19 @@
 
                     &:hover {
                         .title {
-                            font-size: 19px;
-                            line-height: 24px;
+                            font-size: 16px;
+                            line-height: 21px;
                         }
                     }
                 }
 
 
                 @keyframes shrink {
-
-
                     100% {
                         width: 50px;
-                        height: 4px;
-                        top: 80px;
-                        left: 30px;
+                        height: 0px;
+                        top: 72px;
+                        left: 20px;
                     }
                 }
 
@@ -696,6 +729,12 @@
                         margin-bottom: 10px;
                     }
 
+                    p {
+
+                        font-size: 13px;
+                        line-height: 21px;
+                    }
+
                     .barLine {
                         margin-bottom: 10px;
                     }
@@ -724,8 +763,8 @@
 
                     &:hover {
                         .title {
-                            font-size: 20px;
-                            line-height: 24px;
+                            font-size: 16px;
+                            line-height: 21px;
                         }
                     }
                 }
@@ -736,9 +775,9 @@
 
                     100% {
                         width: 50px;
-                        height: 4px;
-                        top: 80px;
-                        left: 25px;
+                        height: 0px;
+                        top: 75px;
+                        left: 20px;
                     }
                 }
 

@@ -5,24 +5,36 @@ import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowIcon } from "@/src/app/app-constants";
-
+import SliderArrow from "@/src/app/components/sliderarrow";
 import useEmblaCarousel from 'embla-carousel-react'
 
 const OPTIONS = { loop: true, align: 'start' }
 
 const Work = ({ data }) => {
-    const [emblaRef] = useEmblaCarousel(OPTIONS)
+    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS)
     const [activeCategory, setActiveCategory] = useState(data.WorkItem[0].category);
     const filteredSlides = data.WorkItem.filter((slide) => slide.category === activeCategory);
+    const prevButtonHandler = () => {
+        if (emblaApi) emblaApi.scrollPrev();
+    };
 
+    const nextButtonHandler = () => {
+        if (emblaApi) emblaApi.scrollNext();
+    };
     return (
         <section className={`pt-100 ${styles.workSection}`}>
             <Container>
                 <Row>
-                    <Col md={6}>
+                    <Col md={7}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
+                    </Col>
+                    <Col md={5} className="mt-auto d-none d-md-block">
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                        />
                     </Col>
                 </Row>
             </Container>
@@ -63,6 +75,12 @@ const Work = ({ data }) => {
                                 </div>
                             </div>
                         </div>
+                    </Col>
+                    <Col md={12} className="mt-auto d-sm-block d-md-none">
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                        />
                     </Col>
                 </Row>
             </Container>

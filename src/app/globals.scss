@@ -269,6 +269,57 @@ p {
     }
 }
 
+.embla_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0px 0px 25px;
+    gap: 25px;
+
+    &.centerMode {
+        justify-content: center;
+        margin: 30px 0px 0px;
+    }
+
+    div {
+        height: 60px;
+        width: 60px;
+        background: linear-gradient(319.4deg, #9AFF35 13.78%, #FFFFFF 90.15%);
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        svg {
+            width: 28px;
+            height: auto;
+
+            path {
+                stroke: #000;
+                opacity: 1;
+            }
+        }
+
+        &:hover {
+            transition: .3s linear;
+            background: #000;
+
+            svg {
+                path {
+                    stroke: #9AFF35;
+                }
+            }
+        }
+
+        &.embla_prev {
+            svg {
+                transform: rotate(-180deg);
+            }
+        }
+
+    }
+}
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     body {
@@ -368,6 +419,20 @@ p {
                 }
             }
 
+        }
+    }
+
+    .embla_container {
+        margin: 0px 0px 25px;
+        gap: 20px;
+
+        div {
+            height: 50px;
+            width: 50px;
+
+            svg {
+                width: 22px;
+            }
         }
     }
 }
@@ -470,6 +535,20 @@ p {
                 }
             }
 
+        }
+    }
+
+    .embla_container {
+        margin: 0px 0px 25px;
+        gap: 15px;
+
+        div {
+            height: 45px;
+            width: 45px;
+
+            svg {
+                width: 20px;
+            }
         }
     }
 }
@@ -575,6 +654,20 @@ p {
 
         }
     }
+
+    .embla_container {
+        margin: 0px 0px 20px;
+        gap: 15px;
+
+        div {
+            height: 42px;
+            width: 42px;
+
+            svg {
+                width: 18px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width:1099px) {
@@ -678,6 +771,20 @@ p {
 
         }
     }
+
+    .embla_container {
+        margin: 0px 0px 20px;
+        gap: 12px;
+
+        div {
+            height: 40px;
+            width: 40px;
+
+            svg {
+                width: 17px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width:899px) {
@@ -779,6 +886,20 @@ p {
                 }
             }
 
+        }
+    }
+
+    .embla_container {
+        margin: 0px 0px 20px;
+        gap: 12px;
+
+        div {
+            height: 35px;
+            width: 35px;
+
+            svg {
+                width: 16px;
+            }
         }
     }
 }
@@ -894,6 +1015,27 @@ p {
 
         }
     }
+
+    .embla_container {
+        margin: 20px 0px 0px;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+
+        &.centerMode {
+            justify-content: center;
+            margin: 20px 0px 0px;
+        }
+
+        div {
+            height: 35px;
+            width: 35px;
+
+            svg {
+                width: 16px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px) {
@@ -994,6 +1136,21 @@ p {
                 }
             }
 
+        }
+    }
+
+    .embla_container {
+        margin: 20px 0px 0px;
+        gap: 12px;
+
+
+        div {
+            height: 35px;
+            width: 35px;
+
+            svg {
+                width: 16px;
+            }
         }
     }
 }
