@@ -10,11 +10,10 @@ import CtaForm from '@/src/app/home/ctaform'
 import FollowUs from '@/src/app/home/followus'
 import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
-import { FollowsData, TestimonialData, IndustryItem, PartnerData, CallActionData, BlgosData, FAQsData } from '@/src/app/home/data/data'
+import { FollowsData, IndustryItem, PartnerData, CallActionData, BlgosData } from '@/src/app/home/data/data'
 import ContentSection from '@/src/app/components/innerservices/content'
 import ContentAlternet from '@/src/app/components/innerservices/contentalternet'
-import BookTabs from '@/src/app/components/innerservices/booktabs'
-import { BannerData, ServicesData, NewsLetterData, ContentData, ContentData1, ProcessData, WorkData, BookTabsData, PriceData, IndustriesData } from '@/src/app/white-label-seo/data/data'
+import { BannerData, ServicesData, NewsLetterData, ContentData, ContentData1, ProcessData, WorkData, PriceData, TestimonialData, IndustriesData, FAQsData } from '@/src/app/white-label-seo/data/data'
 import ServicesMain from '@/src/app/components/services/servicesmain'
 
 
