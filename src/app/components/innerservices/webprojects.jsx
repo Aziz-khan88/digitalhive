@@ -2,7 +2,7 @@ import styles from "@/styles/inner-services/webproject.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 
 
-const WebProjects = ({ data }) => {
+const WebProjects = ({ data, dataItem }) => {
     return (
         <section className={`pt-100 ${styles.webProjectSection} `}>
             <Container >
@@ -16,11 +16,11 @@ const WebProjects = ({ data }) => {
                 <Row>
                     <Col md={12}>
                         <div className={styles.webProjectContainer}>
-                            {data.ProjectImages.map((imgSrc, imgIndex) => (
+                            {dataItem.map((imgSrc, imgIndex) => (
                                 <div
                                     className={styles.ImageBox}
                                     key={imgIndex}
-                                    style={{ backgroundImage: `url(${imgSrc})` }}
+                                    style={{ backgroundImage: `url(${imgSrc.img})` }}
                                 >
 
                                 </div>

@@ -13,6 +13,7 @@ import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
 import { BannerData, StateCounter, ProcessData, ContentData, NewsLetterData, WebProjectData, TestimonialData, PriceData, FAQsData } from '@/src/app/website-design-services/data/data'
 import { FollowsData, PartnerData, CallActionData, BlgosData } from '@/src/app/home/data/data'
+import { WebProjectItem } from '@/src/app/web-development/data/data'
 
 const Page = () => {
     return (
@@ -22,7 +23,7 @@ const Page = () => {
             <Process data={ProcessData} />
             <ContentSection data={ContentData} simple="yes" />
             <NewsLetter data={NewsLetterData} />
-            <WebProjects data={WebProjectData} />
+            <WebProjects data={WebProjectData} dataItem={WebProjectItem} />
             <Pricing bg="yes" data={PriceData} />
             <Partners data={PartnerData} />
             <Testimonials data={TestimonialData} />

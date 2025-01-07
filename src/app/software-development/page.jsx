@@ -22,11 +22,11 @@ const Page = () => {
             <StateCount data={StateCounter} />
             <ServicesMain data={ServicesData} />
             <NewsLetter data={NewsLetterData} />
-            <ContentSection data={ContentData2} simple="yes" bgBlack="yes" />
+            <ContentSection data={ContentData2} simple="yes" bgBlack="yes" software="yes" />
             <Process data={ProcessData} />
-            <ContentSection data={ContentData} simple="yes" />
-            <ContentAlternet data={ContentData1} alternat="yes" simple="yes" />
-            <ContentSection data={ContentData3} simple="yes" />
+            <ContentSection data={ContentData} simple="yes" software="yes" />
+            <ContentAlternet data={ContentData1} alternat="yes" simple="yes" software="yes" />
+            <ContentSection data={ContentData3} simple="yes" software="yes" />
             <Work data={WorkData} category="App Development" />
             <Partners data={PartnerData} />
             <Testimonials data={TestimonialData} />

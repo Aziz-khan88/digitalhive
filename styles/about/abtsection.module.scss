@@ -21,9 +21,21 @@
             transition: color 0.3s ease-in-out;
         }
 
-        p {
+        p,
+        ul,
+        li {
             opacity: 0;
             transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+
+            li {
+                color: #000;
+
+                span {
+                    font-weight: 600;
+                    margin-right: 5px;
+                    display: inline-block;
+                }
+            }
         }
 
         &:hover {
@@ -34,7 +46,9 @@
                 color: #000;
             }
 
-            p {
+            p,
+            ul,
+            li {
                 opacity: 1;
                 color: #000;
             }

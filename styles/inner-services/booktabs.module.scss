@@ -74,17 +74,18 @@
             align-items: center;
             gap: 10px;
             flex-wrap: wrap;
+            margin-top: 20px;
 
             .ImageBox {
                 height: 400px;
                 flex: 0 0 calc(100% / 5 - 10px);
                 position: relative;
-                border-radius: 25px;
+                border-radius: 10px;
 
 
                 img {
                     object-fit: cover;
-                    border-radius: 25px;
+                    border-radius: 10px;
                 }
             }
         }

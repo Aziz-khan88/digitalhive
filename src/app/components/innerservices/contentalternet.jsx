@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Col, Container, Row } from 'react-bootstrap'
 
-const ContentAlternet = ({ data, bggray, simple, alternat }) => {
+const ContentAlternet = ({ data, bggray, simple, alternat, software }) => {
     return (
         <section className={`pt-100 ${styles.innerServicesContent} `}>
             <Container>
@@ -16,7 +16,7 @@ const ContentAlternet = ({ data, bggray, simple, alternat }) => {
                             <Link href="#" className="commonBtn">Get Free Consultation</Link>
                         </div>
                     </Col>
-                    <Col md={6} className={`${simple === "yes" ? styles.imgSimple : ''} ${alternat === "yes" ? styles.alternatImage : ''}`} >
+                    <Col md={6} className={`${simple === "yes" ? styles.imgSimple : ''} ${software === "yes" ? styles.imgSoftware : ''} ${alternat === "yes" ? styles.alternatImage : ''}`} >
                         {simple === "yes" ?
                             <Image src={data.img} alt="Book Image" width={460} height={550} />
                             :

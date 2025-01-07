@@ -144,31 +144,10 @@ export const NewsLetterData = {
 }
 // Web Projects
 
-import Project01 from "media/innerservices/shopify-development-services/projects/project01.webp"
-import Project02 from "media/innerservices/shopify-development-services/projects/project02.webp"
-import Project03 from "media/innerservices/shopify-development-services/projects/project03.webp"
-import Project04 from "media/innerservices/shopify-development-services/projects/project03.webp"
-import Project05 from "media/innerservices/shopify-development-services/projects/project02.webp"
-import Project06 from "media/innerservices/shopify-development-services/projects/project01.webp"
-import Project07 from "media/innerservices/shopify-development-services/projects/project03.webp"
-import Project08 from "media/innerservices/shopify-development-services/projects/project01.webp"
-import Project09 from "media/innerservices/shopify-development-services/projects/project02.webp"
-
 export const WebProjectData = {
     subtitle: "Efficient Results",
     title: "Fast Shopify Development Solutions",
     desc: "Need a Shopify site fast? Our streamlined approach ensures top-quality, high-performance websites that meet your business goals efficiently and effectively.",
-    ProjectImages: [
-        Project01.src,
-        Project02.src,
-        Project03.src,
-        Project04.src,
-        Project05.src,
-        Project06.src,
-        Project07.src,
-        Project08.src,
-        Project09.src,
-    ],
 }
 
 // Pricing

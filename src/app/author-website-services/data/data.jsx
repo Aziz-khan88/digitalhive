@@ -145,31 +145,10 @@ export const NewsLetterData = {
 }
 // Web Projects
 
-import Project01 from "media/innerservices/author-website-services/projects/project01.webp"
-import Project02 from "media/innerservices/author-website-services/projects/project02.webp"
-import Project03 from "media/innerservices/author-website-services/projects/project03.webp"
-import Project04 from "media/innerservices/author-website-services/projects/project03.webp"
-import Project05 from "media/innerservices/author-website-services/projects/project02.webp"
-import Project06 from "media/innerservices/author-website-services/projects/project01.webp"
-import Project07 from "media/innerservices/author-website-services/projects/project03.webp"
-import Project08 from "media/innerservices/author-website-services/projects/project01.webp"
-import Project09 from "media/innerservices/author-website-services/projects/project02.webp"
-
 export const WebProjectData = {
     subtitle: "Build Stronger Connections",
     title: "Author Websites That Engage Readers",
     desc: "At Infinitidigital, we create dynamic, engaging websites that showcase your work, from book releases to author bios, ensuring visitors are always informed and connected. This is the future of author websites!",
-    ProjectImages: [
-        Project01.src,
-        Project02.src,
-        Project03.src,
-        Project04.src,
-        Project05.src,
-        Project06.src,
-        Project07.src,
-        Project08.src,
-        Project09.src,
-    ],
 }
 
 // Pricing

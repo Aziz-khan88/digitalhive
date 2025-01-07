@@ -15,6 +15,7 @@ import ContentSection from '@/src/app/components/innerservices/content'
 import BookTabs from '@/src/app/components/innerservices/booktabs'
 import { BannerData, ServicesData, NewsLetterData, ContentData, ProcessData, BookTabsData, PriceData, CtaPinkData, TestimonialData, CallActionData, IndustriesData, FAQsData } from '@/src/app/book-writing/data/data'
 import ServicesMain from '@/src/app/components/services/servicesmain'
+import { BookTabsItem } from '@/src/app/content-marketing/data/data'
 
 
 const Page = () => {
@@ -25,7 +26,7 @@ const Page = () => {
             <NewsLetter data={NewsLetterData} />
             <Process data={ProcessData} />
             <ContentSection data={ContentData} />
-            <BookTabs data={BookTabsData} />
+            <BookTabs data={BookTabsData} dataItem={BookTabsItem} />
             <Pricing bg="yes" data={PriceData} />
             <CTA data={CtaPinkData} />
             <Partners data={PartnerData} />

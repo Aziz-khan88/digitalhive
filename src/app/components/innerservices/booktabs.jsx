@@ -7,7 +7,7 @@ import Image from "next/image"
 
 
 
-const BookTabs = ({ data }) => {
+const BookTabs = ({ data, dataItem }) => {
     const [activeTab, setActiveTab] = useState(0);
     return (
         <section className={`pt-100 ${styles.bookTabs}`}>
@@ -24,7 +24,7 @@ const BookTabs = ({ data }) => {
                         <div className={styles.tabContainer}>
                             <div className={styles.tabHeader}>
                                 <ul>
-                                    {data.BookTabs.map((tab, index) => (
+                                    {dataItem.map((tab, index) => (
                                         <li
                                             key={index}
                                             className={activeTab === index ? styles.active : ""}
@@ -36,7 +36,7 @@ const BookTabs = ({ data }) => {
                                 </ul>
                             </div>
                             <div className={styles.tabBody}>
-                                {data.BookTabs[activeTab].images.map((imgSrc, imgIndex) => (
+                                {dataItem[activeTab].images.map((imgSrc, imgIndex) => (
                                     <div className={styles.ImageBox} key={imgIndex}>
                                         <Image src={imgSrc} alt={`Book ${imgIndex + 1}`} fill />
                                     </div>

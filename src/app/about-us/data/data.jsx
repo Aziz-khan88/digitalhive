@@ -48,6 +48,8 @@ export const NewsLetterData = {
     desc: "Got questions or ready to start your digital transformation? Connect with us today and take the first step toward elevating your brand online.",
     img: ImgGif.src
 }
+
+
 //  About Awards
 
 import Awards01 from "media/about/awards/1.webp";
@@ -60,8 +62,8 @@ import Awards07 from "media/about/awards/7.webp";
 
 export const AbtAwardsData = {
     subtitle: "Awards",
-    title: "Some work we are proud of",
-    desc: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit.",
+    title: "Awards – Some Work We’re Proud Of",
+    desc: "We believe great work speaks for itself, and we’re humbled by the recognition we’ve received for helping businesses achieve their goals. Infinitidigital is proud to have been recognized by industry leaders:",
     images: [
         Awards01.src,
         Awards02.src,
@@ -78,226 +80,45 @@ export const AbtAwardsData = {
 };
 
 
-// Creatives 
-import CreativeImg1 from "media/services/social-media-marketing/Influencer/Influencer1.webp"
-import CreativeImg2 from "media/services/social-media-marketing/Influencer/Influencer2.webp"
-import CreativeImg3 from "media/services/social-media-marketing/Influencer/Influencer3.webp"
-export const CreativesData = {
-    subtitle: "Happy Influencer",
-    title: "Outshine the Competition with Bold, Dynamic Creatives!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    CreativesItems: [
-        {
-            txt: "2.5M followers",
-            namee: "@roger",
-            job: "Travel Influencer",
-            img: CreativeImg1.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@lydia",
-            job: "Lifestyle Influencer",
-            img: CreativeImg2.src,
-        }
-        ,
-        {
-            txt: "2.5M followers",
-            namee: "@marialevin",
-            job: "Content Creator",
-            img: CreativeImg3.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@roger",
-            job: "Travel Influencer",
-            img: CreativeImg1.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@lydia",
-            job: "Lifestyle Influencer",
-            img: CreativeImg2.src,
-        }
-        ,
-        {
-            txt: "2.5M followers",
-            namee: "@marialevin",
-            job: "Content Creator",
-            img: CreativeImg3.src,
-        },
-    ]
-}
-
-// Partner Data
-import Logo1 from "media/home/partnerLogo/logo1.webp";
-import Logo2 from "media/home/partnerLogo/logo2.webp";
-import Logo3 from "media/home/partnerLogo/logo3.webp";
-import Logo4 from "media/home/partnerLogo/logo4.webp";
-import Logo5 from "media/home/partnerLogo/logo5.webp";
-import Logo6 from "media/home/partnerLogo/logo6.webp";
-import Logo7 from "media/home/partnerLogo/logo7.webp";
-import Logo8 from "media/home/partnerLogo/logo8.webp";
-import Logo9 from "media/home/partnerLogo/logo9.webp";
-import Logo10 from "media/home/partnerLogo/logo10.webp";
-import Logo11 from "media/home/partnerLogo/logo11.webp";
-import Logo12 from "media/home/partnerLogo/logo12.webp";
-import Logo13 from "media/home/partnerLogo/logo13.webp";
-import Logo14 from "media/home/partnerLogo/logo14.webp";
-import Logo15 from "media/home/partnerLogo/logo15.webp";
-import Logo16 from "media/home/partnerLogo/logo16.webp";
-import Logo17 from "media/home/partnerLogo/logo17.webp";
-import Logo18 from "media/home/partnerLogo/logo18.webp";
-import Logo19 from "media/home/partnerLogo/logo19.webp";
-import Logo20 from "media/home/partnerLogo/logo20.webp";
-export const PartnerData = {
-    subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    PartnerLogos: [
-        { logo: Logo1.src },
-        { logo: Logo2.src },
-        { logo: Logo3.src },
-        { logo: Logo4.src },
-        { logo: Logo5.src },
-        { logo: Logo6.src },
-        { logo: Logo7.src },
-        { logo: Logo8.src },
-        { logo: Logo9.src },
-        { logo: Logo10.src },
-        { logo: Logo11.src },
-        { logo: Logo12.src },
-        { logo: Logo13.src },
-        { logo: Logo14.src },
-        { logo: Logo15.src },
-        { logo: Logo16.src },
-        { logo: Logo17.src },
-        { logo: Logo18.src },
-        { logo: Logo19.src },
-        { logo: Logo20.src },
-    ]
-}
-
-
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Our Awards",
-    title: "Awards & Recognitions",
-    desc: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-    slides: [
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            icon: <ClutchLogo />,
-
-        },
-
-    ]
-}
-
-
-
-// Call to Action
-
-export const CallActionData = {
-    subtitle: "Contact Us",
-    title: "Your Journey to Success Starts Now ",
-    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
-}
-
-// Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
-export const BlgosData = {
-    subtitle: "Our Blogs",
-    title: "Insights and Inspiration ",
-    desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
-    BlogsData: [
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Paid Marketing",
-            img: IMG01.src,
-        },
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Mobile App Design",
-            img: IMG02.src,
-        }, {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "SEO Development & Marketing",
-            img: IMG03.src,
-        }
-    ]
-
-}
-
 // FAQs
 
 
 export const FAQsData = {
     subtitle: "FAQs",
     title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
     Fqaslist: [
         {
-            title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
+            title: "Why should I trust Infinitidigital with my digital marketing?",
+            txt: "We don’t believe in one-size-fits-all strategies. At Infinitidigital, we take the time to understand your business, your goals, and your audience. With a track record of success and a team that combines creativity with data-backed insights, we craft tailored strategies that deliver tangible results. Our clients value us for our transparency, innovation, and commitment to excellence."
         },
         {
-            title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
+            title: "What makes Infinitidigital different from other marketing agencies?",
+            txt: "Infinitidigital stands out because of our personalized approach and dedication to results. Unlike agencies that rely heavily on automation, we focus on human-driven strategies that connect with your audience authentically. Our small, dedicated team offers attention to detail and a proactive partnership that ensures your goals remain our priority."
         },
         {
-            title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
+            title: "Do you offer flexible services to match my budget?",
+            txt: "Absolutely! We believe great marketing should be accessible to businesses of all sizes. Our services are flexible and scalable, ensuring you get the most value for your investment. During our initial consultation, we’ll discuss your budget and create a plan that aligns with your financial goals while maximizing impact."
         },
         {
-            title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
+            title: "How soon can I expect to see results?",
+            txt: "The timeline for results depends on the services you choose and the specific goals of your campaign. While some strategies, like PPC advertising, can deliver quick wins, others, such as SEO, require a longer-term commitment for sustained success. We’ll provide a realistic timeline during our strategy planning phase, so you know exactly what to expect."
         },
         {
-            title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
+            title: "Do I have to commit to a long-term contract?",
+            txt: "No, we don’t believe in locking clients into long-term commitments unless they’re comfortable. Our goal is to earn your trust and deliver results that keep you coming back. We offer flexible agreements tailored to your preferences, so you stay in control at all times."
+        },
+        {
+            title: "Can you work with my in-house team or existing marketing tools?",
+            txt: "Absolutely. Collaboration is one of our core strengths. Whether you have an in-house team or specific tools in place, we can seamlessly integrate with your existing setup to complement your efforts and amplify results."
+        },
+        {
+            title: "Do you provide reporting and updates on campaign performance?",
+            txt: "Yes! Transparency is key to our process. We provide regular performance reports, breaking down the metrics that matter most to your business. Whether it’s website traffic, conversions, or ROI, you’ll always have a clear picture of how your campaigns are performing."
+        },
+        {
+            title: "What industries do you specialize in?",
+            txt: "Our expertise spans multiple industries, including e-commerce, real estate, technology, healthcare, and more. Our adaptable approach ensures we create strategies tailored to your unique audience and market dynamics. No matter your industry, we’re equipped to help you achieve your goals."
         }
     ]
 

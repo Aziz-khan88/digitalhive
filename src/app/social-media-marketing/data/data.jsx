@@ -242,13 +242,37 @@ export const ContentData = {
 
 }
 // Latest Work
-import PosterVideo from "media/services/social-media-marketing/workImage.webp"
+import Img01 from "media/services/social-media-marketing/latestwork/1.webp"
+import Img02 from "media/services/social-media-marketing/latestwork/2.webp"
+import Img03 from "media/services/social-media-marketing/latestwork/3.webp"
+import Img04 from "media/services/social-media-marketing/latestwork/4.webp"
+import Img05 from "media/services/social-media-marketing/latestwork/5.webp"
+import Img06 from "media/services/social-media-marketing/latestwork/6.webp"
+import Img07 from "media/services/social-media-marketing/latestwork/7.webp"
+import Img08 from "media/services/social-media-marketing/latestwork/8.webp"
+import Img09 from "media/services/social-media-marketing/latestwork/9.webp"
+import Img10 from "media/services/social-media-marketing/latestwork/10.webp"
+import Img11 from "media/services/social-media-marketing/latestwork/11.webp"
+import Img12 from "media/services/social-media-marketing/latestwork/12.webp"
+
 export const LastestWorkData = {
     subtitle: "Our Latest Work",
     title: "Driving Results That Speak for Themselves",
     desc: "How do you know we deliver? Just look at the success stories.From viral campaigns to measurable ROI, our work speaks louder than words.At Infinitidigital, we don’t just discuss results—we show them.",
-    video: "https://player.vimeo.com/progressive_redirect/playback/1039775849/rendition/720p/file.mp4?loc=external&log_user=0&signature=a3b56bd23809e03050e6e0231513dfcf16a223d4eb6d444c9d540ce7889002f4",
-    poster: PosterVideo,
+    LastestWorkItem: [
+        { img: Img01.src },
+        { img: Img02.src },
+        { img: Img03.src },
+        { img: Img04.src },
+        { img: Img05.src },
+        { img: Img06.src },
+        { img: Img07.src },
+        { img: Img08.src },
+        { img: Img09.src },
+        { img: Img10.src },
+        { img: Img11.src },
+        { img: Img12.src },
+    ]
 
 }
 //Awards

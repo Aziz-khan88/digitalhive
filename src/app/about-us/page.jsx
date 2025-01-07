@@ -1,5 +1,5 @@
 import Banner from '@/src/app/components/services/banner'
-import { AbtData, BannerData, AboutData, NewsLetterData, AbtAwardsData, AwardsData, PartnerData, CallActionData, BlgosData, FAQsData } from '@/src/app/about-us/data/data'
+import { AbtData, BannerData, AboutData, NewsLetterData, AbtAwardsData, FAQsData } from '@/src/app/about-us/data/data'
 import AbtSection from '@/src/app/about-us/abt'
 import About from "@/src/app/home/about";
 import NewsLetter from '@/src/app/components/innerservices/newsletter'
@@ -11,7 +11,7 @@ import CtaForm from "@/src/app/home/ctaform";
 import FollowUs from "@/src/app/home/followus";
 import Blogs from "@/src/app/home/blogs";
 import Faqs from "@/src/app/home/faq";
-import { FollowsData, TestimonialData } from '@/src/app/home/data/data';
+import { FollowsData, TestimonialData, BlgosData, AwardsData, CallActionData, PartnerData, } from '@/src/app/home/data/data';
 
 const Page = () => {
     return (

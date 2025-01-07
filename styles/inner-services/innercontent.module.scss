@@ -68,6 +68,13 @@
             }
         }
 
+        .imgSoftware {
+            img {
+                height: 380px;
+                width: auto;
+            }
+        }
+
         &.bgBlack {
             background-image: url('../../public/innerservices//ios-app-development/bgBlack.webp');
             background-repeat: no-repeat;

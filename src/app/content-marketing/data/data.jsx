@@ -389,3 +389,90 @@ export const FAQsData = {
 
 }
 
+import Book01 from "media/innerservices/book/book1.webp"
+import Book02 from "media/innerservices/book/book2.webp"
+import Book03 from "media/innerservices/book/book3.webp"
+import Book04 from "media/innerservices/book/book4.webp"
+import Book05 from "media/innerservices/book/book5.webp"
+import Book06 from "media/innerservices/book/book6.webp"
+import Book07 from "media/innerservices/book/book7.webp"
+import Book08 from "media/innerservices/book/book8.webp"
+import Book09 from "media/innerservices/book/book9.webp"
+import Book10 from "media/innerservices/book/book10.webp"
+export const BookTabsItem = [
+    {
+        tabtitle: "Fiction",
+        images: [
+            Book01.src,
+            Book02.src,
+            Book03.src,
+            Book04.src,
+            Book05.src,
+            Book06.src,
+            Book07.src,
+            Book08.src,
+            Book09.src,
+            Book10.src,
+        ],
+    },
+    {
+        tabtitle: "Non-Fiction",
+        images: [
+            Book06.src,
+            Book07.src,
+            Book08.src,
+            Book09.src,
+            Book10.src,
+            Book01.src,
+            Book02.src,
+            Book03.src,
+            Book04.src,
+            Book05.src,
+        ],
+    },
+    {
+        tabtitle: "Biographies",
+        images: [
+            Book01.src,
+            Book02.src,
+            Book03.src,
+            Book08.src,
+            Book09.src,
+            Book10.src,
+            Book04.src,
+            Book05.src,
+            Book06.src,
+            Book07.src,
+        ],
+    },
+    {
+        tabtitle: "Children’s Books",
+        images: [
+            Book05.src,
+            Book06.src,
+            Book07.src,
+            Book08.src,
+            Book09.src,
+            Book01.src,
+            Book02.src,
+            Book03.src,
+            Book04.src,
+            Book10.src,
+        ],
+    },
+    {
+        tabtitle: "Personal Stories",
+        images: [
+            Book06.src,
+            Book07.src,
+            Book08.src,
+            Book09.src,
+            Book10.src,
+            Book01.src,
+            Book02.src,
+            Book03.src,
+            Book04.src,
+            Book05.src,
+        ],
+    },
+]

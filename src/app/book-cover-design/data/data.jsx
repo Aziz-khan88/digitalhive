@@ -148,97 +148,10 @@ export const ProcessData = {
 
 
 //Book Tabs
-import Book01 from "media/innerservices/book/book01.webp"
-import Book02 from "media/innerservices/book/book02.webp"
-import Book03 from "media/innerservices/book/book03.webp"
-import Book04 from "media/innerservices/book/book04.webp"
-import Book05 from "media/innerservices/book/book05.webp"
-import Book06 from "media/innerservices/book/book06.webp"
-import Book07 from "media/innerservices/book/book07.webp"
-import Book08 from "media/innerservices/book/book08.webp"
-import Book09 from "media/innerservices/book/book09.webp"
-import Book10 from "media/innerservices/book/book10.webp"
 export const BookTabsData = {
     subtitle: "Book Gallery",
     title: "Genres Matter, Let’s Make Yours Shine",
     desc: "Different genres deserve distinct identities. Our tailored book cover designs ensure every story, from epic fantasies to poignant memoirs, captivates its target audience. Let’s create a cover that speaks to your genre’s heart and soul.",
-    BookTabs: [
-        {
-            tabtitle: "Fiction",
-            images: [
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-            ],
-        },
-        {
-            tabtitle: "Non-Fiction",
-            images: [
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-            ],
-        },
-        {
-            tabtitle: "Biographies",
-            images: [
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book04.src,
-                Book05.src,
-                Book06.src,
-                Book07.src,
-            ],
-        },
-        {
-            tabtitle: "Children’s Books",
-            images: [
-                Book05.src,
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book10.src,
-            ],
-        },
-        {
-            tabtitle: "Personal Stories",
-            images: [
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-            ],
-        },
-    ],
 }
 
 // Pricing

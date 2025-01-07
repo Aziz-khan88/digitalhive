@@ -132,30 +132,11 @@ export const NewsLetterData = {
     img: ImgBg.src,
 }
 // Web Projects
-import Project01 from "media/innerservices/website-design-services/projects/project01.webp"
-import Project02 from "media/innerservices/website-design-services/projects/project02.webp"
-import Project03 from "media/innerservices/website-design-services/projects/project03.webp"
-import Project04 from "media/innerservices/website-design-services/projects/project03.webp"
-import Project05 from "media/innerservices/website-design-services/projects/project02.webp"
-import Project06 from "media/innerservices/website-design-services/projects/project01.webp"
-import Project07 from "media/innerservices/website-design-services/projects/project03.webp"
-import Project08 from "media/innerservices/website-design-services/projects/project01.webp"
-import Project09 from "media/innerservices/website-design-services/projects/project02.webp"
 export const WebProjectData = {
     subtitle: "Our Projects",
     title: "Creating Websites That Drive Results for Your Brand",
     desc: "Our team designs websites that look great and deliver measurable results, increasing engagement, conversions, and brand loyalty.",
-    ProjectImages: [
-        Project01.src,
-        Project02.src,
-        Project03.src,
-        Project04.src,
-        Project05.src,
-        Project06.src,
-        Project07.src,
-        Project08.src,
-        Project09.src,
-    ],
+
 }
 // Pricing
 export const PriceData = {

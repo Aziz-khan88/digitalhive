@@ -28,10 +28,6 @@ const MainServicesLinks = [
 ]
 const SmmMenu = [
     {
-        title: "Social Media Marketing",
-        url: "/social-media-marketing-inner",
-    },
-    {
         title: "Social Media Ads",
         url: "/social-media-ads",
     },

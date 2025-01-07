@@ -1,9 +1,12 @@
 
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/services/latestwork.module.scss"
+import ImgSlider from '@/src/app/components/imgslider'
 
 
 const LatestWork = ({ data }) => {
+  const OPTIONS1 = { align: 'start', dragFree: true, direction: 'rtl', loop: true }
+  const OPTIONS2 = { align: 'end', dragFree: true, loop: true }
   return (
     <section className={`pt-100 ${styles.latestworkSection}`}>
       <Container>
@@ -14,19 +17,10 @@ const LatestWork = ({ data }) => {
             <p>{data.desc}</p>
           </Col>
           <Col md={12} className='my-auto'>
-            <div className={styles.latestworkVideo}>
-              <video
-                autoPlay
-                muted
-                loop
-                preload="auto"
-                aria-label="Background video"
-                className={styles.bannerVideo}
-                loading="eager"
-                poster={data.poster}
-              >
-                <source src={data.video} type="video/mp4" />
-              </video>
+            <div className={styles.latestworkBox}>
+              <ImgSlider slides={data} options={OPTIONS2} />
+              <ImgSlider slides={data} options={OPTIONS1} />
+              <ImgSlider slides={data} options={OPTIONS2} />
             </div>
           </Col>
         </Row>

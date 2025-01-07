@@ -399,3 +399,25 @@ export const FAQsData = {
     ]
 
 }
+import Project01 from "media/services/web-development/projects/web1.webp"
+import Project02 from "media/services/web-development/projects/web2.webp"
+import Project03 from "media/services/web-development/projects/web3.webp"
+import Project04 from "media/services/web-development/projects/web4.webp"
+import Project05 from "media/services/web-development/projects/web5.webp"
+import Project06 from "media/services/web-development/projects/web6.webp"
+import Project07 from "media/services/web-development/projects/web7.webp"
+import Project08 from "media/services/web-development/projects/web8.webp"
+import Project09 from "media/services/web-development/projects/web9.webp"
+
+export const WebProjectItem = [
+    { img: Project01.src },
+    { img: Project02.src },
+    { img: Project03.src },
+    { img: Project04.src },
+    { img: Project05.src },
+    { img: Project06.src },
+    { img: Project07.src },
+    { img: Project08.src },
+    { img: Project09.src },
+
+]
