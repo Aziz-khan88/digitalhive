@@ -87,7 +87,7 @@ import ContentImg1 from "media/innerservices/seo-agency/Img02.webp"
 export const ContentData1 = {
     contentTitle: "Transform Your Online Presence ",
     contentTxt: (<>
-        <p>Unlock your brand's full potential and dominate search rankings with our expertly crafted, data-driven SEO strategies. From local startups to global enterprises, we deliver measurable results that drive traffic, boost conversions, and outshine the competition.</p>
+        <p>Unlock your brand’s full potential and dominate search rankings with our expertly crafted, data-driven SEO strategies. From local startups to global enterprises, we deliver measurable results that drive traffic, boost conversions, and outshine the competition.</p>
     </>),
     img: ContentImg1.src
 }
