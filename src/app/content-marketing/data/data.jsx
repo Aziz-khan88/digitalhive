@@ -46,7 +46,6 @@ export const ChooseUsData = {
 
 }
 
-
 //Services
 
 export const ServicesData = {
@@ -104,132 +103,7 @@ export const CtaData = {
     desc: "Infinitidigital is here to take your book from idea to bestseller. With our expertise and your creativity, success is just around the corner. Why wait any longer? Let’s get started today!",
     img: ImgBg.src
 }
-// Workimport 
-import WorkImg01 from "media/services/content-marketing/img01.webp"
-import WorkImg02 from "media/services/content-marketing/img02.webp"
-import WorkImg03 from "media/services/content-marketing/img03.webp"
-import WorkImg04 from "media/services/content-marketing/img04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Drive Results with Strategic Content Marketing Solutions",
-    desc: "Still looking to create content that connects and converts? Infinitidigital specializes in crafting tailored content strategies that resonate with your audience and deliver measurable outcomes. We’re waiting to resonate with your vision through impactful storytelling. ",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
 
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
-}
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
@@ -427,143 +301,17 @@ export const ProcessData = {
 
 }
 
-// Partner Data
-import Logo1 from "media/home/partnerLogo/logo1.webp";
-import Logo2 from "media/home/partnerLogo/logo2.webp";
-import Logo3 from "media/home/partnerLogo/logo3.webp";
-import Logo4 from "media/home/partnerLogo/logo4.webp";
-import Logo5 from "media/home/partnerLogo/logo5.webp";
-import Logo6 from "media/home/partnerLogo/logo6.webp";
-import Logo7 from "media/home/partnerLogo/logo7.webp";
-import Logo8 from "media/home/partnerLogo/logo8.webp";
-import Logo9 from "media/home/partnerLogo/logo9.webp";
-import Logo10 from "media/home/partnerLogo/logo10.webp";
-import Logo11 from "media/home/partnerLogo/logo11.webp";
-import Logo12 from "media/home/partnerLogo/logo12.webp";
-import Logo13 from "media/home/partnerLogo/logo13.webp";
-import Logo14 from "media/home/partnerLogo/logo14.webp";
-import Logo15 from "media/home/partnerLogo/logo15.webp";
-import Logo16 from "media/home/partnerLogo/logo16.webp";
-import Logo17 from "media/home/partnerLogo/logo17.webp";
-import Logo18 from "media/home/partnerLogo/logo18.webp";
-import Logo19 from "media/home/partnerLogo/logo19.webp";
-import Logo20 from "media/home/partnerLogo/logo20.webp";
-export const PartnerData = {
-    subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    PartnerLogos: [
-        { logo: Logo1.src },
-        { logo: Logo2.src },
-        { logo: Logo3.src },
-        { logo: Logo4.src },
-        { logo: Logo5.src },
-        { logo: Logo6.src },
-        { logo: Logo7.src },
-        { logo: Logo8.src },
-        { logo: Logo9.src },
-        { logo: Logo10.src },
-        { logo: Logo11.src },
-        { logo: Logo12.src },
-        { logo: Logo13.src },
-        { logo: Logo14.src },
-        { logo: Logo15.src },
-        { logo: Logo16.src },
-        { logo: Logo17.src },
-        { logo: Logo18.src },
-        { logo: Logo19.src },
-        { logo: Logo20.src },
-    ]
-}
-
 
 //Industries 
-import Img01 from "media/home/industires/industy01.webp"
-import Img02 from "media/home/industires/industy02.webp"
-import Img03 from "media/home/industires/industy03.webp"
-import Img04 from "media/home/industires/industy04.webp"
-import Img05 from "media/home/industires/industy05.webp"
-import Img06 from "media/home/industires/industy06.webp"
-import Img07 from "media/home/industires/industy07.webp"
 export const IndustriesData = {
     subtitle: "Our Industries",
     title: "Driving Results Across Diverse Sectors",
     desc: "At Infinitidigital, we create bespoke content marketing strategies tailored to the unique demands of every industry. Whether you're a startup, a small business, or an established brand, our expertise ensures measurable results, sustainable growth, and impactful audience engagement.",
-    IndustryItem: [
-        {
-            title: "Technology & SaaS",
-            txt: "Simplify complex solutions with compelling content that drives user trust and conversions.",
-            Img: Img01.src,
-            url: "#",
-        },
-        {
-            title: "Healthcare",
-            txt: "Foster patient trust and compliance with informative and empathetic health-related content.",
-            Img: Img02.src,
-            url: "#",
-        },
-        {
-            title: "Education",
-            txt: "Inspire learners and institutions with clear, concise, and actionable educational materials.",
-            Img: Img03.src,
-            url: "#",
-        },
-        {
-            title: "Finance & Banking",
-            txt: "Build authority and reliability with precise, jargon-free financial content.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "E-commerce",
-            txt: "Boost online sales through captivating blogs, product descriptions, and email campaigns.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "Content Creator",
-            txt: "Empower your brand with engaging articles, ebooks, and strategies that amplify your digital footprint.",
-            Img: Img05.src,
-            url: "#",
-        },
-        {
-            title: "Automotive",
-            txt: "Drive leads with content highlighting your expertise in vehicles, repairs, and transportation.",
-            Img: Img06.src,
-            url: "#",
-        },
-        {
-            title: "Spots",
-            txt: "Engage fans and sponsors with dynamic, community-driven content that celebrates the spirit of competition.",
-            Img: Img07.src,
-            url: "#",
-        },
-        {
-            title: "Events",
-            txt: "Craft unforgettable moments with event promotion, audience engagement, and targeted campaigns.",
-            Img: Img07.src,
-            url: "#",
-        }
-        ,
-        {
-            title: "B2b Business",
-            txt: "Strengthen relationships, increase leads, and close deals with strategic long-form content for complex sales cycles.",
-            Img: Img07.src,
-            url: "#",
-        }
-        ,
-        {
-            title: "Construction",
-            txt: "Showcase your projects and build credibility through detailed case studies and industry insights.",
-            Img: Img07.src,
-            url: "#",
-        }
 
-    ]
 }
 
-
 //Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Satisfied Clients",
     title: "Hear from Our Happy Customers",
@@ -602,69 +350,6 @@ export const TestimonialData = {
     ]
 }
 
-//Platforms 
-import { DiscordIcon, FacebookIcon, Forbes, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
-export const PlatformsData = {
-    subtitle: "Platforms We",
-    title: "Platforms We Work With",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg.src,
-    SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    ]
-}
-
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Our Awards & Recognitions",
-    title: "Celebrating Innovation, Excellence, and Trust",
-    desc: "At Infinitidigital, our accolades represent the trust of our clients and our passion for delivering cutting-edge solutions. Every recognition underscores our dedication to creating meaningful impact through innovation, creativity, and results-oriented strategies.",
-    slides: [
-        {
-            txt: "Recognized as a leader in digital marketing innovation, Infinitidigital earned its place for delivering groundbreaking solutions that help businesses thrive globally.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Rated highly for client satisfaction, transparency, and transformative marketing strategies, we’ve built a reputation as a trusted partner for business growth.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Awarded for exceptional expertise in SEO, content marketing, and PPC strategies, Infinitidigital is celebrated for driving measurable and lasting results.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Recognized as part of the prestigious Forbes Agency Council, Infinitidigital stands out for its thought leadership and impactful marketing strategies across industries.",
-            icon: <Forbes />,
-
-        },
-        {
-            txt: "Honored for creativity and results-driven campaigns, we are proud to set new standards in the digital marketing world.",
-            icon: <TrustpilotLogo />,
-
-        }
-
-    ]
-}
-
-// CTA  01
-import ImgBg1 from "media/home/ctaBg1.webp"
-export const CtaData01 = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg1.src
-}
-
 
 // Call to Action
 
@@ -674,41 +359,6 @@ export const CallActionData = {
     desc: "Do you have a question or an idea waiting to take shape? Let’s connect! Whether you’re launching something new or looking to scale your business, we’re here to help. Share your goals, and we’ll craft a personalized plan to bring them to life."
 }
 
-// Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
-export const BlgosData = {
-    subtitle: "Our Blogs",
-    title: "Content Marketing Excellence",
-    desc: "Explore how impactful content transforms businesses. Our blogs showcase strategies, insights, and innovations that empower brands to build trust, engage audiences, and drive measurable growth.",
-    BlogsData: [
-        {
-            title: "The Power of Ebooks",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Learn how compelling ebooks can position your brand as a thought leader, delivering value to your audience while generating qualified leads.",
-            category: "Paid Marketing",
-            img: IMG01.src,
-        },
-        {
-            title: "Blog Strategies That Convert",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Master the art of crafting blogs that inform, inspire, and motivate readers to take action—perfect for nurturing long-term relationships.",
-            category: "Mobile App Design",
-            img: IMG02.src,
-        }, {
-            title: "Whitepapers & Case Studies",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "See how detailed, research-driven content can help establish authority in your industry and drive B2B success.",
-            category: "SEO Development & Marketing",
-            img: IMG03.src,
-        }
-    ]
-
-}
 
 // FAQs
 export const FAQsData = {
@@ -738,3 +388,4 @@ export const FAQsData = {
     ]
 
 }
+

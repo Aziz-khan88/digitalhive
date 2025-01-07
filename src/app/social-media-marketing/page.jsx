@@ -5,6 +5,7 @@ import CtaForm from '@/src/app/home/ctaform'
 import Faqs from '@/src/app/home/faq'
 import FollowUs from '@/src/app/home/followus'
 import Industries from '@/src/app/home/Industries'
+import Work from '@/src/app/components/services/work'
 import PlateFroms from '@/src/app/home/plateform'
 import Banner from '@/src/app/components/services/banner'
 import ContentSection from '@/src/app/components/services/contentsection'
@@ -16,8 +17,8 @@ import Opportunities from '@/src/app/components/services/opportunities'
 import Pricing from '@/src/app/components/services/pricing'
 import Solution from '@/src/app/components/services/solution'
 import TestimonialServices from '@/src/app/components/services/testimonialservice'
-import { BannerData, BlgosData, CallActionData, ContentData, CreativesData, CtaData, CtaPinkData, FAQsData, LastestWorkData, OpportunitiesData, PriceData, SolData, TestimonialData } from '@/src/app/social-media-marketing/data/data'
-import { AwardsData, IndustriesData, PlatformsData, FollowsData, IndustryItem } from '@/src/app/home/data/data'
+import { BannerData, CallActionData, ContentData, CreativesData, CtaData, CtaPinkData, FAQsData, LastestWorkData, OpportunitiesData, PriceData, SolData, TestimonialData } from '@/src/app/social-media-marketing/data/data'
+import { AwardsData, IndustriesData, PlatformsData, FollowsData, BlgosData, IndustryItem, WorkData } from '@/src/app/home/data/data'
 
 const Page = () => {
     return (
@@ -28,6 +29,7 @@ const Page = () => {
             <Opportunities data={OpportunitiesData} />
             <Pricing data={PriceData} />
             <CTA data={CtaPinkData} />
+            <Work data={WorkData} category="Social Media Marketing" />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <ContentSection data={ContentData} />
             <LatestWork data={LastestWorkData} />

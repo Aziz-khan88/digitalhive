@@ -8,6 +8,7 @@ export const BannerData = {
     video: "/videos/BannerVideo.mp4",
     BannerPoster: BannerPoster.src,
 }
+
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
@@ -128,10 +129,6 @@ export const ChooseUsData = {
     ]
 
 }
-
-
-
-
 //Services
 export const ServicesData = {
     subtitle: "Our Services",
@@ -427,54 +424,6 @@ export const PriceData = {
 
 
 
-// Partner Data
-import Logo1 from "media/home/partnerLogo/logo1.webp";
-import Logo2 from "media/home/partnerLogo/logo2.webp";
-import Logo3 from "media/home/partnerLogo/logo3.webp";
-import Logo4 from "media/home/partnerLogo/logo4.webp";
-import Logo5 from "media/home/partnerLogo/logo5.webp";
-import Logo6 from "media/home/partnerLogo/logo6.webp";
-import Logo7 from "media/home/partnerLogo/logo7.webp";
-import Logo8 from "media/home/partnerLogo/logo8.webp";
-import Logo9 from "media/home/partnerLogo/logo9.webp";
-import Logo10 from "media/home/partnerLogo/logo10.webp";
-import Logo11 from "media/home/partnerLogo/logo11.webp";
-import Logo12 from "media/home/partnerLogo/logo12.webp";
-import Logo13 from "media/home/partnerLogo/logo13.webp";
-import Logo14 from "media/home/partnerLogo/logo14.webp";
-import Logo15 from "media/home/partnerLogo/logo15.webp";
-import Logo16 from "media/home/partnerLogo/logo16.webp";
-import Logo17 from "media/home/partnerLogo/logo17.webp";
-import Logo18 from "media/home/partnerLogo/logo18.webp";
-import Logo19 from "media/home/partnerLogo/logo19.webp";
-import Logo20 from "media/home/partnerLogo/logo20.webp";
-export const PartnerData = {
-    subtitle: "Partnerships That Drive Success",
-    title: "Trusted by Leading Brands Across the Globe",
-    desc: "At Infinitidigital, we proudly collaborate with some of the most visionary brands—from global enterprises to trailblazing startups. Our partnerships are rooted in trust, driven by creativity, and guided by results-oriented strategies that deliver measurable outcomes. Together, we don’t just build campaigns; we build success stories.",
-    PartnerLogos: [
-        { logo: Logo1.src },
-        { logo: Logo2.src },
-        { logo: Logo3.src },
-        { logo: Logo4.src },
-        { logo: Logo5.src },
-        { logo: Logo6.src },
-        { logo: Logo7.src },
-        { logo: Logo8.src },
-        { logo: Logo9.src },
-        { logo: Logo10.src },
-        { logo: Logo11.src },
-        { logo: Logo12.src },
-        { logo: Logo13.src },
-        { logo: Logo14.src },
-        { logo: Logo15.src },
-        { logo: Logo16.src },
-        { logo: Logo17.src },
-        { logo: Logo18.src },
-        { logo: Logo19.src },
-        { logo: Logo20.src },
-    ]
-}
 
 
 //Industries 
@@ -542,45 +491,9 @@ export const IndustriesData = {
 }
 
 
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Awards & Recognitions",
-    title: "Celebrating Excellence, Innovation, and Results",
-    desc: "At Infinitidigital, our achievements reflect the trust our clients place in us and our untiring dedication to delivering impactful results. We’re not just about meeting goals—we’re about exceeding them.",
-    slides: [
-        {
-            txt: "Best SEO Agency of the Year (Digital Impact Awards): Recognized for delivering outstanding search engine optimization strategies that drive measurable growth.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Excellence in Digital Marketing (Global Marketing Leaders Awards): Celebrated for innovative and client-focused campaigns",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Top Content Marketing Firm (CMO Excellence Awards): Awarded for creating SEO-optimized content that enhances visibility and engagement.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Leader in E-Commerce SEO Solutions (E-Business Recognition Awards): Honored for helping e-commerce brands dominate search rankings.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Customer Choice Award (Business Excellence Circle): Acknowledged for consistent client satisfaction and exceptional results.",
-            icon: <TrustpilotLogo />,
-
-        },
-
-    ]
-}
-
-
 
 //Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Our Clients",
@@ -606,13 +519,13 @@ export const TestimonialData = {
         },
         {
             txt: "Infinitidigital’s tailored SEO strategies helped us enter new markets with ease. Their team’s dedication ensured we saw a tangible return on investment.",
-            icon: <TrustpilotLogo />,
+            icon: <Forbes />,
             namee: "Tom L.",
             job: "CEO of BuildPro Solutions",
         },
         {
             txt: "Partnering with Infinitidigital was the best decision for our online presence. Our rankings improved drastically, and we’ve gained long-term customers as a result.",
-            icon: <ClutchLogo />,
+            icon: <Upcity />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",
         }
@@ -626,41 +539,7 @@ export const CallActionData = {
     desc: "Your vision deserves more than just a digital presence—it deserves a strategy that delivers measurable results and drives lasting growth. Let’s collaborate to create impactful strategies tailored to your goals and share stories that matter."
 }
 
-// Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
-export const BlgosData = {
-    subtitle: "Our Blogs",
-    title: "Insights and Inspiration",
-    desc: "Stay informed and inspired with actionable advice and the latest trends. Our blog is your go-to resource for expert insights on SEO, social media strategies, web design innovations, and more. ",
-    BlogsData: [
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Paid Marketing",
-            img: IMG01.src,
-        },
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Mobile App Design",
-            img: IMG02.src,
-        }, {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "SEO Development & Marketing",
-            img: IMG03.src,
-        }
-    ]
 
-}
 
 // FAQs
 export const FAQsData = {

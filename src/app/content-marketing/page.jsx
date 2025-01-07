@@ -13,18 +13,18 @@ import FollowUs from '@/src/app/home/followus';
 import Blogs from '@/src/app/home/blogs';
 import Faqs from '@/src/app/home/faq';
 import Process from '@/src/app/components/services/process';
-import { AwardsData, FollowsData, IndustriesData, PartnerData, TestimonialData, IndustryItem } from '@/src/app/home/data/data';
-import { FAQsData, PriceData, ProcessData, ServicesData, WorkData, CtaData, BlgosData, CallActionData, ChooseUsData, BannerData } from '@/src/app/content-marketing/data/data';
+import { AwardsData, FollowsData, PartnerData, WorkData, BlgosData, IndustryItem } from '@/src/app/home/data/data';
+import { FAQsData, PriceData, ProcessData, ServicesData, CtaData, CallActionData, ChooseUsData, BannerData, IndustriesData, TestimonialData, } from '@/src/app/content-marketing/data/data';
 
 
 const Page = () => {
     return (
         <>
-            <Banner data={BannerData} bgtxt="" />
+            <Banner data={BannerData} />
             <WhyChoose data={ChooseUsData} />
             <ServicesMain data={ServicesData} />
             <CTA data={CtaData} />
-            <Work data={WorkData} />
+            <Work data={WorkData} category="Content Marketing" />
             <Pricing bg="yes" data={PriceData} />
             <Process data={ProcessData} />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />

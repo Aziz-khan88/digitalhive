@@ -93,6 +93,41 @@ export const ProcessData = {
     ]
 
 }
+
+//Content Data
+import ContentImg from "media/innerservices/ios-app-development/Img01.webp"
+export const ContentData = {
+    maintitle: true,
+    contentTitle: "Boost Your Brand with Unique Websites",
+    contentTxt: (<>
+        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
+    </>),
+    img: ContentImg.src
+}
+
+
+//Content Data
+import ContentImg2 from "media/innerservices/ios-app-development/Img02.webp"
+export const ContentData1 = {
+    maintitle: true,
+    contentTitle: "Boost Your Brand with Unique Websites",
+    contentTxt: (<>
+        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
+    </>),
+    img: ContentImg2.src
+}
+
+
+//Content Data
+import ContentImg3 from "media/innerservices/ios-app-development/Img03.webp"
+export const ContentData3 = {
+    maintitle: true,
+    contentTitle: "Boost Your Brand with Unique Websites",
+    contentTxt: (<>
+        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
+    </>),
+    img: ContentImg3.src
+}
 // Why Choose Us
 export const ChooseUsData = {
     subtitle: "Comprehensive Mobile App Services",
@@ -126,9 +161,6 @@ export const ChooseUsData = {
     ]
 
 }
-
-
-
 //Services
 export const ServicesData = {
     subtitle: "Comprehensive Mobile App Services",
@@ -187,133 +219,6 @@ export const CtaData = {
     img: ImgBg.src
 }
 
-
-// Workimport 
-import WorkImg01 from "media/services/paid-marketing/work/work01.webp"
-import WorkImg02 from "media/services/paid-marketing/work/work02.webp"
-import WorkImg03 from "media/services/paid-marketing/work/work03.webp"
-import WorkImg04 from "media/services/paid-marketing/work/work04.webp"
-export const WorkData = {
-    subtitle: "Showcasing Digital Excellence",
-    title: "Transforming Ideas into Engaging Digital Products",
-    desc: "Ready to see what we can achieve together? Our portfolio showcases cutting-edge solutions designed to elevate brands and deliver measurable growth.",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
-}
 // Pricing
 export const PriceData = {
     subtitle: "Affordable Social Media Packages for Every Business",
@@ -426,87 +331,10 @@ export const PriceData = {
 };
 
 //Industries 
-import Business from "media/home/industires/business.webp"
-import Construction from "media/home/industires/construction.webp"
-import Education from "media/home/industires/education.webp"
-import Events from "media/home/industires/events.webp"
-import Content from "media/home/industires/content.webp"
-import Automotive from "media/home/industires/automotive.webp"
-import Sports from "media/home/industires/sports.webp"
-import Ecommerce from "media/home/industires/ecommerce.webp"
-import Healthcare from "media/home/industires/healthcare.webp"
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry",
     desc: "No matter your industry, Infinitidigital delivers expert mobile app solutions tailored to your unique goals. Let’s build something extraordinary for your business.",
-}
-
-export const IndustryItem = [
-    {
-        title: "B2b Business",
-        txt: "Streamline complex processes with apps designed for seamless collaboration.Drive leads with tools that cater to decision-makers.Simplify workflows to enhance productivity and profitability.",
-        Img: Business.src,
-        url: "#",
-    },
-    {
-        title: "Construction",
-        txt: "Optimize project management with real-time tracking and scheduling tools.Improve client communication through interactive project portals.Showcase completed projects with visually stunning galleries.",
-        Img: Construction.src,
-        url: "#",
-    },
-    {
-        title: "Education",
-        txt: "Engage students, parents, and educators with intuitive e - learning platforms.Facilitate remote learning with innovative app features.Boost enrollments with tailored user experiences.",
-        Img: Education.src,
-        url: "#",
-    },
-    {
-        title: "Events",
-        txt: "Manage registrations effortlessly with user - friendly event apps.Enhance attendee experience through interactive features.Maximize visibility with integrated social media sharing tools.",
-        Img: Events.src,
-        url: "#",
-    },
-    {
-        title: "E-commerce",
-        txt: "Drive sales with apps optimized for seamless browsing and purchasing.Build customer loyalty through personalized recommendations.Streamline payment processes for a hassle - free experience.",
-        Img: Ecommerce.src,
-        url: "#",
-    },
-    {
-        title: "Content Creator",
-        txt: "Expand your reach with apps designed to grow your audience.Monetize content effectively with subscription and sponsorship options.Foster engagement with interactive community features.",
-        Img: Content.src,
-        url: "#",
-    },
-    {
-        title: "Automotive",
-        txt: "Improve customer experience with vehicle search and booking apps.Drive dealership sales with custom - built platforms.Engage car enthusiasts with innovative virtual showrooms.",
-        Img: Automotive.src,
-        url: "#",
-    },
-    {
-        title: "Sports",
-        txt: "Boost fan engagement through live - streaming and real - time updates.Drive ticket sales with seamless purchasing platforms.Build team loyalty with interactive fan communities.",
-        Img: Sports.src,
-        url: "#",
-    }
-    ,
-    {
-        title: "Healthcare",
-        txt: "Enhance patient access with apps for scheduling and consultations.Streamline healthcare processes with secure data management.Build trust through reliable, informative content.",
-        Img: Healthcare.src,
-        url: "#",
-    }
-]
-
-
-
-// CTA  01
-import ImgBg1 from "media/home/ctaBg1.webp"
-export const CtaData01 = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg1.src
 }
 
 //Testimonials
@@ -554,43 +382,6 @@ export const CallActionData = {
     subtitle: "Contact Us",
     title: "Your Journey to Success Starts Now ",
     desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
-}
-
-// Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
-
-export const BlgosData = {
-    subtitle: "Our Blogs",
-    title: "Insights and Inspiration ",
-    desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
-    BlogsData: [
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Paid Marketing",
-            img: IMG01.src,
-        },
-        {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Mobile App Design",
-            img: IMG02.src,
-        }, {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "SEO Development & Marketing",
-            img: IMG03.src,
-        }
-    ]
-
 }
 
 // FAQs

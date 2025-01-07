@@ -6,19 +6,37 @@ import Link from "next/link";
 import { ArrowIcon } from "@/src/app/app-constants";
 
 import useEmblaCarousel from 'embla-carousel-react'
+import SliderArrow from "@/src/app/components/sliderarrow";
 
 const OPTIONS = { loop: true, align: 'start' }
 
-const Work = ({ data }) => {
-    const [emblaRef] = useEmblaCarousel(OPTIONS)
+const Work = ({ data, category }) => {
+    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS)
+    const prevButtonHandler = () => {
+        if (emblaApi) emblaApi.scrollPrev();
+    };
+
+    const nextButtonHandler = () => {
+        if (emblaApi) emblaApi.scrollNext();
+    };
+
+
+    const filteredWorkItems = data.WorkItem.filter(item => item.category === category);
+
     return (
         <section className={`pt-100 ${styles.workSection}`}>
             <Container>
                 <Row>
-                    <Col md={7}>
+                    <Col md={8}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
+                    </Col>
+                    <Col md={4} className="mt-auto d-none d-md-block">
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                        />
                     </Col>
                 </Row>
             </Container>
@@ -28,7 +46,7 @@ const Work = ({ data }) => {
                         <div className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
-                                    {data.WorkItem.map((item, index) => (
+                                    {filteredWorkItems.map((item, index) => (
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.workImage}>
                                                 <Image src={item.Img} alt={`Image ${index}`} fill />
@@ -48,6 +66,12 @@ const Work = ({ data }) => {
                                 </div>
                             </div>
                         </div>
+                    </Col>
+                    <Col md={12} className="mt-auto d-sm-block d-md-none">
+                        <SliderArrow
+                            onPrev={prevButtonHandler}
+                            onNext={nextButtonHandler}
+                        />
                     </Col>
                 </Row>
             </Container>

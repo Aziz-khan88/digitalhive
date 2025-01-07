@@ -88,6 +88,7 @@
 
         .embla {
             height: 100%;
+            margin-top: 20px;
 
             .embla__viewport {
                 overflow: visible;
@@ -103,7 +104,7 @@
                         flex: 0 0 350px;
                         position: relative;
                         padding-left: 15px;
-
+                        transition: flex 0.3s ease, padding-left 0.3s ease;
 
 
                         .workImage {
@@ -170,7 +171,7 @@
 
                         &:hover {
                             flex: 0 0 570px;
-
+                            transition: flex 0.3s ease, padding-left 0.3s ease;
 
                             .workImage {
                                 z-index: 9;

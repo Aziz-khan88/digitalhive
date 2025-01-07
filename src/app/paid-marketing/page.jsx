@@ -13,8 +13,8 @@ import FollowUs from '@/src/app/home/followus';
 import Blogs from '@/src/app/home/blogs';
 import Faqs from '@/src/app/home/faq';
 import Process from '@/src/app/components/services/process';
-import { AwardsData, FollowsData, PartnerData, TestimonialData, BlgosData } from '@/src/app/home/data/data';
-import { FAQsData, PriceData, ProcessData, ServicesData, WorkData, CtaData, CallActionData, ChooseUsData, BannerData, IndustryItem, IndustriesData } from '@/src/app/paid-marketing/data/data';
+import { AwardsData, FollowsData, PartnerData, BlgosData, IndustryItem, WorkData } from '@/src/app/home/data/data';
+import { FAQsData, PriceData, ProcessData, ServicesData, CtaData, CallActionData, ChooseUsData, BannerData, TestimonialData, IndustriesData } from '@/src/app/paid-marketing/data/data';
 
 
 const Page = () => {
@@ -25,7 +25,7 @@ const Page = () => {
             <WhyChoose data={ChooseUsData} />
             <ServicesMain data={ServicesData} />
             <CTA data={CtaData} />
-            <Work data={WorkData} />
+            <Work data={WorkData} category="Paid Marketing" />
             <Pricing bg="yes" data={PriceData} />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <Partners data={PartnerData} />

@@ -192,131 +192,16 @@ export const ContentData2 = {
     </>),
     img: ContentImg2.src
 }
-// Workimport 
-import WorkImg01 from "media/services/content-marketing/img01.webp"
-import WorkImg02 from "media/services/content-marketing/img02.webp"
-import WorkImg03 from "media/services/content-marketing/img03.webp"
-import WorkImg04 from "media/services/content-marketing/img04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
 
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
+//Content Data
+import ContentImg3 from "media/innerservices/android-app-development/Img03.webp"
+export const ContentData3 = {
+    maintitle: true,
+    contentTitle: "Boost Your Brand with Unique Websites",
+    contentTxt: (<>
+        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
+    </>),
+    img: ContentImg3.src
 }
 
 //Content Data

@@ -70,6 +70,7 @@ export const CtaData = {
     desc: "We get it. At Infinitidigital, we believe every business deserves a strategy that is as unique as its goals. Our customized packages are built to fit your vision, audience, and budget—so you get the desired results without paying for what you don’t.",
     img: ImgBg.src
 }
+
 // Opportunities
 import OppImg01 from "media/services/social-media-marketing/opportunities/IMG01.webp"
 import OppImg02 from "media/services/social-media-marketing/opportunities/IMG02.webp"
@@ -226,69 +227,7 @@ export const CtaPinkData = {
     desc: "Want to deliver the best results? At Infinitidigital, we tailor every campaign to your audience and goals to ensure you see measurable results—no matter your field. Whether you want to build brand awareness, foster relationships, or increase sales, we ensure your business stands out effectively. ",
     img: ImgBgPink.src
 }
-//Industries 
-import Img01 from "media/home/industires/industy01.webp"
-import Img02 from "media/home/industires/industy02.webp"
-import Img03 from "media/home/industires/industy03.webp"
-import Img04 from "media/home/industires/industy04.webp"
-import Img05 from "media/home/industires/industy05.webp"
-import Img06 from "media/home/industires/industy06.webp"
-import Img07 from "media/home/industires/industy07.webp"
-export const IndustriesData = {
-    subtitle: "Transforming Businesses Across Industries",
-    title: "We Drive Growth for Businesses in Every Sector",
-    desc: "What industries do we work with? The better question is: which ones don’t we work with?",
-    IndustryItem: [
-        {
-            title: "B2b Business",
-            txt: "Increase leads and close deals with marketing strategies that work for complex sales cycles.",
-            Img: Img01.src,
-            url: "#",
-        },
-        {
-            title: "Construction",
-            txt: "Build trust and connect with clients through campaigns and websites designed for credibility.",
-            Img: Img02.src,
-            url: "#",
-        },
-        {
-            title: "Education",
-            txt: "Engage students, parents, and educators with SEO and marketing that inspire action.",
-            Img: Img03.src,
-            url: "#",
-        },
-        {
-            title: "Events",
-            txt: "Create unforgettable moments by driving attendance and boosting engagement.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "E-commerce",
-            txt: "Maximize sales with high-converting websites and compelling campaigns.",
-            Img: Img04.src,
-            url: "#",
-        },
-        {
-            title: "Content Creator",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img05.src,
-            url: "#",
-        },
-        {
-            title: "Automotive",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img06.src,
-            url: "#",
-        },
-        {
-            title: "Spots",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
-            Img: Img07.src,
-            url: "#",
-        }
-    ]
-}
+
 // Content Section
 import ContentImage from "media/services/social-media-marketing/ContentImage.webp"
 export const ContentData = {
@@ -481,54 +420,7 @@ export const TestimonialData = {
         },
     ]
 }
-// Partner Data
-import Logo1 from "media/home/partnerLogo/logo1.webp";
-import Logo2 from "media/home/partnerLogo/logo2.webp";
-import Logo3 from "media/home/partnerLogo/logo3.webp";
-import Logo4 from "media/home/partnerLogo/logo4.webp";
-import Logo5 from "media/home/partnerLogo/logo5.webp";
-import Logo6 from "media/home/partnerLogo/logo6.webp";
-import Logo7 from "media/home/partnerLogo/logo7.webp";
-import Logo8 from "media/home/partnerLogo/logo8.webp";
-import Logo9 from "media/home/partnerLogo/logo9.webp";
-import Logo10 from "media/home/partnerLogo/logo10.webp";
-import Logo11 from "media/home/partnerLogo/logo11.webp";
-import Logo12 from "media/home/partnerLogo/logo12.webp";
-import Logo13 from "media/home/partnerLogo/logo13.webp";
-import Logo14 from "media/home/partnerLogo/logo14.webp";
-import Logo15 from "media/home/partnerLogo/logo15.webp";
-import Logo16 from "media/home/partnerLogo/logo16.webp";
-import Logo17 from "media/home/partnerLogo/logo17.webp";
-import Logo18 from "media/home/partnerLogo/logo18.webp";
-import Logo19 from "media/home/partnerLogo/logo19.webp";
-import Logo20 from "media/home/partnerLogo/logo20.webp";
-export const PartnerData = {
-    subtitle: "Our Partners",
-    title: "Collaboration That Inspires",
-    desc: "Lorem ipsum dolor sit amet consectetur. Fringilla orci vitae vel cursus. Quis dolor arcu lectus mauris ut velit sit.",
-    PartnerLogos: [
-        { logo: Logo1.src },
-        { logo: Logo2.src },
-        { logo: Logo3.src },
-        { logo: Logo4.src },
-        { logo: Logo5.src },
-        { logo: Logo6.src },
-        { logo: Logo7.src },
-        { logo: Logo8.src },
-        { logo: Logo9.src },
-        { logo: Logo10.src },
-        { logo: Logo11.src },
-        { logo: Logo12.src },
-        { logo: Logo13.src },
-        { logo: Logo14.src },
-        { logo: Logo15.src },
-        { logo: Logo16.src },
-        { logo: Logo17.src },
-        { logo: Logo18.src },
-        { logo: Logo19.src },
-        { logo: Logo20.src },
-    ]
-}
+
 
 // Call to Action
 
@@ -536,42 +428,6 @@ export const CallActionData = {
     subtitle: "Contact Us",
     title: "Make Your Social Media Dreams Come True",
     desc: "Have questions, or are you ready to take the next step? Let’s collaborate to create a social media strategy that drives growth and delivers results."
-}
-
-// Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
-export const BlgosData = {
-    subtitle: "Our Blogs",
-    title: "Stay Inspired with Our Latest Insights",
-    desc: "Explore our latest blogs and learn how we use expert strategies in digital marketing to help businesses grow, engage, and succeed.",
-    BlogsData: [
-        {
-            title: "Lorem ipsum dolor sit amet",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Paid Marketing",
-            img: IMG01.src,
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Mobile App Design",
-            img: IMG02.src,
-        }, {
-            title: "Lorem ipsum dolor sit amet",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "SEO Development & Marketing",
-            img: IMG03.src,
-        }
-    ]
-
 }
 
 

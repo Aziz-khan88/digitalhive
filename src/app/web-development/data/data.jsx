@@ -100,132 +100,7 @@ export const CtaData = {
     desc: "Your website should do more than exist—it should fuel growth, engagement, and conversions. At Infinitidigital, we craft design solutions that don’t just look stunning but align seamlessly with your business goals. Ready to leave an impact that lasts? ",
     img: ImgBg.src
 }
-// Workimport 
-import WorkImg01 from "media/services/web-development/work/work01.webp"
-import WorkImg02 from "media/services/web-development/work/work02.webp"
-import WorkImg03 from "media/services/web-development/work/work03.webp"
-import WorkImg04 from "media/services/web-development/work/work04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Inspiring Digital Creations That Make an Impact",
-    desc: "Transforming visions into vibrant digital realities—that’s what we do best. At Infinitidigital, our portfolio showcases innovative designs and strategic solutions that drive tangible results. ",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
 
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
-}
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
@@ -427,15 +302,6 @@ export const ProcessData = {
 
 
 //Industries 
-import Business from "media/home/industires/business.webp"
-import Construction from "media/home/industires/construction.webp"
-import Education from "media/home/industires/education.webp"
-import Events from "media/home/industires/events.webp"
-import Content from "media/home/industires/content.webp"
-import Automotive from "media/home/industires/automotive.webp"
-import Sports from "media/home/industires/sports.webp"
-import Ecommerce from "media/home/industires/ecommerce.webp"
-import Healthcare from "media/home/industires/healthcare.webp"
 export const IndustriesData = {
     subtitle: "Industries We Assist",
     title: "Solutions Tailored to Your Industry",
@@ -443,63 +309,6 @@ export const IndustriesData = {
 
 }
 
-export const IndustryItem = [
-    {
-        title: "B2b Business",
-        txt: "Increase leads and close deals with marketing strategies that simplify complex sales cycles. Our customized approach ensures you connect with key decision-makers at every stage.",
-        Img: Business.src,
-        url: "#",
-    },
-    {
-        title: "Construction",
-        txt: "Build credibility and establish trust through targeted campaigns and dynamic websites. Showcase your projects, emphasize your expertise, and secure contracts with messaging crafted for impact.",
-        Img: Construction.src,
-        url: "#",
-    },
-    {
-        title: "Education",
-        txt: "Inspire action by engaging students, parents, and educators through optimized marketing and SEO strategies. Drive enrollments, elevate your reputation, and achieve sustainable growth.",
-        Img: Education.src,
-        url: "#",
-    },
-    {
-        title: "Events",
-        txt: "Make your events unforgettable by boosting attendance and engagement. Whether online or in-person, we ensure your event achieves maximum reach and delivers lasting impressions.",
-        Img: Events.src,
-        url: "#",
-    },
-    {
-        title: "E-commerce",
-        txt: "Achieve higher sales with optimized websites and powerful marketing campaigns. From engaging product pages to strategic ads, we help your store succeed in a competitive landscape.",
-        Img: Ecommerce.src,
-        url: "#",
-    },
-    {
-        title: "Content Creator",
-        txt: "Amplify your creativity and expand your reach with strategies tailored to grow your audience. From platform-specific content to sponsorship opportunities, we ensure you stand out and thrive.",
-        Img: Content.src,
-        url: "#",
-    },
-    {
-        title: "Automotive",
-        txt: "Accelerate your sales with strategies designed for car buyers, dealerships, and enthusiasts. Our campaigns boost visibility, build trust, and keep your brand moving forward.",
-        Img: Automotive.src,
-        url: "#",
-    },
-    {
-        title: "Sports",
-        txt: "Enhance fan engagement, increase ticket sales, and showcase your team or brand with data-driven digital campaigns. Reach sports fans where it matters and cultivate a dedicated community.",
-        Img: Sports.src,
-        url: "#",
-    }
-    ,
-    {
-        title: "Healthcare",
-        txt: "Expand your reach, build patient trust, and improve accessibility with healthcare-specific marketing. From SEO strategies to reliable, informative content, we position you as a trusted authority.",
-        Img: Healthcare.src,
-        url: "#",
-    }
-]
 
 // CTA  01
 import ImgBg1 from "media/home/ctaBg1.webp"

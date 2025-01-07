@@ -42,7 +42,7 @@ const Work = ({ data }) => {
                 <Row>
                     <Col md={12}>
                         <ul className={styles.categoryList}>
-                            {["Mobile App Development", "Website Development", "Social Media Marketing"].map((category) => (
+                            {["Social Media Marketing", "App Development", "Website Development", "Seo", "Content Marketing", "Paid Marketing"].map((category) => (
                                 <li
                                     key={category}
                                     className={activeCategory === category ? styles.active : ""}

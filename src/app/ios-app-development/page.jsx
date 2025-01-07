@@ -12,7 +12,7 @@ import CtaForm from '@/src/app/home/ctaform'
 import FollowUs from '@/src/app/home/followus'
 import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
-import { BannerData, StateCounter, ProcessData, ContentData, ContentData1, ContentData2, NewsLetterData, WorkData, ServicesData } from '@/src/app/ios-app-development/data/data'
+import { BannerData, StateCounter, ProcessData, ContentData, ContentData1, ContentData2, ContentData3, NewsLetterData, WorkData, ServicesData } from '@/src/app/ios-app-development/data/data'
 import { FollowsData, TestimonialData, PartnerData, CallActionData, BlgosData, FAQsData } from '@/src/app/home/data/data'
 
 const Page = () => {
@@ -23,9 +23,10 @@ const Page = () => {
             <ServicesMain data={ServicesData} />
             <NewsLetter data={NewsLetterData} />
             <ContentSection data={ContentData2} simple="yes" bgBlack="yes" />
-            <ContentSection data={ContentData} simple="yes" />
             <Process data={ProcessData} />
+            <ContentSection data={ContentData} simple="yes" />
             <ContentAlternet data={ContentData1} alternat="yes" simple="yes" />
+            <ContentSection data={ContentData3} simple="yes" />
             <Work data={WorkData} />
             <Partners data={PartnerData} />
             <Testimonials data={TestimonialData} />

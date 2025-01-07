@@ -120,129 +120,255 @@ export const CtaData = {
     img: ImgBg.src
 }
 // Work
-import WorkImg01 from "media/home/work/work01.webp"
-import WorkImg02 from "media/home/work/work02.webp"
-import WorkImg03 from "media/home/work/work03.webp"
-import WorkImg04 from "media/home/work/work04.webp"
+import AppImg01 from "media/home/work/mobile/mobile1.webp"
+import AppImg02 from "media/home/work/mobile/mobile2.webp"
+import AppImg03 from "media/home/work/mobile/mobile3.webp"
+import AppImg04 from "media/home/work/mobile/mobile4.webp"
+import AppImg05 from "media/home/work/mobile/mobile5.webp"
+import AppImg06 from "media/home/work/mobile/mobile6.webp"
+import SocialImg01 from "media/home/work/social/social1.webp"
+import SocialImg02 from "media/home/work/social/social2.webp"
+import SocialImg03 from "media/home/work/social/social3.webp"
+import SocialImg04 from "media/home/work/social/social4.webp"
+import SocialImg05 from "media/home/work/social/social5.webp"
+import SocialImg06 from "media/home/work/social/social6.webp"
+import WebImg01 from "media/home/work/web/web1.webp"
+import WebImg02 from "media/home/work/web/web2.webp"
+import WebImg03 from "media/home/work/web/web3.webp"
+import WebImg04 from "media/home/work/web/web4.webp"
+import WebImg05 from "media/home/work/web/web5.webp"
+import WebImg06 from "media/home/work/web/web6.webp"
+import SeoImg01 from "media/home/work/seo/seo1.webp"
+import SeoImg02 from "media/home/work/seo/seo2.webp"
+import SeoImg03 from "media/home/work/seo/seo3.webp"
+import SeoImg04 from "media/home/work/seo/seo4.webp"
+import SeoImg05 from "media/home/work/seo/seo5.webp"
+import SeoImg06 from "media/home/work/seo/seo6.webp"
+import PaidImg01 from "media/home/work/paid/paid1.webp"
+import PaidImg02 from "media/home/work/paid/paid2.webp"
+import PaidImg03 from "media/home/work/paid/paid3.webp"
+import PaidImg04 from "media/home/work/paid/paid4.webp"
+import PaidImg05 from "media/home/work/paid/paid5.webp"
+import PaidImg06 from "media/home/work/paid/paid6.webp"
+
+
 export const WorkData = {
     subtitle: "Our Portfolio",
     title: "Showcasing Success ",
     desc: "From websites that captivate to apps that deliver results, our portfolio is packed with innovative projects that help brands achieve their dreams and surpass their goals.",
     WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
+
         {
             title: "E-commerce Website",
             txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
+            Img: SocialImg01.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SocialImg02.src,
+            url: "#",
+            category: "Social Media Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SocialImg03.src,
+            url: "#",
+            category: "Social Media Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SocialImg04.src,
+            url: "#",
+            category: "Social Media Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SocialImg05.src,
+            url: "#",
+            category: "Social Media Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SocialImg06.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
             title: "Music App",
             txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
+            Img: AppImg01.src,
             url: "#",
-            category: "Social Media Marketing",
+            category: "App Development",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: AppImg02.src,
+            url: "#",
+            category: "App Development",
+        },
+        {
+            title: "Social Media Campaign",
+            txt: "Driving brand awareness and engagement through strategic social media marketing.",
+            Img: AppImg03.src,
+            url: "#",
+            category: "App Development",
+        },
+        {
+            title: "Another App",
+            txt: "Innovative solutions for mobile users.",
+            Img: AppImg04.src,
+            url: "#",
+            category: "App Development",
+        },
+        {
+            title: "Music App",
+            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
+            Img: AppImg05.src,
+            url: "#",
+            category: "App Development",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: AppImg06.src,
+            url: "#",
+            category: "App Development",
         },
 
         {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: WebImg01.src,
             url: "#",
-            category: "Social Media Marketing",
+            category: "Website Development",
         },
-
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: WebImg02.src,
+            url: "#",
+            category: "Website Development",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: WebImg03.src,
+            url: "#",
+            category: "Website Development",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: WebImg04.src,
+            url: "#",
+            category: "Website Development",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: WebImg05.src,
+            url: "#",
+            category: "Website Development",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: WebImg06.src,
+            url: "#",
+            category: "Website Development",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SeoImg01.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SeoImg02.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SeoImg03.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SeoImg04.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SeoImg05.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: SeoImg06.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: PaidImg01.src,
+            url: "#",
+            category: "Paid Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: PaidImg02.src,
+            url: "#",
+            category: "Paid Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: PaidImg03.src,
+            url: "#",
+            category: "Paid Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: PaidImg04.src,
+            url: "#",
+            category: "Paid Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: PaidImg05.src,
+            url: "#",
+            category: "Paid Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: PaidImg06.src,
+            url: "#",
+            category: "Paid Marketing",
+        },
     ]
 }
 

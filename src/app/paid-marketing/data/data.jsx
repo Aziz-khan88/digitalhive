@@ -186,132 +186,7 @@ export const CtaData = {
     desc: "From strategy to execution, our innovative ad campaigns are built to enhance your bottom line and drive sustainable growth.",
     img: ImgBg.src
 }
-// Workimport 
-import WorkImg01 from "media/services/paid-marketing/work/work01.webp"
-import WorkImg02 from "media/services/paid-marketing/work/work02.webp"
-import WorkImg03 from "media/services/paid-marketing/work/work03.webp"
-import WorkImg04 from "media/services/paid-marketing/work/work04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Paid Marketing in Action",
-    desc: "Want to know what paid marketing can achieve? See how our specialized paid marketing solutions have helped businesses achieve their goals, driving leads and boosting conversions.",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
 
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
-}
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
@@ -423,92 +298,12 @@ export const PriceData = {
     ]
 };
 
-
-
-
 //Industries 
-import Business from "media/home/industires/business.webp"
-import Construction from "media/home/industires/construction.webp"
-import Education from "media/home/industires/education.webp"
-import Events from "media/home/industires/events.webp"
-import Content from "media/home/industires/content.webp"
-import Automotive from "media/home/industires/automotive.webp"
-import Sports from "media/home/industires/sports.webp"
-import Ecommerce from "media/home/industires/ecommerce.webp"
-import Healthcare from "media/home/industires/healthcare.webp"
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Partnering with Businesses Across Industries",
     desc: "Are you curious to know how we help businesses like yours? We work closely with businesses across various industries to develop and execute successful paid marketing campaigns. At Infinitidigital, your success is our priority.",
 
-}
-
-export const IndustryItem = [
-    {
-        title: "B2b Business",
-        txt: "Reach decision-makers with highly targeted campaigns that simplify complex sales cycles and generate valuable B2B leads.",
-        Img: Business.src,
-        url: "#",
-    },
-    {
-        title: "Construction",
-        txt: "Gain new clients and showcase your skills with strategies tailored to elevate your reputation and grow your business.",
-        Img: Construction.src,
-        url: "#",
-    },
-    {
-        title: "Education",
-        txt: "Boost enrollments with ad campaigns that resonate with students, parents, and educators, inspiring action every step of the way.",
-        Img: Education.src,
-        url: "#",
-    },
-    {
-        title: "Events",
-        txt: "From invitations to follow-ups, our campaigns cover every detail, ensuring maximum engagement for your events.",
-        Img: Events.src,
-        url: "#",
-    },
-    {
-        title: "E-commerce",
-        txt: "Target shoppers with product-specific ads that drive clicks, increase conversions and grow your e-commerce business.",
-        Img: Ecommerce.src,
-        url: "#",
-    },
-    {
-        title: "Content Creator",
-        txt: "From sponsored campaigns to audience engagement, we help creators turn their passion into profit with personalized paid ads.",
-        Img: Content.src,
-        url: "#",
-    },
-    {
-        title: "Automotive",
-        txt: "Our paid campaigns fuel visibility, helping your dealership or brand connect with car buyers and drive sales growth.",
-        Img: Automotive.src,
-        url: "#",
-    },
-    {
-        title: "Sports",
-        txt: "Connect with sports fans through ads that build loyalty, boost brand visibility, and encourage fan participation.",
-        Img: Sports.src,
-        url: "#",
-    }
-    ,
-    {
-        title: "Healthcare",
-        txt: "Enhance patient access with apps for scheduling and consultations.Streamline healthcare processes with secure data management.Build trust through reliable, informative content.",
-        Img: Healthcare.src,
-        url: "#",
-    }
-]
-
-
-
-// CTA  01
-import ImgBg1 from "media/home/ctaBg1.webp"
-export const CtaData01 = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg1.src
 }
 
 //Testimonials
@@ -557,8 +352,6 @@ export const CallActionData = {
     title: "Your Paid Marketing Success Starts Here ",
     desc: "Do you need a partner for paid marketing success? Partner with us for paid campaigns that resonate, engage, and convert. Your vision is our mission–let’s make it happen!"
 }
-
-
 // FAQs
 export const FAQsData = {
     subtitle: "FAQs",
