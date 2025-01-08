@@ -36,6 +36,11 @@
         position: relative;
         margin-bottom: 30px;
 
+        &.webVideo {
+            video {
+                object-position: 0px -100px;
+            }
+        }
     }
 
     &.bannerWithContent {

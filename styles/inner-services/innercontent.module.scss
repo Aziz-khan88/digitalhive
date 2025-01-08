@@ -240,7 +240,8 @@
 
             .imgSimple {
                 img {
-                    max-height: 320px;
+                    max-height: 300px;
+                    width: auto;
                 }
             }
 
@@ -274,7 +275,8 @@
                 display: none;
 
                 img {
-                    max-height: 320px;
+                    max-height: 300px;
+                    width: auto;
 
                 }
             }
@@ -312,8 +314,9 @@
 
             .imgSimple {
                 img {
-                    //     display: none;
-                    max-height: 320px;
+                    margin-top: 20px;
+                    width: auto;
+                    max-height: 280px;
                 }
             }
 

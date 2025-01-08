@@ -136,43 +136,43 @@ export const ServicesData = {
     desc: "Isn’t it time to maximize your online potential? Greet solutions that deliver real results. Here how: ",
     ServicesItem: [
         {
-            title: (<>Local <br />SEO</>),
-            txt: "Capture nearby customers with strategies designed to dominate local searches.",
+            title: (<>SEO Audit & <br />Strategy</>),
+            txt: "Gain insights into your website’s performance with a comprehensive SEO audit that pinpoints improvement areas and enhances your search visibility.",
             url: "#",
         },
         {
-            title: (<>White Label <br />SEO</>),
-            txt: "Offer professional SEO services under your brand without extra overhead.",
-            url: "#",
-        },
-        {
-            title: (<>Nationwide <br />SEO</>),
-            txt: "Reach audiences across the country with strategies tailored for a broader market.",
+            title: (<>Keyword Research<br /> & Analysis</>),
+            txt: "Discover the keywords that your target audience is searching for. We use advanced tools and techniques that drive traffic and conversions.",
             url: "#",
         },
         {
             title: (<>On-Page <br />Optimization</>),
-            txt: "Fine-tune your site’s content and structure for better visibility and engagement.",
+            txt: "Enhance your site’s relevance and usability by optimizing meta tags, headers, and content, along with improving and URL structures.",
             url: "#",
         },
         {
-            title: (<>Enterprise <br />SEO</>),
-            txt: "Scalable solutions for large businesses in competitive markets.",
+            title: (<>Content Creation <br />& Optimization</>),
+            txt: "Create high-quality, engaging content tailored to your audience’s needs and optimized for search engines.",
             url: "#",
         },
         {
-            title: (<>Link <br />Building</>),
-            txt: "Build authority and improve rankings with quality backlinks.",
+            title: (<>Technical<br />SEO</>),
+            txt: "Improve the technical aspects of your website to increase the ranking of your pages in the search engines.",
             url: "#",
         },
         {
-            title: (<>SEO <br />Audits</>),
-            txt: "",
-            url: "Get a detailed analysis of your site’s strengths and areas for improvement.",
+            title: (<>Off-Page <br /> SEO</>),
+            txt: "Strengthen your site’s authority and rankings with off-page SEO tactics such as high-quality link building, social media engagement, and influencer collaborations.",
+            url: "#",
         },
         {
-            title: (<>Lorem <br />ipsum</>),
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+            title: (<>Local<br />SEO</>),
+            txt: "Boost your visibility in local search results with targeted SEO strategies and local citations to attract nearby customers.",
+            url: "#",
+        },
+        {
+            title: (<>E-commerce  <br />SEO</>),
+            txt: "Strategies include improving product descriptions, categories, and metadata for enhanced search engine indexing.",
             url: "#",
         }
 

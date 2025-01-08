@@ -21,9 +21,9 @@ const Page = () => {
     return (
         <>
             <Banner data={BannerData} bgtxt="" />
-            <Process data={ProcessData} />
-            <WhyChoose data={ChooseUsData} />
             <ServicesMain data={ServicesData} />
+            <WhyChoose data={ChooseUsData} />
+            <Process data={ProcessData} />
             <CTA data={CtaData} />
             <Work data={WorkData} category="Seo" />
             <Pricing bg="yes" data={PriceData} />

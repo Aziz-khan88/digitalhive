@@ -86,14 +86,7 @@ export const ContentData1 = {
     maintitle: true,
     contentTitle: "What You’ll Gain with YouTube Optimization?",
     contentTxt: (<>
-        <p>Think your channel is doing “okay”? Let’s make it exceptional. At Infinitidigital, we’ll help you turn casual viewers into loyal subscribers and give your content the spotlight it deserves. </p>
-        <p>
-            <strong>Better Engagement:</strong> Your viewers will stick around longer, and actually hit that like button!<br />
-            <strong>Stronger Retention:</strong>Keep your audience coming back for more, video after video.<br />
-            <strong>Increased Visibility:</strong>Show up where it matters—right in front of your ideal audience.<br />
-            <strong>Higher Click-Through Rates:</strong>Thumbnails, titles, and tags that get the clicks you need.<br />
-            <strong>Real Results:</strong>Growth you can see in your views, subscribers, and ROI.<br />
-        </p>
+        <p>At Infinitidigital, we transform your okay YouTube channel into an exceptional one, turning casual viewers into loyal subscribers and highlighting your content like never before. We enhance engagement, ensuring viewers stick around and engage with your content, and improve retention to keep your audience returning for every new video. We’ll help your channel thrive—let’s connect and get those views rolling in!</p>
 
     </>),
     img: ContentImg1.src

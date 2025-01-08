@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Link from "next/link"
 
 
-const Blogs = ({ data }) => {
+const Blogs = ({ data, blogPage }) => {
     return (
         <section className={`pt-100 ${styles.blogsSection}`}>
             <Container>
@@ -33,9 +33,13 @@ const Blogs = ({ data }) => {
                             </div>
                         </Col>
                     ))}
-                    <Col md={7} className="text-center mt-5 mt-md-4 m-auto">
-                        <Link href="/blogs" className="commonBtn">View All Blogs</Link>
-                    </Col>
+                    {!blogPage ?
+                        <Col md={7} className="text-center mt-5 mt-md-4 m-auto">
+                            <Link href="/blogs" className="commonBtn">View All Blogs</Link>
+                        </Col>
+                        :
+                        null
+                    }
                 </Row>
             </Container>
         </section>

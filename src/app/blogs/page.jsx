@@ -11,7 +11,7 @@ const Page = () => {
     return (
         <>
             <Banner data={BannerData} />
-            <Blogs data={BlgosData} />
+            <Blogs data={BlgosData} blogPage={true} />
             <Testimonials data={TestimonialData} />
             <CtaForm data={CallActionData} />
             <FollowUs data={FollowsData} />

@@ -29,7 +29,7 @@ export const AboutData = {
             namee: "Years of Experience"
         }, {
             numbers: "60",
-            namee: "Experts Team"
+            namee: "Expert Teams"
         }, {
             numbers: "1,200",
             namee: "Successful Projects"

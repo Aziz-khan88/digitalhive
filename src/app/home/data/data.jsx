@@ -51,7 +51,7 @@ export const AboutData = {
             namee: "Years of Experience"
         }, {
             numbers: "60",
-            namee: "Experts Team"
+            namee: "Expert Teams"
         }, {
             numbers: "1,200",
             namee: "Successful Projects"
@@ -163,7 +163,7 @@ export const WorkData = {
     title: "Showcasing Success ",
     desc: "From websites that captivate to apps that deliver results, our portfolio is packed with innovative projects that help brands achieve their dreams and surpass their goals.",
     WorkItem: [
-
+        //Social Media Marketing
         {
             title: "E-commerce Website",
             txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
@@ -343,7 +343,7 @@ export const WorkData = {
         {
             title: "E-commerce Website",
             txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: PaidImg01.src,
+            Img: ContentImg01.src,
             url: "#",
             category: "Content Marketing",
         },
@@ -422,7 +422,7 @@ export const WorkData = {
         {
             title: "E-commerce Website",
             txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: ContentImg06.src,
+            Img: PaidImg06.src,
             url: "#",
             category: "Paid Marketing",
         },
@@ -716,26 +716,26 @@ export const BlgosData = {
     desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
     BlogsData: [
         {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
+            title: "Still Running Your Business Like It’s 1999?",
+            date: "01 Jan, 2025",
             time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Paid Marketing",
+            txt: "Paper spreadsheets, endless emails, and manual processes slowing you down? Let’s bring your business into the future.",
+            category: "Digital Transformation",
             img: IMG01.src,
         },
         {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
-            time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "Mobile App Design",
+            title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
+            date: "02 Jan, 2025",
+            time: "3 hour",
+            txt: "If your content isn’t connecting, it’s time for a change. Learn how to write stories that make people stop, read, and share.",
+            category: "Content Marketing",
             img: IMG02.src,
         }, {
-            title: "Hear From Our Clients",
-            date: "24 August, 2024",
+            title: "Stop Wasting Money on Ads That Don’t Work",
+            date: "03 Jan, 2025",
             time: "26 min",
-            txt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sed do eiusmod",
-            category: "SEO Development & Marketing",
+            txt: "Struggling to see results from your ad spend? Let’s talk about the strategies that actually get clicks and conversions.",
+            category: "Paid Marketing",
             img: IMG03.src,
         }
     ]

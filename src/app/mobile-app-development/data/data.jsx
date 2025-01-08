@@ -17,42 +17,42 @@ export const ServicesData = {
     ServicesItem: [
         {
             title: (<>Custom <br />Functionality</>),
-            txt: "Build apps tailored to your specific requirements.",
+            txt: "We create custom solutions that integrate seamlessly with your business processes, ensuring functionality that meets your unique needs.",
             url: "#",
         },
         {
             title: (<>Android App<br />Development</>),
-            txt: "Optimize for the world’s largest mobile platform.",
+            txt: "Our team develops robust Android applications with smooth performance and a rich user experience to capture a vast mobile audience.",
             url: "#",
         },
         {
             title: (<>Native <br />Performance</>),
-            txt: "Apps designed for speed and reliability",
+            txt: "We focus on native development to leverage the full capabilities of the underlying hardware, delivering top-tier performance and stability.",
             url: "#",
         },
         {
             title: (<>Google <br />Integration</>),
-            txt: "Leverage Android’s ecosystem for added functionality.",
+            txt: "Integrate with Google's suite of services to enhance your app’s capabilities, from Maps and Drive to Google Pay and beyond.",
             url: "#",
         },
         {
             title: (<>Web App <br />Development</>),
-            txt: "Seamless browser-based solutions for any business need.",
+            txt: "We specialize in creating dynamic, scalable web applications that perform consistently across all browsers and devices.",
             url: "#",
         },
         {
             title: (<>UI/UX <br />Design</>),
-            txt: "Intuitive interfaces that captivate users and boost satisfaction.",
+            txt: "Our UI/UX design services focus on creating engaging user experiences that are easy to navigate and visually appealing.",
             url: "#",
         },
         {
             title: (<>Flutter App <br />Development</>),
-            txt: "Leverage this powerful framework for high-performance apps.",
+            txt: "Flutter allows us to build beautiful, natively compiled mobile, web, and desktop applications from a single codebase.",
             url: "#",
         },
         {
             title: (<>Link <br />Building</>),
-            txt: "Improve your app’s online visibility with strategic SEO techniques.",
+            txt: "We implement effective link-building strategies that enhance your app’s presence and discoverability on the web.",
             url: "#",
         }
 

@@ -20,7 +20,7 @@ import { FAQsData, PriceData, ProcessData, ServicesData, CtaData, CallActionData
 const Page = () => {
     return (
         <>
-            <Banner data={BannerData} bgtxt="" />
+            <Banner data={BannerData} web={true} />
             <WhyChoose data={ChooseUsData} />
             <ServicesMain data={ServicesData} />
             <CTA data={CtaData} />
