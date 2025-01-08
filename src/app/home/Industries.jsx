@@ -1,9 +1,8 @@
 "use client";
 import styles from "@/styles/home/industry.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
-import { ArrowIcon } from "@/src/app/app-constants";
 import Image from "next/image"
-import Link from "next/link"
+import CommonBtn from "@/src/app/components/common/commonbtn"
 import useEmblaCarousel from 'embla-carousel-react'
 import SliderArrow from "@/src/app/components/sliderarrow";
 
@@ -46,9 +45,10 @@ const Industries = ({ data, IndustryData }) => {
                                             <div className={styles.industriesContent}>
                                                 <h4>{item.title}</h4>
                                                 <p>{item.txt}</p>
-                                                <Link href={item.url} className={styles.btnReaMore}>
-                                                    <ArrowIcon />Get Free Consultation
-                                                </Link>
+                                                <div className={styles.btnReaMore}>
+                                                    <CommonBtn txt="Get Free Consultation" ArrowBtn={true} />
+                                                </div>
+
                                             </div>
                                         </div>
                                     ))}

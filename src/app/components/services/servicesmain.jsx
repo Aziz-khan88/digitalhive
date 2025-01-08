@@ -2,7 +2,7 @@
 import styles from "@/styles/services/servicesmain.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import Link from "next/link"
-import { ArrowIcon } from "@/src/app/app-constants";
+import CommonBtn from "@/src/app/components/common/commonbtn"
 
 const ServicesMain = ({ data }) => {
     return (
@@ -22,11 +22,11 @@ const ServicesMain = ({ data }) => {
                                         <div className={styles.title}>{item.title}</div>
                                         <div className={styles.barLine}></div>
                                         <div className={styles.readMore}>
-                                            <Link href={item.url}>Contact Us</Link>
+                                            <CommonBtn txt="Contact Us" ArrowBtn={true} SimpleBtn={true} />
                                         </div>
-                                        <Link href={item.url} className={styles.btnReaMore}>
-                                            <ArrowIcon />
-                                        </Link>
+                                        <div className={styles.btnReaMore}>
+                                            <CommonBtn txt="" ArrowBtn={true} />
+                                        </div>
                                         <p>{item.txt}</p>
                                     </div>
                                 </div>

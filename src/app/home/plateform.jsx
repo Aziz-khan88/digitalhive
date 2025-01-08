@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import styles from "@/styles/home/plateforms.module.scss";
-import Link from "next/link";
+import CommonBtn from "@/src/app/components/common/commonbtn"
 import { Col, Container, Row } from "react-bootstrap";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from 'embla-carousel-autoplay'
@@ -35,9 +35,7 @@ const PlateFroms = ({ data }) => {
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
-                        <Link href="#" className="commonBtn">
-                            Get Free Consultation
-                        </Link>
+                        <CommonBtn txt="Get Free Consultation" />
                     </Col>
                     <Col md={6} className="text-center">
                         <section className={styles.embla}>

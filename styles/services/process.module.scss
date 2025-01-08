@@ -259,6 +259,7 @@
                 margin-bottom: 20px;
                 border-radius: 15px;
 
+
                 .processContent {
                     height: 90px;
                     padding: 25px 20px;
@@ -307,7 +308,8 @@
             margin-top: 20px;
 
             .processItem {
-                margin-bottom: 20px;
+                margin-bottom: 0px;
+                flex: 0 0 calc(50% - 10px);
 
                 .processContent {
                     height: 80px;

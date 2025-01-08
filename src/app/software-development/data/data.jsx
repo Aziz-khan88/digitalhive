@@ -1,8 +1,8 @@
 //Banner
 import BannerPoster from "media/innerservices/software-development/bannerImg.webp"
 export const BannerData = {
-    title: "Build. Design. Innovate.",
-    desc: "Looking for a custom website that blends creativity and functionality? You’ve come to the right place! At Infinitidigital, we create websites that ensure exceptional user experiences, enhanced brand visibility, and measurable business growth.",
+    title: "Build Your Dream Software Solution",
+    desc: "Who says your software can’t be as brilliant as your ideas? At Infinitidigital, we transform ideas into powerful, scalable software solutions. Whether it’s custom enterprise software, mobile apps, or cutting-edge platforms, we’re here to develop, design, and innovate.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -32,47 +32,47 @@ export const StateCounter = {
 //Services
 export const ServicesData = {
     subtitle: "Our Services",
-    title: "Expert Solutions, Exceptional Results",
-    desc: "Is your business getting the attention it deserves? Our customized solutions deliver what you need. Find out how we can help:",
+    title: "Unified Software Development",
+    desc: "At Infinitidigital, every feature is built for flawless performance, ensuring an exceptional user experience.",
     ServicesItem: [
         {
-            title: (<>Google Ads <br />Management</>),
-            txt: "Craft precise campaigns on Google to reach high-intent audiences, ensuring maximum visibility and returns on investment.",
+            title: (<>Custom Features<br />Development</>),
+            txt: "We tailor every feature to your specific needs, ensuring maximum usability and functionality.",
             url: "#",
         },
         {
-            title: (<>Facebook & <br />Instagram Ads</>),
-            txt: "Leverage social platforms to target ideal customers, delivering creative ads that build awareness and drive measurable results.",
+            title: (<>Intuitive User<br />Interface Design</>),
+            txt: "User-friendly interfaces enhance smooth interactions, making your software easy and enjoyable to use.",
             url: "#",
         },
         {
-            title: (<>Video <br />Advertising</>),
-            txt: "Harness the power of engaging video content on platforms like YouTube to captivate audiences and boost brand recognition.",
+            title: (<>High-Performance <br />Optimization</>),
+            txt: "We deliver fast, reliable software with optimized speed and quick response times for a superior user experience.",
             url: "#",
         },
         {
-            title: (<>Native Ad <br />Campaigns</>),
-            txt: "Blend your message naturally into platforms with native ads that deliver value while encouraging meaningful engagement.",
+            title: (<>Robust Security <br />Measures</>),
+            txt: "Security is our priority, with cutting-edge protocols to protect data and ensure user privacy.",
             url: "#",
         },
         {
-            title: (<>Programmatic Ad <br />Buying</>),
-            txt: "Automate your ad placements with data-driven programmatic buying, ensuring precision targeting and cost-efficient delivery across multiple platforms.",
+            title: (<>Third-Party <br />Integrations</>),
+            txt: "We integrate your software with other platforms to enhance its capabilities and create a cohesive experience.",
             url: "#",
         },
         {
-            title: (<>Retargeting <br />Campaigns</>),
-            txt: "Reconnect with potential customers through retargeting ads that drive conversions by keeping your brand top-of-mind.",
+            title: (<>Real-Time<br />Updates</>),
+            txt: "Our solutions include real-time updates to ensure seamless functionality and dynamic content delivery.",
             url: "#",
         },
         {
-            title: (<>Shopping Ad <br />Management</>),
-            txt: "Showcase your products with high-impact shopping ads that attract ready-to-buy customers and drive sales for your online store.",
+            title: (<>Reliable Software <br />Maintenance</>),
+            txt: "Post-launch, we provide ongoing support to keep your software running smoothly and bug-free.",
             url: "#",
         },
         {
-            title: (<>Performance <br />Optimization</>),
-            txt: "Monitor and adjust campaigns for peak performance, ensuring your ads deliver results with every dollar spent.",
+            title: (<>Scalable <br />Development</>),
+            txt: "We design software that evolves with your business, allowing for future growth and feature expansion.",
             url: "#",
         }
 
@@ -81,90 +81,102 @@ export const ServicesData = {
 // NewsLetter
 import ImgBg from "media/innerservices/software-development/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Customized Websites for Your Business Growth",
-    desc: "We design tailored websites that align with your brand, ensuring a seamless user experience and boosting business growth.",
+    title: "Innovative Software That Stands Out",
+    desc: "Want a software solution that stands out? Infinitidigital crafts innovative software with cutting-edge technology and forward-thinking design to captivate users and deliver maximum business impact.",
     img: ImgBg.src,
 }
 
+//Content Data
+import ContentImg2 from "media/innerservices/software-development/ImgBlack.webp"
+export const ContentData2 = {
+    maintitle: true,
+    contentTitle: "Scalable Software Solutions",
+    contentTxt: (<>
+        <p>Looking for scalable software that grows with your business? At Infinitidigital, we specialize in building flexible solutions designed for future expansion. Whether you’re launching a startup or enhancing existing processes, we ensure your software adapts to your evolving needs.</p>
+    </>),
+    img: ContentImg2.src
+}
+
+
 // Process
 export const ProcessData = {
-    subtitle: "Expert Design Services",
-    title: "Your Partner for Digital Excellence",
-    desc: "Infinitidigital offers innovative website design services tailored to meet your unique needs, ensuring your brand stands out digitally.",
+    subtitle: "Build With Confidence",
+    title: "Our Proven Software Development Process",
+    desc: "Our step-by-step development process ensures your software is efficient, effective, and user-friendly:",
 
     ProcessItem1: [
         {
-            title: "Strategy Development",
+            title: "Project Ideation Phase",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Concept Evaluation:</strong>
+                <p>Assess your software idea for market viability.</p>
+                <strong>Research & Insights:</strong>
+                <p>Analyze industry trends and user needs.</p>
+                <strong>Feasibility Study:</strong>
+                <p>Confirm technical feasibility before moving forward.</p>
             </>),
 
         },
         {
-            title: "Content Distribution",
+            title: "UI/UX Design Process",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Wireframes & Mockups:</strong>
+                <p>Create user-friendly layouts and designs.</p>
+                <strong>User-Centered Design:</strong>
+                <p>Ensure every design element enhances usability.</p>
+                <strong>Prototyping:</strong>
+                <p>Test early versions of your software to gather feedback.</p>
             </>),
 
         },
     ],
     ProcessItem2: [
         {
-            title: "Content Planning",
+            title: "Development & Integration",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Custom Coding:</strong>
+                <p>We write secure, efficient code tailored to your needs.</p>
+                <strong>Backend Integration:</strong>
+                <p>Seamlessly connect your software to robust back-end systems.</p>
+                <strong>Quality Assurance:</strong>
+                <p>Conduct continuous testing to ensure smooth functionality.</p>
             </>),
 
         }, {
-            title: "Performance Analysis",
+            title: "Software Launch Strategy",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Beta Testing:</strong>
+                <p>Deploy beta versions for real-world user feedback.</p>
+                <strong>Market Readiness:</strong>
+                <p>Ensure your software is fully optimized for launch.</p>
+                <strong>Promotion:</strong>
+                <p>Create launch strategies to maximize visibility and adoption.</p>
             </>),
 
         },
     ],
     ProcessItem3: [
         {
-            title: "Content Creation",
+            title: "Post-Launch Support",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Regular Updates:</strong>
+                <p>Provide ongoing improvements and bug fixes.</p>
+                <strong>Performance Monitoring:</strong>
+                <p>Track usage and make necessary enhancements.</p>
+                <strong>Customer Feedback:</strong>
+                <p>Use insights to drive future updates.</p>
             </>),
 
         },
         {
-            title: "Optimization & Repurposing",
+            title: "Continuous Improvement",
             txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
+                <strong>Scalable Features:</strong>
+                <p>Add functionalities as your business grows.</p>
+                <strong>Real-Time Upgrades:</strong>
+                <p>Evolve your software to stay competitive.</p>
+                <strong>User Engagement:</strong>
+                <p>Use analytics to create a more engaging experience.</p>
             </>),
 
         }
@@ -175,33 +187,23 @@ export const ProcessData = {
 import ContentImg from "media/innerservices/software-development/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Boost Your Brand with Unique Websites",
+    contentTitle: "Your Custom Software, Tailored Perfectly",
     contentTxt: (<>
-        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
+        <p>Ready to create software designed just for your business? At Infinitidigital, we craft bespoke solutions that align perfectly with your goals, streamline workflows, and enhance overall user satisfaction. Our team takes the time to understand your unique requirements, ensuring every feature is tailored to your operations. Your software, your way—because your business deserves nothing less than perfection.</p>
     </>),
     img: ContentImg.src
 }
 
-//Content Data
-import ContentImg2 from "media/innerservices/software-development/ImgBlack.webp"
-export const ContentData2 = {
-    maintitle: true,
-    contentTitle: "Boost Your Brand with Unique Websites",
-    contentTxt: (<>
-        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
-    </>),
-    img: ContentImg2.src
-}
+
 
 
 //Content Data
 import ContentImg1 from "media/innerservices/software-development/Img02.webp"
 
 export const ContentData1 = {
-    contentTitle: "Why Partner with Our Book Writing Experts?",
+    contentTitle: "Boost Your Business with Custom Software",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>At Infinitidigital, we empower businesses with custom software solutions that drive efficiency, growth, and innovation. Our team brings your vision to life through intuitive designs, robust functionality, and seamless performance. Every step of our development process is driven by your goals, ensuring the result perfectly aligns with your needs. From idea to execution, we focus on delivering software that doesn’t just meet expectations but exceeds them. Let’s create software that helps your business thrive in today’s competitive digital landscape.</p>
     </>),
     img: ContentImg1.src
 }
@@ -210,9 +212,9 @@ export const ContentData1 = {
 import ContentImg3 from "media/innerservices/software-development/Img03.webp"
 
 export const ContentData3 = {
-    contentTitle: "Why Partner with Our Book Writing Experts?",
+    contentTitle: "Bring Your Vision to Life with Infinitidigital",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Got a groundbreaking idea that’s just waiting to shine? Why not make it a reality with Infinitidigital? We specialize in turning your software concepts into impactful solutions that transform the way you do business. From brainstorming and ideation to deployment and beyond, our expert team ensures every detail is executed flawlessly. Let’s build a solution that’s not just optimized for today but scalable and future-proof for long-term success. Your idea deserves to make waves—let’s make it happen together!</p>
     </>),
     img: ContentImg3.src
 }
@@ -332,42 +334,51 @@ export const PriceData = {
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
 export const TestimonialData = {
-    subtitle: "Happy Clients",
-    title: "Hear It from Our Clients ",
-    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    subtitle: "What Our Clients Are Saying",
+    title: "Real Stories, Real Results",
+    desc: "At Infinitidigital, we pride ourselves on delivering software solutions that drive success and make a tangible impact. Don’t just take our word for it—here’s what our clients have to say about their experience with us!",
     Testslider: [
         {
-            txt: "Infinitidigital completely transformed our online presence. The website they designed is stunning, easy to navigate, and functional. They truly understood our needs, blending creativity and practicality. Our customers love the smooth user experience, and we’ve seen a significant increase in sales. I highly recommend their services!",
+            txt: "Infinitidigital created a custom CRM platform for us, and it’s been a game-changer for our operations. Thanks to their intuitive design and automation features, tasks that used to take hours now take minutes. The team’s attention to detail, timely delivery, and post-launch support were outstanding. Our client relationships have significantly improved. We’re thrilled with the results! ",
             icon: <ClutchLogo />,
-            namee: "Sarah T.",
-            job: "Founder of E-Commerce Entrepreneur",
+            namee: "Sophia G.",
+            job: "Financial Services Owner",
         },
         {
-            txt: "The team at Infinitidigital exceeded all our expectations. Their attention to detail and commitment to delivering a top-notch design were evident from start to finish. They took the time to understand our brand, and the result perfectly captures our vision. We couldn’t be happier with the outcome.",
-            icon: <TrustpilotLogo />,
-            namee: "Mike  P.",
-            job: "COO of Small Business Owner",
-        },
-        {
-            txt: "Infinitidigital brought our vision to life with a creative and user-friendly design. The website not only looks great but has also significantly improved our engagement rates. Their expertise and dedication were evident throughout the process. We’re thrilled with the final product and its positive impact on our brand.",
-            icon: <GoogleLogo />,
+            txt: "Infinitidigital developed an enterprise software solution that exceeded all our expectations. The system is incredibly user-friendly, fast, and scalable, seamlessly adapting to our business needs as we grow. Their team guided us through every step with patience and expertise, answering questions promptly. It’s been a pleasure working with them, and we’re seeing incredible results in efficiency!",
+            icon: <ClutchLogo />,
             namee: "James K.",
-            job: "Co-Founder of SaaS",
+            job: "Logistics Manager",
         },
         {
-            txt: "Working with Infinitidigital was a fantastic experience. Their team delivered a sleek, professional website that has driven measurable growth for our business. They understood our needs and executed the project flawlessly. The site’s performance and user experience have exceeded our expectations, and we continue to see positive results.",
-            icon: <TrustpilotLogo />,
-            namee: "Linda M.",
-            job: "CEO of Nonprofit Director",
-        },
-        {
-            txt: "From start to finish, the Infinitidigital team was professional, creative, and attentive to our needs. They crafted a website that reflects our mission and engages visitors effectively. The final product exceeded all our expectations, and we’ve already noticed increased support and interest in our cause. I highly recommend it!",
+            txt: "Infinitidigital took the time to understand our complex workflows and delivered a solution that exceeded our expectations. Their software simplified our processes and improved team productivity across the board. The attention to detail in both design and performance was impressive. They're the ones to call if you’re looking for a team that truly listens and delivers.",
             icon: <ClutchLogo />,
-            namee: "Emily M.",
-            job: "Founder of StyleHive Boutique",
-        }
+            namee: "Emma L.",
+            job: "Marketing Director",
+        },
+        {
+            txt: "The custom ERP system Infinitidigital developed has revolutionized the way we run our retail operations. Everything is now integrated into one reliable platform, from inventory management to team collaboration. Their commitment to delivering secure, high-performance software was evident from the start. We’ve saved countless hours and reduced errors significantly. We couldn’t have asked for a better partner!",
+            icon: <ClutchLogo />,
+            namee: "Michael R.",
+            job: "CEO, Retail Brand",
+        },
+        {
+            txt: "Infinitidigital delivered software that solves today’s challenges and is designed to grow with us. Their use of cutting-edge technologies and meticulous focus on security has given us a robust and adaptable tool. The system’s flexibility has made expanding our services seamless. Their team’s professionalism and expertise make them an invaluable partner for any business! ",
+            icon: <ClutchLogo />,
+            namee: "Sarah W.",
+            job: "Startup Founder",
+        },
     ]
 }
+
+// Call to Action
+
+export const CallActionData = {
+    subtitle: "Contact Us",
+    title: "Transform Your Idea Into a Reality",
+    desc: "At Infinitidigital, we take your software ideas and turn them into reality with expert development services. From brainstorming to deployment, our team focuses on creating seamless functionality, intuitive designs, and smooth user experiences."
+}
+
 
 // FAQs
 
@@ -378,24 +389,24 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "What industries do you design websites for?",
-            txt: "We work across all industries, tailoring designs to meet each business's unique needs. From e-commerce to corporate, we ensure every website stands out. Our goal is to enhance user engagement and drive business success."
+            title: "What types of software do you develop?",
+            txt: "We specialize in creating custom software tailored to your specific needs, including enterprise tools, SaaS platforms, CRM systems, ERP solutions, and mobile applications. Whether you’re in retail, healthcare, logistics, or another industry, we deliver innovative solutions designed to enhance efficiency, drive growth, and solve unique business challenges."
         },
         {
-            title: "How long does the website design process take?",
-            txt: "The timeline depends on the project scope, but most websites are completed within 4-8 weeks. We work closely with clients to ensure timely delivery. Each project gets the attention it deserves to meet your goals."
+            title: "How long does it take to develop software?",
+            txt: "The development timeline varies based on your project’s complexity and requirements. For smaller tools, it typically takes 8–12 weeks. More comprehensive systems like ERP or SaaS platforms may take 4–6 months or more. At Infinitidigital, we provide a clear project roadmap, regular updates, and efficient processes to deliver high-quality solutions within the agreed timeframes."
         },
         {
-            title: "Do you offer support after the website is launched?",
-            txt: "Yes, we provide post-launch support to ensure everything runs smoothly. Our team is available to address any concerns or issues. We help keep your website updated and functional in the long term."
+            title: "Do you provide post-launch support?",
+            txt: "Yes! Our partnership doesn’t end at deployment. We offer comprehensive post-launch support, including regular updates, bug fixes, and performance monitoring. As your business grows, we can add new features and optimize functionality to keep your software running smoothly. Our priority is your success, and we’re always here to help."
         },
         {
-            title: "Can you redesign my existing website?",
-            txt: "Absolutely! We specialize in modernizing outdated websites for improved design and functionality. We ensure your site reflects current trends and engages your audience. A fresh, functional redesign can boost your business."
+            title: "How do you ensure software security?",
+            txt: "We prioritize security at every stage of development. Our practices include robust data encryption, secure API integration, and routine vulnerability testing to protect against cyber threats. From user authentication protocols to advanced data protection measures, we ensure your software is reliable and safeguarded against evolving risks."
         },
         {
-            title: "Are your designs mobile-friendly?",
-            txt: "Yes, every website we design is fully responsive and optimized for all devices. Whether it's a phone, tablet, or desktop, your website will function flawlessly. Mobile optimization is key to reaching a wider audience."
+            title: "Can you integrate with our existing systems?",
+            txt: "Absolutely! At Infinitidigital, we excel in integrating new software with your existing systems to create a seamless experience. Whether it’s legacy systems, third-party tools, or APIs, we ensure smooth interoperability to enhance productivity and minimize disruptions. Your software will work harmoniously with your current operations, providing a cohesive digital ecosystem."
         }
     ]
 

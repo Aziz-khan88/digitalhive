@@ -1,7 +1,7 @@
 import styles from '@/styles/inner-services/tablecontent.module.scss'
 import { Col, Container, Row } from 'react-bootstrap'
 import { TickIcon } from '@/src/app/app-constants'
-
+import CommonBtn from "@/src/app/components/common/commonbtn"
 
 
 const TableContent = ({ data }) => {
@@ -35,7 +35,7 @@ const TableContent = ({ data }) => {
                                                 <button
                                                     className={`${styles.buttonLast} ${styles[`item${index}`]}`}
                                                 >
-                                                    Let’s Connect
+                                                    <CommonBtn txt="Let’s Connect" ArrowBtn={true} SimpleBtn={true} />
                                                 </button>
                                             )}
                                         </div>

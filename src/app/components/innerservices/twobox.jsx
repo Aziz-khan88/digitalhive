@@ -1,6 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/inner-services/twobox.module.scss"
-import Link from 'next/link'
+import CommonBtn from "@/src/app/components/common/commonbtn"
 import Image from 'next/image'
 
 const TwoBox = ({ data }) => {
@@ -16,7 +16,7 @@ const TwoBox = ({ data }) => {
                         >
                             <h3>{data.Box1.title}</h3>
                             <p>{data.Box1.desc}</p>
-                            <Link href="#" className="commonBtn blackBg">Get Free Consultation</Link>
+                            <CommonBtn txt="Get Free Consultation" />
                         </div>
                     </Col>
                     <Col md={6} className='my-auto'>

@@ -1,5 +1,6 @@
 .bannerServices {
     margin-top: 180px;
+    overflow: hidden;
 
     .subTitle {
         font-style: normal;
@@ -98,7 +99,6 @@
         background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 100%);
         border-radius: 30px;
         padding: 0px;
-        // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 
         .contentBaner {
             padding: 50px 20px 50px 50px;

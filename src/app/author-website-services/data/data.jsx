@@ -68,7 +68,7 @@ export const ProcessData = {
     ],
     ProcessItem2: [
         {
-            title: "Localization and Personalization",
+            title: "Localization & Personalization",
             txt: (<>
                 <strong>Geo-targeted Content:</strong>
                 <p>Tailoring content to appeal to local audiences, enhancing relevance and engagement.</p>

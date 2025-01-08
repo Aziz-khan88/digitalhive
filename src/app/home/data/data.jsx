@@ -78,17 +78,17 @@ export const ServicesData = {
             title: "Social Media Marketing",
             txt: "Turn followers into loyal fans with campaigns that connect and captivate. Engage your community with authentic interactions that foster trust and brand loyalty.",
             Img: Image01.src,
-            url: "#"
+            url: "/social-media-marketing"
         }, {
             title: "Mobile App Development",
             txt: "Build intuitive, engaging apps that keep users coming back. Incorporate user feedback to enhance features and deliver a personalized experience that meets their needs.",
             Img: Image03.src,
-            url: "#"
+            url: "/mobile-app-development"
         }, {
             title: "Paid Marketing",
             txt: "Maximize your ROI with expertly crafted paid marketing campaigns that put your brand in front of the right audience. From Google Ads to social media promotions, we ensure every click drives measurable growth and conversions.",
             Img: Image05.src,
-            url: "#"
+            url: "/paid-marketing"
         }
     ],
     serviceData2: [
@@ -96,17 +96,17 @@ export const ServicesData = {
             title: "SEO",
             txt: "Get noticed by the right audience at the perfect moment with expert optimization strategies. Harness the power of analytics to refine your approach for maximum visibility continually.",
             Img: Image02.src,
-            url: "#"
+            url: "/seo"
         }, {
             title: "Web Design & Development",
             txt: "Create sleek, functional websites that transform visitors into customers. Ensure seamless navigation and an immersive user experience that keeps visitors engaged.",
             Img: Image04.src,
-            url: "#"
+            url: "/web-development"
         }, {
             title: "Content Marketing",
             txt: "Deliver value with high-quality, impactful content that informs and inspires. Foster a community around your brand by encouraging conversations and sharing insights that resonate.",
             Img: Image06.src,
-            url: "#"
+            url: "/content-marketing"
         }
 
     ]
@@ -150,6 +150,12 @@ import PaidImg03 from "media/home/work/paid/paid3.webp"
 import PaidImg04 from "media/home/work/paid/paid4.webp"
 import PaidImg05 from "media/home/work/paid/paid5.webp"
 import PaidImg06 from "media/home/work/paid/paid6.webp"
+import ContentImg01 from "media/home/work/content/content1.webp"
+import ContentImg02 from "media/home/work/content/content2.webp"
+import ContentImg03 from "media/home/work/content/content3.webp"
+import ContentImg04 from "media/home/work/content/content4.webp"
+import ContentImg05 from "media/home/work/content/content5.webp"
+import ContentImg06 from "media/home/work/content/content6.webp"
 
 
 export const WorkData = {
@@ -200,6 +206,9 @@ export const WorkData = {
             url: "#",
             category: "Social Media Marketing",
         },
+
+
+
         {
             title: "Music App",
             txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
@@ -285,6 +294,9 @@ export const WorkData = {
             url: "#",
             category: "Website Development",
         },
+
+
+
         {
             title: "E-commerce Website",
             txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
@@ -327,6 +339,51 @@ export const WorkData = {
             url: "#",
             category: "Seo",
         },
+
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: PaidImg01.src,
+            url: "#",
+            category: "Content Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: ContentImg02.src,
+            url: "#",
+            category: "Content Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: ContentImg03.src,
+            url: "#",
+            category: "Content Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: ContentImg04.src,
+            url: "#",
+            category: "Content Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: ContentImg05.src,
+            url: "#",
+            category: "Content Marketing",
+        },
+        {
+            title: "E-commerce Website",
+            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            Img: ContentImg06.src,
+            url: "#",
+            category: "Content Marketing",
+        },
+
+
         {
             title: "E-commerce Website",
             txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
@@ -365,7 +422,7 @@ export const WorkData = {
         {
             title: "E-commerce Website",
             txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: PaidImg06.src,
+            Img: ContentImg06.src,
             url: "#",
             category: "Paid Marketing",
         },

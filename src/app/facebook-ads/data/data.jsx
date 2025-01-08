@@ -179,7 +179,7 @@ export const NewsLetterData = {
 export const PriceData = {
     subtitle: "Our Pricing",
     title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    desc: "Choose a package that suits your needs and budget. We offer customized facebook Ads management to help you grow your business.",
     PriceItem: [
         {
             bgColor: "#7635FF",

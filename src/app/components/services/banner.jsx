@@ -1,6 +1,6 @@
 import styles from "@/styles/services/banner.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
-import Link from "next/link"
+import CommonBtn from "@/src/app/components/common/commonbtn"
 
 const Banner = ({ data, bgtxt }) => {
     return (
@@ -22,7 +22,7 @@ const Banner = ({ data, bgtxt }) => {
                                 <div className={styles.contentBaner}>
                                     <h2>{data.bannerTitle}</h2>
                                     <p>{data.bannerContent}</p>
-                                    <Link href="#" className="commonBtn">Get Free Consultation</Link>
+                                    <CommonBtn txt="Get Free Consultation" />
                                 </div>
                                 : null
                             }

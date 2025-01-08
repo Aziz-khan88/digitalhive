@@ -1,10 +1,10 @@
 import styles from "@/styles/components/contactform.module.scss"
 import Link from "next/link"
 
-const ContactFrom = ({ bg }) => {
+const ContactFrom = ({ bg, popop }) => {
     return (
         <form>
-            <div className={`${styles.Contactbox} ${bg === "no" ? styles.removeBG : ""}`}>
+            <div className={`${styles.Contactbox} ${bg === "no" ? styles.removeBG : ""}  ${popop === "yes" ? styles.popopFrom : ""}`}>
                 <div className={styles.contactItem}>
                     <input type="text" placeholder="Full Name" required />
                 </div>

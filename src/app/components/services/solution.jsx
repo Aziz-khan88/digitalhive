@@ -1,5 +1,5 @@
 import styles from "@/styles/services/solution.module.scss"
-import Link from "next/link"
+import CommonBtn from "@/src/app/components/common/commonbtn"
 import { Col, Container, Row } from "react-bootstrap"
 
 
@@ -27,7 +27,9 @@ const Solution = ({ data }) => {
                                 >
                                     <div className={styles.title}>{item.title}</div>
                                     <p>{item.txt}</p>
-                                    <Link href={item.url}>Read More</Link>
+                                    <div className={styles.btnSimple}>
+                                        <CommonBtn txt="Contact Us" ArrowBtn={true} SimpleBtn={true} />
+                                    </div>
                                 </div>
                             ))}
                         </div>

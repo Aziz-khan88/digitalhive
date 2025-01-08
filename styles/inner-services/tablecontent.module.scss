@@ -80,15 +80,38 @@
 
                             &.item1 {
                                 background: linear-gradient(180deg, #7635FF -15.92%, #FFFFFF 111.07%);
+                                transition: background 0.3s ease, transform 0.3s ease;
+
+                                &:hover {
+                                    background: linear-gradient(9.84deg, #FFFFFF -15.92%, #7635FF 111.07%);
+                                    transform: scale(1.01);
+                                    transition: background 0.3s ease, transform 0.3s ease;
+                                }
                             }
 
                             &.item2 {
                                 background: linear-gradient(180deg, #FF6987 -15.92%, #FFFFFF 111.07%);
+                                transition: background 0.3s ease, transform 0.3s ease;
+
+                                &:hover {
+                                    background: linear-gradient(9.84deg, #FFFFFF -15.92%, #FF6987 111.07%);
+                                    transform: scale(1.01);
+                                    transition: background 0.3s ease, transform 0.3s ease;
+                                }
                             }
 
                             &.item3 {
                                 background: linear-gradient(180deg, #9AFF35 -15.92%, #FFFFFF 111.07%);
+                                transition: background 0.3s ease, transform 0.3s ease;
+
+                                &:hover {
+                                    background: linear-gradient(9.84deg, #FFFFFF -15.92%, #9AFF35 111.07%);
+                                    transform: scale(1.01);
+                                    transition: background 0.3s ease, transform 0.3s ease;
+                                }
                             }
+
+
                         }
                     }
 

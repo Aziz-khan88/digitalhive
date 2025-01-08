@@ -4,10 +4,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowIcon } from "@/src/app/app-constants";
-
 import useEmblaCarousel from 'embla-carousel-react'
 import SliderArrow from "@/src/app/components/sliderarrow";
-
+import CommonBtn from "@/src/app/components/common/commonbtn"
 const OPTIONS = { loop: true, align: 'start' }
 
 const Work = ({ data, category }) => {
@@ -54,9 +53,7 @@ const Work = ({ data, category }) => {
                                             <div className={styles.workContent}>
                                                 <h4>{item.title}</h4>
                                                 <p>{item.txt}</p>
-                                                <Link href={item.url} className="commonBtn">
-                                                    Get Free Consultation
-                                                </Link>
+                                                <CommonBtn txt="Get Free Consultation" />
                                             </div>
                                             <Link href={item.url} className={styles.arrowBg}>
                                                 <ArrowIcon />

@@ -1,7 +1,6 @@
-import Link from 'next/link'
 import styles from "@/styles/services/ctaservices.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
-
+import CommonBtn from "@/src/app/components/common/commonbtn"
 
 const CtaServices = ({ data, bg }) => {
     return (
@@ -12,7 +11,7 @@ const CtaServices = ({ data, bg }) => {
                         <div className={`${styles.ctaServicesTitle} ${styles.BlackBG}`}>
                             <h2>{data.title}</h2>
                             <p>{data.desc}</p>
-                            <Link href="#" className='commonBtn'>Get Free Consultation</Link>
+                            <CommonBtn txt="Get Free Consultation" />
                         </div>
                     </Col>
                 </Row>

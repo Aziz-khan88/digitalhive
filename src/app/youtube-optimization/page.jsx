@@ -1,7 +1,6 @@
 import Banner from '@/src/app/components/innerservices/banner'
 import ContentSection from '@/src/app/components/innerservices/content'
 import NewsLetter from '@/src/app/components/innerservices/newsletter'
-import TwoBox from '@/src/app/components/innerservices/twobox'
 import PlateFroms from "@/src/app/home/plateform";
 import Testimonials from "@/src/app/home/testimonials";
 import CtaForm from "@/src/app/home/ctaform";

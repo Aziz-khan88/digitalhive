@@ -1,8 +1,7 @@
-import Link from 'next/link'
 import styles from "@/styles/home/cta.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import Image from 'next/image'
-
+import CommonBtn from "@/src/app/components/common/commonbtn"
 
 const CTA1 = ({ data }) => {
     return (
@@ -12,7 +11,7 @@ const CTA1 = ({ data }) => {
                     <Col md={6} className='my-auto'>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
-                        <Link href="" className='commonBtn'>Get Free Consultation</Link>
+                        <CommonBtn txt="Get Free Consultation" />
                     </Col>
                     <Col md={6} className='my-auto ms-auto text-right'>
                         <Image src={data.img} alt="Digital CTA" width={560} height={530} className={styles.imgCTAFirst} />

@@ -7,7 +7,7 @@ import Link from "next/link";
 import { ArrowIcon } from "@/src/app/app-constants";
 import SliderArrow from "@/src/app/components/sliderarrow";
 import useEmblaCarousel from 'embla-carousel-react'
-
+import CommonBtn from "@/src/app/components/common/commonbtn"
 const OPTIONS = { loop: true, align: 'start' }
 
 const Work = ({ data }) => {
@@ -63,9 +63,7 @@ const Work = ({ data }) => {
                                             <div className={styles.workContent}>
                                                 <h4>{item.title}</h4>
                                                 <p>{item.txt}</p>
-                                                <Link href={item.url} className="commonBtn">
-                                                    Get Free Consultation
-                                                </Link>
+                                                <CommonBtn txt="Get Free Consultation" />
                                             </div>
                                             <Link href={item.url} className={styles.arrowBg}>
                                                 <ArrowIcon />

@@ -1,6 +1,6 @@
 import styles from "@/styles/inner-services/innercontent.module.scss"
 import Image from "next/image"
-import Link from "next/link"
+import CommonBtn from "@/src/app/components/common/commonbtn"
 import { Col, Container, Row } from 'react-bootstrap'
 
 const ContentAlternet = ({ data, bggray, simple, alternat, software }) => {
@@ -13,10 +13,10 @@ const ContentAlternet = ({ data, bggray, simple, alternat, software }) => {
                         <div className={`${styles.contentBox} ${alternat === "yes" ? styles.alternatcontentBox : ''}`}>
                             <h2>{data.contentTitle}</h2>
                             <div className={styles.paraBox}>{data.contentTxt}</div>
-                            <Link href="#" className="commonBtn">Get Free Consultation</Link>
+                            <CommonBtn txt="Get Free Consultation" />
                         </div>
                     </Col>
-                    <Col md={6} className={`${simple === "yes" ? styles.imgSimple : ''} ${software === "yes" ? styles.imgSoftware : ''} ${alternat === "yes" ? styles.alternatImage : ''}`} >
+                    <Col md={6} className={`my-auto ${simple === "yes" ? styles.imgSimple : ''} ${software === "yes" ? styles.imgSoftware : ''} ${alternat === "yes" ? styles.alternatImage : ''}`} >
                         {simple === "yes" ?
                             <Image src={data.img} alt="Book Image" width={460} height={550} />
                             :

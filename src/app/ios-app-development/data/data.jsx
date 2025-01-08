@@ -1,16 +1,16 @@
 //Banner
 import BannerPoster from "media/innerservices/ios-app-development/bannerImg.webp"
 export const BannerData = {
-    title: "Build. Design. Innovate.",
-    desc: "Looking for a custom website that blends creativity and functionality? You’ve come to the right place! At Infinitidigital, we create websites that ensure exceptional user experiences, enhanced brand visibility, and measurable business growth.",
+    title: "Build Your Dream iOS App",
+    desc: "Ready to bring your app idea to life? Infinitidigital offers expert iOS app development tailored to your vision and goals. From sleek design to seamless functionality, we’ve got you covered! Want to stand out in the app world? Let’s make it happen together!",
     video: "",
     BannerPoster: BannerPoster.src
 }
 // States Counter
 export const StateCounter = {
-    subtitle: "Crafting Impactful Designs",
-    title: "Shaping Exceptional Online Experiences",
-    desc: "We merge creativity and strategy to deliver innovative website designs that captivate audiences and empower businesses to thrive online.",
+    subtitle: "Designed for You",
+    title: "Tailored iOS App Solutions",
+    desc: "Want an app that truly represents your brand? At Infinitidigital, we create custom iOS apps that reflect your brand’s unique identity and perfectly meet your goals.",
     stateItem: [
         {
             numbers: "200+",
@@ -31,48 +31,48 @@ export const StateCounter = {
 
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Expert Solutions, Exceptional Results",
-    desc: "Is your business getting the attention it deserves? Our customized solutions deliver what you need. Find out how we can help:",
+    subtitle: "Perfectly Executed",
+    title: "Seamless iOS App Development",
+    desc: "We do so with seamless iOS app development. Every feature is created for flawless performance and an exceptional user experience.",
     ServicesItem: [
         {
-            title: (<>Google Ads <br />Management</>),
-            txt: "Craft precise campaigns on Google to reach high-intent audiences, ensuring maximum visibility and returns on investment.",
+            title: (<>Custom App <br />Features</>),
+            txt: "We tailor every feature based on your unique needs and business goals to maximize usability.",
             url: "#",
         },
         {
-            title: (<>Facebook & <br />Instagram Ads</>),
-            txt: "Leverage social platforms to target ideal customers, delivering creative ads that build awareness and drive measurable results.",
+            title: (<>Intuitive User<br />Interface</>),
+            txt: "User-friendly interfaces ensure smooth interactions, making your app easy and enjoyable for your target audience.",
             url: "#",
         },
         {
-            title: (<>Video <br />Advertising</>),
-            txt: "Harness the power of engaging video content on platforms like YouTube to captivate audiences and boost brand recognition.",
+            title: (<>High-Performance<br />Speed</>),
+            txt: "Our iOS apps are optimized for speed, ensuring smooth navigation and quick response times for a superior experience.",
             url: "#",
         },
         {
-            title: (<>Native Ad <br />Campaigns</>),
-            txt: "Blend your message naturally into platforms with native ads that deliver value while encouraging meaningful engagement.",
+            title: (<>Robust Security<br />Measures</>),
+            txt: "Your app’s security is our priority, featuring cutting-edge measures to protect user data and maintain privacy.",
             url: "#",
         },
         {
-            title: (<>Programmatic Ad <br />Buying</>),
-            txt: "Automate your ad placements with data-driven programmatic buying, ensuring precision targeting and cost-efficient delivery across multiple platforms.",
+            title: (<>Seamless <br />Integrations</>),
+            txt: "We integrate third-party services to enhance your app’s functionality, ensuring a comprehensive user experience with all the necessary features.",
             url: "#",
         },
         {
-            title: (<>Retargeting <br />Campaigns</>),
-            txt: "Reconnect with potential customers through retargeting ads that drive conversions by keeping your brand top-of-mind.",
+            title: (<>Real-Time <br />Updates</>),
+            txt: "Your app will feature real-time updates, ensuring fresh content and seamless functionality for end users with no downtime.",
             url: "#",
         },
         {
-            title: (<>Shopping Ad <br />Management</>),
-            txt: "Showcase your products with high-impact shopping ads that attract ready-to-buy customers and drive sales for your online store.",
+            title: (<>Reliable App <br />Maintenance</>),
+            txt: "Post-launch support is available, ensuring your app stays updated, functional, and bug-free.",
             url: "#",
         },
         {
-            title: (<>Performance <br />Optimization</>),
-            txt: "Monitor and adjust campaigns for peak performance, ensuring your ads deliver results with every dollar spent.",
+            title: (<>Scalable Development <br />Process</>),
+            txt: "We design scalable apps, allowing for growth and adaptation as your business needs evolve and expand.",
             url: "#",
         }
 
@@ -81,268 +81,139 @@ export const ServicesData = {
 // NewsLetter
 import ImgBg from "media/innerservices/ios-app-development/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Customized Websites for Your Business Growth",
-    desc: "We design tailored websites that align with your brand, ensuring a seamless user experience and boosting business growth.",
+    title: "Innovative iOS Apps That Stand Out",
+    desc: "Want an iOS app that stands out? We create unique iOS apps that captivate users, combining innovative design with cutting-edge technology for maximum impact.",
     img: ImgBg.src,
 }
 
-// Process
-export const ProcessData = {
-    subtitle: "Expert Design Services",
-    title: "Your Partner for Digital Excellence",
-    desc: "Infinitidigital offers innovative website design services tailored to meet your unique needs, ensuring your brand stands out digitally.",
 
-    ProcessItem1: [
-        {
-            title: "Strategy Development",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
-        {
-            title: "Content Distribution",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
-    ],
-    ProcessItem2: [
-        {
-            title: "Content Planning",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        }, {
-            title: "Performance Analysis",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
-    ],
-    ProcessItem3: [
-        {
-            title: "Content Creation",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        },
-        {
-            title: "Optimization & Repurposing",
-            txt: (<>
-                <strong>Project Kickoff:</strong>
-                <p>Initial meetings to understand client requirements, goals, and target audience.</p>
-                <strong>Market Research & Analysis:</strong>
-                <p>Analyze competitors and industry trends to identify unique features and opportunities.</p>
-                <strong>User Persona Development:</strong>
-                <p>Create personas for the target audience to understand their needs, preferences, and behavior.</p>
-            </>),
-
-        }
-    ]
-
-}
-//Content Data
-import ContentImg from "media/innerservices/ios-app-development/Img01.webp"
-export const ContentData = {
-    maintitle: true,
-    contentTitle: "Boost Your Brand with Unique Websites",
-    contentTxt: (<>
-        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
-    </>),
-    img: ContentImg.src
-}
 
 
 //Content Data
 import ContentImg2 from "media/innerservices/ios-app-development/ImgBlack.webp"
 export const ContentData2 = {
     maintitle: true,
-    contentTitle: "Boost Your Brand with Unique Websites",
+    contentTitle: "Transform Your Idea Into iOS Reality",
     contentTxt: (<>
-        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
+        <p>Want to turn your idea into an app? At Infinitidigital, we turn your unique ideas into reality with expert iOS app development. From brainstorming to launch, our team focuses on creating seamless functionality, eye-catching designs, and smooth user experiences. Your app will be optimized for performance, usability, and scalability, ensuring long-term success.</p>
     </>),
     img: ContentImg2.src
 }
+// Process
+export const ProcessData = {
+    subtitle: "Build With Confidence",
+    title: "iOS App Development Process",
+    desc: "Our proven iOS app development process ensures your app is efficient, effective, and user-friendly, bringing your vision to life.",
 
+    ProcessItem1: [
+        {
+            title: "Project Ideation Phase",
+            txt: (<>
+                <strong>Idea Evaluation:</strong>
+                <p>Assess your app concept to determine its market viability.</p>
+                <strong>Research & Insights:</strong>
+                <p>Gather industry insights to fine-tune your app idea.</p>
+                <strong>Feasibility Study:</strong>
+                <p>Confirm technical feasibility before moving forward with development.</p>
+            </>),
+
+        },
+        {
+            title: "UI/UX Design Process",
+            txt: (<>
+                <strong>Creative Mockups:</strong>
+                <p>We design visually appealing and intuitive app interfaces.</p>
+                <strong>User-Centered Design:</strong>
+                <p>Ensure your design focuses on enhancing user experience.</p>
+                <strong>Prototype Development:</strong>
+                <p>Test app interfaces early with interactive prototypes for feedback.</p>
+            </>),
+
+        },
+    ],
+    ProcessItem2: [
+        {
+            title: "Development & Coding",
+            txt: (<>
+                <strong>Swift Programming:</strong>
+                <p>We use Swift to ensure fast, secure, and efficient app development.</p>
+                <strong>Backend Integration:</strong>
+                <p>Smoothly integrate your app with robust back-end systems.</p>
+                <strong>Quality Assurance:</strong>
+                <p>Continuous testing for bugs, glitches, and performance issues.</p>
+            </>),
+
+        }, {
+            title: "App Launch Strategy",
+            txt: (<>
+                <strong>Beta Testing:</strong>
+                <p>Launch a beta version to gather real-world feedback.</p>
+                <strong>App Store Optimization:</strong>
+                <p>Ensure your app ranks high for maximum visibility</p>
+                <strong>Launch Plan:</strong>
+                <p>Create a solid marketing strategy to increase app downloads.</p>
+            </>),
+
+        },
+    ],
+    ProcessItem3: [
+        {
+            title: "Post-Launch Support",
+            txt: (<>
+                <strong>Updates & Fixes:</strong>
+                <p>Provide regular app updates for a smooth user experience.</p>
+                <strong>Performance Monitoring:</strong>
+                <p>Monitor your app’s performance for optimizations and improvements.</p>
+                <strong>Customer Feedback:</strong>
+                <p>Engage with users and improve app functionality based on feedback.</p>
+            </>),
+
+        },
+        {
+            title: "Continuous Improvement",
+            txt: (<>
+                <strong>Iterative Development:</strong>
+                <p>Constantly improve your app’s functionality based on usage insights.</p>
+                <strong>User Feedback:</strong>
+                <p>Collect real-time feedback for future app enhancements.</p>
+                <strong>Feature Expansion:</strong>
+                <p>Implement new features to keep your app engaging and competitive.</p>
+            </>),
+
+        }
+    ]
+
+}
+
+//Content Data
+import ContentImg from "media/innerservices/ios-app-development/Img01.webp"
+export const ContentData = {
+    maintitle: true,
+    contentTitle: "Boost Your Business with Custom iOS Apps",
+    contentTxt: (<>
+        <p>Ready to create something extraordinary? At Infinitidigital, we craft custom iOS apps tailored to your business needs. Our team focuses on delivering intuitive designs, high functionality, and seamless performance. From concept to launch, we ensure your app offers a flawless user experience and stands out in the crowded app marketplace. </p>
+    </>),
+    img: ContentImg.src
+}
 
 //Content Data
 import ContentImg3 from "media/innerservices/ios-app-development/Img03.webp"
-export const ContentData3 = {
+export const ContentData1 = {
     maintitle: true,
-    contentTitle: "Boost Your Brand with Unique Websites",
+    contentTitle: "Scalable iOS App Solutions",
     contentTxt: (<>
-        <p>Create a lasting impression with custom website designs that reflect your brand’s values and goals. Our team delivers visually appealing, user-friendly websites that engage visitors and help your business grow. Transform your online presence today with designs representing your unique brand identity.</p>
+        <p>Looking to scale your app? At Infinitidigital, we specialize in creating scalable iOS apps that grow with your business. Whether launching a startup or expanding an existing product, we ensure your app is designed to adapt and evolve with future needs. Let’s build something lasting!</p>
     </>),
     img: ContentImg3.src
-}
-
-
-// Workimport 
-import WorkImg01 from "media/services/content-marketing/img01.webp"
-import WorkImg02 from "media/services/content-marketing/img02.webp"
-import WorkImg03 from "media/services/content-marketing/img03.webp"
-import WorkImg04 from "media/services/content-marketing/img04.webp"
-export const WorkData = {
-    subtitle: "Our Recent Work",
-    title: "Bringing Ideas to Life",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    WorkItem: [
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Mobile App Development",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Website Development",
-        },
-        {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
-            Img: WorkImg02.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
-            Img: WorkImg03.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-        {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
-            Img: WorkImg01.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-        {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
-            Img: WorkImg04.src,
-            url: "#",
-            category: "Social Media Marketing",
-        },
-
-    ]
 }
 
 //Content Data
 import ContentImg1 from "media/innerservices/ios-app-development/Img02.webp"
 
-export const ContentData1 = {
-    contentTitle: "Why Partner with Our Book Writing Experts?",
+export const ContentData3 = {
+    contentTitle: "Your Custom iOS App, Tailored Perfectly",
     contentTxt: (<>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ready to create the perfect app for your business?At Infinitidigital, we design and develop iOS apps that perfectly match your business needs.From user-friendly interfaces to powerful functionality, we ensure your app offers a seamless experience for users.Let us create an app that speaks to your audience while achieving your business goals—your app, your way!</p>
     </>),
     img: ContentImg1.src
 }
@@ -463,37 +334,37 @@ export const PriceData = {
 import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Happy Clients",
-    title: "Hear It from Our Clients ",
-    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    title: "What Our Clients Are Saying",
+    desc: "Curious about how we’re transforming businesses? Our clients share their experiences with our iOS app development services. Here’s what they have to say:",
     Testslider: [
         {
-            txt: "Infinitidigital completely transformed our online presence. The website they designed is stunning, easy to navigate, and functional. They truly understood our needs, blending creativity and practicality. Our customers love the smooth user experience, and we’ve seen a significant increase in sales. I highly recommend their services!",
+            txt: "Infinitidigital's iOS app development exceeded all expectations. They transformed our ideas into a stunning app with smooth functionality. The team understood our needs and delivered beyond expectations. We're seeing increased user engagement and sales—thank you for making our vision a reality. I highly recommend them for any app development project!",
             icon: <ClutchLogo />,
-            namee: "Sarah T.",
+            namee: "Mark Johnson",
             job: "Founder of E-Commerce Entrepreneur",
         },
         {
-            txt: "The team at Infinitidigital exceeded all our expectations. Their attention to detail and commitment to delivering a top-notch design were evident from start to finish. They took the time to understand our brand, and the result perfectly captures our vision. We couldn’t be happier with the outcome.",
+            txt: "Working with Infinitidigital was a game-changer for our business. They crafted a user-friendly iOS app that perfectly matches our brand. The design and performance were flawless, and their team informed us throughout the process. We've significantly increased app downloads, and customers love the seamless experience!",
             icon: <TrustpilotLogo />,
-            namee: "Mike  P.",
+            namee: "Sarah Mitchell",
             job: "COO of Small Business Owner",
         },
         {
-            txt: "Infinitidigital brought our vision to life with a creative and user-friendly design. The website not only looks great but has also significantly improved our engagement rates. Their expertise and dedication were evident throughout the process. We’re thrilled with the final product and its positive impact on our brand.",
+            txt: "Infinitidigital helped us launch our iOS app on time and within budget. They captured our vision and turned it into an intuitive, feature-rich product. The performance is top-notch, and we’ve seen a dramatic increase in our app's downloads and usage. Their team is dedicated, skilled, and a pleasure to work with.",
             icon: <GoogleLogo />,
-            namee: "James K.",
+            namee: "Tom Roberts",
             job: "Co-Founder of SaaS",
         },
         {
-            txt: "Working with Infinitidigital was a fantastic experience. Their team delivered a sleek, professional website that has driven measurable growth for our business. They understood our needs and executed the project flawlessly. The site’s performance and user experience have exceeded our expectations, and we continue to see positive results.",
+            txt: "Infinitidigital has been an incredible partner in developing our iOS app. They offered strategic insights throughout the process, and the app performs exceptionally well. Our customers love the app’s design and functionality. They helped us create a valuable asset that aligns with our goals—we are genuinely impressed with the outcome.",
             icon: <TrustpilotLogo />,
-            namee: "Linda M.",
+            namee: "Emma Wilson",
             job: "CEO of Nonprofit Director",
         },
         {
-            txt: "From start to finish, the Infinitidigital team was professional, creative, and attentive to our needs. They crafted a website that reflects our mission and engages visitors effectively. The final product exceeded all our expectations, and we’ve already noticed increased support and interest in our cause. I highly recommend it!",
+            txt: "Infinitidigital transformed our ideas into a beautifully designed, high-functioning iOS app. Their team was professional and efficient, delivering a product that exceeded our expectations. The app’s user experience is exceptional, and we’ve noticed a sharp increase in user retention. We couldn’t be happier with the results—thanks for bringing our vision to life!",
             icon: <ClutchLogo />,
-            namee: "Emily M.",
+            namee: "Michael Carter",
             job: "Founder of StyleHive Boutique",
         }
     ]
@@ -508,25 +379,29 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "What industries do you design websites for?",
-            txt: "We work across all industries, tailoring designs to meet each business's unique needs. From e-commerce to corporate, we ensure every website stands out. Our goal is to enhance user engagement and drive business success."
+            title: "What is iOS app development?",
+            txt: "iOS app development is creating mobile applications specifically for Apple's iOS platform. It involves designing, coding, and testing apps to ensure they function smoothly on iPhones and iPads. The goal is to create an engaging user experience that aligns with your business objectives and enhances your brand."
         },
         {
-            title: "How long does the website design process take?",
-            txt: "The timeline depends on the project scope, but most websites are completed within 4-8 weeks. We work closely with clients to ensure timely delivery. Each project gets the attention it deserves to meet your goals."
+            title: "How long does it take to develop an iOS app?",
+            txt: "The time required for iOS app development depends on the app’s complexity and features. An essential app can typically take 3-6 months, while more complex projects may take longer. Our team at Infinitidigital works efficiently to deliver high-quality results within agreed timelines."
         },
         {
-            title: "Do you offer support after the website is launched?",
-            txt: "Yes, we provide post-launch support to ensure everything runs smoothly. Our team is available to address any concerns or issues. We help keep your website updated and functional in the long term."
+            title: "Do you provide app maintenance after launch?",
+            txt: "Yes! We offer post-launch maintenance services to ensure your app remains up-to-date and optimized. Our team will handle bug fixes, updates, and adding new features. Regular maintenance helps to keep your app in line with evolving user expectations and software updates."
         },
         {
-            title: "Can you redesign my existing website?",
-            txt: "Absolutely! We specialize in modernizing outdated websites for improved design and functionality. We ensure your site reflects current trends and engages your audience. A fresh, functional redesign can boost your business."
+            title: "Can you develop custom features for my app?",
+            txt: "Absolutely! We specialize in creating custom features tailored to your business needs. Whether integrated with third-party services, advanced analytics, or unique functionalities, we can bring your ideas to life. Let us know your requirements, and we’ll make them a reality!"
         },
         {
-            title: "Are your designs mobile-friendly?",
-            txt: "Yes, every website we design is fully responsive and optimized for all devices. Whether it's a phone, tablet, or desktop, your website will function flawlessly. Mobile optimization is key to reaching a wider audience."
-        }
+            title: "Will my app be optimized for performance?",
+            txt: "Yes, performance optimization is a top priority during our development process. We ensure your app loads quickly, runs smoothly, and consumes minimal resources. A fast, well-optimized app enhances the user experience and improves retention."
+        },
+        {
+            title: "How do you ensure the security of my app?",
+            txt: "We prioritize security throughout the app development by incorporating encryption, secure APIs, and data protection protocols. Our team follows best practices to prevent vulnerabilities and ensure user data remains safe. You can trust us to create a secure environment for your app’s users."
+        },
     ]
 
 }

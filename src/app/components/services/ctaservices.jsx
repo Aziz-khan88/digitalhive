@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import CommonBtn from "@/src/app/components/common/commonbtn"
 import styles from "@/styles/services/ctaservices.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 
@@ -11,7 +11,7 @@ const CtaServices = ({ data }) => {
                     <Col md={6} lg={6} className="my-auto">
                         <div className={styles.ctaServicesTitle}>
                             <h2>{data.title}</h2>
-                            <Link href="#" className='commonBtn'>Get Free Consultation</Link>
+                            <CommonBtn txt="Get Free Consultation" />
                         </div>
                     </Col>
                     <Col md={6} lg={6} className='ms-auto text-lg-right'>
