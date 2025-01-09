@@ -32,7 +32,7 @@ const Header = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col xs={6} md={2} lg={3} className="my-auto">
-                        <Link href="/" className={`${styles.mainLogo} `}>
+                        <Link href="/" className={`${styles.mainLogo} `} aria-label="Visit our website">
                             <MainLogo />
                         </Link>
                     </Col>
@@ -40,7 +40,7 @@ const Header = () => {
                         <Navigation scrolled={scrolled} isLight={isLight} />
                     </Col>
                     <Col xs={6} md={2} lg={3} className="my-auto d-md-block d-none">
-                        <Link href="/" className={`commonBtn ${styles.lastBtn}`}>
+                        <Link href="tel:123-123123" className={`commonBtn ${styles.lastBtn}`} aria-label="Visit our Contact">
                             +1 312 379 5987
                         </Link>
                     </Col>

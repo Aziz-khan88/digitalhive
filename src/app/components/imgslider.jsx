@@ -15,7 +15,7 @@ const ImgSlider = (props) => {
             <section className={styles.embla} dir={options.direction === 'rtl' ? 'rtl' : ''}>
                 <div className={styles.embla__viewport} ref={emblaRef}>
                     <div className={styles.embla__container}>
-                        {slides.LastestWorkItem.map((item, index) => (
+                        {slides.map((item, index) => (
                             <div className={styles.embla__slide} key={index}>
                                 <div className={styles.imgBox}>
                                     <Image src={item.img} fill alt={`Image-${index}`} />

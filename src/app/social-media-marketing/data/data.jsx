@@ -254,12 +254,25 @@ import Img09 from "media/services/social-media-marketing/latestwork/9.webp"
 import Img10 from "media/services/social-media-marketing/latestwork/10.webp"
 import Img11 from "media/services/social-media-marketing/latestwork/11.webp"
 import Img12 from "media/services/social-media-marketing/latestwork/12.webp"
+import Img13 from "media/services/social-media-marketing/latestwork/13.webp"
+import Img14 from "media/services/social-media-marketing/latestwork/14.webp"
+import Img15 from "media/services/social-media-marketing/latestwork/15.webp"
+import Img16 from "media/services/social-media-marketing/latestwork/16.webp"
+import Img17 from "media/services/social-media-marketing/latestwork/17.webp"
+import Img18 from "media/services/social-media-marketing/latestwork/18.webp"
+import Img19 from "media/services/social-media-marketing/latestwork/19.webp"
+import Img20 from "media/services/social-media-marketing/latestwork/20.webp"
+import Img21 from "media/services/social-media-marketing/latestwork/21.webp"
+import Img22 from "media/services/social-media-marketing/latestwork/22.webp"
+import Img23 from "media/services/social-media-marketing/latestwork/23.webp"
+import Img24 from "media/services/social-media-marketing/latestwork/24.webp"
+
 
 export const LastestWorkData = {
     subtitle: "Our Latest Work",
     title: "Driving Results That Speak for Themselves",
     desc: "How do you know we deliver? Just look at the success stories.From viral campaigns to measurable ROI, our work speaks louder than words.At Infinitidigital, we don’t just discuss results—we show them.",
-    LastestWorkItem: [
+    LastestWorkItem1: [
         { img: Img01.src },
         { img: Img02.src },
         { img: Img03.src },
@@ -268,10 +281,28 @@ export const LastestWorkData = {
         { img: Img06.src },
         { img: Img07.src },
         { img: Img08.src },
+    ],
+    LastestWorkItem2: [
         { img: Img09.src },
         { img: Img10.src },
         { img: Img11.src },
         { img: Img12.src },
+        { img: Img13.src },
+        { img: Img14.src },
+        { img: Img15.src },
+        { img: Img16.src },
+
+    ],
+    LastestWorkItem3: [
+        { img: Img17.src },
+        { img: Img18.src },
+        { img: Img19.src },
+        { img: Img20.src },
+        { img: Img21.src },
+        { img: Img22.src },
+        { img: Img23.src },
+        { img: Img24.src },
+
     ]
 
 }

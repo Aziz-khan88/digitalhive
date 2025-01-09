@@ -18,9 +18,9 @@ const LatestWork = ({ data }) => {
           </Col>
           <Col md={12} className='my-auto'>
             <div className={styles.latestworkBox}>
-              <ImgSlider slides={data} options={OPTIONS2} />
-              <ImgSlider slides={data} options={OPTIONS1} />
-              <ImgSlider slides={data} options={OPTIONS2} />
+              <ImgSlider slides={data.LastestWorkItem1} options={OPTIONS2} />
+              <ImgSlider slides={data.LastestWorkItem2} options={OPTIONS1} />
+              <ImgSlider slides={data.LastestWorkItem3} options={OPTIONS2} />
             </div>
           </Col>
         </Row>
