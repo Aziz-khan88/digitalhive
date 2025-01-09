@@ -4,7 +4,7 @@ import BannerPoster from "media/innerservices/social-media-management/bannerImg.
 export const BannerData = {
     title: "Supercharge Your Brand with Social Media Advertising ",
     desc: "Is your social media strategy truly driving growth, or is it just another task on your to-do list? Let’s turn your platforms into powerful tools for engagement, visibility, and results. Because when done right, social media doesn’t just get noticed—it delivers real business impact.",
-    video: "#",
+    video: "",
     BannerPoster: BannerPoster.src
 }
 

@@ -16,7 +16,7 @@ const NewsLetter = ({ data, bgBlack }) => {
                         </div>
 
                     </Col>
-                    <Col md={5} className="my-auto">
+                    <Col md={5} className="my-auto pe-0">
                         <div className={styles.newsletterVideo}>
                             <Image src={data.img} alt="Image" fill />
                         </div>

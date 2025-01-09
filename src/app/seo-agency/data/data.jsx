@@ -178,119 +178,6 @@ export const ProcessData = {
 }
 
 
-// Pricing
-export const PriceData = {
-    subtitle: "Our Pricing",
-    title: "Affordable SEO Packages Tailored to You",
-    desc: "Find the right SEO solution for your business without breaking the bank. Our flexible packages cater to businesses of all sizes, ensuring impactful results that align with your budget and goals.",
-    PriceItem: [
-        {
-            bgColor: "#7635FF",
-            packagename: "Basic Package",
-            price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
-        },
-        {
-            bgColor: "#FF6987",
-            packagename: "Advanced Package",
-            price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
-        },
-        {
-            bgColor: "#9AFF35",
-            packagename: "Enterprise Package",
-            price: "750",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
-        }
-    ]
-};
-
-
-
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
@@ -306,25 +193,25 @@ export const TestimonialData = {
         },
         {
             txt: "We couldn’t be happier with Infinitidigital’s work. Their in-depth keyword research and technical improvements helped us reach the first page of Google for key terms. Their tailored approach addressed our unique challenges, and their team’s dedication ensured we stayed ahead of the competition. Thanks to their expertise, our ROI has been phenomenal, and our business continues to thrive.",
-            icon: <ClutchLogo />,
+            icon: <TrustpilotLogo />,
             namee: "James L.",
             job: "Financial Consultant",
         },
         {
             txt: "Infinitidigital’s team went above and beyond to understand our unique challenges. Their content strategies and backlink building delivered incredible results. We’ve seen record-breaking engagement and an increase in qualified leads. The transformation in our online visibility has been astounding, and their ongoing support makes them an invaluable partner for us.",
-            icon: <ClutchLogo />,
+            icon: <GoogleLogo />,
             namee: "Emily R.",
             job: "SaaS Company",
         },
         {
             txt: "Before partnering with Infinitidigital, we struggled to connect with local customers. Their local SEO strategies helped us rank higher and brought consistent traffic to our site. Their comprehensive reporting and actionable insights were invaluable. Thanks to their efforts, our customer base has grown significantly, and we’ve achieved consistent, measurable success.",
-            icon: <ClutchLogo />,
+            icon: <Forbes />,
             namee: "Daniel C.",
             job: "Local Mechanic Shop",
         },
         {
             txt: "Infinitidigital’s expertise has been a game-changer for our business. From crafting compelling content to optimizing our site’s performance, every step was meticulously handled. The increase in traffic and conversions has been incredible, and their ongoing support ensures our continued growth. Their ability to deliver results while keeping us informed is unmatched.",
-            icon: <ClutchLogo />,
+            icon: <Upcity />,
             namee: "Olivia M.",
             job: "Art Studio Owner",
         },

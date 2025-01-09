@@ -275,173 +275,117 @@ export const LastestWorkData = {
     ]
 
 }
-//Awards
-import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, MenuIcon } from "@/src/app/app-constants";
-export const AwardsData = {
-    subtitle: "Awards & Recognitions",
-    title: "Recognized for Excellence in Social Media Marketing",
-    desc: "Discover the awards and recognitions that showcase our dedication to creativity, innovation, and tangible results in social media marketing.",
-    slides: [
-        {
-            txt: "Recognized for excellence in delivering innovative digital solutions that drive measurable results for businesses worldwide.",
-            icon: <ClutchLogo />,
-
-        },
-        {
-            txt: "Highly rated for customer satisfaction, transparency, and proven strategies that help brands thrive.",
-            icon: <TrustpilotLogo />,
-
-        },
-        {
-            txt: "Celebrated for our expertise in SEO, PPC, and delivering top-notch digital growth through industry-leading practices.",
-            icon: <GoogleLogo />,
-
-        },
-        {
-            txt: "Honored as a trusted member for thought leadership and exceptional contributions to the digital marketing industry.",
-            icon: <Forbes />,
-
-        },
-        {
-            txt: "Recognized for consistently delivering outstanding marketing solutions and fostering meaningful business growth for clients across industries.",
-            icon: <Upcity />,
-
-        },
-        {
-            txt: "Celebrated for innovative use of technology in crafting highly effective digital marketing campaigns that set new benchmarks.",
-            icon: <GoogleLogo />,
-
-        }
-
-    ]
-}
-//Platforms 
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
-export const PlatformsData = {
-    subtitle: "Platforms For You",
-    title: "Platforms We Specialize In",
-    desc: "We manage your brand presence on the platforms that matter most, ensuring every campaign resonates with the right audience and drives measurable engagement.",
-    img: ImgBg.src,
-    SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-    ]
-}
-// Creatives 
-import CreativeImg1 from "media/services/social-media-marketing/Influencer/Influencer1.webp"
-import CreativeImg2 from "media/services/social-media-marketing/Influencer/Influencer2.webp"
-import CreativeImg3 from "media/services/social-media-marketing/Influencer/Influencer3.webp"
-export const CreativesData = {
-    subtitle: "Delighted Influencers",
-    title: "Stand Out with Bold, Engaging Creatives",
-    desc: "Capture attention and outshine competitors with creative content that resonates. Our dynamic visuals and innovative storytelling are designed to make your brand unforgettable, connecting you with audiences in a way that drives engagement and builds loyalty.",
-    CreativesItems: [
-        {
-            txt: "2.5M followers",
-            namee: "@roger",
-            job: "Travel Influencer",
-            img: CreativeImg1.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@lydia",
-            job: "Lifestyle Influencer",
-            img: CreativeImg2.src,
-        }
-        ,
-        {
-            txt: "2.5M followers",
-            namee: "@marialevin",
-            job: "Content Creator",
-            img: CreativeImg3.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@roger",
-            job: "Travel Influencer",
-            img: CreativeImg1.src,
-        },
-        {
-            txt: "2.5M followers",
-            namee: "@lydia",
-            job: "Lifestyle Influencer",
-            img: CreativeImg2.src,
-        }
-        ,
-        {
-            txt: "2.5M followers",
-            namee: "@marialevin",
-            job: "Content Creator",
-            img: CreativeImg3.src,
-        },
-    ]
-}
-// Testimonials
-import TEST01 from "media/services/social-media-marketing/testimonial/test01.webp"
-import TEST02 from "media/services/social-media-marketing/testimonial/test02.webp"
-import TEST03 from "media/services/social-media-marketing/testimonial/test03.webp"
-import TEST04 from "media/services/social-media-marketing/testimonial/test04.webp"
+//Testimonials
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Our Testimonials",
     title: "Hear From Our Happy Clients",
     desc: "Real results. Real stories. See how businesses like yours have transformed their social media presence with our innovative solutions.",
+    Testslider: [
+        {
+            txt: "Inifnitidigital transformed our online presence. From zero visibility to ranking on the first page of search results, they exceeded our expectations. Their team’s keen insights, data-driven approach, and commitment helped us tap into audiences we didn’t know we could reach. Working with them has been a breath of fresh air, and we now feel more confident about our brand’s growth.",
+            icon: <ClutchLogo />,
+            namee: "Amanda T.",
+            job: "Founder of BrightTech Solutions",
+        },
+        {
+            txt: "Their team’s dedication and expertise are unmatched. Since partnering with Inifnitidigital, our sales have doubled, and our customer base continues to expand. They understood our business challenges and implemented solutions that aligned perfectly with our goals. Their strategies for paid campaigns and content optimization brought impressive results, and we’re proud to call them a long-term partner in our success.",
+            icon: <TrustpilotLogo />,
+            namee: "James M.",
+            job: "COO of NovaRetail Solutions",
+        },
+        {
+            txt: "Inifnitidigital helped us exceed our targets with a well-rounded digital strategy tailored to our needs. From increasing website traffic to improving conversion rates, every milestone was backed by their expertise and dedication. Their team is responsive, professional, and results-oriented. We couldn’t be happier with the partnership.",
+            icon: <GoogleLogo />,
+            namee: "Sarah K.",
+            job: "MD at GreenWave Industries",
+        },
+        {
+            txt: "Partnering with Inifnitidigital was our best decision for our brand’s growth. Our campaigns have seen significant improvement, and their guidance has been pivotal in streamlining our marketing efforts. The results speak for themselves—better engagement, higher visibility, and real ROI.",
+            icon: <TrustpilotLogo />,
+            namee: "Tom L.",
+            job: "CEO of BuildPro Solutions",
+        },
+        {
+            txt: "Our online sales skyrocketed after working with Infinitidigital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
+            icon: <ClutchLogo />,
+            namee: "Emily R.",
+            job: "Founder of StyleHive Boutique",
+        }
+    ]
+}
+
+// Influencers
+
+import KyleecampBell from "media/services/social-media-marketing/testimonial/@kyleecampbell.webp"
+import JulesJessica from "media/services/social-media-marketing/testimonial/@julesjessica.webp"
+import ListingWithLexi from "media/services/social-media-marketing/testimonial/@ListingWithLexi.webp"
+import JaimeGabaldoni from "media/services/social-media-marketing/testimonial/@jaime_gabaldoni.webp"
+import BlissedHappiness from "media/services/social-media-marketing/testimonial/@blissedhappiness.webp"
+import PbadvanceDaeshetics from "media/services/social-media-marketing/testimonial/@pbadvancedaesthetics.webp"
+import OdyssEyeLixir from "media/services/social-media-marketing/testimonial/@odysseyelixir.webp"
+import Cece_Barnes from "media/services/social-media-marketing/testimonial/@cece_barnes.webp"
+import JuliAkhara from "media/services/social-media-marketing/testimonial/@juliakhara.webp"
+export const CreativesData = {
+    subtitle: "Delighted Influencers",
+    title: "Stand Out with Bold, Engaging Creatives",
+    desc: "Capture attention and outshine competitors with creative content that resonates. Our dynamic visuals and innovative storytelling are designed to make your brand unforgettable, connecting you with audiences in a way that drives engagement and builds loyalty.",
     TestimonialItem: [
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST01.src,
+            title: "@kyleecampbell",
+            followers: "2.5M followers",
+            img: KyleecampBell.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025063978/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d283dfca3cedf261ae45bed8cab7851db1615720816cfaf43f1e47bb014df32c"
         },
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST02.src,
+            title: "@julesjessica",
+            followers: "2.5M followers",
+            img: JulesJessica.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025066117/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8d1a86947dcae31184561ad5f8fb908d67055513b640b4c40fd7312534178fb0"
         },
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST03.src,
+            title: "@ListingWithLexi",
+            followers: "2.5M followers",
+            img: ListingWithLexi.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025066183/rendition/1080p/file.mp4?loc=external&log_user=0&signature=9ffac14f02ce8697f6db1f3f70b5d434a23d5fdf1e9412a5f47571de8e9ec230"
         },
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST04.src,
+            title: "@jaime_gabaldoni",
+            followers: "2.5M followers",
+            img: JaimeGabaldoni.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025066071/rendition/1080p/file.mp4?loc=external&log_user=0&signature=bad7c7d8ee92a5255fac15114d27d741de6ab32bf6d704a69f102ba25d8091fa"
         },
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST01.src,
+            title: "@blissedhappiness",
+            followers: "2.5M followers",
+            img: BlissedHappiness.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025066007/rendition/720p/file.mp4?loc=external&log_user=0&signature=c3b1fd513e8b3d4de419bb2dbdfa09b1204254989f6f1b3da8373382ea13b6ea"
         },
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST01.src,
+            title: "@pbadvancedaesthetics",
+            followers: "2.5M followers",
+            img: PbadvanceDaeshetics.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025066285/rendition/720p/file.mp4?loc=external&log_user=0&signature=b066eb183249e621627614175fe47e0f457c98a45846a87ff47ce719a6e66027"
         },
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST02.src,
+            title: "@odysseyelixir",
+            followers: "2.5M followers",
+            img: OdyssEyeLixir.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025066238/rendition/1080p/file.mp4?loc=external&log_user=0&signature=46c97b9249be10bc57cd45bad5b1ce675c6e10b284f8a7f0cf54d4e91953ac61"
         },
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST03.src,
+            title: "@cece_barnes",
+            followers: "2.5M followers",
+            img: Cece_Barnes.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025066042/rendition/720p/file.mp4?loc=external&log_user=0&signature=c0d7439d62c18c7485d83502527f1ea62fe0b02d9e3afd2ca667b378bbfa0cf9"
         },
         {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST04.src,
+            title: "@juliakhara",
+            followers: "2.5M followers",
+            img: JuliAkhara.src,
+            videoUrl: "https://player.vimeo.com/progressive_redirect/playback/1025066139/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3cb38a1ecd6989c375ae7cf2d0734c140ca327551422edce447ebddd1174c0e3"
         },
-        {
-            title: "Daniel Gonzalez",
-            txt: "CTO / Pronftdesign.com",
-            Img: TEST01.src,
-        },
+
     ]
 }
 

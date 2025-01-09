@@ -16,7 +16,8 @@ const Page = () => {
                             <Image src={ContactBG.src} alt="Contact BG" fill />
                         </Col>
                         <Col md={6} className="m-auto">
-                            <ContactFrom bg="no" />
+
+                            <ContactFrom bg="no" contactPage={true} />
                         </Col>
                     </Row>
                 </Container>

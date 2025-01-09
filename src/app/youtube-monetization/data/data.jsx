@@ -4,7 +4,7 @@ import BannerPoster from "media/innerservices/youtube-monetization/bannerImg.web
 export const BannerData = {
     title: "Let’s Turn Views into Revenue ",
     desc: "Your passion deserves more than views—it deserves revenue. At Infinitidigital, we specialize in helping creators like you monetize their channels effectively. From ad revenue optimization to audience growth strategies, we provide the expertise you need to maximize your channel’s earning potential.",
-    video: "#",
+    video: "",
     BannerPoster: BannerPoster.src
 }
 

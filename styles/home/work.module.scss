@@ -24,7 +24,7 @@
         }
 
         .categoryList {
-            margin: 10px 0px 40px;
+            margin: 10px 0px 20px;
             display: flex;
             gap: 15px;
 
@@ -142,8 +142,37 @@
                             transition: opacity 0.5s ease, transform 0.5s ease;
                             padding: 10px 20px 20px 30px;
 
+                            h5 {
+                                color: #fff;
+                                margin-bottom: 5px;
+                            }
+
                             p {
                                 color: #fff;
+                                font-size: 16px;
+                                line-height: 24px;
+                                margin-bottom: 10px;
+                            }
+
+                            .btnReaMore {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 30px;
+                                letter-spacing: -0.165px;
+                                color: #9AFF35;
+                                text-transform: capitalize;
+                                cursor: pointer;
+
+                                svg {
+                                    height: 16px;
+                                    width: auto;
+                                    margin-right: 10px;
+
+                                    path {
+                                        stroke: #9AFF35;
+                                    }
+                                }
                             }
                         }
 
@@ -173,12 +202,12 @@
                             flex: 0 0 570px;
                             transition: flex 0.3s ease, padding-left 0.3s ease;
 
+
                             .workImage {
                                 z-index: 9;
 
                                 &::after {
                                     opacity: 1;
-
                                 }
                             }
 
@@ -200,8 +229,6 @@
                                 opacity: 1;
                                 transform: translateY(0);
                                 z-index: 9;
-
-
                             }
                         }
                     }
@@ -232,7 +259,7 @@
             }
 
             .categoryList {
-                margin: 10px 0px 40px;
+                margin: 10px 0px 20px;
                 gap: 12px;
 
                 li {
@@ -294,6 +321,15 @@
                                     left: 0;
                                     z-index: 9;
                                     animation: fadeInUp 0.5s ease forwards;
+
+                                    .btnReaMore {
+                                        font-size: 16px;
+
+                                        svg {
+                                            height: 16px;
+                                            margin-right: 10px;
+                                        }
+                                    }
                                 }
 
                                 .arrowBg {
@@ -322,7 +358,7 @@
             }
 
             .categoryList {
-                margin: 10px 0px 40px;
+                margin: 10px 0px 20px;
                 gap: 12px;
 
                 li {
@@ -339,16 +375,34 @@
                         margin-left: calc(15px * -1);
 
                         .embla__slide {
-                            flex: 0 0 350px;
+                            flex: 0 0 320px;
                             padding-left: 15px;
 
                             .workImage {
                                 height: 450px;
+                                border-radius: 20px;
 
+                                img {
+                                    border-radius: 20px;
+                                }
                             }
 
                             .workContent {
                                 padding: 10px 20px 20px 30px;
+
+                                p {
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                }
+
+                                .btnReaMore {
+                                    font-size: 16px;
+
+                                    svg {
+                                        height: 16px;
+                                        margin-right: 10px;
+                                    }
+                                }
                             }
 
                             .arrowBg {
@@ -381,7 +435,7 @@
             }
 
             .categoryList {
-                margin: 10px 0px 30px;
+                margin: 10px 0px 15px;
                 gap: 12px;
 
                 li {
@@ -403,11 +457,29 @@
 
                             .workImage {
                                 height: 420px;
+                                border-radius: 20px;
 
+                                img {
+                                    border-radius: 20px;
+                                }
                             }
 
                             .workContent {
                                 padding: 10px 20px 20px 30px;
+
+                                p {
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                }
+
+                                .btnReaMore {
+                                    font-size: 15px;
+
+                                    svg {
+                                        height: 15px;
+                                        margin-right: 10px;
+                                    }
+                                }
                             }
 
                             .arrowBg {
@@ -441,13 +513,13 @@
 
             .categoryList {
                 margin: 10px 0px 30px;
-                gap: 10px;
+                gap: 5px;
 
                 li {
                     height: 40px;
                     font-size: 13px;
                     line-height: 40px;
-                    padding: 0px 20px;
+                    padding: 0px 15px;
                 }
             }
 
@@ -457,16 +529,35 @@
                         margin-left: calc(10px * -1);
 
                         .embla__slide {
-                            flex: 0 0 280px;
+                            flex: 0 0 260px;
                             padding-left: 10px;
 
                             .workImage {
-                                height: 400px;
+                                height: 380px;
+                                border-radius: 20px;
+
+                                img {
+                                    border-radius: 20px;
+                                }
 
                             }
 
                             .workContent {
                                 padding: 10px 20px 20px 30px;
+
+                                p {
+                                    font-size: 13px;
+                                    line-height: 21px;
+                                }
+
+                                .btnReaMore {
+                                    font-size: 14px;
+
+                                    svg {
+                                        height: 14px;
+                                        margin-right: 5px;
+                                    }
+                                }
                             }
 
                             .arrowBg {
@@ -501,12 +592,14 @@
             .categoryList {
                 margin: 10px 0px 30px;
                 gap: 10px;
+                flex-wrap: wrap;
 
                 li {
+                    flex: 0 0 calc(33.33% - 10px);
                     height: 40px;
                     font-size: 13px;
                     line-height: 40px;
-                    padding: 0px 20px;
+                    padding: 0px 15px;
                 }
             }
 
@@ -526,6 +619,20 @@
 
                             .workContent {
                                 padding: 10px 20px 20px 30px;
+
+                                p {
+                                    font-size: 13px;
+                                    line-height: 21px;
+                                }
+
+                                .btnReaMore {
+                                    font-size: 14px;
+
+                                    svg {
+                                        height: 14px;
+                                        margin-right: 5px;
+                                    }
+                                }
                             }
 
                             .arrowBg {
@@ -560,8 +667,10 @@
             .categoryList {
                 margin: 10px 0px 20px;
                 gap: 5px;
+                flex-wrap: wrap;
 
                 li {
+                    flex: 0 0 calc(33.33% - 10px);
                     height: 35px;
                     font-size: 12px;
                     line-height: 35px;
@@ -585,6 +694,20 @@
 
                             .workContent {
                                 padding: 10px 20px 20px 30px;
+
+                                p {
+                                    font-size: 13px;
+                                    line-height: 21px;
+                                }
+
+                                .btnReaMore {
+                                    font-size: 14px;
+
+                                    svg {
+                                        height: 14px;
+                                        margin-right: 5px;
+                                    }
+                                }
                             }
 
                             .arrowBg {
@@ -618,15 +741,17 @@
 
             .categoryList {
                 margin: 10px 0px 20px;
-                gap: 5px;
+                justify-content: space-between;
                 flex-wrap: wrap;
+                gap: 0px;
 
                 li {
                     height: 35px;
                     font-size: 12px;
                     line-height: 35px;
-                    padding: 0px 20px;
-                    flex: 0 0 100%;
+                    padding: 0px 15px;
+                    flex: 0 0 calc(50% - 3px);
+                    margin-bottom: 6px;
 
                 }
             }
@@ -647,6 +772,20 @@
 
                             .workContent {
                                 padding: 10px 20px 20px 30px;
+
+                                p {
+                                    font-size: 13px;
+                                    line-height: 21px;
+                                }
+
+                                .btnReaMore {
+                                    font-size: 14px;
+
+                                    svg {
+                                        height: 14px;
+                                        margin-right: 5px;
+                                    }
+                                }
                             }
 
                             .arrowBg {

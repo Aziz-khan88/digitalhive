@@ -7,10 +7,11 @@ import { ArrowIcon } from "@/src/app/app-constants";
 import useEmblaCarousel from 'embla-carousel-react'
 import SliderArrow from "@/src/app/components/sliderarrow";
 import CommonBtn from "@/src/app/components/common/commonbtn"
+import Autoplay from 'embla-carousel-autoplay'
 const OPTIONS = { loop: true, align: 'start' }
 
 const Work = ({ data, category }) => {
-    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS)
+    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })])
     const prevButtonHandler = () => {
         if (emblaApi) emblaApi.scrollPrev();
     };

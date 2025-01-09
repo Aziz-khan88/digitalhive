@@ -4,7 +4,7 @@ import BannerPoster from "media/innerservices/email-marketing/bannerImg.webp"
 export const BannerData = {
     title: "Drive Results with Targeted Email Marketing",
     desc: "At Infinitidigital, we craft personalized email marketing campaigns to maximize engagement and drive results. Whether you’re looking to increase brand awareness, nurture leads, or boost sales, our data-driven strategies deliver impactful outcomes for your business.",
-    video: "#",
+    video: "",
     BannerPoster: BannerPoster.src
 }
 

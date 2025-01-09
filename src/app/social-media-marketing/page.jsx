@@ -7,9 +7,9 @@ import FollowUs from '@/src/app/home/followus'
 import Industries from '@/src/app/home/Industries'
 import Work from '@/src/app/components/services/work'
 import PlateFroms from '@/src/app/home/plateform'
+import Testimonials from '@/src/app/home/testimonials'
 import Banner from '@/src/app/components/services/banner'
 import ContentSection from '@/src/app/components/services/contentsection'
-import Creatives from '@/src/app/components/services/creatives'
 import CTA from '@/src/app/components/services/cta'
 import CtaServices from '@/src/app/components/services/ctaservices'
 import LatestWork from '@/src/app/components/services/latestwork'
@@ -17,8 +17,9 @@ import Opportunities from '@/src/app/components/services/opportunities'
 import Pricing from '@/src/app/components/services/pricing'
 import Solution from '@/src/app/components/services/solution'
 import TestimonialServices from '@/src/app/components/services/testimonialservice'
-import { BannerData, CallActionData, ContentData, CreativesData, CtaData, CtaPinkData, FAQsData, LastestWorkData, OpportunitiesData, PriceData, SolData, TestimonialData } from '@/src/app/social-media-marketing/data/data'
+import { BannerData, CallActionData, ContentData, CtaData, CtaPinkData, FAQsData, LastestWorkData, OpportunitiesData, PriceData, SolData, CreativesData, TestimonialData } from '@/src/app/social-media-marketing/data/data'
 import { AwardsData, IndustriesData, PlatformsData, FollowsData, BlgosData, IndustryItem, WorkData } from '@/src/app/home/data/data'
+
 
 const Page = () => {
     return (
@@ -35,8 +36,8 @@ const Page = () => {
             <LatestWork data={LastestWorkData} />
             <Awards data={AwardsData} />
             <PlateFroms data={PlatformsData} />
-            <Creatives data={CreativesData} />
-            <TestimonialServices data={TestimonialData} />
+            <Testimonials data={TestimonialData} />
+            <TestimonialServices data={CreativesData} />
             <CtaForm data={CallActionData} />
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />

@@ -10,12 +10,12 @@ import CtaForm from '@/src/app/home/ctaform'
 import FollowUs from '@/src/app/home/followus'
 import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
-import { FollowsData, IndustryItem, PartnerData, CallActionData, BlgosData } from '@/src/app/home/data/data'
+import { FollowsData, IndustryItem, PartnerData, CallActionData, WorkData, BlgosData } from '@/src/app/home/data/data'
 import ContentSection from '@/src/app/components/innerservices/content'
 import ContentAlternet from '@/src/app/components/innerservices/contentalternet'
-import { BannerData, ServicesData, NewsLetterData, ContentData, ContentData1, ProcessData, WorkData, PriceData, TestimonialData, IndustriesData, FAQsData } from '@/src/app/white-label-seo/data/data'
+import { BannerData, ServicesData, NewsLetterData, ContentData, ContentData1, ProcessData, TestimonialData, IndustriesData, FAQsData } from '@/src/app/white-label-seo/data/data'
 import ServicesMain from '@/src/app/components/services/servicesmain'
-
+import { PriceData } from '@/src/app/seo/data/data'
 
 
 const Page = () => {
@@ -27,7 +27,7 @@ const Page = () => {
             <ContentAlternet data={ContentData1} alternat="yes" />
             <Process data={ProcessData} />
             <NewsLetter data={NewsLetterData} />
-            <Work data={WorkData} />
+            <Work data={WorkData} category="Seo" />
             <Pricing bg="yes" data={PriceData} />
             <Partners data={PartnerData} />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />

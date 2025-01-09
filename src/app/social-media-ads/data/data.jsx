@@ -4,7 +4,7 @@ import BannerPoster from "media/innerservices/social-media-ads/bannerImg.webp"
 export const BannerData = {
     title: "Social Media Advertising Services",
     desc: "Isn't it time to supercharge your online presence? We apply expert social media strategies to accelerate growth, increase local sales, and strengthen your brand’s image.",
-    video: "#",
+    video: "",
     BannerPoster: BannerPoster.src
 }
 

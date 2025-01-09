@@ -3,13 +3,13 @@ import styles from "@/styles/home/awards.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import useEmblaCarousel from 'embla-carousel-react'
 import SliderArrow from "@/src/app/components/sliderarrow";
-
+import Autoplay from 'embla-carousel-autoplay'
 
 
 
 const OPTIONS = { loop: true, align: 'start' }
 const Awards = ({ data }) => {
-    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS)
+    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })])
     const prevButtonHandler = () => {
         if (emblaApi) emblaApi.scrollPrev();
     };

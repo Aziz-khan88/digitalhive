@@ -61,9 +61,11 @@ const Work = ({ data }) => {
                                                 <Image src={item.Img} alt={`Image ${index}`} fill />
                                             </div>
                                             <div className={styles.workContent}>
-                                                <h4>{item.title}</h4>
+                                                <h5>{item.title}</h5>
                                                 <p>{item.txt}</p>
-                                                <CommonBtn txt="Get Free Consultation" />
+                                                <div className={styles.btnReaMore}>
+                                                    <CommonBtn txt="Get Free Consultation" ArrowBtn={true} />
+                                                </div>
                                             </div>
                                             <Link href={item.url} className={styles.arrowBg}>
                                                 <ArrowIcon />

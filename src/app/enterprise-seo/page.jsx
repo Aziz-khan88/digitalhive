@@ -13,9 +13,9 @@ import Faqs from '@/src/app/home/faq'
 import { FollowsData, IndustryItem, PartnerData, IndustriesData, BlgosData, WorkData } from '@/src/app/home/data/data'
 import ContentSection from '@/src/app/components/innerservices/content'
 import ContentAlternet from '@/src/app/components/innerservices/contentalternet'
-import { BannerData, ServicesData, NewsLetterData, ContentData, ContentData1, ProcessData, CallActionData, TestimonialData, PriceData, FAQsData } from '@/src/app/enterprise-seo/data/data'
+import { BannerData, ServicesData, NewsLetterData, ContentData, ContentData1, ProcessData, CallActionData, TestimonialData, FAQsData } from '@/src/app/enterprise-seo/data/data'
 import ServicesMain from '@/src/app/components/services/servicesmain'
-
+import { PriceData } from '@/src/app/seo/data/data'
 
 
 const Page = () => {
@@ -26,7 +26,7 @@ const Page = () => {
             <ContentSection data={ContentData} />
             <ContentAlternet data={ContentData1} alternat="yes" />
             <Process data={ProcessData} />
-            <NewsLetter data={NewsLetterData} bgBlack="yes" />
+            <NewsLetter data={NewsLetterData} />
             <Work data={WorkData} category="Seo" />
             <Pricing bg="yes" data={PriceData} />
             <Partners data={PartnerData} />

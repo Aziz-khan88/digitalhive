@@ -195,101 +195,193 @@ export const PriceData = {
         {
             bgColor: "#7635FF",
             packagename: "Basic Package",
-            price: "350",
-            txt: "Start building your online presence with an affordable package designed for small businesses.",
+            price: "399",
+            txt: "Designed for small businesses or startups looking to establish a foundation in SEO.",
             bodyPoints: [
                 {
-                    title: "Social Media Posts",
+                    title: "Setup",
                     points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
+                        "Website Sitemap",
+                        "Check for SEO Scope",
+                        "Custom 404 Page Setup / Nofollow Link Checkup",
                     ]
                 },
                 {
-                    title: "Social Platforms Supported",
+                    title: "Pages & Keywords",
                     points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
+                        "Up to 5 pages optimized",
+                        "Focused Keywords: 5",
                     ]
                 },
                 {
-                    title: "Social Ads Management",
+                    title: "On-page SEO",
                     points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
+                        "Web Content Optimization",
+                        "URL Structure Improvements",
+                        "Meta Tags (Title, Description, Header Tags)",
+                        "Image Alt Tags and Optimization: 5 images",
+                    ]
+                },
+                {
+                    title: "Technical Optimization",
+                    points: [
+                        "Fixing Crawl Errors",
+                        "Mobile-first Optimization",
+                        "Page Speed Optimization",
+                        "Core Web Vitals Improvements",
+                        "Schema Markup Implementation",
+                    ]
+                },
+                {
+                    title: "Progress Reporting",
+                    points: [
+                        "Basic Monthly Progress Reports",
                     ]
                 }
             ]
         },
         {
             bgColor: "#FF6987",
-            packagename: "Advanced Package",
-            price: "500",
-            txt: "Scale your social media impact with strategic content and enhanced SEO tactics.",
+            packagename: "Growth Package",
+            price: "999",
+            txt: "Ideal for businesses aiming to grow their organic reach and improve conversions.",
             bodyPoints: [
                 {
-                    title: "Social Media Posts",
+                    title: "Setup",
                     points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
+                        "Website Sitemap",
+                        "Check for SEO Scope",
+                        "Custom 404 Page Setup / Nofollow Link Checkup",
                     ]
                 },
                 {
-                    title: "Social Platforms Supported",
+                    title: "Pages",
                     points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
+                        "Up to 10 pages optimized",
                     ]
                 },
                 {
-                    title: "Social Ads Management",
+                    title: "Keyword Research",
                     points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
+                        "Focused Keywords: 10",
+                        "Keyphrase Optimization: 5",
+                    ]
+                },
+                {
+                    title: "On-page SEO",
+                    points: [
+                        "Meta Tags (Title, Description, Header Tags)",
+                        "Image Alt Tags and Optimization: 10 images",
+                        "URL Structure Improvements",
+                        "Web Content Optimization",
+                        "Anchor Text Optimization",
+                        "Landing Page Optimization",
+                    ]
+                },
+                {
+                    title: "Technical Optimization",
+                    points: [
+                        "Fixing Crawl Errors",
+                        "Mobile-first Optimization",
+                        "Page Speed Optimization",
+                        "Core Web Vitals Improvements",
+                        "Schema Markup Implementation",
+                    ]
+                },
+                {
+                    title: "Tracking & Analytics",
+                    points: [
+                        "Google Analytics Setup",
+                        "Basic Conversion Tracking",
+                        "Google Search Console Setup",
+                    ]
+                },
+                {
+                    title: "Progress Reporting",
+                    points: [
+                        "Google Analytics Reports",
+                        "Monthly Progress Reports with Recommendations",
+                    ]
+                },
+                {
+                    title: "Account Management",
+                    points: [
+                        "Dedicated Account Manager",
+                        "1-Hour Free Consultation (Per Month)",
                     ]
                 }
             ]
         },
         {
             bgColor: "#9AFF35",
-            packagename: "Enterprise Package",
-            price: "750",
-            txt: "For brands aiming to dominate their market with premium, SEO-driven strategies.",
+            packagename: "Premium Package",
+            price: "1850",
+            txt: "Best suited for businesses seeking comprehensive SEO strategies and advanced tracking.",
             bodyPoints: [
                 {
-                    title: "Social Media Posts",
+                    title: "Setup",
                     points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
+                        "Website Sitemap",
+                        "Check for SEO Scope",
+                        "Custom 404 Page Setup / Nofollow Link Checkup",
                     ]
                 },
                 {
-                    title: "Social Platforms Supported",
+                    title: "Pages",
                     points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
+                        "Up to 15 pages optimized",
                     ]
                 },
                 {
-                    title: "Social Ads Management",
+                    title: "Keyword Research",
                     points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
+                        "Focused Keywords: 15",
+                        "Keyphrase Optimization: 10",
+                    ]
+                },
+                {
+                    title: "On-page SEO",
+                    points: [
+                        "Landing Page Setup",
+                        "SGE Visibility Optimization ",
+                        "Web Content Optimization",
+                        "Anchor Text Optimization",
+                        "Landing Page Optimization",
+                        "URL Structure Improvements",
+                        "Meta Tags(Title, Description, Header Tags)",
+                        "Image Alt Tags and Optimization: 15 images",
+                    ]
+                },
+                {
+                    title: "Technical Optimization",
+                    points: [
+                        "Fixing Crawl Errors",
+                        "Mobile - first Optimization",
+                        "Page Speed Optimization",
+                        "Core Web Vitals Improvements",
+                        "Schema Markup Implementation",
+                    ]
+                },
+                {
+                    title: "Tracking & Analytics",
+                    points: [
+                        "Google Analytics Setup",
+                        "Google Search Console Setup",
+                        "Basic Conversion Tracking",
+                        "Full - Funnel Conversion Tracking",
+                    ]
+                },
+                {
+                    title: "Progress Reporting",
+                    points: [
+                        "Business Intelligence Dashboard",
+                    ]
+                },
+                {
+                    title: "Account Management",
+                    points: [
+                        "Dedicated Account Manager",
+                        "2-Hour Free Consultation (Per Month)",
                     ]
                 }
             ]

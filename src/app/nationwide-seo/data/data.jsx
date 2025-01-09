@@ -1,5 +1,5 @@
 //Banner
-import BannerPoster from "media/innerservices/small-bussiness-seo/bannerImg.webp"
+import BannerPoster from "media/innerservices/nationwide-seo/bannerImg.webp"
 
 export const BannerData = {
     title: "Expand Your Reach with Nationwide SEO",
@@ -61,7 +61,7 @@ export const ServicesData = {
 
 // NewsLetter
 
-import ImgBg from "media/innerservices/small-bussiness-seo/ctaImage.webp"
+import ImgBg from "media/innerservices/nationwide-seo/ctaImage.webp"
 export const NewsLetterData = {
     title: "National Visibility That Grows With You",
     desc: "Infinitidigital’s Nationwide SEO service will grow with your business. Whether you’re just starting or ready to expand, we’ve got you covered!",
@@ -70,7 +70,7 @@ export const NewsLetterData = {
 
 
 //Content Data
-import ContentImg from "media/innerservices/small-bussiness-seo/Img01.webp"
+import ContentImg from "media/innerservices/nationwide-seo/Img01.webp"
 
 export const ContentData = {
     maintitle: true,
@@ -83,7 +83,7 @@ export const ContentData = {
 }
 
 //Content Data
-import ContentImg1 from "media/innerservices/small-bussiness-seo/Img02.webp"
+import ContentImg1 from "media/innerservices/nationwide-seo/Img02.webp"
 
 export const ContentData1 = {
     contentTitle: "Grow Your Business Nationally With Us",

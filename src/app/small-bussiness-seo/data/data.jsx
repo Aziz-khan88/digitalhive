@@ -1,5 +1,5 @@
 //Banner
-import BannerPoster from "media/innerservices/enterprise-seo/bannerImg.webp"
+import BannerPoster from "media/innerservices/small-bussiness-seo/bannerImg.webp"
 
 export const BannerData = {
     title: "Rule Local Search Results with Small Business SEO",
@@ -61,7 +61,7 @@ export const ServicesData = {
 
 // NewsLetter
 
-import ImgBg from "media/innerservices/enterprise-seo/ctaImage.webp"
+import ImgBg from "media/innerservices/small-bussiness-seo/ctaImage.webp"
 export const NewsLetterData = {
     title: "Make Your Business Visible",
     desc: "Don’t let competitors take the lead. Get started now to climb local search rankings and reach your audience effectively.",
@@ -70,7 +70,7 @@ export const NewsLetterData = {
 
 
 //Content Data
-import ContentImg from "media/innerservices/enterprise-seo/Img01.webp"
+import ContentImg from "media/innerservices/small-bussiness-seo/Img01.webp"
 
 export const ContentData = {
     maintitle: true,
@@ -82,7 +82,7 @@ export const ContentData = {
 }
 
 //Content Data
-import ContentImg1 from "media/innerservices/enterprise-seo/Img02.webp"
+import ContentImg1 from "media/innerservices/small-bussiness-seo/Img02.webp"
 
 export const ContentData1 = {
     contentTitle: "Let’s Grow Your Business Together",
@@ -176,116 +176,7 @@ export const ProcessData = {
     ]
 
 }
-// Pricing
-export const PriceData = {
-    subtitle: "Our Pricing",
-    title: "Quality Discounts Elevate Your Social Media Presence Today!",
-    desc: "Transparent, customized pricing ensures you only pay for what you need. Our plans are flexible and scalable.",
-    PriceItem: [
-        {
-            bgColor: "#7635FF",
-            packagename: "Basic Package",
-            price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
-        },
-        {
-            bgColor: "#FF6987",
-            packagename: "Advanced Package",
-            price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
-        },
-        {
-            bgColor: "#9AFF35",
-            packagename: "Enterprise Package",
-            price: "750",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
-        }
-    ]
-};
+
 
 
 // Industrie Data

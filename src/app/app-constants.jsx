@@ -185,6 +185,19 @@ export function PlayIcon() {
         </svg>
     )
 }
+export function PauseIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="800"
+            height="800"
+            fill="none"
+            viewBox="0 0 16 16"
+        >
+            <path fill="#000" d="M7 1H2v14h5zM14 1H9v14h5z"></path>
+        </svg>
+    )
+}
 export function ClosedIcon() {
     return (
         <svg

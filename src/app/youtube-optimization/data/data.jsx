@@ -4,7 +4,7 @@ import BannerPoster from "media/innerservices/youtube-optimization/bannerImg.web
 export const BannerData = {
     title: "Advanced YouTube Optimization Services",
     desc: "Your channel deserves more than just views—it deserves growth. At Infinitidigital, we combine proven strategies, creativity, and advanced tools to help your content shine. Whether you're just starting or looking to scale, our team ensures your channel reaches its full potential.",
-    video: "#",
+    video: "",
     BannerPoster: BannerPoster.src
 }
 

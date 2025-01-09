@@ -4,7 +4,7 @@ import BannerPoster from "media/innerservices/influencer-marketing/bannerImg.web
 export const BannerData = {
     title: "Expert Influencer Marketing Services",
     desc: "Ready to turn your brand into the talk of the town, or should we say the 'influencer' of the internet? At Infinitidigital, we pair your brand with the perfect influencers to build trust, boost engagement, and achieve real results. From strategy to execution, we handle it all, ensuring your campaigns drive visibility and conversions that matter.",
-    video: "#",
+    video: "",
     BannerPoster: BannerPoster.src
 }
 
