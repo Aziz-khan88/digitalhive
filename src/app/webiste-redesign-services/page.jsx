@@ -1,7 +1,7 @@
 import Banner from '@/src/app/components/innerservices/banner'
 import StateCount from '@/src/app/components/innerservices/statecount'
 import Process from '@/src/app/components/services/process'
-import ContentSection from '@/src/app/components/innerservices/content'
+import SimpleContent from '@/src/app/components/innerservices/simplecontent'
 import NewsLetter from '@/src/app/components/innerservices/newsletter'
 import WebProjects from '@/src/app/components/innerservices/webprojects'
 import Pricing from '@/src/app/components/services/pricing'
@@ -20,7 +20,7 @@ const Page = () => {
             <Banner data={BannerData} />
             <StateCount data={StateCounter} />
             <Process data={ProcessData} />
-            <ContentSection data={ContentData} simple="yes" />
+            <SimpleContent data={ContentData} alternat="yes" software={true} />
             <NewsLetter data={NewsLetterData} bgBlack="yes" />
             <WebProjects data={WebProjectData} dataItem={WebProjectItem} />
             <Pricing bg="yes" data={PriceData} />

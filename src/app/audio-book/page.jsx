@@ -22,9 +22,9 @@ const Page = () => {
         <>
             <Banner data={BannerData} />
             <ServicesMain data={ServicesData} />
-            <ContentSection data={ContentData} simple="yes" />
+            <ContentSection data={ContentData} />
             <Process data={ProcessData} />
-            <NewsLetter data={NewsLetterData} bgBlack="yes" />
+            <NewsLetter data={NewsLetterData} />
             <BookTabs data={BookTabsData} dataItem={BookTabsItem} />
             <Pricing bg="yes" data={PriceData} />
             <CTA data={CtaPinkData} />

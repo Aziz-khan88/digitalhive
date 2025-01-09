@@ -186,7 +186,6 @@ export const ProcessData = {
 //Content Data
 import ContentImg from "media/innerservices/android-app-development/Img01.webp"
 export const ContentData = {
-    maintitle: true,
     contentTitle: "Enhance Your Brand with Unique Websites",
     contentTxt: (<>
         <p>Create a lasting impression with custom website designs that embody your brand’s values and vision. At Infinitidigital, we craft visually captivating, user-friendly websites that do more than attract visitors—they turn them into loyal customers. Our designs amplify your brand’s identity, engage your audience, and drive measurable business growth, ensuring your online presence leaves a powerful, lasting impact.</p>

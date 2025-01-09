@@ -3,7 +3,7 @@ import Image from "next/image"
 import CommonBtn from "@/src/app/components/common/commonbtn"
 import { Col, Container, Row } from 'react-bootstrap'
 
-const ContentSection = ({ data, bggray, simple, bgBlack, software }) => {
+const ContentSection = ({ data, bggray, simple, bgBlack, software, height }) => {
     return (
         <section className={`pt-100 ${styles.innerServicesContent} `}>
             <Container>
@@ -20,7 +20,14 @@ const ContentSection = ({ data, bggray, simple, bgBlack, software }) => {
                 <Row className={`${bggray === "yes" ? styles.bggray : ""} ${bgBlack === "yes" ? styles.bgBlack : ""} ${styles.imgBox} ${simple === "yes" ? styles.SimpleBg : ''}`}>
                     <Col md={6} className={`${simple === "yes" ? styles.imgSimple : ''} ${software === "yes" ? styles.imgSoftware : ''} my-auto order-2 order-md-1`} >
                         {simple === "yes" ?
-                            <Image src={data.img} alt="Book Image" width={460} height={550} />
+                            <div className={styles.bgSimple}>
+                                <Image
+                                    src={data.img}
+                                    alt="Book Image"
+                                    width={height ? 525 : 650}
+                                    height={height ? 500 : 420}
+                                />
+                            </div>
                             :
                             <Image src={data.img} fill alt="Book Image" className={styles.imgCover} />
                         }

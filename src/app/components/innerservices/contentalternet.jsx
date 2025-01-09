@@ -18,7 +18,7 @@ const ContentAlternet = ({ data, bggray, simple, alternat, software }) => {
                     </Col>
                     <Col md={6} className={`my-auto ${simple === "yes" ? styles.imgSimple : ''} ${software === "yes" ? styles.imgSoftware : ''} ${alternat === "yes" ? styles.alternatImage : ''}`} >
                         {simple === "yes" ?
-                            <Image src={data.img} alt="Book Image" width={460} height={550} />
+                            <Image src={data.img} alt="Book Image" width={500} height={1200} />
                             :
                             <Image src={data.img} fill alt="Book Image" className={styles.imgCover} />
                         }

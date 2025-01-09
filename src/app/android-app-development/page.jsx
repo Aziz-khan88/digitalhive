@@ -3,7 +3,6 @@ import StateCount from '@/src/app/components/innerservices/statecount'
 import ServicesMain from '@/src/app/components/services/servicesmain'
 import Process from '@/src/app/components/services/process'
 import ContentSection from '@/src/app/components/innerservices/content'
-import ContentAlternet from '@/src/app/components/innerservices/contentalternet'
 import NewsLetter from '@/src/app/components/innerservices/newsletter'
 import Work from '@/src/app/components/services/work'
 import Partners from '@/src/app/home/partners'
@@ -14,6 +13,7 @@ import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
 import { BannerData, StateCounter, ProcessData, ContentData, ContentData1, ContentData2, ContentData3, NewsLetterData, ServicesData } from '@/src/app/android-app-development/data/data'
 import { FollowsData, TestimonialData, PartnerData, CallActionData, BlgosData, FAQsData, WorkData } from '@/src/app/home/data/data'
+import SimpleContent from '@/src/app/components/innerservices/simplecontent'
 
 const Page = () => {
     return (
@@ -22,11 +22,11 @@ const Page = () => {
             <StateCount data={StateCounter} />
             <ServicesMain data={ServicesData} />
             <NewsLetter data={NewsLetterData} />
-            <ContentSection data={ContentData2} simple="yes" bgBlack="yes" />
+            <ContentSection data={ContentData2} simple="yes" height={true} bgBlack="yes" />
             <Process data={ProcessData} />
-            <ContentSection data={ContentData} simple="yes" />
-            <ContentAlternet data={ContentData1} alternat="yes" simple="yes" />
-            <ContentSection data={ContentData3} simple="yes" />
+            <SimpleContent data={ContentData} />
+            <SimpleContent data={ContentData1} alternat="yes" />
+            <SimpleContent data={ContentData3} />
             <Work data={WorkData} category="App Development" />
             <Partners data={PartnerData} />
             <Testimonials data={TestimonialData} />

@@ -49,6 +49,7 @@
             max-width: 45%;
             border-radius: 40px;
             object-fit: cover;
+            object-position: center
         }
 
         .alternatImage {
@@ -60,12 +61,6 @@
 
         .imgSimple {
             text-align: center;
-
-            img {
-                max-height: 550px;
-                width: auto;
-                margin: auto;
-            }
         }
 
         .imgSoftware {
@@ -95,6 +90,8 @@
     }
 }
 
+
+
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .innerServicesContent {
         .contentBox {
@@ -110,11 +107,7 @@
                 border-radius: 35px;
             }
 
-            .imgSimple {
-                img {
-                    max-height: 480px;
-                }
-            }
+
 
             .imgSoftware {
                 img {
@@ -139,12 +132,6 @@
             .imgCover {
                 max-width: 45%;
                 border-radius: 35px;
-            }
-
-            .imgSimple {
-                img {
-                    max-height: 460px;
-                }
             }
 
             .imgSoftware {
@@ -173,11 +160,7 @@
                 border-radius: 30px;
             }
 
-            .imgSimple {
-                img {
-                    max-height: 380px;
-                }
-            }
+
 
             .imgSoftware {
                 img {
@@ -206,11 +189,6 @@
                 border-radius: 30px;
             }
 
-            .imgSimple {
-                img {
-                    max-height: 350px;
-                }
-            }
 
             .imgSoftware {
                 img {
@@ -236,13 +214,6 @@
             .imgCover {
                 max-width: 50%;
                 border-radius: 20px;
-            }
-
-            .imgSimple {
-                img {
-                    max-height: 300px;
-                    width: auto;
-                }
             }
 
             .imgSoftware {
@@ -303,13 +274,14 @@
         }
 
         .imgBox {
-            padding: 0px 0px;
+            padding: 20px 0px;
             border-radius: 20px;
 
             .imgCover {
-                max-width: 50%;
+                max-width: 100%;
                 border-radius: 20px;
-                display: none;
+                position: relative !important;
+                margin-top: 20px;
             }
 
             .imgSimple {
@@ -326,6 +298,23 @@
                     height: auto;
                     width: auto;
 
+                }
+            }
+        }
+    }
+
+    .innerSimpleContent {
+        .simpleImage {
+            img {
+                margin-top: 20px;
+                height: 300px;
+                width: auto;
+            }
+
+            &.softwareImg {
+                img {
+                    height: 250px;
+                    width: auto;
                 }
             }
         }

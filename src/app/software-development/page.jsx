@@ -3,7 +3,7 @@ import StateCount from '@/src/app/components/innerservices/statecount'
 import ServicesMain from '@/src/app/components/services/servicesmain'
 import Process from '@/src/app/components/services/process'
 import ContentSection from '@/src/app/components/innerservices/content'
-import ContentAlternet from '@/src/app/components/innerservices/contentalternet'
+
 import NewsLetter from '@/src/app/components/innerservices/newsletter'
 import Work from '@/src/app/components/services/work'
 import Partners from '@/src/app/home/partners'
@@ -14,6 +14,7 @@ import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
 import { BannerData, StateCounter, ProcessData, TestimonialData, CallActionData, ContentData, ContentData1, ContentData2, ContentData3, NewsLetterData, ServicesData, FAQsData } from '@/src/app/software-development/data/data'
 import { FollowsData, PartnerData, BlgosData, WorkData } from '@/src/app/home/data/data'
+import SimpleContent from '@/src/app/components/innerservices/simplecontent'
 
 const Page = () => {
     return (
@@ -24,9 +25,9 @@ const Page = () => {
             <NewsLetter data={NewsLetterData} />
             <ContentSection data={ContentData2} simple="yes" bgBlack="yes" software="yes" />
             <Process data={ProcessData} />
-            <ContentSection data={ContentData} simple="yes" software="yes" />
-            <ContentAlternet data={ContentData1} alternat="yes" simple="yes" software="yes" />
-            <ContentSection data={ContentData3} simple="yes" software="yes" />
+            <SimpleContent data={ContentData} software="yes" />
+            <SimpleContent data={ContentData1} alternat="yes" software="yes" />
+            <SimpleContent data={ContentData3} software="yes" />
             <Work data={WorkData} category="App Development" />
             <Partners data={PartnerData} />
             <Testimonials data={TestimonialData} />

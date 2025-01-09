@@ -1,11 +1,11 @@
 //Banner
-import BannerPoster from "media/services/social-media-marketing/posterImg.webp"
+import BannerPoster from "media/services/seo/posterImg.webp"
 
 export const BannerData = {
     subtitle: "Skyrocket Your Rankings with.",
     title: "Expert SEO Services.",
     desc: "Get more traffic, more leads, and more customers with a tailored SEO strategy that works.",
-    video: "/videos/BannerVideo.mp4",
+    video: "https://player.vimeo.com/progressive_redirect/playback/1045389561/rendition/540p/file.mp4?loc=external&log_user=0&signature=4a0800e163c3cc792045ae73237c961e4acbdb031034bd64cbf1220a692acfe4",
     BannerPoster: BannerPoster.src,
 }
 
