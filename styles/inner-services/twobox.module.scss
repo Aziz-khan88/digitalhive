@@ -18,6 +18,12 @@
 
         &.imageBox {
             position: relative;
+            border-radius: 30px;
+
+            img {
+                object-fit: cover;
+                border-radius: 30px;
+            }
         }
     }
 }
@@ -68,6 +74,14 @@
             height: 240px;
             padding: 20px 20px;
             border-radius: 20px;
+
+            &.imageBox {
+                border-radius: 20px;
+
+                img {
+                    border-radius: 20px;
+                }
+            }
         }
     }
 }
@@ -79,6 +93,14 @@
             padding: 20px 20px;
             border-radius: 20px;
             margin-bottom: 20px;
+
+            &.imageBox {
+                border-radius: 20px;
+
+                img {
+                    border-radius: 20px;
+                }
+            }
         }
     }
 }
@@ -91,6 +113,14 @@
             padding: 20px 20px;
             border-radius: 20px;
             margin-bottom: 20px;
+
+            &.imageBox {
+                border-radius: 20px;
+
+                img {
+                    border-radius: 20px;
+                }
+            }
         }
     }
 }

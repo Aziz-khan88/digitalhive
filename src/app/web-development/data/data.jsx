@@ -309,15 +309,6 @@ export const IndustriesData = {
 
 }
 
-
-// CTA  01
-import ImgBg1 from "media/home/ctaBg1.webp"
-export const CtaData01 = {
-    title: "Strategic design solutions that fuel your bottom line.",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    img: ImgBg1.src
-}
-
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants";
 export const TestimonialData = {

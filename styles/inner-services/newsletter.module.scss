@@ -15,7 +15,7 @@
         }
 
         .newsletterContent {
-            padding: 50px;
+            padding: 25px 50px;
         }
 
         .newsletterVideo {
@@ -156,16 +156,17 @@
 
 
         .bgContainer {
-            padding-bottom: 30px;
+            padding-bottom: 0px;
             max-width: 96%;
             margin: auto;
 
             .newsletterContent {
-                padding: 10px;
+                padding: 0px 15px 20px;
             }
 
             .newsletterVideo {
-                display: none;
+                // display: none;
+                height: 250px;
             }
         }
 

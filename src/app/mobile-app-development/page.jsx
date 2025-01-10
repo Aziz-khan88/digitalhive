@@ -15,8 +15,8 @@ import FollowUs from '@/src/app/home/followus';
 import Blogs from '@/src/app/home/blogs';
 import Faqs from '@/src/app/home/faq';
 import Process from '@/src/app/components/services/process';
-import { AwardsData, FollowsData, PartnerData, IndustryItem, WorkData, BlgosData, TestimonialData } from '@/src/app/home/data/data';
-import { FAQsData, PriceData, ProcessData, ServicesData, CtaData, CallActionData, ChooseUsData, BannerData, IndustriesData, ContentData, ContentData1, ContentData3 } from '@/src/app/mobile-app-development/data/data';
+import { AwardsData, FollowsData, PartnerData, IndustryItem, WorkData, BlgosData } from '@/src/app/home/data/data';
+import { FAQsData, PriceData, ProcessData, ServicesData, CtaData, CallActionData, ChooseUsData, BannerData, IndustriesData, ContentData, ContentData1, ContentData3, TestimonialData } from '@/src/app/mobile-app-development/data/data';
 
 
 const Page = () => {

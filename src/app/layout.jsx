@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Digital Hive",
+  title: "Inifniti Digital",
   description: "",
   robots: {
     index: false,

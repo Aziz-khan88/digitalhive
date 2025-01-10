@@ -342,9 +342,9 @@ export const IndustriesData = {
 //Testimonials
 import { ClutchLogo, GoogleLogo, TrustpilotLogo } from "@/src/app/app-constants"
 export const TestimonialData = {
-    subtitle: "What Our Clients Say About Our Mobile App Solutions",
+    subtitle: "Our Clients",
     title: "Hear It from Our Clients ",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
             txt: "Infinitidigital delivered a mobile app that has transformed how we connect with our customers. The intuitive design and flawless functionality exceeded our expectations, allowing us to enhance customer engagement significantly. This app is exactly what we needed to elevate our service and strengthen our relationships with clients.",

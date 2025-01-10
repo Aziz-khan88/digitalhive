@@ -1,17 +1,20 @@
 //Banner
-import BannerPoster from "media/about/posterImg.webp"
+import BannerPoster from "media/blogs/posterImg.webp"
 
 export const BannerData = {
     subtitle: "Our Blogs",
-    title: "Your Digital Journey, Our Expertise.",
-    desc: "We create cost-effective paid marketing strategies that optimize every dollar spent for maximum impact.",
-    video: "https://player.vimeo.com/progressive_redirect/playback/1040902895/rendition/1080p/file.mp4?loc=external&log_user=0&signature=7676e21c1ed6575c3c9f10a8c97baa13793a7afd21a76ae5caf9312c291cbeac",
+    title: "Amplify Your Digital Impact, Effortlessly",
+    desc: "your budget is tight? We think it’s just right! At Infinitidigital, we turn every dollar into results with paid marketing strategies that pack a punch. No fluff, no waste—just campaigns that drive clicks, conversions, and smiles.",
+    video: "",
     BannerPoster: BannerPoster.src
 }
 // Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
+import IMG01 from "media/blogs/posts/blog1.webp"
+import IMG02 from "media/blogs/posts/blog2.webp"
+import IMG03 from "media/blogs/posts/blog3.webp"
+import IMG04 from "media/blogs/posts/blog4.webp"
+import IMG05 from "media/blogs/posts/blog5.webp"
+import IMG06 from "media/blogs/posts/blog6.webp"
 export const BlgosData = {
     subtitle: "Our Blogs",
     title: "Insights and Inspiration ",
@@ -46,15 +49,15 @@ export const BlgosData = {
             time: "26 min",
             txt: "Users are ditching outdated apps faster than you can say “uninstall.” We’re here to help you design apps that look sharp, work like magic, and keep people hooked.",
             category: "Mobile App Design",
-            img: IMG03.src,
+            img: IMG04.src,
         }
         , {
             title: "Your Website Isn’t Invisible—It’s Just Lost",
             date: "05 Jan, 2025",
             time: "26 min",
             txt: "You spent time building a beautiful website, but where’s the traffic? Learn how to fix what’s holding you back (hello, bad keywords, and slow speeds) and get found by those who matter.",
-            category: "Web Development",
-            img: IMG02.src,
+            category: "SEO",
+            img: IMG05.src,
         }
         , {
             title: "Why Does Your Website Take Forever to Load?",
@@ -62,50 +65,9 @@ export const BlgosData = {
             time: "26 min",
             txt: "Slow websites, outdated designs, and confusing layouts are costing you customers. We’ll show you how to build a site that’s fast, easy to use, and impossible to forget. ",
             category: "Web Development",
-            img: IMG01.src,
+            img: IMG06.src,
         }
     ]
 
 }
 
-// Call to Action
-
-export const CallActionData = {
-    subtitle: "Contact Us",
-    title: "Your Journey to Success Starts Now ",
-    desc: "Your vision deserves a powerful digital presence. Let’s craft strategies that drive results and create stories worth sharing."
-}
-
-
-// FAQs
-
-
-export const FAQsData = {
-    subtitle: "FAQs",
-    title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-
-    Fqaslist: [
-        {
-            title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
-        },
-        {
-            title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
-        },
-        {
-            title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
-        },
-        {
-            title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
-        },
-        {
-            title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
-        }
-    ]
-
-}

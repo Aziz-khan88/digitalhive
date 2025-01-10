@@ -23,7 +23,7 @@ export const ContentData = {
 
 // NewsLetter
 
-import ImgBg from "media/components/newsLetterImg.gif"
+import ImgBg from "media/innerservices/social-media-ads/ctaImage.webp"
 export const NewsLetterData = {
     title: "What If Your Ads Reached the Right People Every Time? ",
     desc: "Are you tired of pouring resources into ads that don’t reach your ideal customers? Do not worry. With our targeted ad strategies, we’ll ensure your message connects with the people who matter most—every single time! ",

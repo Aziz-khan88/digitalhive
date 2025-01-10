@@ -21,7 +21,7 @@ export const ContentData = {
 
 // NewsLetter
 
-import ImgBg from "media/components/newsLetterImg.gif"
+import ImgBg from "media/innerservices/influencer-marketing/ctaImage.webp"
 export const NewsLetterData = {
     title: "Let’s Create Something Amazing Together!",
     desc: "Your next big breakthrough starts here. Share your email, and let’s explore how Infinitidigital can turn your vision into reality. From strategy to execution, we’re here to make it happen.",

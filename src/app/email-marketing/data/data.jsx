@@ -23,7 +23,7 @@ export const ContentData = {
 
 // NewsLetter
 
-import ImgBg from "media/components/newsLetterImg.gif"
+import ImgBg from "media/innerservices/email-marketing/ctaImage.webp"
 export const NewsLetterData = {
     title: "Let’s Build Connections That Matter!",
     desc: "Imagine every email you send creating a spark—capturing attention, driving action, and strengthening relationships. At Infinitidigital, we don’t just create campaigns; we craft experiences that transform inboxes into opportunities. ",

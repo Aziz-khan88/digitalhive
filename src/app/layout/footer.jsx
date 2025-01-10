@@ -99,8 +99,8 @@ const Footer = () => {
                                             </a>
                                         </div>
                                         <div className={styles.contactInfo}>
-                                            <a href="mailto:queries@digitalhive.us" target="_blank">
-                                                Email: support@digitalhive.com
+                                            <a href="mailto:queries@infinitidigital.us" target="_blank">
+                                                Email: support@Infinitidigital.com
                                             </a>
                                         </div>
                                         <div className={styles.contactAddress}>

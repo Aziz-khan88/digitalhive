@@ -266,6 +266,18 @@ import Img21 from "media/services/social-media-marketing/latestwork/21.webp"
 import Img22 from "media/services/social-media-marketing/latestwork/22.webp"
 import Img23 from "media/services/social-media-marketing/latestwork/23.webp"
 import Img24 from "media/services/social-media-marketing/latestwork/24.webp"
+import Img25 from "media/services/social-media-marketing/latestwork/25.webp"
+import Img26 from "media/services/social-media-marketing/latestwork/26.webp"
+import Img27 from "media/services/social-media-marketing/latestwork/27.webp"
+import Img28 from "media/services/social-media-marketing/latestwork/28.webp"
+import Img29 from "media/services/social-media-marketing/latestwork/29.webp"
+import Img30 from "media/services/social-media-marketing/latestwork/30.webp"
+import Img31 from "media/services/social-media-marketing/latestwork/31.webp"
+import Img32 from "media/services/social-media-marketing/latestwork/32.webp"
+import Img33 from "media/services/social-media-marketing/latestwork/33.webp"
+import Img34 from "media/services/social-media-marketing/latestwork/34.webp"
+import Img35 from "media/services/social-media-marketing/latestwork/35.webp"
+import Img36 from "media/services/social-media-marketing/latestwork/36.webp"
 
 
 export const LastestWorkData = {
@@ -281,19 +293,16 @@ export const LastestWorkData = {
         { img: Img06.src },
         { img: Img07.src },
         { img: Img08.src },
-    ],
-    LastestWorkItem2: [
         { img: Img09.src },
         { img: Img10.src },
         { img: Img11.src },
         { img: Img12.src },
+    ],
+    LastestWorkItem2: [
         { img: Img13.src },
         { img: Img14.src },
         { img: Img15.src },
         { img: Img16.src },
-
-    ],
-    LastestWorkItem3: [
         { img: Img17.src },
         { img: Img18.src },
         { img: Img19.src },
@@ -302,7 +311,20 @@ export const LastestWorkData = {
         { img: Img22.src },
         { img: Img23.src },
         { img: Img24.src },
-
+    ],
+    LastestWorkItem3: [
+        { img: Img25.src },
+        { img: Img26.src },
+        { img: Img27.src },
+        { img: Img28.src },
+        { img: Img29.src },
+        { img: Img30.src },
+        { img: Img31.src },
+        { img: Img32.src },
+        { img: Img33.src },
+        { img: Img34.src },
+        { img: Img35.src },
+        { img: Img36.src },
     ]
 
 }
@@ -314,32 +336,32 @@ export const TestimonialData = {
     desc: "Real results. Real stories. See how businesses like yours have transformed their social media presence with our innovative solutions.",
     Testslider: [
         {
-            txt: "Inifnitidigital transformed our online presence. From zero visibility to ranking on the first page of search results, they exceeded our expectations. Their team’s keen insights, data-driven approach, and commitment helped us tap into audiences we didn’t know we could reach. Working with them has been a breath of fresh air, and we now feel more confident about our brand’s growth.",
+            txt: "Infinitidigital completely revamped our social media strategy, and the results have been incredible! Our follower count skyrocketed, and engagement levels are at an all-time high. Their creative campaigns not only capture our brand's voice but also connect deeply with our audience. We couldn't be happier with the impact they’ve made!",
             icon: <ClutchLogo />,
-            namee: "Amanda T.",
-            job: "Founder of BrightTech Solutions",
+            namee: "Sophia R.",
+            job: "Founder of Bakery Owner",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Since partnering with Inifnitidigital, our sales have doubled, and our customer base continues to expand. They understood our business challenges and implemented solutions that aligned perfectly with our goals. Their strategies for paid campaigns and content optimization brought impressive results, and we’re proud to call them a long-term partner in our success.",
+            txt: "Infinitidigital transformed our social media presence. Their posts are engaging, creative, and perfectly aligned with our brand. We’ve seen a massive uptick in followers, likes, and, most importantly, sales!",
             icon: <TrustpilotLogo />,
-            namee: "James M.",
-            job: "COO of NovaRetail Solutions",
+            namee: "Michael T.",
+            job: "Founder of Fitness Entrepreneur",
         },
         {
-            txt: "Inifnitidigital helped us exceed our targets with a well-rounded digital strategy tailored to our needs. From increasing website traffic to improving conversion rates, every milestone was backed by their expertise and dedication. Their team is responsive, professional, and results-oriented. We couldn’t be happier with the partnership.",
+            txt: "Social media was always overwhelming until Infinitidigital took the reins. Their strategy boosted our engagement rates and created a loyal community around our brand. They’ve been a lifesaver!",
             icon: <GoogleLogo />,
-            namee: "Sarah K.",
-            job: "MD at GreenWave Industries",
+            namee: "Emma L.",
+            job: "Owner at E-Commerce Business",
         },
         {
-            txt: "Partnering with Inifnitidigital was our best decision for our brand’s growth. Our campaigns have seen significant improvement, and their guidance has been pivotal in streamlining our marketing efforts. The results speak for themselves—better engagement, higher visibility, and real ROI.",
-            icon: <TrustpilotLogo />,
-            namee: "Tom L.",
-            job: "CEO of BuildPro Solutions",
+            txt: "Infinitidigital’s social media campaigns are next-level. Their creativity and attention to detail brought our brand to life online, helping us connect with a wider audience. We’re thrilled with the results!",
+            icon: < Forbes />,
+            namee: "James K.",
+            job: "CEO of Real Estate Agency",
         },
         {
-            txt: "Our online sales skyrocketed after working with Infinitidigital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
-            icon: <ClutchLogo />,
+            txt: "From content creation to ad strategy, Infinitidigital does it all. Our social media channels now look professional and are driving traffic to our website like never before. Their expertise is unmatched!",
+            icon: <Upcity />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",
         }

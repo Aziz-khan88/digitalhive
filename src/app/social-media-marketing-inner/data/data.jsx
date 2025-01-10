@@ -572,33 +572,30 @@ export const CallActionData = {
     desc: "Have questions, or are you ready to take the next step? Let’s collaborate to create a social media strategy that drives growth and delivers results."
 }
 
-
 // FAQs
 export const FAQsData = {
     subtitle: "FAQs",
-    title: "Frequently Asked Question?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-
+    title: "Your Questions, Answered",
     Fqaslist: [
         {
-            title: "What services does Digital Hive offer? ",
-            txt: "Digital Hive provides a comprehensive range of digital marketing and development services, including SEO, social media marketing, mobile app development, web design, and content marketing. We tailor our solutions to meet your business's specific needs."
+            title: "What makes Infinitidigital’s SMM services unique?",
+            txt: "Infinitidigital’s Social Media Marketing services stand out because we craft strategies tailored to your brand’s goals and audience. By blending innovation with data-driven insights, we ensure every campaign is unique and impactful. Our approach emphasizes creative solutions and measurable results, delivering meaningful engagement and long-term growth for your business."
         },
         {
-            title: "How does Digital Hive ensure results for its clients? ",
-            txt: "Our strategies are data-driven and goal-oriented. We focus on understanding your business objectives and delivering measurable results through customized solutions, ongoing optimization, and transparent reporting."
+            title: "Which platforms do you specialize in for social media marketing?",
+            txt: "We specialize in optimizing campaigns across major platforms such as Facebook, Instagram, YouTube, Reddit, and Discord. Our team customizes content to align with the distinct dynamics of each platform. Whether it’s creating visually engaging posts for Instagram or fostering authentic conversations on Reddit, we ensure your brand achieves maximum visibility and impact."
         },
         {
-            title: "Can Digital Hive handle projects for small and large businesses? ",
-            txt: "Yes, we work with businesses of all sizes, from startups to established enterprises. Our scalable solutions ensure that we meet your unique requirements and help you achieve growth."
+            title: "How do you measure the success of a social media campaign?",
+            txt: "We track success using key metrics like engagement rates, conversions, reach, and ROI. At Infinitidigital, our detailed reporting provides actionable insights into campaign performance. By analyzing results and making continuous improvements, we ensure your strategies not only meet but exceed your objectives, driving meaningful growth for your brand."
         },
         {
-            title: "What industries does Digital Hive specialize in? ",
-            txt: "We serve various industries, including retail, technology, healthcare, education, and more. Our experience allows us to create effective strategies tailored to each sector's needs."
+            title: "Do you offer customized social media marketing packages? ",
+            txt: "Yes, Infinitidigital provides customized social media packages tailored to your unique goals and budget. Whether you’re a startup aiming for brand awareness or an established business looking to scale, our tailored solutions include audience targeting, content creation, and ad campaigns—delivering maximum value and measurable success."
         },
         {
-            title: "How can I get started with Digital Hive?",
-            txt: "It's simple. Contact us through our website or give us a call to schedule a consultation. We’ll discuss your goals and create a customized plan to help your business thrive."
+            title: "How quickly can I see results from your SMM services?",
+            txt: "The timeframe for seeing results depends on the scope and strategy of your campaign. While significant outcomes like revenue growth may take time, many clients notice improvements in engagement and reach within 4-6 weeks. Our strategies prioritize steady progress and sustainable growth, ensuring results that align with your business goals."
         }
     ]
 

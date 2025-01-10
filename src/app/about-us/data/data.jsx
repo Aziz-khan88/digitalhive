@@ -20,8 +20,7 @@ export const AboutData = {
     subtitle: "About Us",
     title: "Results That Speak Louder Than Words ",
     desc: (<>
-        Your goals drive everything we do.At Digital Hive, we make brands shine in today’s crowded online world.Whether it’s a mobile app that impresses, a website that works 24/7, or social media strategies that engage and convert, Digital Hive is here to make it happen.
-        <br />We don’t just serve clients; we build partnerships.
+        Your goals drive everything we do.At Inifnitidigital, we make brands shine in today’s crowded online world.Whether it’s a mobile app that impresses, a website that works 24/7, or social media strategies that engage and convert, Inifnitidigital is here to make it happen.We don’t just serve clients; we build partnerships..
     </>),
     points: [
         {

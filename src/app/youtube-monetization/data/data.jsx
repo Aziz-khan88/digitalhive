@@ -24,7 +24,7 @@ export const ContentData = {
 
 // NewsLetter
 
-import ImgBg from "media/components/newsLetterImg.gif"
+import ImgBg from "media/innerservices/youtube-monetization/ctaImage.webp"
 export const NewsLetterData = {
     title: "Monetize Your YouTube Channel Like a Pro With Infinitidigital!",
     desc: "Turn your views into valuable income streams. Infinitidigital provides the expertise you need to make your channel a revenue powerhouse.",

@@ -15,6 +15,9 @@ import Client03 from "media/home/clientsLogo/03.webp";
 import Client04 from "media/home/clientsLogo/04.webp";
 import Client05 from "media/home/clientsLogo/05.webp";
 import Client06 from "media/home/clientsLogo/06.webp";
+import Client07 from "media/home/clientsLogo/07.webp";
+import Client08 from "media/home/clientsLogo/06.webp";
+import Client09 from "media/home/clientsLogo/09.webp";
 
 
 export const ClientImages = [
@@ -35,6 +38,15 @@ export const ClientImages = [
     },
     {
         Img: Client06.src,
+    },
+    {
+        Img: Client07.src,
+    },
+    {
+        Img: Client08.src,
+    },
+    {
+        Img: Client09.src,
     },
 
 ]
@@ -165,263 +177,267 @@ export const WorkData = {
     WorkItem: [
         //Social Media Marketing
         {
-            title: "Cupcakes That’ll Make You Swoon",
-            txt: "Designed an e-commerce platform for Crumbly Corner Café, featuring attractive design, seamless navigation, and easy checkout to enhance the online shopping experience for cupcakes and baked goods.",
+            title: "1.	Craving Cupcakes",
+            txt: "Turning cupcakes into cravings! Social media magic that put Crumbly Corner Café on everyone’s dessert radar.",
             Img: SocialImg01.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Grom ABS Motorcycles",
-            txt: "Developed a website for Powersports Marine to showcase Grom ABS motorcycles, with sleek visuals and easy navigation to facilitate excitement and purchases.",
+            title: "2.	Roaring Success",
+            txt: "Riding into success with Grom ABS! A campaign that roared louder than their engines.",
             Img: SocialImg02.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Popcorn Chicken Campaign",
-            txt: "Created a vibrant campaign page for a snack brand, with engaging visuals and interactive elements that highlight the brand’s flavors and encourage customer interaction.",
+            title: "3.	Popcorn Buzz",
+            txt: "Popcorn chicken dreams made true! Social buzz that turned Heckya Foods into a household name.",
             Img: SocialImg03.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Rebate Rumble Platform",
-            txt: "Built a gamified platform for Rebate Rumble, incorporating interactive features and a responsive interface to engage users and promote brand loyalty through predictions, shopping, and rewards.",
+            title: "4.	Engagement Goals",
+            txt: "Make your move and make it count! Social strategies that drove engagement and sales for Rebate Rumble.",
             Img: SocialImg04.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Trendy Fashion E-commerce",
-            txt: "Designed a modern e-commerce site for a fashion retailer, emphasizing vibrant visuals, smooth functionality, secure payment, and personalized shopping experiences.",
+            title: "5.	Loyal Audience",
+            txt: "Reliable celebrations, one click away! Building a strong, loyal audience for Neighbar Insurance.",
             Img: SocialImg05.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Tech Solutions That Deliver",
-            txt: "Launched a mobile app for a SaaS provider designed to enhance productivity and workflow efficiency, featuring user-friendly navigation, real-time updates, and robust security.",
+            title: "6.	Adventure Awaits",
+            txt: "Beyond boundaries and into the spotlight! Showcasing Yamaha’s rugged adventures through social storytelling.",
             Img: SocialImg06.src,
             url: "#",
             category: "Social Media Marketing",
         },
 
-
+        //App Development
 
         {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
+            title: "Harmonic Sync",
+            txt: "Music App – creating harmony between creativity and functionality for a seamless music experience.",
             Img: AppImg01.src,
             url: "#",
             category: "App Development",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Sport Connect",
+            txt: "Combat Sports App – a powerful platform to keep athletes and fans connected like never before.",
             Img: AppImg02.src,
             url: "#",
             category: "App Development",
         },
         {
-            title: "Social Media Campaign",
-            txt: "Driving brand awareness and engagement through strategic social media marketing.",
+            title: "Fitness Goals",
+            txt: "NutriSnap – turning fitness goals into reality with personalized meal tracking at your fingertips",
             Img: AppImg03.src,
             url: "#",
             category: "App Development",
         },
         {
-            title: "Another App",
-            txt: "Innovative solutions for mobile users.",
+            title: "Home Simplified",
+            txt: "HomePro Connect – redefining home services with streamlined bookings and expert solutions.",
             Img: AppImg04.src,
             url: "#",
             category: "App Development",
         },
         {
-            title: "Music App",
-            txt: "Discover the accolades that highlight our commitment to innovation, creativity, and results-driven strategies in the ever-evolving landscape of social media marketing.",
+            title: "Social Made Easy",
+            txt: "Social Chat – keeping connections alive with a user- friendly interface and rich features.",
             Img: AppImg05.src,
             url: "#",
             category: "App Development",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Smarter Fitness",
+            txt: "FitTrack – fitness tracking made smarter, with interactive design and seamless integrations.",
             Img: AppImg06.src,
             url: "#",
             category: "App Development",
         },
 
+        //Website Development
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Event Magic",
+            txt: "Elegant Events – a website that turned party dreams into reality with captivating visuals.",
             Img: WebImg01.src,
             url: "#",
             category: "Website Development",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Banking Smart",
+            txt: "Banking Smarter – giving customers a seamless digital banking experience they’ll love.",
             Img: WebImg02.src,
             url: "#",
             category: "Website Development",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Tech Hub",
+            txt: "Tech Innovations Hub – building a virtual space for groundbreaking ideas to thrive.",
             Img: WebImg03.src,
             url: "#",
             category: "Website Development",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Chic Commerce",
+            txt: "Style Hub – creating a chic and functional e-commerce platform for fashion lovers.",
             Img: WebImg04.src,
             url: "#",
             category: "Website Development",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Retail Power",
+            txt: "Retail Revolution – empowering brands with intuitive and feature-packed online stores.",
             Img: WebImg05.src,
             url: "#",
             category: "Website Development",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Creative Impact",
+            txt: "Creative Studio – showcasing ideas with bold designs and innovative solutions for every business need.",
             Img: WebImg06.src,
             url: "#",
             category: "Website Development",
         },
 
-
+        //SEO 
 
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Game On",
+            txt: "Google isn’t just a name; it’s a game. We ensured our client’s website plays to win!",
             Img: SeoImg01.src,
             url: "#",
             category: "Seo",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "First Place",
+            txt: "Breaking into the first page – because who even clicks on the second?",
             Img: SeoImg02.src,
             url: "#",
             category: "Seo",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Crowd Breaker",
+            txt: "From lost in the crowd to top of the charts. Our SEO tactics drive results, not just rankings.",
             Img: SeoImg03.src,
             url: "#",
             category: "Seo",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Clicks Count",
+            txt: "Data-driven strategies that spoke directly to audiences and soared conversions.",
             Img: SeoImg04.src,
             url: "#",
             category: "Seo",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Actionable Data",
+            txt: "Turning analytics into action. Optimized for clicks, engagement, and beyond.",
             Img: SeoImg05.src,
             url: "#",
             category: "Seo",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Authority Built",
+            txt: "Building authority, one backlink at a time. We helped clients dominate their niche.",
             Img: SeoImg06.src,
             url: "#",
             category: "Seo",
         },
 
+
+        //Content Marketing
+
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Story Sell",
+            txt: "Every blog tells a story, and we ensured the right audience was reading it!",
             Img: ContentImg01.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Impactful Ideas",
+            txt: "From ideas to impact – creating compelling content that fuels businesses.",
             Img: ContentImg02.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Speaking Strategy",
+            txt: "Strategy that speaks – delivering words that work and drive measurable outcomes.",
             Img: ContentImg03.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Brand Tales",
+            txt: "Building brand stories one campaign at a time, with creativity and clarity.",
             Img: ContentImg04.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Purpose Driven",
+            txt: "Content with purpose – because pretty words aren’t enough to convert.",
             Img: ContentImg05.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Dynamic Moves",
+            txt: "A marketing mix that moves – campaigns as dynamic as the brands we support.",
             Img: ContentImg06.src,
             url: "#",
             category: "Content Marketing",
         },
 
-
+        //Paid Marketing
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "ROI Gold",
+            txt: "Ad spend turned into ROI gold – because every dollar counts, and we made it work!",
             Img: PaidImg01.src,
             url: "#",
             category: "Paid Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Standout Ads",
+            txt: "Crafting campaigns that don’t just show up but stand out, for results that speak louder.",
             Img: PaidImg02.src,
             url: "#",
             category: "Paid Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Strategic Craft",
+            txt: "Data meets creativity in campaigns that were as strategic as they were stunning.",
             Img: PaidImg03.src,
             url: "#",
             category: "Paid Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Clicks Matter",
+            txt: "Boosting conversions with paid ads that knew exactly where to target.",
             Img: PaidImg04.src,
             url: "#",
             category: "Paid Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Mark Made",
+            txt: "Making every impression count – advertising that leaves a mark (and gets clicks).",
             Img: PaidImg05.src,
             url: "#",
             category: "Paid Marketing",
         },
         {
-            title: "E-commerce Website",
-            txt: "Creating seamless online shopping experiences to drive sales and improve user engagement.",
+            title: "Budget Growth",
+            txt: "Turning ad budgets into brand growth – measurable, meaningful, and masterful.",
             Img: PaidImg06.src,
             url: "#",
             category: "Paid Marketing",
@@ -707,9 +723,9 @@ export const CallActionData = {
 }
 
 // Blgos
-import IMG01 from "media/home/blogs/blog1.webp"
-import IMG02 from "media/home/blogs/blog2.webp"
-import IMG03 from "media/home/blogs/blog3.webp"
+import IMG01 from "media/blogs/posts/blog1.webp"
+import IMG02 from "media/blogs/posts/blog2.webp"
+import IMG03 from "media/blogs/posts/blog3.webp"
 export const BlgosData = {
     subtitle: "Our Blogs",
     title: "Insights and Inspiration ",

@@ -4,11 +4,10 @@ import useEmblaCarousel from "embla-carousel-react";
 import AutoScroll from "embla-carousel-auto-scroll";
 
 import Image from "next/image";
-
+const options = { loop: true }
 
 const Clients = ({ data }) => {
-    const [emblaRef] = useEmblaCarousel(
-        { loop: true, align: "center" },
+    const [emblaRef] = useEmblaCarousel(options,
         [
             AutoScroll({
                 delay: 0,
@@ -28,7 +27,9 @@ const Clients = ({ data }) => {
                     <div className={styles.embla__container}>
                         {data.map((item, index) => (
                             <div className={styles.embla__slide} key={index}>
-                                <Image src={item.Img} alt={`Client ${index}`} width={200} height={36} />
+                                <div className={styles.imgBox}>
+                                    <Image src={item.Img} alt={`Client ${index}`} fill />
+                                </div>
                             </div>
                         ))}
                     </div>

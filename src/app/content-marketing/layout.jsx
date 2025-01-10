@@ -9,7 +9,7 @@ export const metadata = {
     title: "",
     description: "",
     url: '/contentmarketing',
-    siteName: 'Digital Hive',
+    siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "",
