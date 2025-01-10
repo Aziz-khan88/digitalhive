@@ -318,12 +318,12 @@
                 margin-bottom: 20px;
 
                 .servicesImage {
-                    height: 200px;
+                    height: 220px;
                     margin-bottom: 10px;
-                    border-radius: 20px;
+                    border-radius: 15px;
 
                     img {
-                        border-radius: 20px;
+                        border-radius: 15px;
                     }
                 }
 
@@ -333,9 +333,11 @@
 
                     h3 {
                         margin-bottom: 10px;
+                        font-size: 20px;
 
                         svg {
                             width: 18px;
+
                         }
                     }
                 }
@@ -343,6 +345,14 @@
                 &:hover {
                     .servicesContent {
                         max-height: 300px;
+
+                        h3 {
+                            transform: translateX(20px);
+
+                            svg {
+                                transform: translateX(-15px);
+                            }
+                        }
                     }
                 }
             }
