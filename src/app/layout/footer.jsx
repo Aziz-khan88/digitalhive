@@ -8,17 +8,16 @@ import PaymentImg from "media/home/paymentImg.webp"
 import { FooterLogo } from "@/src/app/app-constants"
 
 export const subMenuItems = [
-    { label: "Social Media Marketing", path: "#" },
-    { label: "Social Media Advertising", path: "#" },
-    { label: "YouTube Optimization", path: "#" },
-    { label: "Search Engine Optimization", path: "#" },
-    { label: "Email Marketing", path: "#" },
-    { label: "Social Media Management", path: "#" },
-    { label: "Influencer Marketing", path: "#" },
-    { label: "YouTube Monetization", path: "#" },
-    { label: "Google Ads(PPC)", path: "#" },
-
-
+    { label: "Social Media Marketing", path: "/social-media-marketing" },
+    { label: "Social Media Advertising", path: "/social-media-ads" },
+    { label: "Social Media Management", path: "/social-media-management" },
+    { label: "Influencer Marketing", path: "/influencer-marketing" },
+    { label: "YouTube Optimization", path: "/youtube-optimization" },
+    { label: "YouTube Monetization", path: "/youtube-monetization" },
+    { label: "Email Marketing", path: "/email-marketing" },
+    { label: "Google Ads(PPC)", path: "/ppc-ads" },
+    { label: "Amazon Ads", path: "/amazon-ads" },
+    { label: "Facebook Ads", path: "/facebook-ads" },
 
 ];
 const QuickLinks = [
@@ -68,7 +67,7 @@ const Footer = () => {
                                         <ul>
                                             {QuickLinks.map((item, index) => (
                                                 <li key={index}>
-                                                    <Link href={item.url}>{item.name}</Link>
+                                                    <Link href={item.url} aria-label={`Visit our ${item.label}`}>{item.name}</Link>
                                                 </li>
                                             ))}
                                         </ul>
@@ -82,7 +81,7 @@ const Footer = () => {
                                         <ul className={styles.serviceslinks}>
                                             {subMenuItems.map((item, index) => (
                                                 <li key={index}>
-                                                    <Link href={item.path}>{item.label}</Link>
+                                                    <Link href={item.path} aria-label={`Services our ${item.label}`}>{item.label}</Link>
                                                 </li>
                                             ))}
                                         </ul>
@@ -94,18 +93,18 @@ const Footer = () => {
                                     <div className={`${styles.footerContent} ${styles.mainlinks}`}>
                                         <h6>Contact Info</h6>
                                         <div className={styles.contactInfo} target="_blank">
-                                            <a href="tel:+1655-487-632">
+                                            <a href="tel:+1655-487-632" aria-label={`Our Phone Number`}>
                                                 Phone: +1655-487-632
                                             </a>
                                         </div>
                                         <div className={styles.contactInfo}>
-                                            <a href="mailto:queries@infinitidigital.us" target="_blank">
+                                            <a href="mailto:queries@infinitidigital.us" target="_blank" aria-label={`Our Email Address`}>
                                                 Email: support@Infinitidigital.com
                                             </a>
                                         </div>
                                         <div className={styles.contactAddress}>
                                             <div>
-                                                <a href="#" target="_blank">
+                                                <a href="#" target="_blank" aria-label={`Our Google Map`}>
                                                     Address: 9402 Synott Rd Apt 114, Houston, TX 77083
                                                 </a>
                                             </div>

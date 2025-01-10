@@ -43,9 +43,8 @@ const FollowUs = ({ data }) => {
                                     >
                                         <div className={styles.title}>{repeatedItem.name}</div>
                                         <div className={styles.links}>
-                                            <Link href={repeatedItem.url}>
+                                            <Link href={repeatedItem.url} aria-label={`Follow Us our ${repeatedItem.name}`}>
                                                 {hoveredIndex === index ? <ArrowIconWhite /> : <ArrowIcon />}
-
                                             </Link>
                                         </div>
                                     </div>
