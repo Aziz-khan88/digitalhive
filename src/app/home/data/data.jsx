@@ -177,42 +177,42 @@ export const WorkData = {
     WorkItem: [
         //Social Media Marketing
         {
-            title: "1.	Craving Cupcakes",
+            title: "Craving Cupcakes",
             txt: "Turning cupcakes into cravings! Social media magic that put Crumbly Corner Café on everyone’s dessert radar.",
             Img: SocialImg01.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "2.	Roaring Success",
+            title: "Roaring Success",
             txt: "Riding into success with Grom ABS! A campaign that roared louder than their engines.",
             Img: SocialImg02.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "3.	Popcorn Buzz",
+            title: "Popcorn Buzz",
             txt: "Popcorn chicken dreams made true! Social buzz that turned Heckya Foods into a household name.",
             Img: SocialImg03.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "4.	Engagement Goals",
+            title: "Engagement Goals",
             txt: "Make your move and make it count! Social strategies that drove engagement and sales for Rebate Rumble.",
             Img: SocialImg04.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "5.	Loyal Audience",
+            title: "Loyal Audience",
             txt: "Reliable celebrations, one click away! Building a strong, loyal audience for Neighbar Insurance.",
             Img: SocialImg05.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "6.	Adventure Awaits",
+            title: "Adventure Awaits",
             txt: "Beyond boundaries and into the spotlight! Showcasing Yamaha’s rugged adventures through social storytelling.",
             Img: SocialImg06.src,
             url: "#",
