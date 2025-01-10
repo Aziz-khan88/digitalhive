@@ -21,7 +21,7 @@ const Page = () => {
             <StateCount data={StateCounter} />
             <Process data={ProcessData} />
             <SimpleContent data={ContentData} alternat="yes" software={true} />
-            <NewsLetter data={NewsLetterData} bgBlack="yes" />
+            <NewsLetter data={NewsLetterData} />
             <WebProjects data={WebProjectData} dataItem={WebProjectItem} />
             <Pricing bg="yes" data={PriceData} />
             <Partners data={PartnerData} />

@@ -119,6 +119,11 @@
 
             .newsletterVideo {
                 height: 300px;
+
+                img {
+                    border-radius: 20px;
+
+                }
             }
         }
 
@@ -153,20 +158,22 @@
     .newsletterSection {
         height: auto;
 
-
-
         .bgContainer {
             padding-bottom: 0px;
             max-width: 96%;
             margin: auto;
 
             .newsletterContent {
-                padding: 0px 15px 20px;
+                padding: 15px 15px 20px;
             }
 
             .newsletterVideo {
                 // display: none;
                 height: 200px;
+
+                img {
+                    border-radius: 20px;
+                }
             }
         }
 
