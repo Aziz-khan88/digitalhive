@@ -28,7 +28,7 @@ const Page = () => {
             <Solution data={SolData} />
             <CtaServices data={CtaData} />
             <Opportunities data={OpportunitiesData} />
-            <Pricing data={PriceData} />
+            <Pricing data={PriceData} tab={true} />
             <CTA data={CtaPinkData} />
             <Work data={WorkData} category="Social Media Marketing" />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />

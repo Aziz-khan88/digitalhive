@@ -10,8 +10,10 @@ import CtaForm from "@/src/app/home/ctaform";
 import FollowUs from "@/src/app/home/followus";
 import Blogs from "@/src/app/home/blogs";
 import Faqs from "@/src/app/home/faq";
+import Pricing from '@/src/app/components/services/pricing'
 import { BannerData, ContentData, NewsLetterData, TableContetData, TwoBoxData, InnerServicesData, ContentData1, TestimonialData, CallActionData, FAQsData } from '@/src/app/social-media-ads/data/data'
 import { FollowsData, BlgosData, PlatformsData } from "@/src/app/home/data/data"
+import { PriceData } from '@/src/app/social-media-marketing/data/data'
 const Page = () => {
     return (
         <>
@@ -20,6 +22,7 @@ const Page = () => {
             <NewsLetter data={NewsLetterData} />
             <TableContent data={TableContetData} />
             <TwoBox data={TwoBoxData} />
+            <Pricing data={PriceData} tab={true} />
             <InnerServices data={InnerServicesData} />
             <ContentSection data={ContentData1} bggray="yes" />
             <PlateFroms data={PlatformsData} />

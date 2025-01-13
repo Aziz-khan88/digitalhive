@@ -117,106 +117,176 @@ export const PriceData = {
     PriceItem: [
         {
             bgColor: "#7635FF",
-            packagename: "Basic Package",
-            price: "350",
-            txt: "Perfect for small businesses taking their first steps into the social media world.",
+            packagename: "Launch Package",
+            titletxt: "Kickstart Your Brand’s Digital Presence",
+            price1: "1250",
+            price2: "1750",
+            price3: "2250",
+            discount1: "Monthly",
+            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
+            discount3: (<> Annually <span>(Saves 28%)</span></>),
+            txt: "Ideal for businesses looking to establish a strong presence and build a foundational strategy based on data-backed insights.",
             bodyPoints: [
                 {
-                    title: "Social Media Posts",
+                    title: "Included Services",
                     points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
+                        "08 High-Impact Static Posts",
+                        "Immersive Stories",
+                        "02 GIF/Carousel Post",
+                        "05 Reels or TikTok-style Short Video",
+                        "Branding & Design Consultation",
+                        "Basic Hashtag Strategy",
+                        "Social Platform Setup & Optimization",
                     ]
                 },
                 {
-                    title: "Social Platforms Supported",
+                    title: "Platform Management",
+                    points: [
+                        "Monthly Content Scheduling",
+                        "Community Engagement",
+                        "Page Optimization"
+                    ]
+                },
+                {
+                    title: "Platforms Included",
                     points: [
                         "Facebook",
                         "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
                     ]
                 }
-            ]
+            ],
+            para: "",
         },
         {
             bgColor: "#FF6987",
-            packagename: "Advanced Package",
-            price: "500",
-            txt: "Ideal for growing brands ready to scale their engagement and reach.",
+            packagename: "Elevate Package ",
+            titletxt: "Take Your Brand to the Next Level",
+            price1: "1750",
+            price2: "1470",
+            price3: "1890",
+            discount1: "Monthly",
+            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
+            discount3: (<> Annually <span>(Saves 28%)</span></>),
+            txt: "For businesses ready to grow their online presence and achieve measurable results using a more analytical and data-driven approach.",
             bodyPoints: [
                 {
-                    title: "Social Media Posts",
+                    title: "Included Services",
                     points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
+                        "10 High-Impact Static Posts",
+                        "Immersive Stories",
+                        "05 GIF/Carousel Posts",
+                        "Branding & Design Consultation",
+                        "Advanced Hashtag & SEO Strategy*",
+                        "UGC (User-Generated Content) Strategy**",
+                        "Social Platform Setup & Optimization",
+                        "Social Media Contest or Giveaway",
                     ]
                 },
                 {
-                    title: "Social Platforms Supported",
+                    title: "Platform Management",
+                    points: [
+                        "Monthly Content Scheduling & Publishing",
+                        "Advanced Community Engagement",
+                        "Page Optimization & A/B Testing",
+                    ]
+                },
+                {
+                    title: "Advanced Analytics & Reporting",
+                    points: [
+                        "Monthly Performance Insights",
+                        "Competitor Benchmarking",
+                    ]
+                },
+                {
+                    title: "Platforms Included",
                     points: [
                         "Facebook",
                         "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
+                        "LinkedIn or X (Optional)",
                     ]
                 }
-            ]
+            ],
+            bodyNote: [
+                {
+                    para: "* Please note that this includes only the SEO strategy, not the implementation of SEO services."
+                },
+                {
+                    para: "** Please note that this includes only the UGC strategy, not the creation or management of user-generated content."
+                }
+            ],
+
         },
         {
             bgColor: "#9AFF35",
-            packagename: "Enterprise Package",
-            price: "750",
-            txt: "Comprehensive solutions for businesses that need full-scale social media success.",
+            packagename: "Dominate Package ",
+            titletxt: "Achieve Social Media Leadership",
+            price1: "2250",
+            price2: "1260",
+            price3: "1620",
+            discount1: "Monthly",
+            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
+            discount3: (<> Annually <span>(Saves 28%)</span></>),
+            txt: "For brands aiming to completely dominate their niche and make data-informed decisions to grow their audience and convert leads into loyal customers.",
             bodyPoints: [
                 {
-                    title: "Social Media Posts",
+                    title: "Included Services",
                     points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
+                        "15 High-Impact Static Posts",
+                        "Engaging Stories",
+                        "05 GIF/Carousel Posts",
+                        "15 Reels or TikTok-style Short Videos",
+                        "Branding & Design Consultation",
+                        "Advanced Hashtag & SEO Strategy*",
+                        "UGC (User-Generated Content) Strategy**",
+                        "Social Platform Setup & Optimization",
+                        "Social Media Contest or Giveaway",
+                        "Influencer/Brand Ambassador Outreach Strategy***",
+                        "Seasonal Campaigns ",
                     ]
                 },
                 {
-                    title: "Social Platforms Supported",
+                    title: "Platform Management",
+                    points: [
+                        "Bi-Weekly Content Scheduling & Publishing",
+                        "24/7 Community Engagement",
+                        "Full Social Page Optimization",
+                    ]
+                },
+                {
+                    title: "Advanced Analytics & Reporting",
+                    points: [
+                        "Bi-Weekly Performance Insights",
+                        "Competitor and Industry Analysis",
+                        "Lead Generation & Conversion Tracking",
+                    ]
+                },
+                {
+                    title: "Platforms Included",
                     points: [
                         "Facebook",
                         "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
+                        "LinkedIn",
+                        "Twitter",
+                        "TikTok,",
+                        "Pinterest or Snapchat (Optional Add-On)"
                     ]
                 }
-            ]
-        }
+            ],
+            bodyNote: [
+                {
+                    para: "* Please note that this includes only the SEO strategy, not the implementation of SEO services."
+                },
+                {
+                    para: "** Please note that this includes only the UGC strategy, not the creation or management of user-generated content."
+                },
+                {
+
+                    para: "*** Please note that this includes only the outreach strategy; execution and management of influencer/brand ambassador partnerships are offered as separate services."
+                }
+            ],
+
+        },
+
     ]
 };
 
@@ -337,13 +407,13 @@ export const TestimonialData = {
     Testslider: [
         {
             txt: "Infinitidigital completely revamped our social media strategy, and the results have been incredible! Our follower count skyrocketed, and engagement levels are at an all-time high. Their creative campaigns not only capture our brand's voice but also connect deeply with our audience. We couldn't be happier with the impact they’ve made!",
-            icon: <ClutchLogo />,
+            icon: < ClutchLogo />,
             namee: "Sophia R.",
             job: "Founder of Bakery Owner",
         },
         {
             txt: "Infinitidigital transformed our social media presence. Their posts are engaging, creative, and perfectly aligned with our brand. We’ve seen a massive uptick in followers, likes, and, most importantly, sales!",
-            icon: <TrustpilotLogo />,
+            icon: < TrustpilotLogo />,
             namee: "Michael T.",
             job: "Founder of Fitness Entrepreneur",
         },

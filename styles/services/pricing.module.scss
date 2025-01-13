@@ -10,11 +10,54 @@
         }
     }
 
+    .tabBody {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #262626;
+        max-width: 400px;
+        border-radius: 100px;
+        height: 65px;
+        margin-left: auto;
+        margin-bottom: 20px;
+
+        li {
+            cursor: pointer;
+            flex: 0 0 calc(100% /3);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            text-transform: capitalize;
+            color: rgba(255, 255, 255, .5);
+            border-radius: 100px;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+
+            &:hover {
+                background: rgb(154 255 53 / 10%);
+                color: #9AFF35;
+                transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            &.active {
+                background: rgb(154 255 53 / 10%);
+                transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+                color: #9AFF35;
+            }
+        }
+    }
+
     .pricingContainer {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 20px;
+
 
         .pricingItem {
             flex: 0 0 calc(33.33% - 20px);
@@ -48,8 +91,8 @@
                 .packagePrice {
                     font-style: normal;
                     font-weight: 600;
-                    font-size: 60px;
-                    line-height: 60px;
+                    font-size: 50px;
+                    line-height: 50px;
                     display: flex;
                     align-items: center;
                     text-transform: capitalize;
@@ -64,6 +107,16 @@
                         letter-spacing: -0.165px;
                         color: #fff;
                     }
+                }
+
+                .packageSubTxt {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 26px;
+                    letter-spacing: -0.165px;
+                    color: #fff;
+                    margin-bottom: 10px;
                 }
 
                 .packagepara {
@@ -92,6 +145,7 @@
                     border: 1px solid rgba(255, 255, 255, 0.3);
                     border-radius: 33px;
                     margin-bottom: 20px;
+                    cursor: pointer;
                 }
 
             }
@@ -100,6 +154,7 @@
                 height: 450px;
                 overflow: auto;
                 margin-bottom: 30px;
+
 
                 &::-webkit-scrollbar {
                     width: 5px;
@@ -153,6 +208,28 @@
                 }
             }
 
+            .titleNote {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: -0.165px;
+                color: #fff;
+                margin-bottom: 10px;
+            }
+
+            .packageNote {
+                p {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 15px;
+                    line-height: 24px;
+                    letter-spacing: -0.165px;
+                    color: #fff;
+                    margin-bottom: 5px;
+                }
+            }
+
             &:hover {
                 background: linear-gradient(319.4deg, #FFFFFF 13.78%, var(--bgcolor) 90.15%);
                 transform: scale(1.03);
@@ -167,7 +244,8 @@
                         }
                     }
 
-                    .packagepara {
+                    .packagepara,
+                    .packageSubTxt {
                         color: #000;
                     }
 
@@ -176,6 +254,8 @@
                         border: 1px solid #000;
                         background: #000;
                     }
+
+
 
                 }
 
@@ -213,6 +293,16 @@
                         }
                     }
                 }
+
+                .titleNote {
+                    color: #000;
+                }
+
+                .packageNote {
+                    p {
+                        color: #000;
+                    }
+                }
             }
         }
     }
@@ -220,6 +310,17 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .pricingSection {
+        .tabBody {
+            max-width: 380px;
+            height: 60px;
+            margin-bottom: 20px;
+
+            li {
+                font-size: 15px;
+                line-height: 15px;
+            }
+        }
+
         .pricingContainer {
             margin-top: 20px;
 
@@ -247,6 +348,12 @@
                             font-size: 15px;
                             line-height: 16px;
                         }
+                    }
+
+                    .packageSubTxt {
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin-bottom: 8px;
                     }
 
                     .packagepara {
@@ -294,6 +401,19 @@
                     }
                 }
 
+                .titleNote {
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+                }
+
+                .packageNote {
+                    p {
+                        font-size: 13px;
+                        line-height: 18px;
+                    }
+                }
+
                 &:hover {
 
                     .packageBody {
@@ -314,6 +434,17 @@
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .pricingSection {
+        .tabBody {
+            max-width: 380px;
+            height: 60px;
+            margin-bottom: 20px;
+
+            li {
+                font-size: 15px;
+                line-height: 15px;
+            }
+        }
+
         .pricingContainer {
             margin-top: 20px;
 
@@ -333,14 +464,20 @@
 
 
                     .packagePrice {
-                        font-size: 45px;
-                        line-height: 45px;
+                        font-size: 40px;
+                        line-height: 40px;
                         margin-bottom: 15px;
 
                         span {
                             font-size: 15px;
                             line-height: 16px;
                         }
+                    }
+
+                    .packageSubTxt {
+                        font-size: 17px;
+                        line-height: 24px;
+                        margin-bottom: 5px;
                     }
 
                     .packagepara {
@@ -388,6 +525,19 @@
                     }
                 }
 
+                .titleNote {
+                    font-size: 15px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+                }
+
+                .packageNote {
+                    p {
+                        font-size: 13px;
+                        line-height: 18px;
+                    }
+                }
+
                 &:hover {
 
                     .packageBody {
@@ -408,6 +558,17 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .pricingSection {
+        .tabBody {
+            max-width: 340px;
+            height: 60px;
+            margin-bottom: 20px;
+
+            li {
+                font-size: 14px;
+                line-height: 14px;
+            }
+        }
+
         .pricingContainer {
             margin-top: 20px;
 
@@ -427,8 +588,8 @@
 
 
                     .packagePrice {
-                        font-size: 42px;
-                        line-height: 42px;
+                        font-size: 40px;
+                        line-height: 40px;
                         margin-bottom: 15px;
 
                         span {
@@ -437,9 +598,15 @@
                         }
                     }
 
+                    .packageSubTxt {
+                        font-size: 16px;
+                        line-height: 24px;
+                        margin-bottom: 5px;
+                    }
+
                     .packagepara {
                         font-size: 13px;
-                        line-height: 22px;
+                        line-height: 20px;
                         margin-bottom: 10px;
                     }
 
@@ -482,6 +649,19 @@
                     }
                 }
 
+                .titleNote {
+                    font-size: 15px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+                }
+
+                .packageNote {
+                    p {
+                        font-size: 13px;
+                        line-height: 18px;
+                    }
+                }
+
                 &:hover {
 
                     .packageBody {
@@ -502,6 +682,17 @@
 
 @media only screen and (min-width: 900px) and (max-width:1099px) {
     .pricingSection {
+        .tabBody {
+            max-width: 300px;
+            height: 50px;
+            margin-bottom: 10px;
+
+            li {
+                font-size: 13px;
+                line-height: 13px;
+            }
+        }
+
         .pricingContainer {
             margin-top: 20px;
 
@@ -531,9 +722,15 @@
                         }
                     }
 
+                    .packageSubTxt {
+                        font-size: 15px;
+                        line-height: 22px;
+                        margin-bottom: 5px;
+                    }
+
                     .packagepara {
-                        font-size: 13px;
-                        line-height: 20px;
+                        font-size: 12px;
+                        line-height: 18px;
                         margin-bottom: 10px;
                     }
 
@@ -575,6 +772,19 @@
                     }
                 }
 
+                .titleNote {
+                    font-size: 14px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+                }
+
+                .packageNote {
+                    p {
+                        font-size: 12px;
+                        line-height: 18px;
+                    }
+                }
+
                 &:hover {
 
                     .packageBody {
@@ -595,6 +805,17 @@
 
 @media only screen and (min-width: 768px) and (max-width:899px) {
     .pricingSection {
+        .tabBody {
+            max-width: 300px;
+            height: 50px;
+            margin-bottom: 10px;
+
+            li {
+                font-size: 13px;
+                line-height: 13px;
+            }
+        }
+
         .pricingContainer {
             margin-top: 20px;
             flex-wrap: wrap;
@@ -628,6 +849,12 @@
                             font-size: 14px;
                             line-height: 16px;
                         }
+                    }
+
+                    .packageSubTxt {
+                        font-size: 15px;
+                        line-height: 22px;
+                        margin-bottom: 5px;
                     }
 
                     .packagepara {
@@ -673,6 +900,19 @@
                                 height: 9px;
                             }
                         }
+                    }
+                }
+
+                .titleNote {
+                    font-size: 14px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+                }
+
+                .packageNote {
+                    p {
+                        font-size: 12px;
+                        line-height: 18px;
                     }
                 }
 
@@ -696,6 +936,17 @@
 
 @media only screen and (min-width: 576px) and (max-width:767px) {
     .pricingSection {
+        .tabBody {
+            max-width: 300px;
+            height: 50px;
+            margin-bottom: 10px;
+
+            li {
+                font-size: 13px;
+                line-height: 13px;
+            }
+        }
+
         .pricingContainer {
             margin-top: 20px;
             flex-wrap: wrap;
@@ -721,14 +972,20 @@
 
 
                     .packagePrice {
-                        font-size: 38px;
-                        line-height: 38px;
+                        font-size: 30px;
+                        line-height: 30px;
                         margin-bottom: 15px;
 
                         span {
-                            font-size: 14px;
+                            font-size: 12px;
                             line-height: 16px;
                         }
+                    }
+
+                    .packageSubTxt {
+                        font-size: 15px;
+                        line-height: 22px;
+                        margin-bottom: 5px;
                     }
 
                     .packagepara {
@@ -777,6 +1034,19 @@
                     }
                 }
 
+                .titleNote {
+                    font-size: 14px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+                }
+
+                .packageNote {
+                    p {
+                        font-size: 12px;
+                        line-height: 18px;
+                    }
+                }
+
                 &:hover {
 
                     .packageBody {
@@ -797,8 +1067,19 @@
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
     .pricingSection {
+        .tabBody {
+            max-width: 100%;
+            height: 50px;
+            margin-bottom: 0px;
+
+            li {
+                font-size: 13px;
+                line-height: 13px;
+            }
+        }
+
         .pricingContainer {
-            margin-top: 20px;
+            margin-top: 10px;
             flex-wrap: wrap;
 
             .pricingItem {
@@ -829,6 +1110,12 @@
                         }
                     }
 
+                    .packageSubTxt {
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-bottom: 5px;
+                    }
+
                     .packagepara {
                         font-size: 13px;
                         line-height: 20px;
@@ -871,6 +1158,19 @@
                                 height: 9px;
                             }
                         }
+                    }
+                }
+
+                .titleNote {
+                    font-size: 14px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+                }
+
+                .packageNote {
+                    p {
+                        font-size: 12px;
+                        line-height: 18px;
                     }
                 }
 

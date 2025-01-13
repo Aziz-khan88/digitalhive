@@ -4,7 +4,7 @@ import PopUp from "@/src/app/components/popup";
 import { useState } from 'react'
 import { ArrowIcon } from "@/src/app/app-constants";
 
-const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg }) => {
+const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, PackageBtn }) => {
     // Chat Code
     // const handleChatOpen = (e) => {
     //     e.preventDefault();
@@ -26,6 +26,10 @@ const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg }) => {
                 </div>
                 :
                 <div className={`commonBtn ${blackBg ? 'blackBg' : ''}`} onClick={() => handleClick()}><span>{txt}</span></div>
+            }
+            {PackageBtn ?
+                <span onClick={() => handleClick()}>Get Started</span>
+                : ""
             }
             <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </>
