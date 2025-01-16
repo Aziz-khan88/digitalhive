@@ -1,10 +1,10 @@
 import styles from "@/styles/components/contactform.module.scss"
 import Link from "next/link"
 
-const ContactFrom = ({ bg, popop, contactPage }) => {
+const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical }) => {
     return (
         <form>
-            <div className={`${styles.Contactbox} ${bg === "no" ? styles.removeBG : ""}  ${popop === "yes" ? styles.popopFrom : ""}`}>
+            <div className={`${styles.Contactbox} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${vertical ? styles.verticalFrom : ""}  ${popop === "yes" ? styles.popopFrom : ""}`}>
                 {contactPage ?
                     <>
                         <div className="subtitle">Get In Touch</div>
@@ -21,14 +21,18 @@ const ContactFrom = ({ bg, popop, contactPage }) => {
                 <div className={styles.contactItem}>
                     <input type="Phone" placeholder="Phone" required />
                 </div>
-                <div className={styles.contactItem}>
-                    <textarea placeholder="Description"></textarea>
-                </div>
-                <div className={styles.para}>
-                    We take your privacy seriously. Read our <Link href="#">Privacy Policy</Link>
-                </div>
+                {!vertical ? (
+                    <>
+                        <div className={styles.contactItem}>
+                            <textarea placeholder="Description"></textarea>
+                        </div>
+                        <div className={styles.para}>
+                            We take your privacy seriously. Read our <Link href="#">Privacy Policy</Link>
+                        </div>
+                    </>
+                ) : null}
                 <div className={styles.contactBtn}>
-                    <button type="submit" className="commonBtn">Submit </button>
+                    <button type="submit" className="commonBtn">{vertical ? "Get a Free SEO Audit" : "Submit"}</button>
                 </div>
             </div>
         </form>

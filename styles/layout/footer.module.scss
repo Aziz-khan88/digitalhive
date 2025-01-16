@@ -216,6 +216,10 @@
     height: 80px;
     margin-bottom: 20px;
 
+    &.copyRightLp {
+        margin-top: 100px;
+    }
+
     .borderStyle {
         border-top: 1px solid rgb(0, 0, 0, 0.2);
         border-bottom: 1px solid rgb(0, 0, 0, 0.2);
@@ -380,6 +384,10 @@
         height: 80px;
         margin-bottom: 10px;
 
+        &.copyRightLp {
+            margin-top: 80px;
+        }
+
         .borderStyle {
 
             .CopyRightBox {
@@ -497,6 +505,10 @@
     .copyRightSection {
         height: 80px;
         margin-bottom: 10px;
+
+        &.copyRightLp {
+            margin-top: 80px;
+        }
 
         img {
             height: 32px;
@@ -620,6 +632,10 @@
     .copyRightSection {
         height: 80px;
         margin-bottom: 10px;
+
+        &.copyRightLp {
+            margin-top: 70px;
+        }
 
         img {
             height: 30px;
@@ -746,6 +762,10 @@
         height: 60px;
         margin-bottom: 10px;
 
+        &.copyRightLp {
+            margin-top: 60px;
+        }
+
         img {
             height: 26px;
             width: auto;
@@ -869,6 +889,10 @@
     .copyRightSection {
         height: 60px;
         margin-bottom: 10px;
+
+        &.copyRightLp {
+            margin-top: 60px;
+        }
 
         img {
             height: 20px;
@@ -1003,6 +1027,10 @@
         height: 70px;
         border-bottom: 0px;
         margin-bottom: 0px;
+
+        &.copyRightLp {
+            margin-top: 60px;
+        }
 
         img {
             height: 20px;
@@ -1147,6 +1175,9 @@
         border-bottom: 0px;
         margin-bottom: 0px;
 
+        &.copyRightLp {
+            margin-top: 60px;
+        }
 
         img {
             height: 20px;

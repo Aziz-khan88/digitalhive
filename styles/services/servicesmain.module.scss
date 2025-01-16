@@ -2,6 +2,40 @@
     background: linear-gradient(0deg, #E0F0FF 0%, #FFFFFF 100%);
     padding-bottom: 50px;
 
+    &.greenBG {
+        .servicesMainContainer {
+            .servicesMainItem {
+                .servicesMainImage {
+                    &::before {
+                        background: linear-gradient(180deg, #9AFF35 0%, rgba(71, 32, 153, 0) 65.56%);
+                    }
+
+                    &::after {
+                        background: linear-gradient(319.4deg, #9AFF35 13.78%, #FFFFFF 90.15%);
+                    }
+
+                    .barLine {
+                        background: linear-gradient(278.31deg, #9AFF35 3.87%, #FFFFFF 104.29%);
+                    }
+
+                    &:hover {
+                        .btnReaMore {
+                            background: #000;
+
+                            svg {
+                                path {
+                                    stroke: #9AFF35;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+
     .servicesMainContainer {
         display: flex;
         justify-content: space-between;
@@ -15,6 +49,7 @@
             background: #FFFFFF;
             border: 1px solid rgba(172, 181, 190, 0.5);
             border-radius: 26px;
+
 
             .servicesMainImage {
                 transition: flex 0.5s ease, transform 0.5s ease;

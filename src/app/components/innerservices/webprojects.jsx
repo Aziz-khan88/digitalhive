@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const WebProjects = ({ data, dataItem }) => {
     return (
-        <section className={`pt-100 ${styles.webProjectSection} `}>
+        <section className={`pt-100 ${styles.webProjectSection}`} id="PortfolioId">
             <Container >
                 <Row>
                     <Col md={7}>

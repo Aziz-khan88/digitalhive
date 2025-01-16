@@ -18,12 +18,132 @@
 
     }
 
+    &.verticalFrom {
+        background: transparent;
+        box-shadow: none;
+        max-width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .contactItem {
+            margin-bottom: 0px;
+            flex: 0 0 calc(33.33% - 15px);
+
+            input {
+                background: transparent;
+                border: 1px solid #fff;
+                color: #fff;
+                border-radius: 10px;
+                margin-bottom: 0px;
+
+                &::placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+
+                &::-ms-input-placeholder {
+                    color: #fff;
+                }
+            }
+
+
+
+        }
+
+        .contactBtn {
+            flex: 0 0 100%;
+            margin-top: 10px;
+
+            button {
+                border: 0px;
+                width: auto;
+                padding: 0px 30px;
+            }
+        }
+    }
+
+    &.bgBlack {
+        background: transparent;
+        box-shadow: none;
+        max-width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .contactItem {
+            margin-bottom: 0px;
+            flex: 0 0 100%;
+
+            input {
+                background: rgba(255, 255, 255, 0.03);
+                backdrop-filter: blur(10px);
+                border: 1px solid #fff;
+                color: #fff;
+                border-radius: 10px;
+                margin-bottom: 0px;
+
+
+                &::placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+
+                &::-ms-input-placeholder {
+                    color: #fff;
+                }
+            }
+
+            textarea {
+                background: rgba(255, 255, 255, 0.03);
+                backdrop-filter: blur(10px);
+                border: 1px solid #fff;
+                color: #fff;
+                border-radius: 10px;
+                margin-bottom: 0px;
+
+                &::placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+
+                &::-ms-input-placeholder {
+                    color: #fff;
+                }
+            }
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                flex: 0 0 calc(50% - 10px);
+            }
+
+        }
+
+        .para {
+            flex: 0 0 100%;
+            color: #fff;
+            margin-bottom: 0px;
+
+            a {
+                color: #fff;
+
+                &:hover {
+                    color: #9AFF35;
+                }
+            }
+        }
+
+    }
+
     .contactItem {
         margin-bottom: 25px;
 
         input {
             height: 60px;
             background: rgba(173, 207, 227, 0.2);
+            backdrop-filter: blur(7.5px);
             border-radius: 20px;
             font-style: normal;
             font-weight: 400;
@@ -55,8 +175,8 @@
     .para {
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 14px;
+        line-height: 20px;
         letter-spacing: -0.165px;
         color: #000000;
         margin-bottom: 25px;
@@ -64,7 +184,7 @@
         a {
             font-style: normal;
             font-weight: 500;
-            font-size: 16px;
+            font-size: 14px;
             text-decoration-line: underline;
             color: #000000;
 
@@ -260,6 +380,14 @@
         max-width: 420px;
         margin: auto;
 
+        &.verticalFrom {
+            gap: 5px;
+
+            .contactItem {
+                flex: 0 0 calc(33.33% - 5px);
+            }
+        }
+
         .contactItem {
             margin-bottom: 12px;
 
@@ -281,12 +409,12 @@
         }
 
         .para {
-            font-size: 12px;
-            line-height: 18px;
+            font-size: 11px;
+            line-height: 16px;
             margin-bottom: 10px;
 
             a {
-                font-size: 12px;
+                font-size: 11px;
             }
         }
 
@@ -304,6 +432,14 @@
         padding: 20px;
         max-width: 420px;
         margin: auto;
+
+        &.verticalFrom {
+            gap: 5px;
+
+            .contactItem {
+                flex: 0 0 calc(33.33% - 5px);
+            }
+        }
 
         .contactItem {
             margin-bottom: 12px;
@@ -349,6 +485,15 @@
         padding: 20px;
         max-width: 420px;
         margin: auto;
+
+        &.verticalFrom {
+            gap: 5px;
+
+            .contactItem {
+                margin-bottom: 0px;
+                flex: 0 0 calc(100% - 0px);
+            }
+        }
 
         .contactItem {
             margin-bottom: 12px;

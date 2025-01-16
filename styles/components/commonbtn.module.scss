@@ -1,0 +1,149 @@
+.btnFlex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    &.center {
+        justify-content: center;
+    }
+
+    &.bgBlack {
+        div {
+            &.chatStyle {
+                background: #000;
+                color: #fff;
+
+                &:hover {
+                    background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
+                    transform: scale(1.01);
+                    transition: background 0.3s ease, transform 0.3s ease;
+                    color: #000;
+                }
+            }
+        }
+
+    }
+
+    div {
+        height: 65px;
+        border-radius: 100px;
+        padding: 0px 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: -0.165px;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.3s ease;
+
+
+        &.btnStyle {
+            background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
+            color: #000000;
+
+            &:hover {
+                background: linear-gradient(9.84deg, #9AFF35 -12.54%, #FFFFFF 103.72%);
+                transform: scale(1.01);
+                transition: background 0.3s ease, transform 0.3s ease;
+            }
+        }
+
+        &.chatStyle {
+            background: #fff;
+            color: #000;
+
+            &:hover {
+                background: linear-gradient(9.84deg, rgb(0, 0, 0, .8) -12.54%, rgb(0, 0, 0, .9) 103.72%);
+                transform: scale(1.01);
+                transition: background 0.3s ease, transform 0.3s ease;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .btnFlex {
+        gap: 10px;
+
+        div {
+            height: 65px;
+            padding: 0px 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .btnFlex {
+        gap: 10px;
+
+        div {
+            height: 62px;
+            padding: 0px 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .btnFlex {
+        gap: 10px;
+
+        div {
+            height: 57px;
+            padding: 0px 25px;
+            font-size: 15px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .btnFlex {
+        gap: 10px;
+
+        div {
+            height: 50px;
+            padding: 0px 25px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .btnFlex {
+        gap: 10px;
+
+        div {
+            height: 50px;
+            padding: 0px 25px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .btnFlex {
+        gap: 5px;
+
+        div {
+            height: 45px;
+            padding: 0px 25px;
+            font-size: 13px;
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .btnFlex {
+        gap: 10px;
+
+        div {
+            height: 40px;
+            padding: 0px 20px;
+            font-size: 13px;
+        }
+    }
+}

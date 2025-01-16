@@ -1,12 +1,10 @@
-"use client";
 import styles from "@/styles/services/servicesmain.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
-import Link from "next/link"
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
-const ServicesMain = ({ data }) => {
+const ServicesMain = ({ data, greenbg }) => {
     return (
-        <section className={`pt-100 ${styles.servicesMainSection}`}>
+        <section className={`pt-100 ${styles.servicesMainSection} ${greenbg ? styles.greenBG : ""}`}>
             <Container>
                 <Row>
                     <Col md={7}>

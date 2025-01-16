@@ -3,8 +3,9 @@
 import PopUp from "@/src/app/components/popup";
 import { useState } from 'react'
 import { ArrowIcon } from "@/src/app/app-constants";
+import styles from "@/styles/components/commonbtn.module.scss"
 
-const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, PackageBtn }) => {
+const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, Livechat, center, BgBlack }) => {
     // Chat Code
     // const handleChatOpen = (e) => {
     //     e.preventDefault();
@@ -20,17 +21,22 @@ const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, PackageBtn }) => {
 
     return (
         <>
-            {ArrowBtn ?
+            {ArrowBtn ? (
                 <div onClick={() => handleClick()}>
-                    {SimpleBtn ? null : <ArrowIcon />} {txt}
+                    {SimpleBtn ? null : <ArrowIcon />}
+                    {txt}
                 </div>
-                :
-                <div className={`commonBtn ${blackBg ? 'blackBg' : ''}`} onClick={() => handleClick()}><span>{txt}</span></div>
-            }
-            {PackageBtn ?
-                <span onClick={() => handleClick()}>Get Started</span>
-                : ""
-            }
+            ) : Livechat ? (
+                <div className={`${styles.btnFlex} ${center ? styles.center : ""} ${BgBlack ? styles.bgBlack : ""}`}>
+                    <div onClick={() => handleClick()} className={styles.btnStyle}>{txt}</div>
+                    <div className={styles.chatStyle}>Live Chat</div>
+                </div>
+            ) : (
+                <div className={`commonBtn ${blackBg ? 'blackBg' : ''}`} onClick={() => handleClick()}>
+                    <span>{txt}</span>
+                </div>
+            )}
+
             <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </>
     )

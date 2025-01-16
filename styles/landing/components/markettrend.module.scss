@@ -1,0 +1,323 @@
+.markettrendSec {
+    overflow: hidden;
+
+    .embla {
+        margin-top: 30px;
+
+        .embla__viewport {
+            overflow: visible;
+
+            .embla__container {
+                display: flex;
+                touch-action: pan-y pinch-zoom;
+                justify-content: space-between;
+                margin-left: calc(50px * -1);
+
+                .embla__slide {
+                    flex: 0 0 100%;
+                    padding-left: 50px;
+
+                    .markettrendContainer {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 100%);
+                        border-radius: 40px;
+
+                        .markettrendTxt {
+                            flex: 0 0 50%;
+                            padding: 20px 50px;
+                        }
+
+                        .markettrendImg {
+                            flex: 0 0 50%;
+                            position: relative;
+                            height: 620px;
+
+                            img {
+                                border-radius: 0px 40px 40px 0px;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .markettrendSec {
+        .embla {
+            margin-top: 25px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(40px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 100%;
+                        padding-left: 40px;
+
+                        .markettrendContainer {
+                            border-radius: 30px;
+
+                            .markettrendTxt {
+                                flex: 0 0 50%;
+                                padding: 20px 50px;
+                            }
+
+                            .markettrendImg {
+                                flex: 0 0 50%;
+                                height: 500px;
+
+                                img {
+                                    border-radius: 0px 30px 30px 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .markettrendSec {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(30px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 100%;
+                        padding-left: 30px;
+
+                        .markettrendContainer {
+                            border-radius: 20px;
+
+                            .markettrendTxt {
+                                flex: 0 0 50%;
+                                padding: 20px 50px;
+                            }
+
+                            .markettrendImg {
+                                flex: 0 0 50%;
+                                height: 500px;
+
+                                img {
+                                    border-radius: 0px 20px 20px 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .markettrendSec {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(30px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 100%;
+                        padding-left: 30px;
+
+                        .markettrendContainer {
+                            border-radius: 20px;
+
+                            .markettrendTxt {
+                                flex: 0 0 50%;
+                                padding: 20px 30px;
+                            }
+
+                            .markettrendImg {
+                                flex: 0 0 50%;
+                                height: 450px;
+
+                                img {
+                                    border-radius: 0px 20px 20px 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .markettrendSec {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(30px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 100%;
+                        padding-left: 30px;
+
+                        .markettrendContainer {
+                            border-radius: 20px;
+
+                            .markettrendTxt {
+                                flex: 0 0 50%;
+                                padding: 20px 30px;
+                            }
+
+                            .markettrendImg {
+                                flex: 0 0 50%;
+                                height: 450px;
+
+                                img {
+                                    border-radius: 0px 20px 20px 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .markettrendSec {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(30px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 100%;
+                        padding-left: 30px;
+
+                        .markettrendContainer {
+                            border-radius: 20px;
+
+                            .markettrendTxt {
+                                flex: 0 0 50%;
+                                padding: 20px 20px;
+                            }
+
+                            .markettrendImg {
+                                flex: 0 0 50%;
+                                height: 450px;
+
+                                img {
+                                    border-radius: 0px 20px 20px 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .markettrendSec {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(30px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 100%;
+                        padding-left: 30px;
+
+                        .markettrendContainer {
+                            border-radius: 20px;
+                            flex-wrap: wrap;
+
+                            .markettrendTxt {
+                                flex: 0 0 100%;
+                                padding: 20px 20px;
+                            }
+
+                            .markettrendImg {
+                                flex: 0 0 100%;
+                                height: 380px;
+
+                                img {
+                                    border-radius: 0px 0px 20px 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .markettrendSec {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(30px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 100%;
+                        padding-left: 30px;
+
+                        .markettrendContainer {
+                            border-radius: 20px;
+                            flex-wrap: wrap;
+
+                            .markettrendTxt {
+                                flex: 0 0 100%;
+                                padding: 20px 20px;
+                            }
+
+                            .markettrendImg {
+                                flex: 0 0 100%;
+                                height: 300px;
+
+                                img {
+                                    border-radius: 0px 0px 20px 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

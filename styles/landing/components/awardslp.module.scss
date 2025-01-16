@@ -1,0 +1,455 @@
+.awardsLpSec {
+    overflow: hidden;
+
+    .embla {
+        .embla__viewport {
+            overflow: visible;
+
+            .embla__container {
+                display: flex;
+                touch-action: pan-y pinch-zoom;
+                justify-content: space-between;
+                margin-left: calc(20px * -1);
+
+                .embla__slide {
+                    flex: 0 0 420px;
+                    height: 350px;
+                    padding-left: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .awardsLpBoxs {
+                        background: #fff;
+                        border-radius: 20px;
+                        padding: 30px 20px 10px;
+                        height: 260px;
+
+                        p {
+                            font-size: 18px;
+                            line-height: 26px;
+                            height: 155px;
+                            color: #000;
+                            margin-bottom: 10px;
+                            overflow: auto;
+
+                            &::-webkit-scrollbar {
+                                width: 0px;
+                            }
+                        }
+
+                    }
+
+                    .infoTest {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .usesInfo {
+                            text-align: left;
+
+                            .namee {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: -0.165px;
+                                color: #000000;
+                            }
+
+                            .job {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 13px;
+                                line-height: 20px;
+                                letter-spacing: -0.165px;
+                                color: #7635FF;
+                            }
+                        }
+
+                        .usesIcon {
+                            svg {
+                                height: 26px;
+                                width: auto;
+                            }
+                        }
+                    }
+
+
+
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .awardsLpSec {
+        .embla {
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 420px;
+                        height: 350px;
+                        padding-left: 20px;
+
+                        .awardsLpBoxs {
+                            padding: 30px 20px 10px;
+
+                            p {
+                                font-size: 17px;
+                                line-height: 25px;
+                                height: 155px;
+                            }
+                        }
+
+                        .infoTest {
+                            .usesInfo {
+                                .namee {
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                }
+
+                                .job {
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+                            }
+
+                            .usesIcon {
+                                svg {
+                                    height: 22px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .awardsLpSec {
+        .embla {
+            .embla__viewport {
+                &::before {
+                    height: 400px;
+                }
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 380px;
+                        height: 300px;
+                        padding-left: 20px;
+
+                        .awardsLpBoxs {
+                            padding: 30px 20px 10px;
+
+                            p {
+                                font-size: 17px;
+                                line-height: 25px;
+                                height: 155px;
+                            }
+                        }
+
+                        .infoTest {
+                            .usesInfo {
+                                .namee {
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+
+                                .job {
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                }
+                            }
+
+                            .usesIcon {
+                                svg {
+                                    height: 22px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .awardsLpSec {
+        .embla {
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 400px;
+                        height: 300px;
+                        padding-left: 15px;
+
+                        .awardsLpBoxs {
+                            padding: 30px 20px 10px;
+
+                            p {
+                                font-size: 16px;
+                                line-height: 23px;
+                                height: 155px;
+                            }
+                        }
+
+                        .infoTest {
+                            .usesInfo {
+                                .namee {
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+
+                                .job {
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                }
+                            }
+
+                            .usesIcon {
+                                svg {
+                                    height: 22px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .awardsLpSec {
+        .embla {
+            .embla__viewport {
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 400px;
+                        height: 240px;
+                        padding-left: 15px;
+
+                        .awardsLpBoxs {
+                            padding: 30px 20px 10px;
+                            height: 240px;
+
+                            p {
+                                font-size: 15px;
+                                line-height: 22px;
+                                height: 135px;
+                            }
+                        }
+
+                        .infoTest {
+                            .usesInfo {
+                                .namee {
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+
+                                .job {
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                }
+                            }
+
+                            .usesIcon {
+                                svg {
+                                    height: 22px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .awardsLpSec {
+        .embla {
+            .embla__viewport {
+
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 400px;
+                        height: 220px;
+                        padding-left: 15px;
+
+                        .awardsLpBoxs {
+                            padding: 20px 20px 10px;
+                            height: 220px;
+
+                            p {
+                                font-size: 15px;
+                                line-height: 22px;
+                                height: 115px;
+                            }
+                        }
+
+                        .infoTest {
+                            .usesInfo {
+                                .namee {
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+
+                                .job {
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                }
+                            }
+
+                            .usesIcon {
+                                svg {
+                                    height: 22px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .awardsLpSec {
+        .embla {
+            .embla__viewport {
+
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 380px;
+                        height: 220px;
+                        padding-left: 15px;
+
+                        .awardsLpBoxs {
+                            padding: 20px 20px 10px;
+                            height: 220px;
+
+                            p {
+                                font-size: 15px;
+                                line-height: 22px;
+                                height: 125px;
+                            }
+                        }
+
+                        .infoTest {
+                            .usesInfo {
+                                .namee {
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+
+                                .job {
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                }
+                            }
+
+                            .usesIcon {
+                                svg {
+                                    height: 22px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .awardsLpSec {
+        .embla {
+            .embla__viewport {
+                &::before {
+                    height: 300px;
+                }
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 350px;
+                        height: 220px;
+                        padding-left: 10px;
+
+                        .awardsLpBoxs {
+                            padding: 20px 20px 10px;
+                            height: 220px;
+
+                            p {
+                                font-size: 14px;
+                                line-height: 20px;
+                                height: 125px;
+                            }
+                        }
+
+                        .infoTest {
+                            .usesInfo {
+                                .namee {
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+
+                                .job {
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                }
+                            }
+
+                            .usesIcon {
+                                svg {
+                                    height: 22px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

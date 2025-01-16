@@ -1,0 +1,140 @@
+.ctaLpSection {
+    margin-top: 100px;
+    height: 450px;
+
+
+    .containerbg {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 40px;
+
+        .ctaContentSec {
+            background: rgba(255, 255, 255, 0.005);
+            border: 1px solid #FFFFFF;
+            backdrop-filter: blur(13.5px);
+            border-radius: 30px;
+            padding: 50px;
+        }
+
+        p {
+            color: #000;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .ctaLpSection {
+        margin-top: 80px;
+        height: 420px;
+
+        .containerbg {
+            border-radius: 35px;
+
+            .ctaContentSec {
+                border-radius: 25px;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .ctaLpSection {
+        margin-top: 70px;
+        height: 420px;
+
+        .containerbg {
+            border-radius: 35px;
+
+            .ctaContentSec {
+                border-radius: 25px;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .ctaLpSection {
+        margin-top: 60px;
+        height: 400px;
+
+        .containerbg {
+            border-radius: 35px;
+
+            .ctaContentSec {
+                border-radius: 25px;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .ctaLpSection {
+        margin-top: 50px;
+        height: 380px;
+
+        .containerbg {
+            border-radius: 30px;
+
+            .ctaContentSec {
+                border-radius: 20px;
+                padding: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .ctaLpSection {
+        margin: 50px auto 0px;
+        height: 300px;
+        max-width: 95%;
+
+        .containerbg {
+            border-radius: 20px;
+
+            .ctaContentSec {
+                border-radius: 15px;
+                padding: 40px 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .ctaLpSection {
+        margin: 40px auto 0px;
+        height: 300px;
+        max-width: 95%;
+
+
+        .containerbg {
+            border-radius: 15px;
+
+            .ctaContentSec {
+                border-radius: 15px;
+                padding: 40px 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .ctaLpSection {
+        margin: 40px auto 0px;
+        height: 300px;
+        max-width: 95%;
+
+        .containerbg {
+            border-radius: 15px;
+
+            .ctaContentSec {
+                border-radius: 15px;
+                padding: 30px 20px;
+            }
+        }
+    }
+}

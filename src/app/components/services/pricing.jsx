@@ -13,7 +13,7 @@ const Pricing = ({ data, bg, tab }) => {
     };
 
     return (
-        <section className={`pt-100 ${styles.pricingSection} ${bg === "yes" ? styles.blackBG : ""}`}>
+        <section className={`pt-100 ${styles.pricingSection} ${bg === "yes" ? styles.blackBG : ""}`} id="PricingId">
             <Container>
                 <Row>
                     <Col md={7}>
@@ -53,7 +53,9 @@ const Pricing = ({ data, bg, tab }) => {
                                         <div className={styles.packagePrice}>${item[`price${selectedPrice}`] || item.price}/<span>{item[`discount${selectedPrice}`] || "Monthly"}</span></div>
                                         {item.titletxt ? <div className={styles.packageSubTxt}>{item?.titletxt}</div> : ""}
                                         <div className={styles.packagepara}>{item.txt}</div>
-                                        <div className={styles.packagebutton}> <CommonBtn ArrowBtn={true} SimpleBtn={true} txt="Get Started" /></div>
+                                        <div className={styles.packagebutton}>
+                                            <CommonBtn ArrowBtn={true} SimpleBtn={true} txt="Get Started" />
+                                        </div>
                                     </div>
                                     <div className={styles.packageBody}>
                                         {item.bodyPoints.map((point, idx) => (

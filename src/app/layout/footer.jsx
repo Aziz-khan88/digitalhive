@@ -1,9 +1,7 @@
-"use client"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/layout/footer.module.scss"
 import Image from "next/image"
 import Link from "next/link"
-import { useEffect, useState } from "react";
 import PaymentImg from "media/home/paymentImg.webp"
 import { FooterLogo } from "@/src/app/app-constants"
 
@@ -42,14 +40,6 @@ const QuickLinks = [
 
 
 const Footer = () => {
-    const [activeClass, setActiveClass] = useState(false);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setActiveClass((prev) => !prev);
-        }, 1000);
-        return () => clearInterval(interval);
-    }, []);
     return (
         <>
             <section className={styles.FooterSection}>
@@ -122,7 +112,7 @@ const Footer = () => {
                     <Row className={`${styles.borderStyle} h-100`} >
                         <Col sm={6} md={6} className="my-auto">
                             <div className={styles.CopyRightBox}>
-                                <div className={styles.txtCopyRight}>© Copyright 2024 - Infiniti Digital </div>
+                                <div className={styles.txtCopyRight}>© Copyright 2025 - Infiniti Digital </div>
                                 <div className={styles.CopyRightLinks}>
                                     <ul>
                                         <li><Link href="#">Terms of Use</Link></li>
