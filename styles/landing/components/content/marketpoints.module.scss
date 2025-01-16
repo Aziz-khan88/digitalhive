@@ -86,3 +86,313 @@
         }
     }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .marketPointsSec {
+        .marketPointsBox {
+            .marketPointsItem {
+                margin-bottom: 25px;
+                margin-top: 25px;
+
+                .tab {
+                    font-size: 22px;
+                    line-height: 32px;
+
+                    &::after {
+                        height: 3px;
+                        bottom: -3px;
+                    }
+                }
+            }
+
+            .tabContent {
+                padding-top: 25px;
+
+                .marketPointsContent {
+                    .contentBox {
+                        flex: 0 0 50%;
+
+                        h4 {
+                            margin-bottom: 15px;
+                        }
+                    }
+
+                    .imgContainer {
+                        flex: 0 0 45%;
+
+                        .imageBox {
+                            height: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .marketPointsSec {
+        .marketPointsBox {
+            .marketPointsItem {
+                margin-bottom: 20px;
+                margin-top: 20px;
+
+                .tab {
+                    font-size: 20px;
+                    line-height: 30px;
+
+                    &::after {
+                        height: 3px;
+                        bottom: -3px;
+                    }
+                }
+            }
+
+            .tabContent {
+                padding-top: 20px;
+
+                .marketPointsContent {
+                    .contentBox {
+                        flex: 0 0 50%;
+
+                        h4 {
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .imgContainer {
+                        flex: 0 0 45%;
+
+                        .imageBox {
+                            height: 280px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .marketPointsSec {
+        .marketPointsBox {
+            .marketPointsItem {
+                margin-bottom: 20px;
+                margin-top: 20px;
+
+                .tab {
+                    font-size: 18px;
+                    line-height: 26px;
+
+                    &::after {
+                        height: 3px;
+                        bottom: -3px;
+                    }
+                }
+            }
+
+            .tabContent {
+                padding-top: 20px;
+
+                .marketPointsContent {
+                    .contentBox {
+                        flex: 0 0 50%;
+
+                        h4 {
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .imgContainer {
+                        flex: 0 0 45%;
+
+                        .imageBox {
+                            height: 260px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .marketPointsSec {
+        .marketPointsBox {
+            .marketPointsItem {
+                margin-bottom: 20px;
+                margin-top: 20px;
+
+                .tab {
+                    font-size: 16px;
+                    line-height: 24px;
+
+                    &::after {
+                        height: 3px;
+                        bottom: -3px;
+                    }
+                }
+            }
+
+            .tabContent {
+                padding-top: 20px;
+
+                .marketPointsContent {
+                    .contentBox {
+                        flex: 0 0 50%;
+
+                        h4 {
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .imgContainer {
+                        flex: 0 0 45%;
+
+                        .imageBox {
+                            height: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .marketPointsSec {
+        .marketPointsBox {
+            .marketPointsItem {
+                margin-bottom: 20px;
+                margin-top: 20px;
+
+                .tab {
+                    font-size: 14px;
+                    line-height: 22px;
+
+                    &::after {
+                        height: 3px;
+                        bottom: -3px;
+                    }
+                }
+            }
+
+            .tabContent {
+                padding-top: 20px;
+
+                .marketPointsContent {
+                    .contentBox {
+                        flex: 0 0 50%;
+
+                        h4 {
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .imgContainer {
+                        flex: 0 0 45%;
+
+                        .imageBox {
+                            height: 230px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .marketPointsSec {
+        .marketPointsBox {
+            .marketPointsItem {
+                margin-bottom: 0px;
+                margin-top: 0px;
+                flex-wrap: wrap;
+
+                .tab {
+                    font-size: 14px;
+                    line-height: 30px;
+                    flex: 0 0 50%;
+                    margin-bottom: 10px;
+
+                    &::after {
+                        height: 3px;
+                        bottom: -3px;
+                    }
+                }
+            }
+
+            .tabContent {
+                padding-top: 20px;
+
+                .marketPointsContent {
+                    .contentBox {
+                        flex: 0 0 50%;
+
+                        h4 {
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .imgContainer {
+                        flex: 0 0 45%;
+
+                        .imageBox {
+                            height: 230px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .marketPointsSec {
+        .marketPointsBox {
+            .marketPointsItem {
+                margin-bottom: 0px;
+                margin-top: 0px;
+                flex-wrap: wrap;
+
+                .tab {
+                    font-size: 14px;
+                    line-height: 30px;
+                    flex: 0 0 100%;
+                    margin-bottom: 10px;
+
+                    &::after {
+                        height: 3px;
+                        bottom: -3px;
+                    }
+                }
+            }
+
+            .tabContent {
+                padding-top: 20px;
+
+                .marketPointsContent {
+                    flex-wrap: wrap;
+
+                    .contentBox {
+                        flex: 0 0 100%;
+
+                        h4 {
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .imgContainer {
+                        flex: 0 0 100%;
+                        margin-top: 20px;
+
+                        .imageBox {
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

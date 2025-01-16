@@ -45,7 +45,7 @@ const HeaderLp = () => {
                     </Col>
                     <Col xs={6} md={8} lg={8} xl={8} xxl={7} className="my-auto">
                         <div onClick={handleClick}
-                            className={`${isActive ? 'navIcon active' : 'navIcon'}  ${scrolled ? "activeScroll" : ''}`}>
+                            className={`${isActive ? 'navIcon active' : 'navIcon'} ${isLight ? "isLight" : ""} ${scrolled ? "activeScroll" : ''}`}>
                             {isActive ? <ClosedIcon /> : <NavIcon />}
                         </div>
                         <ul className={`${styles.menuSection} ${isActive ? `${styles.menuActive}` : ''} ${isLight ? styles.isLight : ""} ${scrolled ? styles.active : ''}`} >

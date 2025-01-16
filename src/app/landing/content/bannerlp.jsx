@@ -16,7 +16,7 @@ const BannerLp = () => {
         <section className={styles.bannerLpSection} id="BannerId" >
             <Container>
                 <Row>
-                    <Col md={6} lg={8} className="my-auto">
+                    <Col md={12} lg={8} className="my-auto">
                         <div className={styles.bannerContentSec}>
                             <div className={styles.bannerTxt}>
                                 <h1>Don’t Let Poor Content Hold Back Your Business</h1>
@@ -30,7 +30,7 @@ const BannerLp = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={5} lg={4} className="my-auto">
+                    <Col md={12} lg={4} className="my-auto">
                         <div className={styles.bannerForms}>
                             <ContactFrom bgBlack="no" />
                             <video

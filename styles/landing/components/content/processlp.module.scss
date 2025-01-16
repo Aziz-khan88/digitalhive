@@ -78,6 +78,7 @@
                     letter-spacing: -0.165px;
                     color: #FFFFFF;
                     transition: color 0.3s ease;
+                    margin-bottom: 10px;
                 }
 
                 p {
@@ -132,5 +133,380 @@
             }
         }
 
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .processLpSec {
+        .processPoints {
+            margin-top: 25px;
+
+            .processItem {
+                &::after {
+                    height: 125px;
+                    width: 2px;
+                }
+
+                &:nth-child(even) {
+                    &::after {
+                        height: 250px;
+                        top: 0px;
+                    }
+                }
+
+                .processContent {
+                    padding: 25px;
+                    width: 550px;
+                    height: 250px;
+
+                    span {
+                        width: 45px;
+                        height: 45px;
+                        font-size: 18px;
+                        line-height: 18px;
+                    }
+
+                    h3 {
+                        font-size: 24px;
+                        line-height: 34px;
+
+                    }
+
+                    p {
+                        font-size: 15px;
+                        line-height: 21px;
+
+                    }
+
+                    .btnStyle {
+                        height: 40px;
+                        padding: 0px 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .processLpSec {
+        .processPoints {
+            margin-top: 20px;
+
+            .processItem {
+                &::after {
+                    height: 115px;
+                    width: 2px;
+                }
+
+                &:nth-child(even) {
+                    &::after {
+                        height: 230px;
+                        top: 0px;
+                    }
+                }
+
+                .processContent {
+                    padding: 20px;
+                    width: 550px;
+                    height: 230px;
+
+                    span {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+
+                    h3 {
+                        font-size: 22px;
+                        line-height: 32px;
+                        margin-bottom: 5px;
+
+                    }
+
+                    p {
+                        font-size: 15px;
+                        line-height: 21px;
+
+                    }
+
+                    .btnStyle {
+                        height: 35px;
+                        padding: 0px 20px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .processLpSec {
+        .processPoints {
+            margin-top: 20px;
+
+            .processItem {
+                &::after {
+                    height: 110px;
+                    width: 2px;
+                }
+
+                &:nth-child(even) {
+                    &::after {
+                        height: 220px;
+                        top: 0px;
+                    }
+                }
+
+                .processContent {
+                    padding: 20px;
+                    width: 480px;
+                    height: 220px;
+
+                    span {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        line-height: 28px;
+                        margin-bottom: 5px;
+
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 19px;
+
+                    }
+
+                    .btnStyle {
+                        height: 35px;
+                        padding: 0px 20px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .processLpSec {
+        .processPoints {
+            margin-top: 20px;
+
+            .processItem {
+
+
+                &::after {
+                    height: 100px;
+                    width: 2px;
+                }
+
+                &:nth-child(even) {
+                    &::after {
+                        height: 200px;
+                        top: 0px;
+                    }
+                }
+
+                .processContent {
+                    padding: 20px;
+                    width: 430px;
+                    height: 200px;
+
+                    span {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+
+                    h3 {
+                        font-size: 18px;
+                        line-height: 26px;
+                        margin-bottom: 5px;
+
+                    }
+
+                    p {
+                        font-size: 13px;
+                        line-height: 18px;
+
+                    }
+
+                    .btnStyle {
+                        height: 32px;
+                        padding: 0px 15px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .processLpSec {
+        .processPoints {
+            margin-top: 20px;
+
+            .processItem {
+                &::after {
+                    height: 105px;
+                    width: 2px;
+                }
+
+                &:nth-child(even) {
+                    &::after {
+                        height: 220px;
+                        top: 0px;
+                    }
+                }
+
+                .processContent {
+                    padding: 15px;
+                    width: 320px;
+                    height: 220px;
+
+                    span {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+
+                    h3 {
+                        font-size: 17px;
+                        line-height: 24px;
+                        margin-bottom: 5px;
+
+                    }
+
+                    p {
+                        font-size: 13px;
+                        line-height: 18px;
+
+                    }
+
+                    .btnStyle {
+                        height: 32px;
+                        padding: 0px 15px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .processLpSec {
+        .processPoints {
+            margin-top: 20px;
+
+            .processItem {
+                &::after {
+                    height: 105px;
+                    width: 2px;
+                }
+
+                &:nth-child(even) {
+                    &::after {
+                        height: 220px;
+                        top: 0px;
+                    }
+                }
+
+                .processContent {
+                    padding: 15px;
+                    width: 250px;
+                    height: 220px;
+
+                    span {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+
+                    h3 {
+                        font-size: 17px;
+                        line-height: 24px;
+                        margin-bottom: 5px;
+
+                    }
+
+                    p {
+                        font-size: 13px;
+                        line-height: 18px;
+
+                    }
+
+                    .btnStyle {
+                        height: 32px;
+                        padding: 0px 15px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .processLpSec {
+        .processPoints {
+            margin-top: 20px;
+
+            .processItem {
+                &::after {
+                    display: none;
+                }
+
+                .processContent {
+                    padding: 15px;
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 10px;
+
+                    span {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 16px;
+                        position: unset;
+                        transform: unset;
+                        margin-bottom: 5px;
+                    }
+
+                    h3 {
+                        font-size: 17px;
+                        line-height: 24px;
+                        margin-bottom: 5px;
+
+                    }
+
+                    p {
+                        font-size: 13px;
+                        line-height: 18px;
+
+                    }
+
+                    .btnStyle {
+                        height: 32px;
+                        padding: 0px 15px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
     }
 }
