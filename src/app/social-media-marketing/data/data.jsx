@@ -122,9 +122,6 @@ export const PriceData = {
             price1: "1250",
             price2: "1050",
             price3: "900",
-            discount1: "Monthly",
-            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
-            discount3: (<> Annually <span>(Saves 28%)</span></>),
             txt: "Ideal for businesses looking to establish a strong presence and build a foundational strategy based on data-backed insights.",
             bodyPoints: [
                 {
@@ -164,9 +161,6 @@ export const PriceData = {
             price1: "1750",
             price2: "1470",
             price3: "1260",
-            discount1: "Monthly",
-            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
-            discount3: (<> Annually <span>(Saves 28%)</span></>),
             txt: "For businesses ready to grow their online presence and achieve measurable results using a more analytical and data-driven approach.",
             bodyPoints: [
                 {
@@ -223,9 +217,6 @@ export const PriceData = {
             price1: "2250",
             price2: "1890",
             price3: "1620",
-            discount1: "Monthly",
-            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
-            discount3: (<> Annually <span>(Saves 28%)</span></>),
             txt: "For brands aiming to completely dominate their niche and make data-informed decisions to grow their audience and convert leads into loyal customers.",
             bodyPoints: [
                 {
