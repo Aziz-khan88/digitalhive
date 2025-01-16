@@ -10,7 +10,7 @@ import Image from "next/image"
 const BookTabs = ({ data, dataItem }) => {
     const [activeTab, setActiveTab] = useState(0);
     return (
-        <section className={`pt-100 ${styles.bookTabs}`}>
+        <section className={`pt-100 ${styles.bookTabs}`} id="PortfolioId">
             <Container>
                 <Row>
                     <Col md={7}>

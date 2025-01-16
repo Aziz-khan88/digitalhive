@@ -1,0 +1,88 @@
+.marketPointsSec {
+    .marketPointsBox {
+        .marketPointsItem {
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            margin-bottom: 30px;
+            margin-top: 30px;
+
+            .tab {
+                flex: 1;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 46px;
+                text-align: center;
+                letter-spacing: -0.165px;
+                color: #D6D6D6;
+                position: relative;
+                padding-bottom: 10px;
+                cursor: pointer;
+
+                &::after {
+                    content: '';
+                    background: rgba(0, 0, 0, 0.2);
+                    width: 100%;
+                    height: 4px;
+                    display: block;
+                    bottom: -4px;
+                    left: 0px;
+                    position: absolute;
+                }
+
+                &.activeTab {
+                    color: #000;
+
+                    &::after {
+                        background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
+                    }
+
+                }
+            }
+        }
+
+        .tabContent {
+            padding-top: 30px;
+
+            .marketPointsContent {
+                display: none;
+                justify-content: space-between;
+                align-items: center;
+
+                &.activeContent {
+                    display: flex;
+                }
+
+                .contentBox {
+                    flex: 0 0 50%;
+
+                    h4 {
+                        color: #000;
+                        font-weight: 500;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        color: #000;
+                    }
+                }
+
+                .imgContainer {
+                    flex: 0 0 45%;
+
+                    .imageBox {
+                        position: relative;
+                        height: 320px;
+                        border-radius: 20px;
+
+                        img {
+                            border-radius: 20px;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

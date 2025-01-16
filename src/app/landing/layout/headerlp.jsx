@@ -5,9 +5,19 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/landing/components/layout/headerlp.module.scss"
 import { useState, useEffect } from "react";
 import { ClosedIcon, NavIcon } from '@/src/app/app-constants';
+import { usePathname } from 'next/navigation';
+
 const HeaderLp = () => {
     const [scrolled, setScrolled] = useState(false);
     const [isActive, setIsActive] = useState(false);
+    const [isLight, setIsLight] = useState(true);
+    const pathname = usePathname();
+
+    useEffect(() => {
+        setIsLight(pathname === '/landing/content');
+    }, [pathname]);
+
+
     useEffect(() => {
         const handleScroll = () => {
             const isScrolled = window.scrollY > 10;
@@ -23,7 +33,7 @@ const HeaderLp = () => {
         setIsActive(!isActive);
     };
     return (
-        <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`}>
+        <section className={`${styles.headerSection} ${scrolled ? styles.active : ''} ${isLight ? styles.isLight : ""}`}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col xs={6} md={2} lg={2} xl={2} xxl={3} className="my-auto">
@@ -38,7 +48,7 @@ const HeaderLp = () => {
                             className={`${isActive ? 'navIcon active' : 'navIcon'}  ${scrolled ? "activeScroll" : ''}`}>
                             {isActive ? <ClosedIcon /> : <NavIcon />}
                         </div>
-                        <ul className={`${styles.menuSection} ${isActive ? `${styles.menuActive}` : ''} ${scrolled ? styles.active : ''}`} >
+                        <ul className={`${styles.menuSection} ${isActive ? `${styles.menuActive}` : ''} ${isLight ? styles.isLight : ""} ${scrolled ? styles.active : ''}`} >
                             <li ><Link href="#AboutId" onClick={handleClick}>About Us</Link></li>
                             <li ><Link href="#ProcessId" onClick={handleClick}>Process</Link></li>
                             <li ><Link href="#ServicesId" onClick={handleClick}>Services</Link></li>

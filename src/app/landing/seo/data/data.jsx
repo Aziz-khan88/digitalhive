@@ -24,10 +24,11 @@ export const StateCounter = {
         }
     ]
 }
-
+import CtaImg from "media/landing/smm/cta.webp"
 export const CtaData = {
     title: "Talk To Our Experts",
     txt: "Contact us without obligation by email or phone and secure your free consultation.",
+    img: CtaImg.src
 }
 
 export const WhyChooseData = {

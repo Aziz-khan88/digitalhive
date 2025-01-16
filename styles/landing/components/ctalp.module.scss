@@ -2,7 +2,6 @@
     margin-top: 100px;
     height: 450px;
 
-
     .containerbg {
         background-repeat: no-repeat;
         background-position: center center;
@@ -19,6 +18,14 @@
 
         p {
             color: #000;
+        }
+
+        &.BgDrak {
+
+            h2,
+            p {
+                color: #fff;
+            }
         }
     }
 }

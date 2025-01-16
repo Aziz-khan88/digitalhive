@@ -1,0 +1,135 @@
+.servicesSec {
+    .servicesBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+        .servicesItem {
+            flex: 0 0 calc(33.33% - 10px);
+            background: #F4F4F4;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            padding: 20px;
+            height: 260px;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background 0.4s ease-in-out,
+                box-shadow 0.3s ease;
+            position: relative;
+
+            .titleBox {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                transition: font-size 0.3s ease, line-height 0.3s ease;
+
+                .svgBox {
+                    border-radius: 100%;
+                    height: 50px;
+                    width: 50px;
+                    background: #FFFFFF;
+                    margin-right: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    svg {
+                        height: 28px;
+                        width: auto;
+
+                        path {
+                            fill: #000;
+                        }
+                    }
+                }
+
+                .headingBox {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 32px;
+                    letter-spacing: -0.165px;
+                    color: #000000;
+                }
+            }
+
+            .paraContent {
+                p {
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #000000;
+                    margin-bottom: 0px;
+                    opacity: 1;
+                    height: 120px;
+                    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, align-items 0.5s ease-in-out;
+                    transform: translateY(40px);
+                    display: flex;
+                    align-items: flex-end;
+                }
+
+                .btnStyle {
+                    opacity: 0;
+                    height: 40px;
+                    background: #000;
+                    color: #fff;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 23px;
+                    padding: 0px 20px;
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+                }
+            }
+
+
+            &:hover {
+                background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                border: 0px;
+
+                .titleBox {
+
+
+                    .svgBox {
+                        background: #000;
+
+                        svg {
+                            path {
+                                fill: #fff;
+                            }
+                        }
+                    }
+
+                    .headingBox {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 26px;
+                        line-height: 32px;
+                        letter-spacing: -0.165px;
+                        color: #000000;
+                    }
+                }
+
+                .paraContent {
+                    p {
+                        align-items: flex-start;
+                        opacity: 1;
+                        transform: translateY(0px);
+                    }
+                }
+
+
+                .btnStyle {
+                    opacity: 1;
+                    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+
+                }
+            }
+        }
+    }
+}

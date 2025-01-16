@@ -1,0 +1,136 @@
+.processLpSec {
+    .processPoints {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-top: 30px;
+
+        .processItem {
+            flex: 0 0 100%;
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background 0.4s ease-in-out,
+                box-shadow 0.3s ease;
+
+            &::after {
+                content: '';
+                background: #000;
+                display: block;
+                height: 125px;
+                width: 2px;
+                position: absolute;
+                left: 50%;
+                top: 0px;
+            }
+
+            &:first-child {
+                &::after {
+                    bottom: 0px;
+                    top: unset;
+                }
+            }
+
+            &:nth-child(even) {
+                justify-content: flex-start;
+
+                &::after {
+                    height: 250px;
+                    top: 0px;
+                }
+            }
+
+            .processContent {
+                padding: 25px;
+                border-radius: 20px;
+                width: 650px;
+                height: 250px;
+                background: #000;
+
+                span {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    background: linear-gradient(319.4deg, #9AFF35 13.78%, #FFFFFF 90.15%);
+                    border-radius: 100px;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 20px;
+                    letter-spacing: -0.165px;
+                    color: #000000;
+                    transform: translate(-50%, -50%);
+                    z-index: 1;
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 36px;
+                    letter-spacing: -0.165px;
+                    color: #FFFFFF;
+                    transition: color 0.3s ease;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: -0.165px;
+                    color: #FFFFFF;
+                    transition: color 0.3s ease;
+
+                }
+
+                .btnStyle {
+                    opacity: 0;
+                    height: 40px;
+                    background: #000;
+                    color: #fff;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 23px;
+                    padding: 0px 20px;
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+                }
+            }
+
+            &:hover {
+                .processContent {
+                    background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+                    h3 {
+                        color: #000;
+                        transition: color 0.3s ease;
+                    }
+
+                    p {
+                        color: #000;
+                        transition: color 0.3s ease;
+                    }
+
+                    .btnStyle {
+                        opacity: 1;
+                        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+
+                    }
+                }
+            }
+        }
+
+    }
+}

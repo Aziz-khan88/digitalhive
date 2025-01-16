@@ -6,7 +6,7 @@ import AutoScroll from "embla-carousel-auto-scroll";
 import Image from "next/image";
 const options = { loop: true }
 
-const Clients = ({ data }) => {
+const Clients = ({ data, landingBanner }) => {
     const [emblaRef] = useEmblaCarousel(options,
         [
             AutoScroll({
@@ -21,7 +21,7 @@ const Clients = ({ data }) => {
     );
 
     return (
-        <section className={styles.clientSlider}>
+        <section className={`${styles.clientSlider} ${landingBanner ? styles.landingSlider : ""} `}>
             <div className={styles.embla}>
                 <div className={styles.embla__viewport} ref={emblaRef}>
                     <div className={styles.embla__container}>

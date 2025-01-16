@@ -39,6 +39,15 @@
         }
     }
 
+    &.landingSlider {
+        margin-top: 30px;
+        position: unset;
+        background-image: url("../../public/landing/paid//BannerPoster.webp");
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 15px;
+    }
+
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {

@@ -1,12 +1,11 @@
 import styles from "@/styles/landing/components/ctalp.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
 import CommonBtn from "@/src/app/components/common/commonbtn"
-import IMG from "media/landing/smm/cta.webp"
 
-const CtaLp = ({ data }) => {
+const CtaLp = ({ data, BgDrak }) => {
     return (
         <section className={styles.ctaLpSection} >
-            <Container className={`${styles.containerbg} h-100`} style={{ backgroundImage: `url(${IMG.src})` }}>
+            <Container className={`${styles.containerbg} h-100 ${BgDrak ? styles.BgDrak : ""}`} style={{ backgroundImage: `url(${data.img})` }}>
                 <Row className="h-100">
                     <Col md={9} lg={7} className="m-auto text-center">
                         <div className={styles.ctaContentSec}>

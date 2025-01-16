@@ -29,6 +29,7 @@ const BannerLp = () => {
                             <ContactFrom bgBlack="no" />
                         </div>
                     </Col>
+
                 </Row>
             </Container>
             <video
