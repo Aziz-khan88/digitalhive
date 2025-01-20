@@ -14,9 +14,7 @@ const HeaderLp = () => {
     const pathname = usePathname();
 
     useEffect(() => {
-        setIsLight(pathname === '/landing/content');
-        setIsLight(pathname === '/landing/seo1');
-        setIsLight(pathname === '/landing/smm1');
+        setIsLight(pathname === '/landing/content' || pathname === '/landing/smm1' || pathname === '/landing/seo1');
     }, [pathname]);
 
 

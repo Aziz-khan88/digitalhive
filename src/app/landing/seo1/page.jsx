@@ -5,6 +5,7 @@ import Pricing from '@/src/app/components/services/pricing'
 import PackageDetails from "@/src/app/landing/seo1/package"
 import AwardsLp from "@/src/app/landing/components/awardslp"
 import ServicesLP from "@/src/app/landing/seo1/serviceslp"
+import LocationLP from "@/src/app/landing/seo1/location"
 import Industries from "@/src/app/home/Industries";
 import WhyChooseLp from "@/src/app/landing/seo/whychooselp"
 import ProcessLp from "@/src/app/landing/components/processlp"
@@ -14,6 +15,7 @@ import Faqs from "@/src/app/home/faq";
 import { ServicesData, WhyChooseData, FAQsData, ContactData } from "@/src/app/landing/seo1/data/data"
 import { PriceData } from "@/src/app/seo/data/data"
 import { IndustriesData, IndustryItem, PartnerData } from "@/src/app/home/data/data";
+
 
 
 const Page = () => {
@@ -26,6 +28,7 @@ const Page = () => {
             <PackageDetails />
             <AwardsLp />
             <ServicesLP />
+            <LocationLP />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <ProcessLp black={true} />
             <Partners data={PartnerData} />
