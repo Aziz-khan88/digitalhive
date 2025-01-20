@@ -7,6 +7,7 @@
     margin: auto;
 
 
+
     &.removeBG {
         background: transparent;
         box-shadow: none;
@@ -27,9 +28,24 @@
         flex-wrap: wrap;
         gap: 15px;
 
+        &.BlackVertical {
+            .contactItem {
+                input {
+                    border: 1px solid rgba(115, 133, 143, 0.25);
+                    color: #797979;
+
+                    &::placeholder {
+                        color: #797979;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
         .contactItem {
             margin-bottom: 0px;
             flex: 0 0 calc(33.33% - 15px);
+            color: #fff;
 
             input {
                 background: transparent;
@@ -159,6 +175,43 @@
                 height: 50px;
                 font-size: 15px;
                 font-weight: 600;
+            }
+        }
+    }
+
+    &.blkColor {
+        .contactItem {
+            input {
+                background: #fff;
+                color: #9F9F9F;
+
+                &::placeholder {
+                    color: #9F9F9F;
+                    opacity: 1;
+                }
+            }
+
+            textarea {
+                background: #fff;
+                color: #9F9F9F;
+
+                &::placeholder {
+                    color: #9F9F9F;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .para {
+            color: #000000;
+            margin-bottom: 0px;
+
+            a {
+                color: #000000;
+
+                &:hover {
+                    color: #9AFF35;
+                }
             }
         }
     }
@@ -661,6 +714,16 @@
         padding: 20px;
         max-width: 420px;
         margin: auto;
+
+        &.bgBlack {
+            .contactItem {
+
+                &:nth-child(2),
+                &:nth-child(3) {
+                    flex: 0 0 calc(100% - 0px);
+                }
+            }
+        }
 
         &.verticalFrom {
             gap: 5px;

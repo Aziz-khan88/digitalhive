@@ -10,7 +10,7 @@ import Pricing from '@/src/app/components/services/pricing'
 import { PriceData } from '@/src/app/social-media-marketing/data/data'
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Faqs from "@/src/app/home/faq";
-import { StateCounter, FAQsData, ContactData, StateCounterPoints, WebProjectData, SimpleContent } from "@/src/app/landing/paid/data/data"
+import { StateCounter, FAQsData, ContactData, StateCounterPoints, WebProjectData, SimpleContent, ServicesData } from "@/src/app/landing/paid/data/data"
 import { WebProjectItem } from '@/src/app/web-development/data/data'
 
 const Page = () => {
@@ -18,7 +18,7 @@ const Page = () => {
         <>
             <BannerLp />
             <StateCountLP data={StateCounter} video={true} />
-            <ServicesLp />
+            <ServicesLp data={ServicesData} />
             <StateCount data={StateCounterPoints} />
             <StateCountLP data={SimpleContent} alternet={true} video={true} />
             <ProcessLp />

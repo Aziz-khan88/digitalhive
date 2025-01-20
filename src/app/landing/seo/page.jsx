@@ -28,7 +28,7 @@ const Page = () => {
             <ProcessLp black={true} />
             <ServicesMain data={ServicesData} greenbg={true} />
             <CaseStudyLp />
-            <Pricing data={PriceData} tab={true} />
+            <Pricing data={PriceData} />
             <TalkLp />
             <AwardsLp />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />

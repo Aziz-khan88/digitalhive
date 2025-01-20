@@ -3,9 +3,9 @@ import styles from "@/styles/inner-services/statecount.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 
 
-const StateCount = ({ data, coloum, landingBanner }) => {
+const StateCount = ({ data, coloum, landingBanner, RoundedStyle }) => {
     return (
-        <section className={` ${styles.stateCountSection} ${landingBanner ? "" : 'pt-100'}`}>
+        <section className={` ${styles.stateCountSection} ${landingBanner ? "" : 'pt-100'} ${RoundedStyle ? styles.RoundedStyle : 'pt-100'}`}>
             <Container>
                 {!landingBanner ?
                     <Row>

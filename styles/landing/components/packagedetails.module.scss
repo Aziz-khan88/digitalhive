@@ -1,0 +1,487 @@
+.tablleLP {
+    background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 100%);
+    padding-bottom: 50px;
+
+    .bgContentLP {
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: cover;
+        padding: 50px 0px 0px;
+        border-radius: 50px 50px 0px 0px;
+        position: relative;
+        z-index: 0;
+
+        &::after {
+            content: '';
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(42px);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            border-radius: 50px 50px 0px 0px;
+        }
+
+        h2,
+        p {
+            color: #fff;
+        }
+
+        .tableContent {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #fff;
+
+            .itemTableContent {
+                flex: 0 0 33.33%;
+                padding: 50px 30px 0px;
+
+                h5 {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 22px;
+                    letter-spacing: -0.165px;
+                    color: #9AFF35;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    margin-bottom: 40px;
+
+                    li {
+                        color: #fff;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+
+                        svg {
+                            margin-right: 10px;
+                            width: 14px;
+                            height: auto;
+
+                            path {
+                                fill: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .bgBlack {
+        background: #000;
+        border-radius: 0px 0px 50px 50px;
+        padding: 40px 0px;
+
+        h4 {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .tablleLP {
+        padding-bottom: 50px;
+
+        .bgContentLP {
+            padding: 40px 0px 0px;
+            border-radius: 50px 50px 0px 0px;
+
+            &::after {
+                border-radius: 50px 50px 0px 0px;
+            }
+
+            .tableContent {
+
+                .itemTableContent {
+                    flex: 0 0 33.33%;
+                    padding: 40px 20px 0px;
+
+                    h5 {
+                        font-size: 18px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-bottom: 35px;
+
+                        li {
+                            font-size: 14px;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+
+                            svg {
+                                margin-right: 10px;
+                                width: 13px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .bgBlack {
+            padding: 40px 0px;
+
+            h4 {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .tablleLP {
+        padding-bottom: 50px;
+
+        .bgContentLP {
+            padding: 40px 0px 0px;
+            border-radius: 50px 50px 0px 0px;
+
+            &::after {
+                border-radius: 50px 50px 0px 0px;
+            }
+
+            .tableContent {
+
+                .itemTableContent {
+                    flex: 0 0 33.33%;
+                    padding: 40px 20px 0px;
+
+                    h5 {
+                        font-size: 17px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-bottom: 30px;
+
+                        li {
+                            font-size: 14px;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+
+                            svg {
+                                margin-right: 10px;
+                                width: 13px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .bgBlack {
+            border-radius: 0px 0px 50px 50px;
+            padding: 40px 0px;
+
+            h4 {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .tablleLP {
+        padding-bottom: 50px;
+
+        .bgContentLP {
+            padding: 30px 0px 0px;
+            border-radius: 40px 40px 0px 0px;
+
+            &::after {
+                border-radius: 40px 40px 0px 0px;
+            }
+
+            .tableContent {
+
+                .itemTableContent {
+                    flex: 0 0 33.33%;
+                    padding: 30px 10px 0px;
+
+                    h5 {
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-bottom: 30px;
+
+                        li {
+                            font-size: 13px;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+
+                            svg {
+                                margin-right: 5px;
+                                width: 12px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .bgBlack {
+            border-radius: 0px 0px 40px 40px;
+            padding: 30px 0px;
+
+            h4 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .tablleLP {
+        padding-bottom: 40px;
+
+        .bgContentLP {
+            padding: 30px 0px 0px;
+            border-radius: 40px 40px 0px 0px;
+
+            &::after {
+                border-radius: 40px 40px 0px 0px;
+            }
+
+            .tableContent {
+
+                .itemTableContent {
+                    flex: 0 0 33.33%;
+                    padding: 20px 0px 0px;
+
+                    h5 {
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-bottom: 25px;
+
+                        li {
+                            font-size: 12px;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+
+                            svg {
+                                margin-right: 5px;
+                                width: 11px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .bgBlack {
+            border-radius: 0px 0px 40px 40px;
+            padding: 30px 0px;
+
+            h4 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .tablleLP {
+        padding-bottom: 20px;
+
+        .bgContentLP {
+            padding: 30px 0px 0px;
+            border-radius: 40px 40px 0px 0px;
+
+            &::after {
+                border-radius: 40px 40px 0px 0px;
+            }
+
+            .tableContent {
+                padding-top: 20px;
+                flex-wrap: wrap;
+
+                .itemTableContent {
+                    flex: 0 0 100%;
+                    padding: 0px 20px 0px;
+
+                    h5 {
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-bottom: 20px;
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        li {
+                            flex: 0 0 50%;
+                            font-size: 12px;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+
+                            svg {
+                                margin-right: 5px;
+                                width: 11px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .bgBlack {
+            border-radius: 0px 0px 40px 40px;
+            padding: 30px 0px;
+
+            h4 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .tablleLP {
+        padding-bottom: 20px;
+
+        .bgContentLP {
+            padding: 30px 20px 0px;
+            border-radius: 40px 40px 0px 0px;
+            max-width: 96%;
+            margin: auto;
+
+            &::after {
+                border-radius: 40px 40px 0px 0px;
+            }
+
+            .tableContent {
+                padding-top: 20px;
+                flex-wrap: wrap;
+
+                .itemTableContent {
+                    flex: 0 0 100%;
+                    padding: 0px 0px 0px;
+
+                    h5 {
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-bottom: 20px;
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        li {
+                            flex: 0 0 50%;
+                            font-size: 12px;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+
+                            svg {
+                                margin-right: 5px;
+                                width: 11px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .bgBlack {
+            border-radius: 0px 0px 40px 40px;
+            padding: 30px 0px;
+            max-width: 96%;
+            margin: auto;
+
+            h4 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .tablleLP {
+        padding-bottom: 0px;
+        overflow: hidden;
+
+        .bgContentLP {
+            padding: 30px 20px 0px;
+            border-radius: 20px 20px 0px 0px;
+            max-width: 96%;
+            margin: auto;
+
+            &::after {
+                border-radius: 20px 20px 0px 0px;
+            }
+
+            .tableContent {
+                padding-top: 20px;
+                flex-wrap: wrap;
+
+                .itemTableContent {
+                    flex: 0 0 100%;
+                    padding: 0px 0px 0px;
+
+                    h5 {
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-bottom: 20px;
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        li {
+                            flex: 0 0 100%;
+                            font-size: 12px;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+
+                            svg {
+                                margin-right: 5px;
+                                width: 11px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .bgBlack {
+            border-radius: 0px 0px 20px 20px;
+            padding: 30px 0px;
+            max-width: 96%;
+            margin: auto;
+
+            h4 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

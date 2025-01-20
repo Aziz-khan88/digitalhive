@@ -27,6 +27,19 @@
                 color: #fff;
             }
         }
+
+        &.bgBlur {
+            .ctaContentSec {
+                background: unset;
+                backdrop-filter: unset;
+                border: 0px;
+
+                h2,
+                p {
+                    color: #fff;
+                }
+            }
+        }
     }
 }
 

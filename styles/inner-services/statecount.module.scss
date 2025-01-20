@@ -6,6 +6,28 @@
         padding-bottom: 50px;
     }
 
+    &.RoundedStyle {
+        background: linear-gradient(0deg, #E0F0FF 0%, #FFFFFF 100%);
+        border-radius: 100px;
+        overflow: hidden;
+        height: 160px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        .stateCountItem {
+            height: 120px;
+            padding: 0px;
+            margin: 0px;
+
+            &:hover {
+                transform: scale(1.01);
+                box-shadow: none;
+                border: 0px;
+            }
+        }
+    }
+
     .stateCountLp {
         margin-bottom: 30px;
 
@@ -99,6 +121,14 @@
             }
         }
 
+        &.RoundedStyle {
+            height: 150px;
+
+            .stateCountItem {
+                height: 110px;
+            }
+        }
+
         .stateCountItem {
             height: 220px;
             border-radius: 28px;
@@ -128,6 +158,14 @@
                     object-fit: cover;
                     border-radius: 40px;
                 }
+            }
+        }
+
+        &.RoundedStyle {
+            height: 140px;
+
+            .stateCountItem {
+                height: 100px;
             }
         }
 
@@ -163,6 +201,14 @@
             }
         }
 
+        &.RoundedStyle {
+            height: 130px;
+
+            .stateCountItem {
+                height: 90px;
+            }
+        }
+
         .stateCountItem {
             height: 180px;
             border-radius: 20px;
@@ -195,6 +241,14 @@
             }
         }
 
+        &.RoundedStyle {
+            height: 120px;
+
+            .stateCountItem {
+                height: 80px;
+            }
+        }
+
         .stateCountItem {
             height: 180px;
             border-radius: 20px;
@@ -224,6 +278,14 @@
                     object-fit: cover;
                     border-radius: 30px;
                 }
+            }
+        }
+
+        &.RoundedStyle {
+            height: 110px;
+
+            .stateCountItem {
+                height: 70px;
             }
         }
 
@@ -260,6 +322,16 @@
             }
         }
 
+        &.RoundedStyle {
+            height: auto;
+            border-radius: 0px;
+
+            .stateCountItem {
+                height: 90px;
+                background: transparent;
+            }
+        }
+
         .stateCountItem {
             height: 160px;
             border-radius: 20px;
@@ -290,6 +362,17 @@
                     object-fit: cover;
                     border-radius: 15px;
                 }
+            }
+        }
+
+        &.RoundedStyle {
+            height: auto;
+            border-radius: 0px;
+
+            .stateCountItem {
+                height: auto;
+                background: transparent;
+                padding: 20px;
             }
         }
 

@@ -4,6 +4,9 @@
     border-radius: 0px 0px 100px 100px;
     overflow: hidden;
     padding-top: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .bannerContentSec {
         h1 {
@@ -12,12 +15,12 @@
             font-size: 55px;
             line-height: 60px;
             letter-spacing: -0.165px;
-            color: #FFFFFF;
+            color: #000;
             margin-bottom: 20px;
         }
 
         P {
-            color: #FFFFFF;
+            color: #000;
         }
 
         .banenrLogo {
@@ -26,11 +29,18 @@
     }
 
     .bannerForms {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(500px);
+        border-radius: 32px;
+        padding: 25px;
+
         h3 {
             font-weight: 500;
-            color: #FFFFFF;
-            margin-bottom: 20px;
+            color: #000;
+            margin-bottom: 10px;
             font-size: 30px;
+            line-height: 37px;
 
         }
     }

@@ -14,6 +14,61 @@ export const CtaData = {
     txt: "Contact us without obligation by email or phone and secure your free consultation.",
 }
 
+//Services
+export const ServicesData = {
+    subtitle: "Our Services",
+    title: "From Vision to Reality",
+    desc: "Your website starts with understanding your goals—because every great project begins with clarity and focus. Here’s how we make it happen:",
+    ServicesItem: [
+        {
+            title: (<>Social Media Strategy <br />Development</>),
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+        },
+        {
+            title: (<>Social Media Strategy <br />Development</>),
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+
+        },
+        {
+            title: (<>Social Media Strategy <br />Development</>),
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+
+        },
+        {
+            title: (<>Social Media Strategy <br />Development</>),
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+
+        },
+        {
+            title: (<>Social Media Strategy <br />Development</>),
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+
+        },
+        {
+            title: (<>Social Media Strategy <br />Development</>),
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+        },
+
+    ]
+}
 export const StateCounterPoints = {
     subtitle: "Your Business, Our Focus",
     title: "Why WordPress?",

@@ -1,0 +1,132 @@
+.textSection {
+    padding: 150px 0px 50px;
+
+    .bgColor {
+        padding: 50px 50px;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) -8.36%, #E0F0FF 70.66%);
+        border: 1px solid #FFFFFF;
+        border-radius: 30px;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 60%;
+            right: 0px;
+            transform: translate(0%, -60%);
+            height: 650px;
+            width: auto;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .textSection {
+        padding: 120px 0px 50px;
+
+        .bgColor {
+            padding: 50px 50px;
+
+            img {
+                top: 60%;
+                transform: translate(-10%, -60%);
+                height: 550px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .textSection {
+        padding: 120px 0px 50px;
+
+        .bgColor {
+            padding: 45px 45px;
+
+            img {
+                top: 60%;
+                transform: translate(-10%, -60%);
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .textSection {
+        padding: 100px 0px 30px;
+
+        .bgColor {
+            padding: 40px 40px;
+
+            img {
+                top: 60%;
+                transform: translate(0%, -60%);
+                height: 450px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .textSection {
+        padding: 90px 0px 30px;
+
+        .bgColor {
+            padding: 40px 40px;
+
+            img {
+                top: 60%;
+                transform: translate(0%, -60%);
+                height: 450px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .textSection {
+        padding: 50px 0px 20px;
+
+        .bgColor {
+            padding: 35px 35px;
+
+            img {
+                top: 60%;
+                transform: translate(0%, -60%);
+                height: 380px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .textSection {
+        padding: 20px 0px 0px;
+
+        .bgColor {
+            padding: 35px 35px;
+            max-width: 96%;
+            margin: auto;
+
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .textSection {
+        padding: 20px 0px 0px;
+
+        .bgColor {
+            padding: 20px;
+            max-width: 96%;
+            margin: auto;
+
+            img {
+                display: none;
+            }
+        }
+    }
+}

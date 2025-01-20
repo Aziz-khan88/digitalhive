@@ -1,10 +1,10 @@
 import styles from "@/styles/components/contactform.module.scss"
 import Link from "next/link"
 
-const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage }) => {
+const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor }) => {
     return (
         <form>
-            <div className={`${styles.Contactbox} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${popop === "yes" ? styles.popopFrom : ""}`}>
+            <div className={`${styles.Contactbox} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
                 {contactPage ?
                     <>
                         <div className="subtitle">Get In Touch</div>

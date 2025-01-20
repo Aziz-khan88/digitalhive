@@ -2,12 +2,12 @@ import styles from "@/styles/landing/components/ctalp.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
-const CtaLp = ({ data, BgDrak }) => {
+const CtaLp = ({ data, BgDrak, bgBlur }) => {
     return (
         <section className={styles.ctaLpSection} >
-            <Container className={`${styles.containerbg} h-100 ${BgDrak ? styles.BgDrak : ""}`} style={{ backgroundImage: `url(${data.img})` }}>
+            <Container className={`${styles.containerbg} h-100 ${BgDrak ? styles.BgDrak : ""} ${bgBlur ? styles.bgBlur : ""} `} style={{ backgroundImage: `url(${data.img})` }}>
                 <Row className="h-100">
-                    <Col md={9} lg={7} className="m-auto text-center">
+                    <Col xs={12} md={10} lg={bgBlur ? 10 : 7} className="m-auto text-center">
                         <div className={styles.ctaContentSec}>
                             <h2>{data.title}</h2>
                             <p>{data.txt}</p>
@@ -18,7 +18,7 @@ const CtaLp = ({ data, BgDrak }) => {
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section >
     )
 }
 
