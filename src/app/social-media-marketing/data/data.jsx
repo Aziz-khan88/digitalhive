@@ -4,7 +4,7 @@ export const BannerData = {
     subtitle: "No. 1 Social Media Marketing Company in the U.S.",
     title: "An Agency You Can Trust",
     desc: "Struggling to cut through the noise on social media? You’re not alone. At Infinitidigital, we create strategies that don’t just get you noticed—they get you results.",
-    video: "https://player.vimeo.com/progressive_redirect/playback/1039775965/rendition/720p/file.mp4?loc=external&log_user=0&signature=27eb31d173fb744c4981bffe218fca1bc13be18f86f4fea3e84d75885ed500a7",
+    video: "https://player.vimeo.com/progressive_redirect/playback/1048884947/rendition/1080p/file.mp4?loc=external&log_user=0&signature=6c947d88a8cbe4af33dff296c7678ea0fb700eae835690f1c2baf6406e286c23",
     BannerPoster: BannerPoster.src
 }
 //Services
