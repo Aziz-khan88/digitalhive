@@ -12,7 +12,7 @@ import Pricing from '@/src/app/components/services/pricing'
 import { PriceData } from '@/src/app/social-media-marketing/data/data'
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Faqs from "@/src/app/home/faq";
-import { StateCounter, CtaData, FAQsData, ContactData } from "@/src/app/landing/smm/data/data"
+import { StateCounter, CtaData, FAQsData, ContactData, ServicesData } from "@/src/app/landing/smm/data/data"
 
 
 const Page = () => {
@@ -22,7 +22,7 @@ const Page = () => {
             <StateCountLP data={StateCounter} />
             <ProcessLp />
             <CtaLp data={CtaData} />
-            <ServicesLp />
+            <ServicesLp data={ServicesData} />
             <CreativeLp />
             <TalkLp />
             <PlateFromLp />

@@ -1,4 +1,58 @@
+//Services
+export const ServicesData = {
+    subtitle: "Our Services",
+    title: "Is Your Business Facing These Problems?",
+    desc: "Lacking a strong social media presence? Our SMM services transform leads into loyal customers with proven strategies and expert management.",
+    ServicesItem: [
+        {
+            title: "Your Business Is Not Showing On Top Search Results?",
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+        },
+        {
+            title: "You Are Only Investing But Not Making Any Profits?",
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
 
+        },
+        {
+            title: "You Are Not Getting Qualified Leads?",
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+
+        },
+        {
+            title: "Your SEO Strategy Showing On Top Google Search Results?",
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+
+        },
+        {
+            title: "You Are Not Getting Organic Traffic On Your Website?",
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+
+        },
+        {
+            title: "Your Current SEO Company Is Not Providing Results?",
+            txt: (<>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+            </>),
+        },
+
+    ]
+}
 import IMG from "@/public/landing/smm/ctaBg.webp"
 export const StateCounter = {
     subtitle: "About Us",
