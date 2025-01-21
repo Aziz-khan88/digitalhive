@@ -108,7 +108,26 @@ export const CtaData = {
     img: CtaImg.src
 }
 
+export const PorcessLpData = {
+    subtitle: "Our Process",
+    title: "How We Help Your Brand Grow.",
+    desc: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape. ",
+    PorcessLpItem: [
+        {
+            title: "Deeply Understand your Business and Audience.",
+            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
+        },
+        {
+            title: "Deeply Understand your Business and Audience.",
+            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
+        },
+        {
+            title: "Deeply Understand your Business and Audience.",
+            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
+        }
 
+    ]
+}
 
 
 // FAQs

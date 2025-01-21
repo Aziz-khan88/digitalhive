@@ -4,7 +4,7 @@ import CommonBtn from "@/src/app/components/common/commonbtn"
 
 const ServicesMain = ({ data, greenbg }) => {
     return (
-        <section className={`pt-100 ${styles.servicesMainSection} ${greenbg ? styles.greenBG : ""}`}>
+        <section className={`pt-100 ${styles.servicesMainSection} ${greenbg ? styles.greenBG : ""}`} id="ServicesId">
             <Container>
                 <Row>
                     <Col md={7}>

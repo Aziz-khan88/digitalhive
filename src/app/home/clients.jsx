@@ -22,13 +22,15 @@ const Clients = ({ data, landingBanner, landingPage }) => {
 
     return (
         <>
-            <section className={styles.mainSectionClients}>
+            <section className={landingPage ? styles.mainSectionClients : ""}>
                 <Container fluid>
                     <Row>
-                        <Col md={7} className="m-auto text-center">
-                            <h2>Platform we Love working with</h2>
-                            <p>Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data-driven strategies.</p>
-                        </Col>
+                        {landingPage ?
+                            <Col md={7} className="m-auto text-center">
+                                <h2>Platform we Love working with</h2>
+                                <p>Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data-driven strategies.</p>
+                            </Col>
+                            : ""}
                         <Col md={12} >
                             <section className={`${styles.clientSlider} ${landingBanner ? styles.landingSlider : ""} ${landingPage ? styles.landingPageBanner : ""}`}>
                                 <div className={styles.embla}>

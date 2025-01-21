@@ -62,7 +62,7 @@ const data = [
 
 const CaseStudyLp = () => {
     return (
-        <section className={`${styles.casestudyLpSection} pt-100`} id="BannerId">
+        <section className={`${styles.casestudyLpSection} pt-100`} id="PortfolioId">
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={8} lg={8} className="m-auto text-center">

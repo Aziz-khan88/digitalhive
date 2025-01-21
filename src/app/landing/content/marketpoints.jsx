@@ -13,7 +13,7 @@ const MarketPoints = ({ data }) => {
     }
 
     return (
-        <section className={`pt-100 ${styles.marketPointsSec}`}>
+        <section className={`pt-100 ${styles.marketPointsSec}`} id="AboutId">
             <Container className="gradientBgColor">
                 <Row>
                     <Col md={12} lg={10} className="m-auto text-center">

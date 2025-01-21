@@ -7,9 +7,11 @@ import ServicesLp from "@/src/app/landing/components/serviceslp"
 import AwardsLp from "@/src/app/landing/components/awardslp"
 import Pricing from '@/src/app/components/services/pricing'
 import WhyChooseLp from "@/src/app/landing/seo/whychooselp"
+import PorcessLp from "@/src/app/landing/content/porcesslp"
+import CreativeLp from "@/src/app/landing/components/creativelp"
 import StateCountLP from "@/src/app/landing/components/statecountlp"
 import CtaLp from "@/src/app/landing/components/ctalp"
-import { ServicesData, StateCounter, WhyChooseData, CtaData, FAQsData } from "@/src/app/landing/smm1/data/data"
+import { ServicesData, StateCounter, WhyChooseData, CtaData, FAQsData, PorcessLpData } from "@/src/app/landing/smm1/data/data"
 import { PriceData } from "@/src/app/seo/data/data"
 
 const Page = () => {
@@ -21,8 +23,10 @@ const Page = () => {
             <ServicesLp data={ServicesData} heigthSmall={true} />
             <AwardsLp />
             <Pricing data={PriceData} bg="yes" />
+            <PorcessLp data={PorcessLpData} />
             <StateCountLP data={StateCounter} />
             <WhyChooseLp data={WhyChooseData} />
+            <CreativeLp />
             <CtaLp data={CtaData} bgBlur={true} />
             <Faqs data={FAQsData} />
 
