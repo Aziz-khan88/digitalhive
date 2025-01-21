@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/seo-agency/bannerImg.webp"
 
 export const BannerData = {
     title: "Master SEO Strategies with Infinitidigital",
-    desc: "At Infinitidigital, we specialize in data-driven SEO strategies designed to deliver measurable results for businesses of all sizes. From local startups to global enterprises, our expertise ensures your business achieves top search rankings, increased traffic, and higher conversions.",
+    desc: "Are you ready to elevate your brand’s online visibility and outshine competitors? At Infinitidigital, we specialize in data-driven SEO strategies designed to deliver measurable results for businesses of all sizes. From local startups to global enterprises, our expertise ensures your business achieves top search rankings, increased traffic, and higher conversions.",
     video: "",
     BannerPoster: BannerPoster.src
 }
