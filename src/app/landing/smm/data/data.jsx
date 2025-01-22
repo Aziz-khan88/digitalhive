@@ -79,9 +79,11 @@ export const StateCounter = {
         }
     ]
 }
+import IMGCTA from "media/landing/smm/cta.webp"
 export const CtaData = {
     title: "Talk To Our Experts",
     txt: "Contact us without obligation by email or phone and secure your free consultation.",
+    img: IMGCTA.src,
 }
 // FAQs
 
