@@ -1,9 +1,7 @@
 import { Poppins } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/src/app/globals.scss";
-
 import ConditionalLayout from "@/src/app/conditionallayout";
-
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -14,6 +12,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Inifniti Digital",
   description: "",
+  //===== No-Index =====
   robots: {
     index: false,
     follow: false,
