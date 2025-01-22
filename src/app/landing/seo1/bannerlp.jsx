@@ -4,13 +4,14 @@ import styles from "@/styles/landing/components/seo1/bannerlp.module.scss"
 import CommonBtn from "@/src/app/components/common/commonbtn"
 import Image from "next/image"
 import BannerImg from "media/landing/seo1/bannerlp.webp"
+import bgBanner from "media/landing/seo1/bgBanner.webp"
 import ContactFrom from "@/src/app/components/contactfrom"
 import StateCount from '@/src/app/components/innerservices/statecount'
 import { StateCounterPoints } from "@/src/app/landing/seo1/data/data"
 
 const Bannerlp = () => {
     return (
-        <section className={styles.bannerLpSection} id="BannerId">
+        <section className={styles.bannerLpSection} id="BannerId" style={{ backgroundImage: `url(${bgBanner.src})` }}>
             <Container >
                 <Row>
                     <Col md={12} lg={9} className="m-auto text-center">
