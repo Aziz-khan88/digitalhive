@@ -9,8 +9,10 @@ const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlac
     // Chat Code
     const handleChatOpen = (e) => {
         e.preventDefault();
-        if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
-            $zopim.livechat.window.show();
+        if (window.LC_API) {
+            window.LC_API.open_chat_window();
+        } else {
+            console.error('LiveChat API is not loaded');
         }
     };
     const [modalShow, setModalShow] = useState(false);
