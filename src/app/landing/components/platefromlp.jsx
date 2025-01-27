@@ -5,7 +5,7 @@ import CommonBtn from "@/src/app/components/common/commonbtn"
 import { Col, Container, Row } from "react-bootstrap";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from 'embla-carousel-autoplay'
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
+import { TwitterIcon, FacebookIcon, InstagramIcon, LinkedInIcon, PinterestIcon, YoutubeIcon } from "@/src/app/app-constants";
 const OPTIONS = { loop: true, axis: "y" };
 
 
@@ -14,14 +14,12 @@ export const data = {
     title: "Platforms That Power Your Success",
     desc: "We collaborate with the platforms your audience knows and loves. Whether it’s growing your brand, building communities, or driving engagement, we make sure your message resonates where it matters most.",
     SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
+        { name: "Instagram", link: "https://www.instagram.com/infinitidigitalus/", icon: <InstagramIcon /> },
+        { name: "YouTube", link: "https://www.youtube.com/@InfinitiDigitalus", icon: <YoutubeIcon /> },
+        { name: "Twitter", link: "https://x.com/Infinitidigitl", icon: <TwitterIcon /> },
+        { name: "Facebook", link: "https://www.facebook.com/infinitidigitalus/", icon: <FacebookIcon /> },
+        { name: "Pinterest", link: "https://www.pinterest.com/infinitidigitalus/#", icon: <PinterestIcon /> },
+        { name: "Linkedin", link: "https://www.linkedin.com/company/infiniti-digitalus", icon: <LinkedInIcon /> },
     ]
 }
 
