@@ -12,7 +12,7 @@ import CreativeLp from "@/src/app/landing/components/creativelp"
 import StateCountLP from "@/src/app/landing/components/statecountlp"
 import CtaLp from "@/src/app/landing/components/ctalp"
 import { ServicesData, StateCounter, WhyChooseData, CtaData, FAQsData, PorcessLpData } from "@/src/app/landing/smm1/data/data"
-import { PriceData } from "@/src/app/seo/data/data"
+import { PriceData } from "@/src/app/seo-service/data/data"
 
 const Page = () => {
     return (

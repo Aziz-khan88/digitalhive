@@ -13,7 +13,7 @@ import Partners from "@/src/app/home/partners"
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Faqs from "@/src/app/home/faq";
 import { ServicesData, WhyChooseData, FAQsData, ContactData } from "@/src/app/landing/seo1/data/data"
-import { PriceData } from "@/src/app/seo/data/data"
+import { PriceData } from "@/src/app/seo-service/data/data"
 import { IndustriesData, IndustryItem, PartnerData } from "@/src/app/home/data/data";
 
 

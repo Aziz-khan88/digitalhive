@@ -23,7 +23,7 @@ const BannerLp = () => {
                                     <h1>Don’t Let Poor Content Hold Back Your Business</h1>
                                     <p>Low-quality content can hold your business back. At Infiniti Digital, we craft engaging, high-impact content that captivates.</p>
                                     <div className={styles.btnFlex}>
-                                        <CommonBtn txt="Free Consultation" Livechat={true} />
+                                        <CommonBtn txt="Free Consultation" LiveChat={true} />
                                     </div>
                                 </div>
                                 <div className={styles.banenrImg}>

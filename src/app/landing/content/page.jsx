@@ -11,7 +11,7 @@ import PlateFromLp from "@/src/app/landing/components/platefromlp"
 import Faqs from "@/src/app/home/faq";
 import ContactLp from "@/src/app/landing/components/contactlp"
 import BookTabs from '@/src/app/components/innerservices/booktabs'
-import { PriceData } from "@/src/app/seo/data/data"
+import { PriceData } from "@/src/app/seo-service/data/data"
 import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, FAQsData, BookTabsData } from "@/src/app/landing/content/data/data"
 import { BookTabsItem } from '@/src/app/content-marketing/data/data'
 

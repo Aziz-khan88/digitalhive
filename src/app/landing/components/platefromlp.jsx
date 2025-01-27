@@ -52,7 +52,7 @@ const PlateFromLp = () => {
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
-                        <CommonBtn txt="Get Free Consultation" Livechat={true} BgBlack={true} />
+                        <CommonBtn txt="Get Free Consultation" LiveChat={true} BgBlack={true} />
                     </Col>
                     <Col md={6} className="text-center">
                         <section className={styles.embla}>

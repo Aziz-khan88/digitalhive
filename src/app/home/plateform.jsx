@@ -5,6 +5,7 @@ import CommonBtn from "@/src/app/components/common/commonbtn"
 import { Col, Container, Row } from "react-bootstrap";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from 'embla-carousel-autoplay'
+import Link from "next/link";
 const OPTIONS = { loop: true, axis: "y" };
 
 
@@ -51,10 +52,12 @@ const PlateFroms = ({ data }) => {
                                                 className={`${styles.embla__slide} ${isActive ? styles.active : ""} ${isPrev ? styles.prev : ""} ${isNext ? styles.next : ""}`}
                                                 key={index}
                                             >
-                                                <div className={`${styles.socialIcon} ${item.name}`}>
-                                                    <div className={styles.icons} >{item.icon}</div>
-                                                    <div className={styles.title}>{item.name}</div>
-                                                </div>
+                                                <Link href={item.link} target="_blank">
+                                                    <div className={`${styles.socialIcon} ${item.name}`}>
+                                                        <div className={styles.icons} >{item.icon}</div>
+                                                        <div className={styles.title}>{item.name}</div>
+                                                    </div>
+                                                </Link>
                                             </div>
                                         );
                                     })}

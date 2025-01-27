@@ -100,7 +100,7 @@ export const ServicesData = {
             title: "Paid Marketing",
             txt: "Maximize your ROI with expertly crafted paid marketing campaigns that put your brand in front of the right audience. From Google Ads to social media promotions, we ensure every click drives measurable growth and conversions.",
             Img: Image05.src,
-            url: "/paid-marketing"
+            url: "/paid-marketing-services"
         }
     ],
     serviceData2: [
@@ -108,7 +108,7 @@ export const ServicesData = {
             title: "SEO",
             txt: "Get noticed by the right audience at the perfect moment with expert optimization strategies. Harness the power of analytics to refine your approach for maximum visibility continually.",
             Img: Image02.src,
-            url: "/seo"
+            url: "/seo-service"
         }, {
             title: "Web Design & Development",
             txt: "Create sleek, functional websites that transform visitors into customers. Ensure seamless navigation and an immersive user experience that keeps visitors engaged.",
@@ -175,45 +175,89 @@ export const WorkData = {
     title: "Showcasing Success ",
     desc: "From websites that captivate to apps that deliver results, our portfolio is packed with innovative projects that help brands achieve their dreams and surpass their goals.",
     WorkItem: [
+        //SEO 
+        {
+            title: "Wellness Hub",
+            txt: "50% Increase in Organic Traffic with Onpage Optimization",
+            Img: SeoImg01.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "Tech Force Solutions",
+            txt: "Ranked in Top 3 for 15 Keywords, Resulting in 120% More Organic Leads",
+            Img: SeoImg02.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "Smart Invest Advisors",
+            txt: "Increased Backlink Profile by 200% and Saw 30% Traffic Growth",
+            Img: SeoImg03.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "Premium Properties",
+            txt: "Achieved 200% Growth in Local Search Traffic with GMB Optimization",
+            Img: SeoImg04.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "Shop Ease",
+            txt: "Increased traffic by 30%, boosting sales revenue by $150,000 in 9 Months",
+            Img: SeoImg05.src,
+            url: "#",
+            category: "Seo",
+        },
+        {
+            title: "Green Bite Organics",
+            txt: "Technical SEO improvements led to a 20% increase in traffic, generating an extra $50,000 in sales.",
+            Img: SeoImg06.src,
+            url: "#",
+            category: "Seo",
+        },
+
         //Social Media Marketing
         {
-            title: "Craving Cupcakes",
-            txt: "Turning cupcakes into cravings! Social media magic that put Crumbly Corner Café on everyone’s dessert radar.",
+            title: "Trendify Global",
+            txt: "Increased Engagement by 120% with Instagram Story Campaigns",
             Img: SocialImg01.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Roaring Success",
-            txt: "Riding into success with Grom ABS! A campaign that roared louder than their engines.",
+            title: "Local Buzz Retail",
+            txt: "Boost in Facebook Page Likes by 75% in 6 Weeks.",
             Img: SocialImg02.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Popcorn Buzz",
-            txt: "Popcorn chicken dreams made true! Social buzz that turned Heckya Foods into a household name.",
+            title: "Viva Style Living",
+            txt: "Achieved 200% Increase in Comments with User-Generated Content",
             Img: SocialImg03.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Engagement Goals",
-            txt: "Make your move and make it count! Social strategies that drove engagement and sales for Rebate Rumble.",
+            title: "Cloud Edge Solutions",
+            txt: "Achieved 80% Higher Click-Through Rate with Targeted LinkedIn Ads",
             Img: SocialImg04.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Loyal Audience",
-            txt: "Reliable celebrations, one click away! Building a strong, loyal audience for Neighbar Insurance.",
+            title: "TechFusion Innovations",
+            txt: "Increased Mentions on X by 60% in 2 Months",
             Img: SocialImg05.src,
             url: "#",
             category: "Social Media Marketing",
         },
         {
-            title: "Adventure Awaits",
-            txt: "Beyond boundaries and into the spotlight! Showcasing Yamaha’s rugged adventures through social storytelling.",
+            title: "Fashion Sphere",
+            txt: "Grew Instagram Followers by 50% in 3 Months Through Consistent Engagement",
             Img: SocialImg06.src,
             url: "#",
             category: "Social Media Marketing",
@@ -308,92 +352,48 @@ export const WorkData = {
             category: "Website Development",
         },
 
-        //SEO 
-
-        {
-            title: "Game On",
-            txt: "Google isn’t just a name; it’s a game. We ensured our client’s website plays to win!",
-            Img: SeoImg01.src,
-            url: "#",
-            category: "Seo",
-        },
-        {
-            title: "First Place",
-            txt: "Breaking into the first page – because who even clicks on the second?",
-            Img: SeoImg02.src,
-            url: "#",
-            category: "Seo",
-        },
-        {
-            title: "Crowd Breaker",
-            txt: "From lost in the crowd to top of the charts. Our SEO tactics drive results, not just rankings.",
-            Img: SeoImg03.src,
-            url: "#",
-            category: "Seo",
-        },
-        {
-            title: "Clicks Count",
-            txt: "Data-driven strategies that spoke directly to audiences and soared conversions.",
-            Img: SeoImg04.src,
-            url: "#",
-            category: "Seo",
-        },
-        {
-            title: "Actionable Data",
-            txt: "Turning analytics into action. Optimized for clicks, engagement, and beyond.",
-            Img: SeoImg05.src,
-            url: "#",
-            category: "Seo",
-        },
-        {
-            title: "Authority Built",
-            txt: "Building authority, one backlink at a time. We helped clients dominate their niche.",
-            Img: SeoImg06.src,
-            url: "#",
-            category: "Seo",
-        },
 
 
         //Content Marketing
 
         {
-            title: "Story Sell",
-            txt: "Every blog tells a story, and we ensured the right audience was reading it!",
+            title: "Insight Pulse Media",
+            txt: "SEO Content Strategy Increases Blog Traffic by 150%",
             Img: ContentImg01.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "Impactful Ideas",
-            txt: "From ideas to impact – creating compelling content that fuels businesses.",
+            title: "Viral Vision Studios",
+            txt: "Video Content Drives 300% More Social Shares",
             Img: ContentImg02.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "Speaking Strategy",
-            txt: "Strategy that speaks – delivering words that work and drive measurable outcomes.",
+            title: "LeadGen Solutions",
+            txt: "Case Studies Lead to 50% More Leads for B2B SaaS",
             Img: ContentImg03.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "Brand Tales",
-            txt: "Building brand stories one campaign at a time, with creativity and clarity.",
+            title: "EngageQuest Marketing",
+            txt: "Interactive Quiz Increases Average Time on Page by 35%",
             Img: ContentImg04.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "Purpose Driven",
-            txt: "Content with purpose – because pretty words aren’t enough to convert.",
+            title: "Click Connect Campaigns",
+            txt: "Personalized Emails Result in 40% Higher Open Rates",
             Img: ContentImg05.src,
             url: "#",
             category: "Content Marketing",
         },
         {
-            title: "Dynamic Moves",
-            txt: "A marketing mix that moves – campaigns as dynamic as the brands we support.",
+            title: "Elevate Agency",
+            txt: "Strategic SEO Content Boosts Organic Traffic by 80%",
             Img: ContentImg06.src,
             url: "#",
             category: "Content Marketing",
@@ -608,21 +608,19 @@ export const ChooseUsData = {
 
 
 //Platforms 
-import { DiscordIcon, FacebookIcon, InstagramIcon, RedditIcon, YoutubeIcon } from "@/src/app/app-constants";
+import { TwitterIcon, FacebookIcon, InstagramIcon, LinkedInIcon, PinterestIcon, YoutubeIcon } from "@/src/app/app-constants";
 export const PlatformsData = {
     subtitle: "Platforms We",
     title: "Platforms That Power Your Success",
     desc: "We collaborate with the platforms your audience knows and loves. Whether it’s growing your brand, building communities, or driving engagement, we make sure your message resonates where it matters most.",
     img: ImgBg.src,
     SocailItems: [
-        { name: "Instagram", link: "#", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "#", icon: <YoutubeIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
-        { name: "Reddit", link: "#", icon: <RedditIcon /> },
-        { name: "Facebook", link: "#", icon: <FacebookIcon /> },
-        { name: "Discord", link: "#", icon: <DiscordIcon /> },
+        { name: "Instagram", link: "https://www.instagram.com/infinitidigitalus/", icon: <InstagramIcon /> },
+        { name: "YouTube", link: "https://www.youtube.com/@InfinitiDigitalus", icon: <YoutubeIcon /> },
+        { name: "Twitter", link: "https://x.com/Infinitidigitl", icon: <TwitterIcon /> },
+        { name: "Facebook", link: "https://www.facebook.com/infinitidigitalus/", icon: <FacebookIcon /> },
+        { name: "Pinterest", link: "https://www.pinterest.com/infinitidigitalus/#", icon: <PinterestIcon /> },
+        { name: "Linkedin", link: "https://www.linkedin.com/company/infiniti-digitalus", icon: <LinkedInIcon /> },
     ]
 }
 
@@ -795,10 +793,11 @@ export const FollowsData = {
     title: "Stay Connected Across Platforms",
     desc: "We connect with you where it matters most. Whether you’re on Instagram, Reddit, YouTube, or Facebook, our tailored strategies ensure consistent engagement, meaningful interactions, and measurable growth for your brand.",
     FollowsItem: [
-        { name: "Instagram", url: "#" },
-        { name: "Reddit ", url: "#" },
-        { name: "YouTube", url: "#" },
-        { name: "Facebook", url: "#" },
-        { name: "Discord", url: "#" },
+        { name: "Instagram", url: "https://www.instagram.com/infinitidigitalus/" },
+        { name: "Twitter ", url: "https://x.com/Infinitidigitl" },
+        { name: "YouTube", url: "https://www.youtube.com/@InfinitiDigitalus" },
+        { name: "Facebook", url: "https://www.facebook.com/infinitidigitalus/" },
+        { name: "Pinterest", url: "https://www.pinterest.com/infinitidigitalus/" },
+        { name: "Linkedin", url: "https://www.linkedin.com/company/infiniti-digitalus" },
     ]
 }

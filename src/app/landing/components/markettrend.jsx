@@ -67,7 +67,7 @@ const MarketTrend = () => {
                                                 <div className={styles.markettrendTxt}>
                                                     <h3>{item.title}</h3>
                                                     <p>{item.txt}</p>
-                                                    <CommonBtn txt="Free Consultation" Livechat={true} BgBlack={true} />
+                                                    <CommonBtn txt="Free Consultation" LiveChat={true} BgBlack={true} />
                                                 </div>
                                                 <div className={styles.markettrendImg}>
                                                     <Image src={item.img} alt="Image Market Trend" fill />

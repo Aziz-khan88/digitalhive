@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "",
-  description: "",
+  title: "Expert SEO Agency: SEO Strategy w/ 97% Retention ",
+  description: "Infiniti Digital SEO Agency helps businesses to improve their online presence in search to acquire new customers, increase revenue, and build their brand online.",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: '/book-writing',
+    title: "Expert SEO Agency: SEO Strategy w/ 97% Retention ",
+    description: "Infiniti Digital SEO Agency helps businesses to improve their online presence in search to acquire new customers, increase revenue, and build their brand online.",
+    url: '/seo-agency',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-writing' },
+  alternates: { canonical: '/seo-agency' },
 }
 
 

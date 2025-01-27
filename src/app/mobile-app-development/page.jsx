@@ -31,7 +31,7 @@ const Page = () => {
             <ContentSection data={ContentData3} simple="yes" />
             <CTA data={CtaData} />
             <Work data={WorkData} category="App Development" />
-            <Pricing bg="yes" data={PriceData} />
+            {/* <Pricing bg="yes" data={PriceData} /> */}
             <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <Partners data={PartnerData} />
             <Testimonials data={TestimonialData} />

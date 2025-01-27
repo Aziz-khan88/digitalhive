@@ -17,7 +17,7 @@ const BannerLp = () => {
                             <h1>Business Owned By You,But Driven By Our Social Media Marketing Services.</h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Free Consultation" Livechat={true} BgBlack={true} />
+                                <CommonBtn txt="Free Consultation" LiveChat={true} BgBlack={true} />
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={539} height={27} />

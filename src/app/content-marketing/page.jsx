@@ -25,7 +25,7 @@ const Page = () => {
             <ServicesMain data={ServicesData} />
             <CTA data={CtaData} />
             <Work data={WorkData} category="Content Marketing" />
-            <Pricing bg="yes" data={PriceData} />
+            {/* <Pricing bg="yes" data={PriceData} /> */}
             <Process data={ProcessData} />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <Partners data={PartnerData} />

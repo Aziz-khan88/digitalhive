@@ -7,15 +7,15 @@ import { FooterLogo } from "@/src/app/app-constants"
 
 export const subMenuItems = [
     { label: "Social Media Marketing", path: "/social-media-marketing" },
-    { label: "Social Media Advertising", path: "/social-media-ads" },
-    { label: "Social Media Management", path: "/social-media-management" },
-    { label: "Influencer Marketing", path: "/influencer-marketing" },
-    { label: "YouTube Optimization", path: "/youtube-optimization" },
-    { label: "YouTube Monetization", path: "/youtube-monetization" },
-    { label: "Email Marketing", path: "/email-marketing" },
-    { label: "Google Ads(PPC)", path: "/ppc-ads" },
-    { label: "Amazon Ads", path: "/amazon-ads" },
-    { label: "Facebook Ads", path: "/facebook-ads" },
+    { label: "Social Media Advertising", path: "/social-media-advertising-services" },
+    { label: "Social Media Management", path: "/social-media-management-service" },
+    { label: "Influencer Marketing", path: "/influencer-marketing-service" },
+    { label: "YouTube Optimization", path: "/youtube-optimization-service" },
+    { label: "YouTube Monetization", path: "/youtube-monetization-service" },
+    { label: "Email Marketing", path: "/email-marketing-agency" },
+    { label: "Google Ads(PPC)", path: "/ppc-campaign-management-services" },
+    { label: "Amazon Ads", path: "/amazon-advertising" },
+    { label: "Facebook Ads", path: "/facebook-ads-service" },
 
 ];
 const QuickLinks = [
@@ -24,16 +24,19 @@ const QuickLinks = [
         url: "/"
     },
     {
-        name: "Portfolio",
-        url: "/portfolio"
+        name: "About Us",
+        url: "/about-us"
     },
     {
-        name: "Pricing",
-        url: "/pricing"
+        name: "Blogs",
+        url: "/blogs"
     },
     {
         name: "Contact Us",
         url: "/contact"
+    }, {
+        name: "Refund Policy",
+        url: "/refund-policy"
     },
 ]
 
@@ -88,13 +91,13 @@ const Footer = () => {
                                             </a>
                                         </div>
                                         <div className={styles.contactInfo}>
-                                            <a href="mailto:queries@infinitidigital.us" target="_blank" aria-label={`Our Email Address`}>
+                                            <a href="mailto:support@Infinitidigital.com" target="_blank" aria-label={`Our Email Address`}>
                                                 Email: support@Infinitidigital.com
                                             </a>
                                         </div>
                                         <div className={styles.contactAddress}>
                                             <div>
-                                                <a href="#" target="_blank" aria-label={`Our Google Map`}>
+                                                <a href="https://maps.app.goo.gl/ZZ3BLKPRJKwJeyZy6" target="_blank" aria-label={`Our Google Map`}>
                                                     Address: 9402 Synott Rd Apt 114, Houston, TX 77083
                                                 </a>
                                             </div>
@@ -115,8 +118,8 @@ const Footer = () => {
                                 <div className={styles.txtCopyRight}>© Copyright 2025 - Infiniti Digital </div>
                                 <div className={styles.CopyRightLinks}>
                                     <ul>
-                                        <li><Link href="#">Terms of Use</Link></li>
-                                        <li><Link href="#"> Privacy Policy</Link></li>
+                                        <li><Link href="/terms-and-conditions">Terms of Use</Link></li>
+                                        <li><Link href="/privacy-policy#"> Privacy Policy</Link></li>
                                     </ul>
                                 </div>
                             </div>

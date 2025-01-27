@@ -19,7 +19,7 @@ const MainServicesLinks = [
         url: "/mobile-app-development",
     },
     {
-        url: "/paid-marketing",
+        url: "/paid-marketing-services",
     },
     {
         url: "/seo",
@@ -29,27 +29,27 @@ const MainServicesLinks = [
 const SmmMenu = [
     {
         title: "Social Media Ads",
-        url: "/social-media-ads",
+        url: "/social-media-advertising-services",
     },
     {
         title: "Social Media Management",
-        url: "/social-media-management",
+        url: "/social-media-management-service",
     },
     {
         title: "Influencer Marketing",
-        url: "/influencer-marketing",
+        url: "/influencer-marketing-service",
     },
     {
         title: "YouTube Optimization",
-        url: "/youtube-optimization",
+        url: "/youtube-optimization-service",
     },
     {
         title: "YouTube Monetization",
-        url: "/youtube-monetization",
+        url: "/youtube-monetization-service",
     },
     {
         title: "Email Marketing",
-        url: "/email-marketing",
+        url: "/email-marketing-agency",
     },
 
 
@@ -57,19 +57,19 @@ const SmmMenu = [
 const ContentMarketing = [
     {
         title: "Book Writing",
-        url: "/book-writing",
+        url: "/book-writing-service",
     },
     {
         title: "Book Editing",
-        url: "/book-editing",
+        url: "/book-editing-services",
     },
     {
         title: "Book Publishing",
-        url: "/book-publishing",
+        url: "/book-publishing-service",
     },
     {
         title: "Book Marketing",
-        url: "/book-marketing",
+        url: "/book-marketing-services",
     },
     {
         title: "Children Book Illustration",
@@ -80,7 +80,7 @@ const ContentMarketing = [
     },
     {
         title: "Audio Book",
-        url: "/audio-book",
+        url: "/audiobook-production",
     },
     {
         title: "Book Cover Design",
@@ -104,11 +104,11 @@ const WebsiteDesign = [
     },
     {
         title: "Shopify Development",
-        url: "/shopify-development-services",
+        url: "/shopify-website-development-services",
     },
     {
         title: "Website Redesign Service",
-        url: "/webiste-redesign-services",
+        url: "/website-redesign-services",
     },
     {
         title: "Author Website",
@@ -119,19 +119,19 @@ const WebsiteDesign = [
 const PaidMarketing = [
     {
         title: "PPC Ads Management",
-        url: "/ppc-ads",
+        url: "/ppc-campaign-management-services",
     },
     {
         title: "Social Media Ads",
-        url: "/social-media-ads",
+        url: "/social-media-advertising-services",
     },
     {
         title: "Amazon Ads",
-        url: "/amazon-ads",
+        url: "/amazon-advertising",
     },
     {
         title: "Facebook Ads",
-        url: "/facebook-ads",
+        url: "/facebook-ads-service",
     },
     {
         title: "YouTube Ads",
@@ -141,23 +141,23 @@ const PaidMarketing = [
 const SEO = [
     {
         title: "Local SEO",
-        url: "/local-seo",
+        url: "/local-seo-service",
     },
     {
         title: "White Label SEO",
-        url: "/white-label-seo",
+        url: "/white-label-seo-service",
     },
     {
         title: "Nationwide SEO",
-        url: "/nationwide-seo",
+        url: "/nationwide-seo-service",
     },
     {
         title: "Small Business SEO",
-        url: "/small-bussiness-seo",
+        url: "/small-business-seo-services",
     },
     {
         title: "Enterprise SEO",
-        url: "/enterprise-seo",
+        url: "/enterprise-seo-service",
     },
     {
         title: "SEO Agency",
@@ -167,15 +167,15 @@ const SEO = [
 const MobileApp = [
     {
         title: "Android App Development",
-        url: "/android-app-development",
+        url: "/android-app-development-company",
     },
     {
         title: "iOS App Development",
-        url: "/ios-app-development",
+        url: "/ios-app-development-company",
     },
     {
         title: "Software Development",
-        url: "/software-development",
+        url: "/custom-software-development-services",
     },
 ]
 const Navigation = ({ scrolled, isLight }) => {
@@ -207,7 +207,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         <Link href="/" >Home</Link>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/seo">SEO</Link>
+                        <Link href="/seo-service">SEO</Link>
                         <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {SEO.map((item, index) => (
@@ -225,7 +225,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/paid-marketing">Paid Marketing</Link>
+                        <Link href="/paid-marketing-services">Paid Marketing</Link>
                         <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {PaidMarketing.map((item, index) => (
@@ -296,7 +296,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                 <div className={styles.menuBox}>
                                     <div className={styles.serivesMenuBox}>
                                         <div className={`${styles.serivesMenuItem} ${isActiveSubMenu(SEO) ? styles.active : ""}`} >
-                                            <div className={styles.title}><Link href="/seo">SEO<ArrowIcon /></Link></div>
+                                            <div className={styles.title}><Link href="/seo-service">SEO<ArrowIcon /></Link></div>
                                             <ul>
                                                 {SEO.map((item, index) => (
                                                     <li key={index} className={isActiveLink(item.url) ? styles.active : ""}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -312,7 +312,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                             </ul>
                                         </div>
                                         <div className={`${styles.serivesMenuItem} ${isActiveSubMenu(PaidMarketing) ? styles.active : ""}`} >
-                                            <div className={styles.title}><Link href="/paid-marketing">Paid Marketing<ArrowIcon /></Link></div>
+                                            <div className={styles.title}><Link href="/paid-marketing-services">Paid Marketing<ArrowIcon /></Link></div>
                                             <ul>
                                                 {PaidMarketing.map((item, index) => (
                                                     <li key={index} className={isActiveLink(item.url) ? styles.active : ""}><Link href={item.url}><MenuIcon />{item.title}</Link></li>

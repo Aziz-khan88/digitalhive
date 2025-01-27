@@ -16,7 +16,7 @@ const BannerLp = () => {
                             <h1>Your Vision, Our Expertise Crafted in Code.</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Get Your Free SEO Audit Now" Livechat={true} center={true} />
+                                <CommonBtn txt="Get Your Free SEO Audit Now" LiveChat={true} center={true} />
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={1020} height={280} />

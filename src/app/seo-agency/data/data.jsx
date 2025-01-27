@@ -2,8 +2,8 @@
 import BannerPoster from "media/innerservices/seo-agency/bannerImg.webp"
 
 export const BannerData = {
-    title: "Master SEO Strategies with Infinitidigital",
-    desc: "Are you ready to elevate your brand’s online visibility and outshine competitors? At Infinitidigital, we specialize in data-driven SEO strategies designed to deliver measurable results for businesses of all sizes. From local startups to global enterprises, our expertise ensures your business achieves top search rankings, increased traffic, and higher conversions.",
+    title: "SEO Agency Trusted by Top Global Brands",
+    desc: "Backed by over 800 success stories, we specialize in delivering measurable results through tried-and-tested SEO strategies. We’ve helped hundreds of companies see real results. Whether you want more traffic, leads, or sales, we’ve got the experience to make it happen. Let’s turn your goals into success!",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -12,8 +12,8 @@ export const BannerData = {
 
 export const ServicesData = {
     subtitle: "Our Services",
-    title: "Boost Local Online Presence",
-    desc: "Looking to dominate local search results? Infinitidigital’s Local SEO strategies make your business visible to the audience that matters most. We help you stand out locally and build trust in your community.",
+    title: "Results-Driven SEO Company",
+    desc: "We don’t just manage your SEO, we take the lead. Businesses driven by growth choose us for one reason: results. With our strategies, SEO experts, and a proven track record, we’re the force behind the most successful and fast-growing brands. When you hire InfinitiDigital, your organic traffic becomes measurable ROI.",
     ServicesItem: [
         {
             title: (<>Keyword Research<br />& Strategy</>),
@@ -63,7 +63,7 @@ export const ServicesData = {
 
 import ImgBg from "media/innerservices/seo-agency/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Drive Results with Precision SEO",
+    title: "Hire an SEO agency to dominate search",
     desc: "Turn traffic into conversions with tailored campaigns designed for your business. Contact us to start seeing measurable success.",
     img: ImgBg.src
 }
@@ -74,9 +74,9 @@ import ContentImg from "media/innerservices/seo-agency/Img01.webp"
 
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Drive Results with Precision SEO",
+    title: "SEO Agency That Guarantees Growth",
     contentTxt: (<>
-        <p>Turn traffic into conversions with tailored campaigns designed for your business.Contact us to start seeing measurable success.At Infinitidigital, we believe that SEO isn’t just about attracting visitors—it’s about turning those visitors into loyal customers.Our precision-driven strategies ensure your website not only ranks higher but also engages effectively with your target audience.Let us help you bridge the gap between online visibility and real-world success.</p>
+        <p>Turn visitors into customers with campaigns made just for your business.Contact us to see real results.At InfinitiDigital, we believe SEO is more than just getting people to visit your site; it’s about getting them to become loyal customers.Our strategies will help your website rank higher and connect with the right audience.Let us help you, let’s talk!</p>
     </>),
     img: ContentImg.src
 }
@@ -85,9 +85,9 @@ export const ContentData = {
 import ContentImg1 from "media/innerservices/seo-agency/Img02.webp"
 
 export const ContentData1 = {
-    contentTitle: "Transform Your Online Presence ",
+    contentTitle: "Increase Website Traffic Organically",
     contentTxt: (<>
-        <p>Unlock your brand’s full potential and dominate search rankings with our expertly crafted, data-driven SEO strategies. From local startups to global enterprises, we deliver measurable results that drive traffic, boost conversions, and outshine the competition.</p>
+        <p>Hiring InfinitiDigital as your SEO agency means more than just improving search rankings. The team will analyze your website, improve its performance, and use SEO strategies to increase organic traffic. Growth isn’t left to chance, it’s guaranteed.</p>
     </>),
     img: ContentImg1.src
 }

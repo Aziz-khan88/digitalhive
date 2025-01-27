@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "",
-  description: "",
+  title: "Website Development Services - Inifiniti Digital",
+  description: "Custom Website Development Services that delivers project success no matter what. With 1500+ projects delivered we develop websites that make an impact",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: '/book-writing',
+    title: "Website Development Services - Inifiniti Digital",
+    description: "Custom Website Development Services that delivers project success no matter what. With 1500+ projects delivered we develop websites that make an impact",
+    url: '/website-development-services',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-writing' },
+  alternates: { canonical: '/website-development-services' },
 }
 
 

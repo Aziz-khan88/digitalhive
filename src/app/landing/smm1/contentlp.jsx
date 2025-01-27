@@ -15,7 +15,7 @@ const ContentLp = () => {
                         <h2>Enter The Digital Era Now, Else Wait For Miracle To Happen!</h2>
                         <p>Let’s face it. Whether you are new to the business arena or have been running an enterprise for many years, there are certain things you wish to have, always!</p>
                         <p>Let’s face it. Whether you are new to the business arena or have been running an enterprise for many years, there are certain things you wish to have, always!</p>
-                        <CommonBtn txt="Free Consultation" Livechat={true} BgBlack={true} />
+                        <CommonBtn txt="Free Consultation" LiveChat={true} BgBlack={true} />
                     </Col>
                     <Col md={5} className="my-auto">
                         <Image src={ImageTxt.src} alt="Text Image" width={554} height={677} />

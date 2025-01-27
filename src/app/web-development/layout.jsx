@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "",
-  description: "",
+  title: "Web Development Company - Infiniti Digital",
+  description: "Get more traffic and acquire more customers with #1 web development company in USA. contact now, and lets talk design!",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: '/paid-marketing',
+    title: "Web Development Company - Infiniti Digital",
+    description: "Get more traffic and acquire more customers with #1 web development company in USA. contact now, and lets talk design!",
+    url: '/web-development',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/paid-marketing' },
+  alternates: { canonical: '/web-development' },
 }
 
 

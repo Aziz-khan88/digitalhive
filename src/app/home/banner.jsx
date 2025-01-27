@@ -15,7 +15,7 @@ const Banner = ({ data }) => {
                         <div className={styles.bannerContent}>
                             <h1>{data.title}</h1>
                             <p >{data.desc}</p>
-                            <CommonBtn txt="Get Free Consultation" Livechat={true} />
+                            <CommonBtn txt="Get Free Consultation" LiveChat={true} />
                         </div>
                     </Col>
                 </Row>

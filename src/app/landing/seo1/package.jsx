@@ -113,7 +113,7 @@ const PackageDetails = () => {
                         <div className="subtitle">Free 30 Min Consultation</div>
                         <h4>Call for Custom Pricing & Strategy</h4>
                         <div className={styles.btnFlex}>
-                            <CommonBtn txt="Get Your Free SEO Audit Now" Livechat={true} center={true} />
+                            <CommonBtn txt="Get Your Free SEO Audit Now" LiveChat={true} center={true} />
                         </div>
                     </Col>
                 </Row>

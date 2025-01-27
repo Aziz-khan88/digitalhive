@@ -26,7 +26,7 @@ const Page = () => {
             <Process data={ProcessData} />
             <NewsLetter data={NewsLetterData} />
             <BookTabs data={BookTabsData} dataItem={BookTabsItem} />
-            <Pricing bg="yes" data={PriceData} />
+            {/* <Pricing bg="yes" data={PriceData} /> */}
             <CTA data={CtaPinkData} />
             <Partners data={PartnerData} />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />

@@ -19,7 +19,7 @@ const Bannerlp = () => {
                             <h1>The Best <span>SEO</span><br />Marketing Agency.</h1>
                             <p>Low-quality content can hold your business back. At Infiniti Digital, we craft engaging, high-impact content that captivates.</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Get Your Free SEO Audit Now" Livechat={true} center={true} BgBlack={true} />
+                                <CommonBtn txt="Get Your Free SEO Audit Now" LiveChat={true} center={true} BgBlack={true} />
                             </div>
                         </div>
                     </Col>

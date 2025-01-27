@@ -7,6 +7,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import SliderArrow from "@/src/app/components/sliderarrow";
 import Autoplay from 'embla-carousel-autoplay'
 const OPTIONS = { loop: true, align: 'start' }
+
 const Industries = ({ data, IndustryData }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })])
     const prevButtonHandler = () => {

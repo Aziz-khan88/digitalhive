@@ -12,7 +12,7 @@ const CtaLp = ({ data, BgDrak, bgBlur }) => {
                             <h2>{data.title}</h2>
                             <p>{data.txt}</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Let’s Connect" Livechat={true} center={true} />
+                                <CommonBtn txt="Let’s Connect" LiveChat={true} center={true} />
                             </div>
                         </div>
                     </Col>

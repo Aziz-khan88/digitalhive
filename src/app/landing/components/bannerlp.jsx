@@ -19,7 +19,7 @@ const BannerLp = () => {
                             <h1>Transform Your Brand with Expert Social Media Marketing.</h1>
                             <p>Drive engagement, amplify reach, and grow your brand with expert social media strategies tailored for success.</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Free Consultation" Livechat={true} center={true} />
+                                <CommonBtn txt="Free Consultation" LiveChat={true} center={true} />
                             </div>
                         </div>
 
