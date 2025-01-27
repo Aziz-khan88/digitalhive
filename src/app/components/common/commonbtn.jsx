@@ -7,8 +7,7 @@ import styles from "@/styles/components/commonbtn.module.scss"
 
 const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack }) => {
     // Chat Code
-    const handleChatOpen = (e) => {
-        e.preventDefault();
+    const openChat = () => {
         if (window.LC_API) {
             window.LC_API.open_chat_window();
         } else {
@@ -31,7 +30,7 @@ const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlac
             ) : LiveChat ? (
                 <div className={`${styles.btnFlex} ${center ? styles.center : ""} ${BgBlack ? styles.bgBlack : ""}`}>
                     <div onClick={() => handleClick()} className={styles.btnStyle}>{txt}</div>
-                    <div className={styles.chatStyle} onClick={() => handleChatOpen()}>Live Chat</div>
+                    <div className={styles.chatStyle} onClick={openChat}>Live Chat</div>
                 </div>
             ) : (
                 <div className={`commonBtn ${blackBg ? 'blackBg' : ''}`} onClick={() => handleClick()}>
